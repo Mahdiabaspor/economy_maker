@@ -1,0 +1,1551 @@
+{
+  "shops": {
+    "garageConfig": {
+      "returnVehiclePrice": 2000
+    },
+    "gasStationConfig": {
+      "normalFuelPerLitter": "7"
+    },
+    "licenseDmvConfig": {
+      "VEHICLE": "7000",
+      "CDL_A": "10000",
+      "CDL_B": "12000",
+      "HPL": "80000",
+      "PPL": "120000"
+    },
+    "weaponShopConfig": [
+      {
+        "label": "Knife",
+        "dbName": "item_melee_knife",
+        "category": "Rifle",
+        "ammoType": null,
+        "price": "14000"
+      },
+      {
+        "label": "Combat Pistol",
+        "dbName": "item_weapon_combat_pistol",
+        "category": "Pistol",
+        "ammoType": "9mm",
+        "price": "22000"
+      },
+      {
+        "label": "Smg",
+        "dbName": "item_weapon_smg",
+        "category": "Sub MachinGun",
+        "ammoType": "9mm",
+        "price": "35000"
+      },
+      {
+        "label": "Pump Shotgun",
+        "dbName": "item_weapon_pump_shotgun",
+        "category": "ShotGun",
+        "ammoType": "buckshot",
+        "price": "40000"
+      },
+      {
+        "label": "Advanced Rifle",
+        "dbName": "item_weapon_advanced_rifle",
+        "category": "Rifle",
+        "ammoType": "5.56mm",
+        "price": "55000"
+      },
+      {
+        "label": "Bullet 5.56 Mm",
+        "dbName": "item_bullet_5_56_mm",
+        "category": "Ammo",
+        "ammoType": null,
+        "price": "60"
+      },
+      {
+        "label": "Bullet 7.62 Mm",
+        "dbName": "item_bullet_7_62_mm",
+        "category": "Ammo",
+        "ammoType": null,
+        "price": "300"
+      },
+      {
+        "label": "Bullet 9 Mm",
+        "dbName": "item_bullet_9_mm",
+        "category": "Ammo",
+        "ammoType": null,
+        "price": "50"
+      },
+      {
+        "label": "Bullet Shoutgun",
+        "dbName": "item_bullet_shotgun",
+        "category": "Ammo",
+        "ammoType": null,
+        "price": "80"
+      }
+    ],
+    "carRentalsConfig": [
+      {
+        "vehicleModel": "faggio",
+        "name": "Faggio",
+        "rentalPrice": "250",
+        "fuelType": "REGULAR",
+        "type": "motorcycle",
+        "class": "MOTORCYCLE"
+      },
+      {
+        "vehicleModel": "faggio2",
+        "name": "Faggio Mod",
+        "rentalPrice": "350",
+        "fuelType": "REGULAR",
+        "type": "motorcycle",
+        "class": "MOTORCYCLE"
+      },
+      {
+        "vehicleModel": "akuma",
+        "name": "Akuma",
+        "rentalPrice": "1000",
+        "fuelType": "REGULAR",
+        "type": "motorcycle",
+        "class": "SPORT"
+      },
+      {
+        "vehicleModel": "virgo",
+        "name": "Virgo",
+        "rentalPrice": "1250",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "MUSCLE"
+      },
+      {
+        "vehicleModel": "glendale",
+        "name": "Glendale",
+        "rentalPrice": "1350",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "SEDAN"
+      },
+      {
+        "vehicleModel": "washington",
+        "name": "Washington",
+        "rentalPrice": "1400",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "SEDAN"
+      },
+      {
+        "vehicleModel": "sentinel",
+        "name": "Sentinel",
+        "rentalPrice": "1500",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "COUPE"
+      },
+      {
+        "vehicleModel": "brioso",
+        "name": "Brioso R/A",
+        "rentalPrice": "1700",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "COMPACT"
+      },
+      {
+        "vehicleModel": "asbo",
+        "name": "Asbo",
+        "rentalPrice": "1800",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "COMPACT"
+      },
+      {
+        "vehicleModel": "zion",
+        "name": "Zion",
+        "rentalPrice": "1900",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "COUPE"
+      },
+      {
+        "vehicleModel": "radi",
+        "name": "Radius",
+        "rentalPrice": "2400",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "SUV"
+      },
+      {
+        "vehicleModel": "jester2",
+        "name": "Jester (Racecar)",
+        "rentalPrice": "5500",
+        "fuelType": "REGULAR",
+        "type": "vehicle",
+        "class": "SPORT"
+      }
+    ],
+    "mechanicShopConfig": {
+      "repairCost": "2000",
+      "repairKitCost": "4000",
+      "repairCostMultiplier": "1",
+      "DriftKit": "45000",
+      "nitroKit": "70000",
+      "nitroRefillCost": "4500"
+    },
+    "emsShopConfig": {
+      "regular": [
+        {
+          "itemName": "item_medical_bandage",
+          "label": "MEDICAL BANDAGE",
+          "singlePrice": "1500"
+        },
+        {
+          "itemName": "item_capsaicin_powder",
+          "label": "capsaicin POWDER",
+          "singlePrice": "1000"
+        },
+        {
+          "itemName": "item_pain_killer_pill",
+          "label": "pain killer PILL",
+          "singlePrice": "2700"
+        },
+        {
+          "itemName": "item_ethanol",
+          "label": "ETHANOL",
+          "singlePrice": "800"
+        },
+        {
+          "itemName": "item_medicine_stablizer",
+          "label": "medical STABILIZER",
+          "singlePrice": "250"
+        },
+        {
+          "itemName": "item_empty_pill_capsule",
+          "label": "empty pill capsule",
+          "singlePrice": "250"
+        },
+        {
+          "itemName": "item_acetone",
+          "label": "acetone",
+          "singlePrice": "2000"
+        }
+      ]
+    },
+    "superMarketConfig": {
+      "regular": [
+        {
+          "itemName": "item_fabric",
+          "label": "FABRIC",
+          "singlePrice": "200"
+        },
+        {
+          "itemName": "item_fuel_can",
+          "label": "fuel CAN",
+          "singlePrice": "900"
+        },
+        {
+          "itemName": "item_methanol",
+          "label": "METHHANOL",
+          "singlePrice": "800"
+        },
+        {
+          "itemName": "item_house_cleaner",
+          "label": "HOUSE CLEANER",
+          "singlePrice": "600"
+        },
+        {
+          "itemName": "item_sodium_bicarbonate",
+          "label": "SODIUM BICARBONATE",
+          "singlePrice": "550"
+        },
+        {
+          "itemName": "item_battery",
+          "label": "BATTERY",
+          "singlePrice": "500"
+        },
+        {
+          "itemName": "item_paint_color",
+          "label": "PAINT COLOR",
+          "singlePrice": "600"
+        },
+        {
+          "itemName": "item_empty_plastic_pack",
+          "label": "EMPTY PLASTIC PACK",
+          "singlePrice": "433"
+        },
+        {
+          "itemName": "item_mining_map",
+          "label": "MINING MAP",
+          "singlePrice": "3000"
+        }
+      ]
+    }
+  },
+  "crafting": {
+    "CraftEmsConfig": [
+      {
+        "label": "MEDICAL BANDAGE",
+        "itemName": "item_medical_bandage",
+        "materials": [
+          {
+            "itemName": "item_ethanol",
+            "count": 3,
+            "label": "Ethanol"
+          },
+          {
+            "itemName": "item_fabric",
+            "count": 5,
+            "label": "Fabric"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 1,
+        "output": 5
+      },
+      {
+        "label": "PAIN KILLER POWDER",
+        "itemName": "item_pain_killer_powder",
+        "materials": [
+          {
+            "itemName": "item_medicine_stablizer",
+            "count": 4,
+            "label": "DRUG STABILIZER"
+          },
+          {
+            "itemName": "item_capsaicin_powder",
+            "count": 4,
+            "label": "CAPSAICIN POWDER"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 1,
+        "output": 4
+      },
+      {
+        "label": "PAIN KILLER PILL",
+        "itemName": "item_pain_killer_pill",
+        "materials": [
+          {
+            "itemName": "item_empty_pill_capsule",
+            "count": 4,
+            "label": "EMPTY PILL CAPSULE"
+          },
+          {
+            "itemName": "item_pain_killer_powder",
+            "count": 4,
+            "label": "PAIN KILLER POWDER"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 1,
+        "output": 4
+      }
+    ],
+    "CraftingGangConfig": {
+      "gang_drug_crafting": [
+        {
+          "label": "SULFURIC ACID",
+          "itemName": "item_sulfuric_acid",
+          "materials": [
+            {
+              "itemName": "item_battery",
+              "count": 4,
+              "label": "BATTERY"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 2,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "COCAIN PACK",
+          "itemName": "item_cocain_pack",
+          "materials": [
+            {
+              "itemName": "item_cocain_powder",
+              "count": 3,
+              "label": "COCAIN POWDER"
+            },
+            {
+              "itemName": "item_empty_plastic_pack",
+              "count": 3,
+              "label": "PLASTIC PACK"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 3,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "SAFFAROLE OIL",
+          "itemName": "item_saffarole_oil",
+          "materials": [
+            {
+              "itemName": "item_saffarole_leave",
+              "count": 2,
+              "label": "SAFFAROLE LEAVES"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 2,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "MDMA PILL",
+          "itemName": "item_mdma_pill",
+          "materials": [
+            {
+              "itemName": "item_mdma_powder",
+              "count": 1,
+              "label": "MDMA POWDER"
+            },
+            {
+              "itemName": "item_empty_pill_capsule",
+              "count": 1,
+              "label": "EMPTY PILL CAPSULE"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "ACETONE",
+          "itemName": "item_acetone",
+          "materials": [
+            {
+              "itemName": "item_paint_color",
+              "count": 2,
+              "label": "PAINT COLOR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 2,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "METHYLAMINE",
+          "itemName": "item_methylamine_crystal",
+          "materials": [
+            {
+              "itemName": "item_methanol",
+              "count": 3,
+              "label": "METHANOL"
+            },
+            {
+              "itemName": "item_ammonia",
+              "count": 2,
+              "label": "AMMONIA"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 3
+        },
+        {
+          "label": "AMMONIA",
+          "itemName": "item_ammonia",
+          "materials": [
+            {
+              "itemName": "item_house_cleaner",
+              "count": 4,
+              "label": "HOUSE CLEANER"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 2,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "COCAIN POWDER",
+          "itemName": "item_cocain_powder",
+          "materials": [
+            {
+              "itemName": "item_acetone",
+              "count": 3,
+              "label": "ACETONE"
+            },
+            {
+              "itemName": "item_coca_leaves",
+              "count": 3,
+              "label": "COCA LEAVES"
+            },
+            {
+              "itemName": "item_sulfuric_acid",
+              "count": 2,
+              "label": "SULFURIC ACID"
+            },
+            {
+              "itemName": "item_sodium_bicarbonate",
+              "count": 2,
+              "label": "SODIUM BICARBONATE"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 3,
+          "requiredGangLevel": 3
+        },
+        {
+          "label": "MDP2P POWDER",
+          "itemName": "item_mdp2p",
+          "materials": [
+            {
+              "itemName": "item_acetone",
+              "count": 1,
+              "label": "ACETONE"
+            },
+            {
+              "itemName": "item_saffarole_oil",
+              "count": 1,
+              "label": "SAFFAROLE OIL"
+            },
+            {
+              "itemName": "item_ammonia",
+              "count": 1,
+              "label": "AMMONIA"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 4
+        },
+        {
+          "label": "MDMA POWDER",
+          "itemName": "item_mdma_powder",
+          "materials": [
+            {
+              "itemName": "item_mdp2p",
+              "count": 2,
+              "label": "MDP2P POWDER"
+            },
+            {
+              "itemName": "item_methylamine_crystal",
+              "count": 2,
+              "label": "METHYLAMINE"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 3,
+          "requiredGangLevel": 4
+        }
+      ],
+      "gang_weapon_crafting": [
+        {
+          "label": " KNIFE",
+          "itemName": "item_melee_knife",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 5,
+              "label": "IRON BAR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "COMBAT PISTOL",
+          "itemName": "item_weapon_combat_pistol",
+          "materials": [
+            {
+              "itemName": "item_normal_barrel",
+              "count": 1,
+              "label": "NORMAL BARREL"
+            },
+            {
+              "itemName": "item_normal_trigger",
+              "count": 1,
+              "label": "TRIGGER"
+            },
+            {
+              "itemName": "item_grip_weapon",
+              "count": 1,
+              "label": "GRIP"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "MACHETE",
+          "itemName": "item_melee_machete",
+          "materials": [
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 4,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 2
+        },
+        {
+          "label": "DOUBLE ACTION REVOLVER",
+          "itemName": "item_weapon_double_action_revolver",
+          "materials": [
+            {
+              "itemName": "item_advanced_trigger",
+              "count": 1,
+              "label": "ADVANCED TRIGGER"
+            },
+            {
+              "itemName": "item_normal_barrel",
+              "count": 2,
+              "label": "NORMAL BARREL"
+            },
+            {
+              "itemName": "item_grip_weapon",
+              "count": 1,
+              "label": "GRIP"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 2
+        },
+        {
+          "label": "DB SHOTGUN",
+          "itemName": "item_weapon_db_shotgun",
+          "materials": [
+            {
+              "itemName": "item_reinforced_barrel",
+              "count": 1,
+              "label": "REINFORCED BARREL"
+            },
+            {
+              "itemName": "item_advanced_trigger",
+              "count": 1,
+              "label": "ADVANCED TRIGGER"
+            },
+            {
+              "itemName": "item_grip_weapon",
+              "count": 1,
+              "label": "GRIP"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 2,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 3
+        },
+        {
+          "label": "MICRO SMG",
+          "itemName": "item_weapon_micro_smg",
+          "materials": [
+            {
+              "itemName": "item_reinforced_barrel",
+              "count": 2,
+              "label": "REINFORCED BARREL"
+            },
+            {
+              "itemName": "item_normal_trigger",
+              "count": 1,
+              "label": "TRIGGER"
+            },
+            {
+              "itemName": "item_grip_weapon",
+              "count": 1,
+              "label": "GRIP"
+            },
+            {
+              "itemName": "item_stock_weapon",
+              "count": 1,
+              "label": "STOCK"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 3
+        },
+        {
+          "label": "SAWNOFF SHOTGUN",
+          "itemName": "item_weapon_sawnoff_shotgun",
+          "materials": [
+            {
+              "itemName": "item_advanced_trigger",
+              "count": 1,
+              "label": "ADVANCED TRIGGER"
+            },
+            {
+              "itemName": "item_reinforced_barrel",
+              "count": 2,
+              "label": "REINFORCED BARREL"
+            },
+            {
+              "itemName": "item_grip_weapon",
+              "count": 1,
+              "label": "GRIP"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 2,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 4
+        },
+        {
+          "label": "compact rifle",
+          "itemName": "item_weapon_compact_rifle",
+          "materials": [
+            {
+              "itemName": "item_reinforced_barrel",
+              "count": 1,
+              "label": "REINFORCED BARREL"
+            },
+            {
+              "itemName": "item_advanced_trigger",
+              "count": 1,
+              "label": "NORMAL TRIGGER"
+            },
+            {
+              "itemName": "item_grip_weapon",
+              "count": 1,
+              "label": "GRIP"
+            },
+            {
+              "itemName": "item_stock_weapon",
+              "count": 2,
+              "label": "STOCK"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 2,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1,
+          "requiredGangLevel": 4
+        }
+      ]
+    }
+  },
+  "jobs": {
+    "miningJobConfig": {
+      "zones": {
+        "zone1": {
+          "resources": [
+            {
+              "name": "item_ore_stone",
+              "chance": 100,
+              "label": "stone"
+            }
+          ],
+          "miningTime": 400,
+          "travelTime": 270
+        },
+        "zone2": {
+          "resources": [
+            {
+              "name": "item_ore_iron",
+              "chance": 20,
+              "label": "iron ore"
+            },
+            {
+              "name": "item_ore_stone",
+              "chance": 20,
+              "label": "stone"
+            },
+            {
+              "name": "item_ore_coal",
+              "chance": 39.994,
+              "label": "coal ore"
+            },
+            {
+              "name": "item_ore_sulfur",
+              "chance": 20,
+              "label": "sulfur"
+            },
+            {
+              "name": "item_gem_Amberite",
+              "chance": 0.006,
+              "label": "amberite gem"
+            }
+          ],
+          "miningTime": 400,
+          "travelTime": 434,
+          "kit": "kit_antiSharp"
+        },
+        "zone3": {
+          "resources": [
+            {
+              "name": "item_ore_stone",
+              "chance": 50,
+              "label": "stone"
+            },
+            {
+              "name": "item_ore_iron",
+              "chance": 40,
+              "label": "iron ore"
+            },
+            {
+              "name": "item_ore_gold",
+              "chance": 9.994,
+              "label": "gold ore"
+            },
+            {
+              "name": "item_gem_luminite",
+              "chance": 0.006,
+              "label": "luminite gem"
+            }
+          ],
+          "miningTime": 400,
+          "travelTime": 456,
+          "kit": "kit_gas"
+        },
+        "zone4": {
+          "resources": [
+            {
+              "name": "item_ore_stone",
+              "chance": 30,
+              "label": "stone"
+            },
+            {
+              "name": "item_ore_iron",
+              "chance": 30,
+              "label": "iron ore"
+            },
+            {
+              "name": "item_ore_gold",
+              "chance": 39.94,
+              "label": "gold ore"
+            },
+            {
+              "name": "item_gem_aqualith",
+              "chance": 0.006,
+              "label": "aqualith gem"
+            }
+          ],
+          "miningTime": 400,
+          "travelTime": 408,
+          "kit": "kit_radioactive"
+        }
+      },
+      "pickaxes": {
+        "item_pickaxe_lvl_1": {
+          "hits": 100,
+          "reward": [
+            1
+          ],
+          "chance": [
+            1
+          ],
+          "repairCostPerHP": "1"
+        },
+        "item_pickaxe_lvl_2": {
+          "hits": 100,
+          "reward": [
+            1,
+            2
+          ],
+          "chance": [
+            0.7,
+            0.3
+          ],
+          "repairCostPerHP": "2"
+        },
+        "item_pickaxe_lvl_3": {
+          "hits": 100,
+          "reward": [
+            1,
+            2,
+            3
+          ],
+          "chance": [
+            0.5,
+            0.3,
+            0.2
+          ],
+          "repairCostPerHP": "3"
+        },
+        "item_pickaxe_lvl_4": {
+          "hits": 100,
+          "reward": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "chance": [
+            0.2,
+            0.5,
+            0.2,
+            0.1
+          ],
+          "repairCostPerHP": "4"
+        }
+      },
+      "kits": {
+        "kit_antiSharp": {
+          "time": 800,
+          "repairCostPerHP": "1"
+        },
+        "kit_gas": {
+          "time": 800,
+          "repairCostPerHP": "2"
+        },
+        "kit_radioactive": {
+          "time": 800,
+          "repairCostPerHP": "3"
+        }
+      },
+      "craftTools": [
+        {
+          "label": "PICK AXE LVL 1",
+          "itemName": "item_pickaxe_lvl_1",
+          "materials": [
+            {
+              "itemName": "item_ore_stone",
+              "count": 200,
+              "label": "STONE"
+            },
+            {
+              "itemName": "item_ore_iron",
+              "count": 50,
+              "label": "COAL"
+            }
+          ],
+          "itemType": "UNCOMMON",
+          "craftTimeMinutes": 60
+        },
+        {
+          "label": "PICK AXE LVL 2",
+          "itemName": "item_pickaxe_lvl_2",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 5,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 5,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 360
+        },
+        {
+          "label": "PICK AXE LVL 3",
+          "itemName": "item_pickaxe_lvl_3",
+          "materials": [
+            {
+              "itemName": "item_bar_gold",
+              "count": 25,
+              "label": "GOLD BAR"
+            },
+            {
+              "itemName": "item_bar_iron",
+              "count": 25,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_bar_gildiron",
+              "count": 17,
+              "label": "GILD IRON"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 15,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "EPIC",
+          "craftTimeMinutes": 720
+        },
+        {
+          "label": "PICK AXE LVL 4",
+          "itemName": "item_pickaxe_lvl_4",
+          "materials": [
+            {
+              "itemName": "item_bar_gold",
+              "count": 50,
+              "label": "GOLD BAR"
+            },
+            {
+              "itemName": "item_bar_iron",
+              "count": 40,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_bar_gildiron",
+              "count": 40,
+              "label": "GILDED IRON"
+            },
+            {
+              "itemName": "item_bar_auriron",
+              "count": 20,
+              "label": "AUR IRON"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 25,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "LEGENDARY",
+          "craftTimeMinutes": 1440
+        },
+        {
+          "label": "ANTI SHARPEN KIT",
+          "itemName": "kit_antiSharp",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 10,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 3,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "COMMON",
+          "craftTimeMinutes": 15
+        },
+        {
+          "label": "GAS KIT",
+          "itemName": "kit_gas",
+          "materials": [
+            {
+              "itemName": "item_ore_sulfur",
+              "count": 320,
+              "label": "SULFUR"
+            },
+            {
+              "itemName": "item_bar_iron",
+              "count": 5,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_bar_gold",
+              "count": 5,
+              "label": "GOLD BAR"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 8,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "UNCOMMON",
+          "craftTimeMinutes": 120
+        },
+        {
+          "label": "RADIO ACTIVE KIT",
+          "itemName": "kit_radioactive",
+          "materials": [
+            {
+              "itemName": "item_ore_sulfur",
+              "count": 300,
+              "label": "SULFUR"
+            },
+            {
+              "itemName": "item_ore_coal",
+              "count": 200,
+              "label": "COAL"
+            },
+            {
+              "itemName": "item_ore_iron",
+              "count": 15,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_bar_gold",
+              "count": 10,
+              "label": "GOLD BAR"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 10,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "EPIC",
+          "craftTimeMinutes": 300
+        }
+      ],
+      "refinery": [
+        {
+          "label": "IRON BAR",
+          "itemName": "item_bar_iron",
+          "materials": [
+            {
+              "count": 100,
+              "item": "item_ore_iron"
+            }
+          ],
+          "coalCost": 10,
+          "craftTimeMinutes": 1,
+          "numberOfOutput": 4
+        },
+        {
+          "label": "GOLD BAR",
+          "itemName": "item_bar_gold",
+          "materials": [
+            {
+              "count": 40,
+              "item": "item_ore_iron"
+            },
+            {
+              "count": 100,
+              "item": "item_ore_gold"
+            }
+          ],
+          "coalCost": 10,
+          "craftTimeMinutes": 1,
+          "numberOfOutput": 4
+        },
+        {
+          "label": "GILDED IRON",
+          "itemName": "item_bar_gildiron",
+          "materials": [
+            {
+              "item": "item_reinforced_steel",
+              "count": 10
+            },
+            {
+              "count": 2,
+              "item": "item_gem_aqualith"
+            }
+          ],
+          "coalCost": 90,
+          "craftTimeMinutes": 20,
+          "numberOfOutput": 10
+        },
+        {
+          "label": "AUR IRON",
+          "itemName": "item_bar_auriron",
+          "materials": [
+            {
+              "item": "item_reinforced_steel",
+              "count": 20
+            },
+            {
+              "count": 2,
+              "item": "item_gem_Amberite"
+            },
+            {
+              "count": 2,
+              "item": "item_gem_luminite"
+            }
+          ],
+          "coalCost": 90,
+          "craftTimeMinutes": 1,
+          "numberOfOutput": 10
+        }
+      ],
+      "blackSmith": [
+        {
+          "label": "REINFORCED STEEL",
+          "itemName": "item_reinforced_steel",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 10,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_bar_gold",
+              "count": 4,
+              "label": "GOLD BAR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 4
+        },
+        {
+          "label": "WEAPON STOCK",
+          "itemName": "item_stock_weapon",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 3,
+              "label": "IRON BAR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1
+        },
+        {
+          "label": "NORMAL WEAPON BARREL",
+          "itemName": "item_normal_barrel",
+          "materials": [
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 1,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1
+        },
+        {
+          "label": "REINFORCED WEAPON BARREL",
+          "itemName": "item_reinforced_barrel",
+          "materials": [
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 1,
+              "label": "REINFORCED STEEL"
+            },
+            {
+              "itemName": "item_bar_gold",
+              "count": 1,
+              "label": "GOLD BAR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1
+        },
+        {
+          "label": "WEAPON GRIP",
+          "itemName": "item_grip_weapon",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 3,
+              "label": "IRON BAR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1
+        },
+        {
+          "label": "WEAPON SCOPE",
+          "itemName": "item_scope_weapon",
+          "materials": [
+            {
+              "itemName": "item_bar_gold",
+              "count": 2,
+              "label": "GOLD BAR"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 2,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1
+        },
+        {
+          "label": "NORMAL WEAPON TRIGGER",
+          "itemName": "item_normal_trigger",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 2,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_bar_gold",
+              "count": 1,
+              "label": "GOLD BAR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1
+        },
+        {
+          "label": "ADVANCED WEAPON TRIGGER",
+          "itemName": "item_advanced_trigger",
+          "materials": [
+            {
+              "itemName": "item_bar_gold",
+              "count": 1,
+              "label": "GOLD BAR"
+            },
+            {
+              "itemName": "item_reinforced_steel",
+              "count": 1,
+              "label": "REINFORCED STEEL"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 1
+        }
+      ],
+      "MiningShopSell": [
+        {
+          "itemName": "item_ore_stone",
+          "label": "Stone",
+          "singlePrice": "13"
+        },
+        {
+          "itemName": "item_ore_sulfur",
+          "label": "Sulfur",
+          "singlePrice": "20"
+        },
+        {
+          "itemName": "item_ore_coal",
+          "label": "Coal",
+          "singlePrice": "22"
+        },
+        {
+          "itemName": "item_ore_iron",
+          "label": "Iron Ore",
+          "singlePrice": "22"
+        },
+        {
+          "itemName": "item_ore_gold",
+          "label": "Gold Ore",
+          "singlePrice": "31"
+        },
+        {
+          "itemName": "item_bar_iron",
+          "label": "Iron Bar",
+          "singlePrice": "1260"
+        },
+        {
+          "itemName": "item_bar_gold",
+          "label": "Gold Bar",
+          "singlePrice": "1800"
+        },
+        {
+          "itemName": "item_bar_gildiron",
+          "label": "Gilded Iron Bar",
+          "singlePrice": "4500"
+        },
+        {
+          "itemName": "item_bar_auriron",
+          "label": "Auriron Iron Bar",
+          "singlePrice": "6300"
+        },
+        {
+          "itemName": "item_gem_Amberite",
+          "label": "Amberite gem",
+          "singlePrice": "18000"
+        },
+        {
+          "itemName": "item_gem_aqualith",
+          "label": "qualith gem",
+          "singlePrice": "18000"
+        },
+        {
+          "itemName": "item_gem_luminite",
+          "label": "luminite gem",
+          "singlePrice": "18000"
+        }
+      ],
+      "MiningShopBuy": [
+        {
+          "itemName": "item_ore_stone",
+          "label": "STONE",
+          "singlePrice": "22",
+          "isSingleBuy": false
+        },
+        {
+          "itemName": "item_ore_iron",
+          "label": "IRON ORE",
+          "singlePrice": "37",
+          "isSingleBuy": false
+        },
+        {
+          "itemName": "item_ore_gold",
+          "label": "GOLD ORE",
+          "singlePrice": "45",
+          "isSingleBuy": false
+        },
+        {
+          "itemName": "item_ore_sulfur",
+          "label": "SULFUR",
+          "singlePrice": "30",
+          "isSingleBuy": false
+        },
+        {
+          "itemName": "item_ore_coal",
+          "label": "COAL",
+          "singlePrice": "35",
+          "isSingleBuy": false
+        },
+        {
+          "itemName": "item_bar_iron",
+          "label": "IRON BAR",
+          "singlePrice": "2100",
+          "isSingleBuy": false
+        },
+        {
+          "itemName": "item_bar_gold",
+          "label": "GOLD BAR",
+          "singlePrice": "3300",
+          "isSingleBuy": false
+        },
+        {
+          "itemName": "item_reinforced_steel",
+          "label": "REINFORCED STEEL",
+          "singlePrice": "5900",
+          "isSingleBuy": false
+        },
+        {
+          "itemName": "item_pickaxe_lvl_1",
+          "label": "PICK AXE LVL 1",
+          "singlePrice": "7500",
+          "isSingleBuy": true
+        },
+        {
+          "itemName": "kit_antiSharp",
+          "label": "ANTI SHARPEN ORE ",
+          "singlePrice": "22000",
+          "isSingleBuy": true
+        },
+        {
+          "itemName": "kit_gas",
+          "label": "GAS KIT",
+          "singlePrice": "70000",
+          "isSingleBuy": true
+        },
+        {
+          "itemName": "kit_radioactive",
+          "label": "RADIO ACTIVE KIT",
+          "singlePrice": "110000",
+          "isSingleBuy": true
+        }
+      ],
+      "premium": {
+        "packages": [
+          {
+            "label": "STARTER KIT",
+            "name": "mining_starter_kit",
+            "includes": [
+              "PICK AXE LVL 2",
+              "GAS KIT",
+              "BlAZER 4 OFF-ROAD"
+            ],
+            "isOneTimeOffer": true,
+            "price": 483,
+            "img": "/mining/Frame19.png"
+          }
+        ],
+        "items": [
+          {
+            "itemName": "item_pickaxe_lvl_3",
+            "label": "PICK AXE LVL 3",
+            "price": 376,
+            "description": "\n        50 % chance to mine   1 ore per hit  \n        30 % chance to mine  2 ore per hit \n        20 % chance to  mine  3 ore per hit\n        ",
+            "isOneTimeOffer": false
+          },
+          {
+            "itemName": "item_pickaxe_lvl_4",
+            "label": "PICK AXE LVL 4",
+            "price": 645,
+            "description": "\n        20 % chance to mine   1 ore per hit  \n        50 % chance to mine  2 ore per hit \n        20 % chance to  mine  3 ore per hit\n        10 % chance to  mine  4 ore per hit\n       \n        ",
+            "isOneTimeOffer": false
+          }
+        ]
+      }
+    },
+    "electricJobConfig": {
+      "Lvl1SingleSalary": "250",
+      "Lvl2SingleSalary": "725",
+      "Lvl3SingleSalary": "710",
+      "levelRewards": {
+        "1": 1000,
+        "2": 2500,
+        "3": 3500,
+        "4": 4000,
+        "5": 5000,
+        "6": 6000,
+        "7": 7000,
+        "8": 7000,
+        "9": 7000,
+        "10": 7000
+      },
+      "shopItems": {
+        "item_multi_metter": 3500,
+        "item_hand_pilers": 3000,
+        "mediumCircuit": 5500,
+        "advancedCircuit": 7650
+      }
+    },
+    "busJobConfig": {
+      "levelRewards": {
+        "1": 1000,
+        "2": 2500,
+        "3": 3500,
+        "4": 4000,
+        "5": 5000,
+        "6": 6000,
+        "7": 7000,
+        "8": 7000,
+        "9": 7000,
+        "10": 7000
+      },
+      "singleBusStopSalary": "90"
+    }
+  },
+  "governmentSalary": {
+    "police": {
+      "Cadet": "1000",
+      "Police Officer 1": "1500",
+      "Police Officer 2": "2000",
+      "Police Officer 3": "2500",
+      "Sergeant": "3000",
+      "Lieutenant": "3500",
+      "Deputy": "4000",
+      "Chief": "4500"
+    },
+    "fbi": {
+      "Trainee": "1000",
+      "Agent": "1500",
+      "Field Agent": "2500",
+      "Special Agent": "3250",
+      "Director": "4500"
+    },
+    "army": {
+      "Private": "750",
+      "Corporal": "1250",
+      "Sergeant": "1750",
+      "Sergeant Major": "2250",
+      "Lieutenant": "2750",
+      "Captain": "3250",
+      "General": "3750",
+      "Warrant Officer": "4250",
+      "Chief Warrant Officer": "4750"
+    },
+    "sheriff": {
+      "Cadet": "1000",
+      "Deputy": "1500",
+      "Corporal": "2500",
+      "Sergeant": "3000",
+      "Lieutenant": "3750",
+      "Sheriff": "4750"
+    },
+    "ems": {
+      "Intern": "2750",
+      "Nurse": "3500",
+      "Doctor": "4500",
+      "Chief": "5000"
+    }
+  }
+}

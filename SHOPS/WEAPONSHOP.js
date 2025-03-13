@@ -1,0 +1,50 @@
+const weaponPriceMMultiplier = 1
+
+export const weaponShopConfig = [
+    { label: 'Knife', dbName: 'item_melee_knife', category: 'Rifle', ammoType: null, price:( 14000 * weaponPriceMMultiplier).toFixed(0) },
+    { label: 'Combat Pistol', dbName: 'item_weapon_combat_pistol', category: 'Pistol', ammoType: '9mm', price:( 22000 * weaponPriceMMultiplier).toFixed(0) },
+    { label: 'Smg', dbName: 'item_weapon_smg', category: 'Sub MachinGun', ammoType: '9mm', price:( 35000 * weaponPriceMMultiplier).toFixed(0) },
+    {
+        label: 'Pump Shotgun',
+        dbName: 'item_weapon_pump_shotgun',
+        category: 'ShotGun',
+        ammoType: 'buckshot',
+        price:( 40000 * weaponPriceMMultiplier).toFixed(0),
+    },
+    {
+        label: 'Advanced Rifle',
+        dbName: 'item_weapon_advanced_rifle',
+        category: 'Rifle',
+        ammoType: '5.56mm',
+        price:( 55000 * weaponPriceMMultiplier).toFixed(0),
+    },
+
+    { label: 'Bullet 5.56 Mm', dbName: 'item_bullet_5_56_mm', category: 'Ammo', ammoType: null, price:( 60 * weaponPriceMMultiplier).toFixed(0) },
+    { label: 'Bullet 7.62 Mm', dbName: 'item_bullet_7_62_mm', category: 'Ammo', ammoType: null, price:( 300 * weaponPriceMMultiplier).toFixed(0)   },
+    { label: 'Bullet 9 Mm', dbName: 'item_bullet_9_mm', category: 'Ammo', ammoType: null, price:( 50 * weaponPriceMMultiplier).toFixed(0) },
+    { label: 'Bullet Shoutgun', dbName: 'item_bullet_shotgun', category: 'Ammo', ammoType: null, price:( 80 * weaponPriceMMultiplier).toFixed(0) },
+
+    // { label: "Assault Shotgun", dbName: "item_weapon_assault_shotgun" },
+    // { label: "Bs Gas", dbName: "item_weapon_bs_gas" },
+    // { label: "Carbine Rifle Mk2", dbName: "item_weapon_carbine_rifle_mk2" },
+    // { label: "Combat Mg Mk2", dbName: "item_weapon_combat_mg_mk2" },
+    // { label: "Combat Pwd", dbName: "item_weapon_combat_pwd" },
+    // { label: "Combat Shotgun", dbName: "item_weapon_combat_shotgun" },
+    // { label: "Double Action Revolver", dbName: "item_weapon_double_action_revolver" },
+    // { label: "Flashligh", dbName: "item_weapon_flashligh" },
+    // { label: "Heavy Pistol", dbName: "item_weapon_heavy_pistol" },
+    // { label: "Heavy Rifle", dbName: "item_weapon_heavy_rifle" },
+    // { label: "Heavy Shotgun", dbName: "item_weapon_heavy_shotgun" },
+    // { label: "Heavy Sniper", dbName: "item_weapon_heavy_sniper" },
+    // { label: "Marksman Rifle", dbName: "item_weapon_marksman_rifle" },
+    // { label: "Military Rifle", dbName: "item_weapon_military_rifle" },
+    // { label: "Nightstic", dbName: "item_weapon_nightstic" },
+    // { label: "Pistol 50", dbName: "item_weapon_pistol_50" },
+    // { label: "Smg Mk2", dbName: "item_weapon_smg_mk2" },
+    // { label: "Sniper Rifle", dbName: "item_weapon_sniper_rifle" },
+    // { label: "Special Carbine", dbName: "item_weapon_special_carbine" },
+    // { label: "Stungun", dbName: "item_weapon_stungun" },
+    // { label: "Tactical Rifle", dbName: "item_weapon_tactical_rifle" },
+    // { label: "Tecpistol", dbName: "item_weapon_tecpistol" },
+
+];

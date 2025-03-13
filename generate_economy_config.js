@@ -13,6 +13,7 @@ import { miningJobConfig } from "./JOBS/MINING.js";
 import {  electricJobConfig } from "./JOBS/ELECTRIC.js";
 import { busJobConfig } from "./JOBS/BUS.js";
 import { licenseDmvConfig } from "./SHOPS/LICENSEDMV.js";
+import { tunningConfig } from "./SHOPS/TUNNING.js";
 const economyConfig = {
   shops: {
     garageConfig,
@@ -22,7 +23,8 @@ const economyConfig = {
     carRentalsConfig,
     mechanicShopConfig,
     emsShopConfig,
-    superMarketConfig
+    superMarketConfig,
+    tunningConfig
     
   },
   crafting: {

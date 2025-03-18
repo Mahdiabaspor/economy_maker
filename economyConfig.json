@@ -4,14 +4,14 @@
       "returnVehiclePrice": 2000
     },
     "gasStationConfig": {
-      "normalFuelPerLitter": "7"
+      "normalFuelPerLitter": 7
     },
     "licenseDmvConfig": {
-      "VEHICLE": "7000",
-      "CDL_A": "10000",
-      "CDL_B": "12000",
-      "HPL": "80000",
-      "PPL": "120000"
+      "VEHICLE": 7000,
+      "CDL_A": 10000,
+      "CDL_B": 12000,
+      "HPL": 80000,
+      "PPL": 120000
     },
     "weaponShopConfig": [
       {
@@ -19,70 +19,70 @@
         "dbName": "item_melee_knife",
         "category": "Rifle",
         "ammoType": null,
-        "price": "14000"
+        "price": 14000
       },
       {
         "label": "Combat Pistol",
         "dbName": "item_weapon_combat_pistol",
         "category": "Pistol",
         "ammoType": "9mm",
-        "price": "22000"
+        "price": 22000
       },
       {
         "label": "Smg",
         "dbName": "item_weapon_smg",
         "category": "Sub MachinGun",
         "ammoType": "9mm",
-        "price": "35000"
+        "price": 35000
       },
       {
         "label": "Pump Shotgun",
         "dbName": "item_weapon_pump_shotgun",
         "category": "ShotGun",
         "ammoType": "buckshot",
-        "price": "40000"
+        "price": 40000
       },
       {
         "label": "Advanced Rifle",
         "dbName": "item_weapon_advanced_rifle",
         "category": "Rifle",
         "ammoType": "5.56mm",
-        "price": "55000"
+        "price": 55000
       },
       {
         "label": "Bullet 5.56 Mm",
         "dbName": "item_bullet_5_56_mm",
         "category": "Ammo",
         "ammoType": null,
-        "price": "60"
+        "price": 60
       },
       {
         "label": "Bullet 7.62 Mm",
         "dbName": "item_bullet_7_62_mm",
         "category": "Ammo",
         "ammoType": null,
-        "price": "300"
+        "price": 300
       },
       {
         "label": "Bullet 9 Mm",
         "dbName": "item_bullet_9_mm",
         "category": "Ammo",
         "ammoType": null,
-        "price": "50"
+        "price": 50
       },
       {
         "label": "Bullet Shoutgun",
         "dbName": "item_bullet_shotgun",
         "category": "Ammo",
         "ammoType": null,
-        "price": "80"
+        "price": 80
       }
     ],
     "carRentalsConfig": [
       {
         "vehicleModel": "faggio",
         "name": "Faggio",
-        "rentalPrice": "250",
+        "rentalPrice": 250,
         "fuelType": "REGULAR",
         "type": "motorcycle",
         "class": "MOTORCYCLE"
@@ -90,7 +90,7 @@
       {
         "vehicleModel": "faggio2",
         "name": "Faggio Mod",
-        "rentalPrice": "350",
+        "rentalPrice": 350,
         "fuelType": "REGULAR",
         "type": "motorcycle",
         "class": "MOTORCYCLE"
@@ -98,7 +98,7 @@
       {
         "vehicleModel": "akuma",
         "name": "Akuma",
-        "rentalPrice": "1000",
+        "rentalPrice": 1000,
         "fuelType": "REGULAR",
         "type": "motorcycle",
         "class": "SPORT"
@@ -106,7 +106,7 @@
       {
         "vehicleModel": "virgo",
         "name": "Virgo",
-        "rentalPrice": "1250",
+        "rentalPrice": 1250,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "MUSCLE"
@@ -114,7 +114,7 @@
       {
         "vehicleModel": "glendale",
         "name": "Glendale",
-        "rentalPrice": "1350",
+        "rentalPrice": 1350,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "SEDAN"
@@ -122,7 +122,7 @@
       {
         "vehicleModel": "washington",
         "name": "Washington",
-        "rentalPrice": "1400",
+        "rentalPrice": 1400,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "SEDAN"
@@ -130,7 +130,7 @@
       {
         "vehicleModel": "sentinel",
         "name": "Sentinel",
-        "rentalPrice": "1500",
+        "rentalPrice": 1500,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "COUPE"
@@ -138,7 +138,7 @@
       {
         "vehicleModel": "brioso",
         "name": "Brioso R/A",
-        "rentalPrice": "1700",
+        "rentalPrice": 1700,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "COMPACT"
@@ -146,7 +146,7 @@
       {
         "vehicleModel": "asbo",
         "name": "Asbo",
-        "rentalPrice": "1800",
+        "rentalPrice": 1800,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "COMPACT"
@@ -154,7 +154,7 @@
       {
         "vehicleModel": "zion",
         "name": "Zion",
-        "rentalPrice": "1900",
+        "rentalPrice": 1900,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "COUPE"
@@ -162,7 +162,7 @@
       {
         "vehicleModel": "radi",
         "name": "Radius",
-        "rentalPrice": "2400",
+        "rentalPrice": 2400,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "SUV"
@@ -170,56 +170,56 @@
       {
         "vehicleModel": "jester2",
         "name": "Jester (Racecar)",
-        "rentalPrice": "5500",
+        "rentalPrice": 5500,
         "fuelType": "REGULAR",
         "type": "vehicle",
         "class": "SPORT"
       }
     ],
     "mechanicShopConfig": {
-      "repairCost": "2000",
-      "repairKitCost": "4000",
-      "repairCostMultiplier": "1",
-      "DriftKit": "45000",
-      "nitroKit": "70000",
-      "nitroRefillCost": "4500"
+      "repairCost": 2000,
+      "repairKitCost": 4000,
+      "repairCostMultiplier": 1,
+      "DriftKit": 45000,
+      "nitroKit": 70000,
+      "nitroRefillCost": 4500
     },
     "emsShopConfig": {
       "regular": [
         {
           "itemName": "item_medical_bandage",
           "label": "MEDICAL BANDAGE",
-          "singlePrice": "1500"
+          "singlePrice": 1500
         },
         {
           "itemName": "item_capsaicin_powder",
           "label": "capsaicin POWDER",
-          "singlePrice": "1000"
+          "singlePrice": 1000
         },
         {
           "itemName": "item_pain_killer_pill",
           "label": "pain killer PILL",
-          "singlePrice": "2700"
+          "singlePrice": 2000
         },
         {
           "itemName": "item_ethanol",
           "label": "ETHANOL",
-          "singlePrice": "800"
+          "singlePrice": 800
         },
         {
           "itemName": "item_medicine_stablizer",
           "label": "medical STABILIZER",
-          "singlePrice": "250"
+          "singlePrice": 250
         },
         {
           "itemName": "item_empty_pill_capsule",
           "label": "empty pill capsule",
-          "singlePrice": "250"
+          "singlePrice": 250
         },
         {
           "itemName": "item_acetone",
           "label": "acetone",
-          "singlePrice": "2000"
+          "singlePrice": 2000
         }
       ]
     },
@@ -228,47 +228,47 @@
         {
           "itemName": "item_fabric",
           "label": "FABRIC",
-          "singlePrice": "200"
+          "singlePrice": 200
         },
         {
           "itemName": "item_fuel_can",
           "label": "fuel CAN",
-          "singlePrice": "900"
+          "singlePrice": 900
         },
         {
           "itemName": "item_methanol",
           "label": "METHHANOL",
-          "singlePrice": "800"
+          "singlePrice": 800
         },
         {
           "itemName": "item_house_cleaner",
           "label": "HOUSE CLEANER",
-          "singlePrice": "600"
+          "singlePrice": 600
         },
         {
           "itemName": "item_sodium_bicarbonate",
           "label": "SODIUM BICARBONATE",
-          "singlePrice": "550"
+          "singlePrice": 550
         },
         {
           "itemName": "item_battery",
           "label": "BATTERY",
-          "singlePrice": "500"
+          "singlePrice": 500
         },
         {
           "itemName": "item_paint_color",
           "label": "PAINT COLOR",
-          "singlePrice": "600"
+          "singlePrice": 600
         },
         {
           "itemName": "item_empty_plastic_pack",
           "label": "EMPTY PLASTIC PACK",
-          "singlePrice": "433"
+          "singlePrice": 433
         },
         {
           "itemName": "item_mining_map",
           "label": "MINING MAP",
-          "singlePrice": "3000"
+          "singlePrice": 3000
         }
       ]
     },
@@ -279,1120 +279,1120 @@
           "Description": "Metallic Black",
           "Hex": "#0d1116",
           "RGB": "13, 17, 22",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "1",
           "Description": "Metallic Graphite Black",
           "Hex": "#1c1d21",
           "RGB": "28, 29, 33 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "2",
           "Description": "Metallic Black Steal",
           "Hex": "#32383d",
           "RGB": "50, 56, 61 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "3",
           "Description": "Metallic Dark Silver",
           "Hex": "#454b4f",
           "RGB": "69, 75, 79 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "4",
           "Description": "Metallic Silver",
           "Hex": "#999da0",
           "RGB": "153, 157, 160 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "5",
           "Description": "Metallic Blue Silver",
           "Hex": "#c2c4c6",
           "RGB": "194, 196, 198 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "6",
           "Description": "Metallic Steel Gray",
           "Hex": "#979a97",
           "RGB": "151, 154, 151 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "7",
           "Description": "Metallic Shadow Silver",
           "Hex": "#637380",
           "RGB": "99, 115, 128 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "8",
           "Description": "Metallic Stone Silver",
           "Hex": "#63625c",
           "RGB": "99, 98, 92 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "9",
           "Description": "Metallic Midnight Silver",
           "Hex": "#3c3f47",
           "RGB": "60, 63, 71 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "10",
           "Description": "Metallic Gun Metal",
           "Hex": "#444e54",
           "RGB": "68, 78, 84 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "11",
           "Description": "Metallic Anthracite Grey",
           "Hex": "#1d2129",
           "RGB": "29, 33, 41 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "12",
           "Description": "Matte Black",
           "Hex": "#13181f",
           "RGB": "19, 24, 31 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "13",
           "Description": "Matte Gray",
           "Hex": "#26282a",
           "RGB": "38, 40, 42 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "14",
           "Description": "Matte Light Grey",
           "Hex": "#515554",
           "RGB": "81, 85, 84 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "15",
           "Description": "Util Black",
           "Hex": "#151921",
           "RGB": "21, 25, 33 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "16",
           "Description": "Util Black Poly",
           "Hex": "#1e2429",
           "RGB": "30, 36, 41 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "17",
           "Description": "Util Dark silver",
           "Hex": "#333a3c",
           "RGB": "51, 58, 60 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "18",
           "Description": "Util Silver",
           "Hex": "#8c9095",
           "RGB": "140, 144, 149 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "19",
           "Description": "Util Gun Metal",
           "Hex": "#39434d",
           "RGB": "57, 67, 77 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "20",
           "Description": "Util Shadow Silver",
           "Hex": "#506272",
           "RGB": "80, 98, 114 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "21",
           "Description": "Worn Black",
           "Hex": "#1e232f",
           "RGB": "30, 35, 47 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "22",
           "Description": "Worn Graphite",
           "Hex": "#363a3f",
           "RGB": "54, 58, 63 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "23",
           "Description": "Worn Silver Grey",
           "Hex": "#a0a199",
           "RGB": "160, 161, 153 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "24",
           "Description": "Worn Silver",
           "Hex": "#d3d3d3",
           "RGB": "211, 211, 211 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "25",
           "Description": "Worn Blue Silver",
           "Hex": "#b7bfca",
           "RGB": "183, 191, 202 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "26",
           "Description": "Worn Shadow Silver",
           "Hex": "#778794",
           "RGB": "119, 135, 148 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "27",
           "Description": "Metallic Red",
           "Hex": "#c00e1a",
           "RGB": "192, 14, 26 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "28",
           "Description": "Metallic Torino Red",
           "Hex": "#da1918",
           "RGB": "218, 25, 24 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "29",
           "Description": "Metallic Formula Red",
           "Hex": "#b6111b",
           "RGB": "182, 17, 27 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "30",
           "Description": "Metallic Blaze Red",
           "Hex": "#a51e23",
           "RGB": "165, 30, 35 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "31",
           "Description": "Metallic Graceful Red",
           "Hex": "#7b1a22",
           "RGB": "123, 26, 34 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "32",
           "Description": "Metallic Garnet Red",
           "Hex": "#8e1b1f",
           "RGB": "142, 27, 31 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "33",
           "Description": "Metallic Desert Red",
           "Hex": "#6f1818",
           "RGB": "111, 24, 24 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "34",
           "Description": "Metallic Cabernet Red",
           "Hex": "#49111d",
           "RGB": "73, 17, 29 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "35",
           "Description": "Metallic Candy Red",
           "Hex": "#b60f25",
           "RGB": "182, 15, 37 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "36",
           "Description": "Metallic Sunrise Orange",
           "Hex": "#d44a17",
           "RGB": "212, 74, 23 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "37",
           "Description": "Metallic Classic Gold",
           "Hex": "#c2944f",
           "RGB": "194, 148, 79 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "38",
           "Description": "Metallic Orange",
           "Hex": "#f78616",
           "RGB": "247, 134, 22 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "39",
           "Description": "Matte Red",
           "Hex": "#cf1f21",
           "RGB": "207, 31, 33 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "40",
           "Description": "Matte Dark Red",
           "Hex": "#732021",
           "RGB": "115, 32, 33 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "41",
           "Description": "Matte Orange",
           "Hex": "#f27d20",
           "RGB": "242, 125, 32 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "42",
           "Description": "Matte Yellow",
           "Hex": "#ffc91f",
           "RGB": "255, 201, 31 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "43",
           "Description": "Util Red",
           "Hex": "#9c1016",
           "RGB": "156, 16, 22 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "44",
           "Description": "Util Bright Red",
           "Hex": "#de0f18",
           "RGB": "222, 15, 24 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "45",
           "Description": "Util Garnet Red",
           "Hex": "#8f1e17",
           "RGB": "143, 30, 23 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "46",
           "Description": "Worn Red",
           "Hex": "#a94744",
           "RGB": "169, 71, 68 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "47",
           "Description": "Worn Golden Red",
           "Hex": "#b16c51",
           "RGB": "177, 108, 81 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "48",
           "Description": "Worn Dark Red",
           "Hex": "#371c25",
           "RGB": "55, 28, 37 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "49",
           "Description": "Metallic Dark Green",
           "Hex": "#132428",
           "RGB": "19, 36, 40 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "50",
           "Description": "Metallic Racing Green",
           "Hex": "#122e2b",
           "RGB": "18, 46, 43 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "51",
           "Description": "Metallic Sea Green",
           "Hex": "#12383c",
           "RGB": "18, 56, 60 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "52",
           "Description": "Metallic Olive Green",
           "Hex": "#31423f",
           "RGB": "49, 66, 63 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "53",
           "Description": "Metallic Green",
           "Hex": "#155c2d",
           "RGB": "21, 92, 45 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "54",
           "Description": "Metallic Gasoline Blue Green",
           "Hex": "#1b6770",
           "RGB": "27, 103, 112 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "55",
           "Description": "Matte Lime Green",
           "Hex": "#66b81f",
           "RGB": "102, 184, 31 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "56",
           "Description": "Util Dark Green",
           "Hex": "#22383e",
           "RGB": "34, 56, 62 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "57",
           "Description": "Util Green",
           "Hex": "#1d5a3f",
           "RGB": "29, 90, 63 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "58",
           "Description": "Worn Dark Green",
           "Hex": "#2d423f",
           "RGB": "45, 66, 63 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "59",
           "Description": "Worn Green",
           "Hex": "#45594b",
           "RGB": "69, 89, 75 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "60",
           "Description": "Worn Sea Wash",
           "Hex": "#65867f",
           "RGB": "101, 134, 127 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "61",
           "Description": "Metallic Midnight Blue",
           "Hex": "#222e46",
           "RGB": "34, 46, 70 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "62",
           "Description": "Metallic Dark Blue",
           "Hex": "#233155",
           "RGB": "35, 49, 85 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "63",
           "Description": "Metallic Saxony Blue",
           "Hex": "#304c7e",
           "RGB": "48, 76, 126 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "64",
           "Description": "Metallic Blue",
           "Hex": "#47578f",
           "RGB": "71, 87, 143 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "65",
           "Description": "Metallic Mariner Blue",
           "Hex": "#637ba7",
           "RGB": "99, 123, 167 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "66",
           "Description": "Metallic Harbor Blue",
           "Hex": "#394762",
           "RGB": "57, 71, 98 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "67",
           "Description": "Metallic Diamond Blue",
           "Hex": "#d6e7f1",
           "RGB": "214, 231, 241 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "68",
           "Description": "Metallic Surf Blue",
           "Hex": "#76afbe",
           "RGB": "118, 175, 190 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "69",
           "Description": "Metallic Nautical Blue",
           "Hex": "#345e72",
           "RGB": "52, 94, 114 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "70",
           "Description": "Metallic Bright Blue",
           "Hex": "#0b9cf1",
           "RGB": "11, 156, 241 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "71",
           "Description": "Metallic Purple Blue",
           "Hex": "#2f2d52",
           "RGB": "47, 45, 82 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "72",
           "Description": "Metallic Spinnaker Blue",
           "Hex": "#282c4d",
           "RGB": "40, 44, 77 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "73",
           "Description": "Metallic Ultra Blue",
           "Hex": "#2354a1",
           "RGB": "35, 84, 161 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "74",
           "Description": "Metallic Bright Blue",
           "Hex": "#6ea3c6",
           "RGB": "110, 163, 198 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "75",
           "Description": "Util Dark Blue",
           "Hex": "#112552",
           "RGB": "17, 37, 82 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "76",
           "Description": "Util Midnight Blue",
           "Hex": "#1b203e",
           "RGB": "27, 32, 62 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "77",
           "Description": "Util Blue",
           "Hex": "#275190",
           "RGB": "39, 81, 144 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "78",
           "Description": "Util Sea Foam Blue",
           "Hex": "#608592",
           "RGB": "96, 133, 146 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "79",
           "Description": "Util Lightning blue",
           "Hex": "#2446a8",
           "RGB": "36, 70, 168 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "80",
           "Description": "Util Maui Blue Poly",
           "Hex": "#4271e1",
           "RGB": "66, 113, 225 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "81",
           "Description": "Util Bright Blue",
           "Hex": "#3b39e0",
           "RGB": "59, 57, 224 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "82",
           "Description": "Matte Dark Blue",
           "Hex": "#1f2852",
           "RGB": "31, 40, 82 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "83",
           "Description": "Matte Blue",
           "Hex": "#253aa7",
           "RGB": "37, 58, 167 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "84",
           "Description": "Matte Midnight Blue",
           "Hex": "#1c3551",
           "RGB": "28, 53, 81 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "85",
           "Description": "Worn Dark blue",
           "Hex": "#4c5f81",
           "RGB": "76, 95, 129 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "86",
           "Description": "Worn Blue",
           "Hex": "#58688e",
           "RGB": "88, 104, 142 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "87",
           "Description": "Worn Light blue",
           "Hex": "#74b5d8",
           "RGB": "116, 181, 216 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "88",
           "Description": "Metallic Taxi Yellow",
           "Hex": "#ffcf20",
           "RGB": "255, 207, 32 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "89",
           "Description": "Metallic Race Yellow",
           "Hex": "#fbe212",
           "RGB": "251, 226, 18 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "90",
           "Description": "Metallic Bronze",
           "Hex": "#916532",
           "RGB": "145, 101, 50 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "91",
           "Description": "Metallic Yellow Bird",
           "Hex": "#e0e13d",
           "RGB": "224, 225, 61 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "92",
           "Description": "Metallic Lime",
           "Hex": "#98d223",
           "RGB": "152, 210, 35 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "93",
           "Description": "Metallic Champagne",
           "Hex": "#9b8c78",
           "RGB": "155, 140, 120 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "94",
           "Description": "Metallic Pueblo Beige",
           "Hex": "#503218",
           "RGB": "80, 50, 24 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "95",
           "Description": "Metallic Dark Ivory",
           "Hex": "#473f2b",
           "RGB": "71, 63, 43 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "96",
           "Description": "Metallic Choco Brown",
           "Hex": "#221b19",
           "RGB": "34, 27, 25 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "97",
           "Description": "Metallic Golden Brown",
           "Hex": "#653f23",
           "RGB": "101, 63, 35 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "98",
           "Description": "Metallic Light Brown",
           "Hex": "#775c3e",
           "RGB": "119, 92, 62 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "99",
           "Description": "Metallic Straw Beige",
           "Hex": "#ac9975",
           "RGB": "172, 153, 117 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "100",
           "Description": "Metallic Moss Brown",
           "Hex": "#6c6b4b",
           "RGB": "108, 107, 75 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "101",
           "Description": "Metallic Biston Brown",
           "Hex": "#402e2b",
           "RGB": "64, 46, 43 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "102",
           "Description": "Metallic Beechwood",
           "Hex": "#a4965f",
           "RGB": "164, 150, 95 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "103",
           "Description": "Metallic Dark Beechwood",
           "Hex": "#46231a",
           "RGB": "70, 35, 26 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "104",
           "Description": "Metallic Choco Orange",
           "Hex": "#752b19",
           "RGB": "117, 43, 25 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "105",
           "Description": "Metallic Beach Sand",
           "Hex": "#bfae7b",
           "RGB": "191, 174, 123 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "106",
           "Description": "Metallic Sun Bleeched Sand",
           "Hex": "#dfd5b2",
           "RGB": "223, 213, 178 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "107",
           "Description": "Metallic Cream",
           "Hex": "#f7edd5",
           "RGB": "247, 237, 213 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "108",
           "Description": "Util Brown",
           "Hex": "#3a2a1b",
           "RGB": "58, 42, 27 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "109",
           "Description": "Util Medium Brown",
           "Hex": "#785f33",
           "RGB": "120, 95, 51 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "110",
           "Description": "Util Light Brown",
           "Hex": "#b5a079",
           "RGB": "181, 160, 121 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "111",
           "Description": "Metallic White",
           "Hex": "#fffff6",
           "RGB": "255, 255, 246 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "112",
           "Description": "Metallic Frost White",
           "Hex": "#eaeaea",
           "RGB": "234, 234, 234 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "113",
           "Description": "Worn Honey Beige",
           "Hex": "#b0ab94",
           "RGB": "176, 171, 148 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "114",
           "Description": "Worn Brown",
           "Hex": "#453831",
           "RGB": "69, 56, 49 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "115",
           "Description": "Worn Dark Brown",
           "Hex": "#2a282b",
           "RGB": "42, 40, 43 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "116",
           "Description": "Worn straw beige",
           "Hex": "#726c57",
           "RGB": "114, 108, 87 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "117",
           "Description": "Brushed Steel",
           "Hex": "#6a747c",
           "RGB": "106, 116, 124 ",
-          "Price": "500000"
+          "Price": 750000
         },
         {
           "ID": "118",
           "Description": "Brushed Black steel",
           "Hex": "#354158",
           "RGB": "53, 65, 88 ",
-          "Price": "500000"
+          "Price": 750000
         },
         {
           "ID": "119",
           "Description": "Brushed Aluminium",
           "Hex": "#9ba0a8",
           "RGB": "155, 160, 168 ",
-          "Price": "500000"
+          "Price": 750000
         },
         {
           "ID": "120",
           "Description": "Chrome",
           "Hex": "#5870a1",
           "RGB": "88, 112, 161 ",
-          "Price": "2000000"
+          "Price": 2250000
         },
         {
           "ID": "121",
           "Description": "Worn Off White",
           "Hex": "#eae6de",
           "RGB": "234, 230, 222 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "122",
           "Description": "Util Off White",
           "Hex": "#dfddd0",
           "RGB": "223, 221, 208 ",
-          "Price": "2500"
+          "Price": 3750
         },
         {
           "ID": "123",
           "Description": "Worn Orange",
           "Hex": "#f2ad2e",
           "RGB": "242, 173, 46 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "124",
           "Description": "Worn Light Orange",
           "Hex": "#f9a458",
           "RGB": "249, 164, 88 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "125",
           "Description": "Metallic Securicor Green",
           "Hex": "#83c566",
           "RGB": "131, 197, 102 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "126",
           "Description": "Worn Taxi Yellow",
           "Hex": "#f1cc40",
           "RGB": "241, 204, 64 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "127",
           "Description": "police car blue",
           "Hex": "#4cc3da",
           "RGB": "76, 195, 218 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "128",
           "Description": "Matte Green",
           "Hex": "#4e6443",
           "RGB": "78, 100, 67 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "129",
           "Description": "Matte Brown",
           "Hex": "#bcac8f",
           "RGB": "188, 172, 143 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "130",
           "Description": "Worn Orange",
           "Hex": "#f8b658",
           "RGB": "248, 182, 88 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "131",
           "Description": "Matte White",
           "Hex": "#fcf9f1",
           "RGB": "252, 249, 241 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "132",
           "Description": "Worn White",
           "Hex": "#fffffb",
           "RGB": "255, 255, 251 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "133",
           "Description": "Worn Olive Army Green",
           "Hex": "#81844c",
           "RGB": "129, 132, 76 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "134",
           "Description": "Pure White",
           "Hex": "#ffffff",
           "RGB": "255, 255, 255 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "135",
           "Description": "Hot Pink",
           "Hex": "#f21f99",
           "RGB": "242, 31, 153 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "136",
           "Description": "Salmon pink",
           "Hex": "#fdd6cd",
           "RGB": "253, 214, 205 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "137",
           "Description": "Metallic Vermillion Pink",
           "Hex": "#df5891",
           "RGB": "223, 88, 145 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "138",
           "Description": "Orange",
           "Hex": "#f6ae20",
           "RGB": "246, 174, 32 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "139",
           "Description": "Green",
           "Hex": "#b0ee6e",
           "RGB": "176, 238, 110 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "140",
           "Description": "Blue",
           "Hex": "#08e9fa",
           "RGB": "8, 233, 250 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "141",
           "Description": "Metallic Black Blue",
           "Hex": "#0a0c17",
           "RGB": "10, 12, 23 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "142",
           "Description": "Metallic Black Purple",
           "Hex": "#0c0d18",
           "RGB": "12, 13, 24 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "143",
           "Description": "Metallic Black Red",
           "Hex": "#0e0d14",
           "RGB": "14, 13, 20 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "144",
           "Description": "hunter green",
           "Hex": "#9f9e8a",
           "RGB": "159, 158, 138 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "145",
           "Description": "Metallic Purple",
           "Hex": "#621276",
           "RGB": "98, 18, 118 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "146",
           "Description": "Metallic V Dark Blue",
           "Hex": "#0b1421",
           "RGB": "11, 20, 33 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "147",
           "Description": "MOD SHOP BLACK1",
           "Hex": "#11141a",
           "RGB": "17, 20, 26 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "148",
           "Description": "Matte Purple",
           "Hex": "#6b1f7b",
           "RGB": "107, 31, 123 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "149",
           "Description": "Matte Dark Purple",
           "Hex": "#1e1d22",
           "RGB": "30, 29, 34 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "150",
           "Description": "Metallic Lava Red",
           "Hex": "#bc1917",
           "RGB": "188, 25, 23 ",
-          "Price": "7000"
+          "Price": 10500
         },
         {
           "ID": "151",
           "Description": "Matte Forest Green",
           "Hex": "#2d362a",
           "RGB": "45, 54, 42 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "152",
           "Description": "Matte Olive Drab",
           "Hex": "#696748",
           "RGB": "105, 103, 72 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "153",
           "Description": "Matte Desert Brown",
           "Hex": "#7a6c55",
           "RGB": "122, 108, 85 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "154",
           "Description": "Matte Desert Tan",
           "Hex": "#c3b492",
           "RGB": "195, 180, 146 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "155",
           "Description": "Matte Foliage Green",
           "Hex": "#5a6352",
           "RGB": "90, 99, 82 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "156",
           "Description": "DEFAULT ALLOY COLOR",
           "Hex": "#81827f",
           "RGB": "129, 130, 127 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "157",
           "Description": "Epsilon Blue",
           "Hex": "#afd6e4",
           "RGB": "175, 214, 228 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "158",
           "Description": "Pure Gold",
           "Hex": "#7a6440",
           "RGB": "122, 100, 64 ",
-          "Price": "5000"
+          "Price": 7500
         },
         {
           "ID": "159",
           "Description": "Brushed Gold",
           "Hex": "#7f6a48",
           "RGB": "127, 106, 72 ",
-          "Price": "5000"
+          "Price": 7500
         }
       ],
       "ColorTemplateXenon": [
@@ -1400,79 +1400,79 @@
           "Description": "White",
           "Hex": "#ffffff",
           "ID": "0",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Blue",
           "Hex": "#0000ff",
           "ID": "1",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Light Blue",
           "Hex": "#add8e6",
           "ID": "2",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Green",
           "Hex": "#008000",
           "ID": "3",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Light Green",
           "Hex": "#90ee90",
           "ID": "4",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Light Yellow",
           "Hex": "#ffffe0",
           "ID": "5",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Yellow",
           "Hex": "#ffff00",
           "ID": "6",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Orange",
           "Hex": "#ffa500",
           "ID": "7",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Red",
           "Hex": "#ff0000",
           "ID": "8",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Light Pink",
           "Hex": "#ffb6c1",
           "ID": "9",
-          "Price": "3300"
+          "Price": 4950
         },
         {
           "Description": "Pink",
           "Hex": "#ffc0cb",
           "ID": "10",
-          "Price": "4700"
+          "Price": 7050
         },
         {
           "Description": "Purple",
           "Hex": "#800080",
           "ID": "11",
-          "Price": "4700"
+          "Price": 7050
         },
         {
           "Description": "Light Purple",
           "Hex": "#cf67cf",
           "ID": "12",
-          "Price": "4700"
+          "Price": 7050
         }
       ],
       "parts": {
@@ -1489,8 +1489,8 @@
           "step": 0.05
         },
         "Armor": {
-          "basePercentage": 0.1,
-          "step": 0.05
+          "basePercentage": 0.15,
+          "step": 0.1
         },
         "Turbo": {
           "basePercentage": 0.1,
@@ -1689,7 +1689,3614 @@
           "step": 0.03
         }
       }
-    }
+    },
+    "dealershipCars": [
+      {
+        "Model": "panto",
+        "Name": "Panto",
+        "Class": "COMPACT",
+        "Price": 50000,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "asbo",
+        "Name": "Asbo",
+        "Class": "COMPACT",
+        "Price": 58000,
+        "Brand": "Maxwell"
+      },
+      {
+        "Model": "issi3",
+        "Name": "Issi Classic",
+        "Class": "COMPACT",
+        "Price": 66000,
+        "Brand": "Weeny"
+      },
+      {
+        "Model": "issi2",
+        "Name": "Issi",
+        "Class": "COMPACT",
+        "Price": 74250,
+        "Brand": "Weeny"
+      },
+      {
+        "Model": "club",
+        "Name": "Club",
+        "Class": "COMPACT",
+        "Price": 82250,
+        "Brand": "BF"
+      },
+      {
+        "Model": "dilettante",
+        "Name": "Dilettante",
+        "Class": "COMPACT",
+        "Price": 90250,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "weevil",
+        "Name": "Weevil",
+        "Class": "COMPACT",
+        "Price": 98500,
+        "Brand": "BF"
+      },
+      {
+        "Model": "rhapsody",
+        "Name": "Rhapsody",
+        "Class": "COMPACT",
+        "Price": 106500,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "kanjo",
+        "Name": "Blista Kanjo",
+        "Class": "COMPACT",
+        "Price": 114750,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "brioso2",
+        "Name": "Brioso 300",
+        "Class": "COMPACT",
+        "Price": 122750,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "dilettante2",
+        "Name": "Dilettante Patrol",
+        "Class": "COMPACT",
+        "Price": 130750,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "blista",
+        "Name": "Blista",
+        "Class": "COMPACT",
+        "Price": 139000,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "blista3",
+        "Name": "Blista Go Go Monkey",
+        "Class": "COMPACT",
+        "Price": 147000,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "blista2",
+        "Name": "Blista Compact",
+        "Class": "COMPACT",
+        "Price": 155000,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "brioso",
+        "Name": "Brioso R/A",
+        "Class": "COMPACT",
+        "Price": 163250,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "boor",
+        "Name": "Boor",
+        "Class": "COMPACT",
+        "Price": 171250,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "prairie",
+        "Name": "Prairie",
+        "Class": "COMPACT",
+        "Price": 179500,
+        "Brand": "Bollokan"
+      },
+      {
+        "Model": "issi4",
+        "Name": "Issi Arena",
+        "Class": "COMPACT",
+        "Price": 187500,
+        "Brand": "Weeny"
+      },
+      {
+        "Model": "issi5",
+        "Name": "Issi Future Shock",
+        "Class": "COMPACT",
+        "Price": 195500,
+        "Brand": "Weeny"
+      },
+      {
+        "Model": "issi6",
+        "Name": "Issi Nightmare",
+        "Class": "COMPACT",
+        "Price": 203750,
+        "Brand": "Weeny"
+      },
+      {
+        "Model": "issi7",
+        "Name": "Issi Sport",
+        "Class": "COMPACT",
+        "Price": 211750,
+        "Brand": "Weeny"
+      },
+      {
+        "Model": "brioso3",
+        "Name": "Brioso 300 Widebody",
+        "Class": "COMPACT",
+        "Price": 220000,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "asea",
+        "Name": "Asea",
+        "Class": "SEDAN",
+        "Price": 80000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "glendale",
+        "Name": "Glendale",
+        "Class": "SEDAN",
+        "Price": 88250,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "warrener",
+        "Name": "Warrener",
+        "Class": "SEDAN",
+        "Price": 96750,
+        "Brand": "Vulcar"
+      },
+      {
+        "Model": "emperor",
+        "Name": "Emperor",
+        "Class": "SEDAN",
+        "Price": 105000,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "ingot",
+        "Name": "Ingot",
+        "Class": "SEDAN",
+        "Price": 113500,
+        "Brand": "Vulcar"
+      },
+      {
+        "Model": "primo",
+        "Name": "Primo",
+        "Class": "SEDAN",
+        "Price": 121750,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "regina",
+        "Name": "Regina",
+        "Class": "SEDAN",
+        "Price": 130250,
+        "Brand": "Dundreary"
+      },
+      {
+        "Model": "washington",
+        "Name": "Washington",
+        "Class": "SEDAN",
+        "Price": 138500,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "asterope",
+        "Name": "Asterope",
+        "Class": "SEDAN",
+        "Price": 147000,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "intruder",
+        "Name": "Intruder",
+        "Class": "SEDAN",
+        "Price": 155250,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "glendale2",
+        "Name": "Glendale Custom",
+        "Class": "SEDAN",
+        "Price": 163750,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "premier",
+        "Name": "Premier",
+        "Class": "SEDAN",
+        "Price": 172000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "primo2",
+        "Name": "Primo Custom",
+        "Class": "SEDAN",
+        "Price": 180500,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "stratum",
+        "Name": "Stratum",
+        "Class": "SEDAN",
+        "Price": 188750,
+        "Brand": "Zirconium"
+      },
+      {
+        "Model": "schafter2",
+        "Name": "Schafter",
+        "Class": "SEDAN",
+        "Price": 197250,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "eudora",
+        "Name": "Eudora",
+        "Class": "SEDAN",
+        "Price": 205500,
+        "Brand": "Willard"
+      },
+      {
+        "Model": "SUPERd",
+        "Name": "SUPER Diamond",
+        "Class": "SEDAN",
+        "Price": 214000,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "stanier",
+        "Name": "Stanier",
+        "Class": "SEDAN",
+        "Price": 222250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "stretch",
+        "Name": "Stretch",
+        "Class": "SEDAN",
+        "Price": 230750,
+        "Brand": "Dundreary"
+      },
+      {
+        "Model": "fugitive",
+        "Name": "Fugitive",
+        "Class": "SEDAN",
+        "Price": 239000,
+        "Brand": "Cheval"
+      },
+      {
+        "Model": "surge",
+        "Name": "Surge",
+        "Class": "SEDAN",
+        "Price": 247500,
+        "Brand": "Cheval"
+      },
+      {
+        "Model": "cog55",
+        "Name": "Cognoscenti 55",
+        "Class": "SEDAN",
+        "Price": 255750,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "oracle",
+        "Name": "Oracle",
+        "Class": "SEDAN",
+        "Price": 264250,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "tailgater",
+        "Name": "Tailgater",
+        "Class": "SEDAN",
+        "Price": 272500,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "cognoscenti",
+        "Name": "Cognoscenti",
+        "Class": "SEDAN",
+        "Price": 281000,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "comet7",
+        "Name": "Comet",
+        "Class": "SEDAN",
+        "Price": 289250,
+        "Brand": "S2 Cabrio"
+      },
+      {
+        "Model": "stafford",
+        "Name": "Stafford",
+        "Class": "SEDAN",
+        "Price": 297750,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "warrener2",
+        "Name": "Warrener HKR",
+        "Class": "SEDAN",
+        "Price": 306000,
+        "Brand": "Vulcar"
+      },
+      {
+        "Model": "tailgater2",
+        "Name": "Tailgater S",
+        "Class": "SEDAN",
+        "Price": 314500,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "rhinehart",
+        "Name": "Rhinehart",
+        "Class": "SEDAN",
+        "Price": 322750,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "cinquemila",
+        "Name": "Lampadati",
+        "Class": "SEDAN",
+        "Price": 331250,
+        "Brand": "Cinquemila"
+      },
+      {
+        "Model": "baller7",
+        "Name": "Baller ST",
+        "Class": "SEDAN",
+        "Price": 339500,
+        "Brand": "Gallivanter"
+      },
+      {
+        "Model": "astron",
+        "Name": "Astron",
+        "Class": "SEDAN",
+        "Price": 348000,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "iwagen",
+        "Name": "Obey",
+        "Class": "SEDAN",
+        "Price": 356250,
+        "Brand": "I-Wagen"
+      },
+      {
+        "Model": "asterope2",
+        "Name": "Asterope GZ",
+        "Class": "SEDAN",
+        "Price": 364750,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "jubilee",
+        "Name": "Jubilee",
+        "Class": "SEDAN",
+        "Price": 373000,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "deity",
+        "Name": "Deity",
+        "Class": "SEDAN",
+        "Price": 381500,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "impaler5",
+        "Name": "Impaler SZ",
+        "Class": "SEDAN",
+        "Price": 390000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "landstalker",
+        "Name": "Landstalker",
+        "Class": "SUV",
+        "Price": 80000,
+        "Brand": "Dundreary"
+      },
+      {
+        "Model": "rocoto",
+        "Name": "Rocoto",
+        "Class": "SUV",
+        "Price": 88250,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "seminole2",
+        "Name": "Seminole Frontier",
+        "Class": "SUV",
+        "Price": 96750,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "cavalcade",
+        "Name": "Cavalcade",
+        "Class": "SUV",
+        "Price": 105000,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "baller2",
+        "Name": "Baller II",
+        "Class": "SUV",
+        "Price": 113500,
+        "Brand": "Gallivanter"
+      },
+      {
+        "Model": "baller3",
+        "Name": "Baller LE",
+        "Class": "SUV",
+        "Price": 121750,
+        "Brand": "Gallivanter"
+      },
+      {
+        "Model": "cavalcade2",
+        "Name": "Cavalcade II",
+        "Class": "SUV",
+        "Price": 130250,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "xls",
+        "Name": "XLS",
+        "Class": "SUV",
+        "Price": 138500,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "radi",
+        "Name": "Radius",
+        "Class": "SUV",
+        "Price": 147000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "fq2",
+        "Name": "FQ2",
+        "Class": "SUV",
+        "Price": 155250,
+        "Brand": "Fathom"
+      },
+      {
+        "Model": "bjxl",
+        "Name": "BeeJay XL",
+        "Class": "SUV",
+        "Price": 163750,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "dubsta",
+        "Name": "Dubsta",
+        "Class": "SUV",
+        "Price": 172000,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "dubsta2",
+        "Name": "Dubsta Luxury",
+        "Class": "SUV",
+        "Price": 180500,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "habanero",
+        "Name": "Habanero",
+        "Class": "SUV",
+        "Price": 188750,
+        "Brand": "Emperor"
+      },
+      {
+        "Model": "seminole",
+        "Name": "Seminole",
+        "Class": "SUV",
+        "Price": 197250,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "patriot",
+        "Name": "Patriot",
+        "Class": "SUV",
+        "Price": 205500,
+        "Brand": "Mammoth"
+      },
+      {
+        "Model": "patriot2",
+        "Name": "Patriot Stretch",
+        "Class": "SUV",
+        "Price": 214000,
+        "Brand": "Mammoth"
+      },
+      {
+        "Model": "rebla",
+        "Name": "Rebla GTS",
+        "Class": "SUV",
+        "Price": 222250,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "baller",
+        "Name": "Baller",
+        "Class": "SUV",
+        "Price": 230750,
+        "Brand": "Gallivanter"
+      },
+      {
+        "Model": "granger",
+        "Name": "Granger",
+        "Class": "SUV",
+        "Price": 239000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "huntley",
+        "Name": "Huntley S",
+        "Class": "SUV",
+        "Price": 247500,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "gresley",
+        "Name": "Gresley",
+        "Class": "SUV",
+        "Price": 255750,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "landstalker2",
+        "Name": "Landstalker XL",
+        "Class": "SUV",
+        "Price": 264250,
+        "Brand": "Dundreary"
+      },
+      {
+        "Model": "baller4",
+        "Name": "Baller LE LWB",
+        "Class": "SUV",
+        "Price": 272500,
+        "Brand": "Gallivanter"
+      },
+      {
+        "Model": "contender",
+        "Name": "Contender",
+        "Class": "SUV",
+        "Price": 281000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "serrano",
+        "Name": "Serrano",
+        "Class": "SUV",
+        "Price": 289250,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "toros",
+        "Name": "Toros",
+        "Class": "SUV",
+        "Price": 297750,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "novak",
+        "Name": "Novak",
+        "Class": "SUV",
+        "Price": 306000,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "baller5",
+        "Name": "Baller LE (Armored)",
+        "Class": "SUV",
+        "Price": 314500,
+        "Brand": "Gallivanter"
+      },
+      {
+        "Model": "baller6",
+        "Name": "Baller LE LWB (Armored)",
+        "Class": "SUV",
+        "Price": 322750,
+        "Brand": "Gallivanter"
+      },
+      {
+        "Model": "dorado",
+        "Name": "Dorado",
+        "Class": "SUV",
+        "Price": 331250,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "castigator",
+        "Name": "Castigator",
+        "Class": "SUV",
+        "Price": 339500,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "vivanite",
+        "Name": "Vivanite",
+        "Class": "SUV",
+        "Price": 348000,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "cavalcade3",
+        "Name": "Cavalcade XL",
+        "Class": "SUV",
+        "Price": 356250,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "baller8",
+        "Name": "Baller ST-D",
+        "Class": "SUV",
+        "Price": 364750,
+        "Brand": "Gallivanter"
+      },
+      {
+        "Model": "aleutian",
+        "Name": "Aleutian",
+        "Class": "SUV",
+        "Price": 373000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "granger2",
+        "Name": "Granger 3600LX",
+        "Class": "SUV",
+        "Price": 381500,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "patriot3",
+        "Name": "Patriot Military",
+        "Class": "SUV",
+        "Price": 390000,
+        "Brand": "Mil-Spec"
+      },
+      {
+        "Model": "tahoma",
+        "Name": "Tahoma Coupe",
+        "Class": "COUPE",
+        "Price": 70000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "futo",
+        "Name": "Futo",
+        "Class": "COUPE",
+        "Price": 84750,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "jackal",
+        "Name": "Jackal",
+        "Class": "COUPE",
+        "Price": 99500,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "broadway",
+        "Name": "Broadway",
+        "Class": "COUPE",
+        "Price": 114250,
+        "Brand": "Classique"
+      },
+      {
+        "Model": "zion",
+        "Name": "Zion",
+        "Class": "COUPE",
+        "Price": 129000,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "windsor",
+        "Name": "Windsor",
+        "Class": "COUPE",
+        "Price": 143750,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "oracle2",
+        "Name": "Oracle XS",
+        "Class": "COUPE",
+        "Price": 158500,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "zion2",
+        "Name": "Zion Cabrio",
+        "Class": "COUPE",
+        "Price": 173250,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "cogcabrio",
+        "Name": "Cognoscenti Cabrio",
+        "Class": "COUPE",
+        "Price": 188000,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "sentinel",
+        "Name": "Sentinel",
+        "Class": "COUPE",
+        "Price": 202750,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "felon",
+        "Name": "Felon",
+        "Class": "COUPE",
+        "Price": 217500,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "f620",
+        "Name": "F620",
+        "Class": "COUPE",
+        "Price": 232250,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "sentinel2",
+        "Name": "Sentinel XS",
+        "Class": "COUPE",
+        "Price": 247000,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "windsor2",
+        "Name": "Windsor Drop",
+        "Class": "COUPE",
+        "Price": 261750,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "felon2",
+        "Name": "Felon GT",
+        "Class": "COUPE",
+        "Price": 276500,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "exemplar",
+        "Name": "Exemplar",
+        "Class": "COUPE",
+        "Price": 291250,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "sentinel3",
+        "Name": "Sentinel Classic",
+        "Class": "COUPE",
+        "Price": 306000,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "postlude",
+        "Name": "Postlude",
+        "Class": "COUPE",
+        "Price": 320750,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "kanjosj",
+        "Name": "Kanjo SJ",
+        "Class": "COUPE",
+        "Price": 335500,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "previon",
+        "Name": "Previon",
+        "Class": "COUPE",
+        "Price": 350250,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "fr36",
+        "Name": "FR36",
+        "Class": "COUPE",
+        "Price": 365000,
+        "Brand": "Fathom"
+      },
+      {
+        "Model": "champion",
+        "Name": "Champion",
+        "Class": "COUPE",
+        "Price": 380000,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "chino",
+        "Name": "Chino",
+        "Class": "MUSCLE",
+        "Price": 40000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "chino2",
+        "Name": "Chino Luxe",
+        "Class": "MUSCLE",
+        "Price": 45250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "manana",
+        "Name": "Manana",
+        "Class": "MUSCLE",
+        "Price": 50750,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "voodoo",
+        "Name": "Voodoo",
+        "Class": "MUSCLE",
+        "Price": 56250,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "faction",
+        "Name": "Faction",
+        "Class": "MUSCLE",
+        "Price": 61500,
+        "Brand": "Willard"
+      },
+      {
+        "Model": "slamvan3",
+        "Name": "Slam Van Custom",
+        "Class": "MUSCLE",
+        "Price": 67000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "faction2",
+        "Name": "Faction Rider",
+        "Class": "MUSCLE",
+        "Price": 72500,
+        "Brand": "Willard"
+      },
+      {
+        "Model": "yosemite",
+        "Name": "Yosemite",
+        "Class": "MUSCLE",
+        "Price": 77750,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "clique",
+        "Name": "Clique",
+        "Class": "MUSCLE",
+        "Price": 83250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "picador",
+        "Name": "Picador",
+        "Class": "MUSCLE",
+        "Price": 88750,
+        "Brand": "Cheval"
+      },
+      {
+        "Model": "ratloader2",
+        "Name": "Ratloader",
+        "Class": "MUSCLE",
+        "Price": 94000,
+        "Brand": "Ratloader2"
+      },
+      {
+        "Model": "lurcher",
+        "Name": "Lurcher",
+        "Class": "MUSCLE",
+        "Price": 99500,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "virgo3",
+        "Name": "Virgo Classic",
+        "Class": "MUSCLE",
+        "Price": 105000,
+        "Brand": "Dundreary"
+      },
+      {
+        "Model": "virgo2",
+        "Name": "Virgo Custom Classic",
+        "Class": "MUSCLE",
+        "Price": 110250,
+        "Brand": "Dundreary"
+      },
+      {
+        "Model": "virgo",
+        "Name": "Virgo",
+        "Class": "MUSCLE",
+        "Price": 115750,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "buccaneer",
+        "Name": "Buccaneer",
+        "Class": "MUSCLE",
+        "Price": 121250,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "sabregt",
+        "Name": "Sabre GT Turbo",
+        "Class": "MUSCLE",
+        "Price": 126500,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "blade",
+        "Name": "Blade",
+        "Class": "MUSCLE",
+        "Price": 132000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "dukes",
+        "Name": "Dukes",
+        "Class": "MUSCLE",
+        "Price": 137500,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "manana2",
+        "Name": "Manana Custom",
+        "Class": "MUSCLE",
+        "Price": 142750,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "buccaneer2",
+        "Name": "Buccaneer Rider",
+        "Class": "MUSCLE",
+        "Price": 148250,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "tampa",
+        "Name": "Tampa",
+        "Class": "MUSCLE",
+        "Price": 153750,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "sabregt2",
+        "Name": "Sabre GT Turbo Custom",
+        "Class": "MUSCLE",
+        "Price": 159000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "gauntlet",
+        "Name": "Gauntlet",
+        "Class": "MUSCLE",
+        "Price": 164500,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "ruiner",
+        "Name": "Ruiner",
+        "Class": "MUSCLE",
+        "Price": 170000,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "slamvan",
+        "Name": "Slam Van",
+        "Class": "MUSCLE",
+        "Price": 175250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "vamos",
+        "Name": "Vamos",
+        "Class": "MUSCLE",
+        "Price": 180750,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "stalion",
+        "Name": "Stallion",
+        "Class": "MUSCLE",
+        "Price": 186250,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "faction3",
+        "Name": "Faction Custom Donk",
+        "Class": "MUSCLE",
+        "Price": 191500,
+        "Brand": "Willard"
+      },
+      {
+        "Model": "vigero",
+        "Name": "Vigero",
+        "Class": "MUSCLE",
+        "Price": 197000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "stalion2",
+        "Name": "Stallion Burgershot",
+        "Class": "MUSCLE",
+        "Price": 202500,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "ellie",
+        "Name": "Ellie",
+        "Class": "MUSCLE",
+        "Price": 207750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "dukes3",
+        "Name": "Beater Dukes",
+        "Class": "MUSCLE",
+        "Price": 213250,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "dominator2",
+        "Name": "Pißwasser Dominator",
+        "Class": "MUSCLE",
+        "Price": 218750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "ruiner2",
+        "Name": "Ruiner 2000",
+        "Class": "MUSCLE",
+        "Price": 224000,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "yosemite2",
+        "Name": "Yosemite Drift",
+        "Class": "MUSCLE",
+        "Price": 229500,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "dukes2",
+        "Name": "Duke O'Death",
+        "Class": "MUSCLE",
+        "Price": 235000,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "dominator",
+        "Name": "Dominator",
+        "Class": "MUSCLE",
+        "Price": 240250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "phoenix",
+        "Name": "Phoenix",
+        "Class": "MUSCLE",
+        "Price": 245750,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "deviant",
+        "Name": "Deviant",
+        "Class": "MUSCLE",
+        "Price": 251250,
+        "Brand": "Schyster"
+      },
+      {
+        "Model": "dominator3",
+        "Name": "Dominator GTX",
+        "Class": "MUSCLE",
+        "Price": 256500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "nightshade",
+        "Name": "Nightshade",
+        "Class": "MUSCLE",
+        "Price": 262000,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "gauntlet2",
+        "Name": "Redwood Gauntlet",
+        "Class": "MUSCLE",
+        "Price": 267500,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "gauntlet3",
+        "Name": "Classic Gauntlet",
+        "Class": "MUSCLE",
+        "Price": 272750,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "dominator8",
+        "Name": "Dominator GTT",
+        "Class": "MUSCLE",
+        "Price": 278250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "tampa2",
+        "Name": "Drift Tampa",
+        "Class": "MUSCLE",
+        "Price": 283750,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "gauntlet4",
+        "Name": "Gauntlet Hellfire",
+        "Class": "MUSCLE",
+        "Price": 289000,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "tulip",
+        "Name": "Tulip",
+        "Class": "MUSCLE",
+        "Price": 294500,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "tulip2",
+        "Name": "Tulip M-100",
+        "Class": "MUSCLE",
+        "Price": 300000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "ruiner4",
+        "Name": "Ruiner ZZ-8",
+        "Class": "MUSCLE",
+        "Price": 305250,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "hotknife",
+        "Name": "Hotknife",
+        "Class": "MUSCLE",
+        "Price": 310750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "slamvan2",
+        "Name": "Lost Slam Van",
+        "Class": "MUSCLE",
+        "Price": 316250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "hustler",
+        "Name": "Hustler",
+        "Class": "MUSCLE",
+        "Price": 321500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "impaler",
+        "Name": "Impaler",
+        "Class": "MUSCLE",
+        "Price": 327000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "impaler2",
+        "Name": "Impaler Arena",
+        "Class": "MUSCLE",
+        "Price": 332500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "impaler3",
+        "Name": "Impaler Future Shock",
+        "Class": "MUSCLE",
+        "Price": 337750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "impaler4",
+        "Name": "Impaler Nightmare",
+        "Class": "MUSCLE",
+        "Price": 343250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "imperator",
+        "Name": "Imperator Arena",
+        "Class": "MUSCLE",
+        "Price": 348750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "imperator2",
+        "Name": "imperator Future Shock",
+        "Class": "MUSCLE",
+        "Price": 354000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "imperator3",
+        "Name": "Imperator Nightmare",
+        "Class": "MUSCLE",
+        "Price": 359500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "weevil2",
+        "Name": "Weevil Custom",
+        "Class": "MUSCLE",
+        "Price": 365000,
+        "Brand": "BF"
+      },
+      {
+        "Model": "clique2",
+        "Name": "Clique Wagon",
+        "Class": "MUSCLE",
+        "Price": 370250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "greenwood",
+        "Name": "Greenwood",
+        "Class": "MUSCLE",
+        "Price": 375750,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "vigero2",
+        "Name": "Vigero ZX",
+        "Class": "MUSCLE",
+        "Price": 381250,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "dominator7",
+        "Name": "Dominator ASP",
+        "Class": "MUSCLE",
+        "Price": 386500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "gauntlet5",
+        "Name": "Gauntlet Classic Custom",
+        "Class": "MUSCLE",
+        "Price": 392000,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "impaler6",
+        "Name": "Impaler LX",
+        "Class": "MUSCLE",
+        "Price": 397500,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "brigham",
+        "Name": "Brigham",
+        "Class": "MUSCLE",
+        "Price": 402750,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "coquette3",
+        "Name": "Coquette BlackFin",
+        "Class": "MUSCLE",
+        "Price": 408250,
+        "Brand": "Invetero"
+      },
+      {
+        "Model": "dominator4",
+        "Name": "Dominator Arena",
+        "Class": "MUSCLE",
+        "Price": 413750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "buffalo5",
+        "Name": "Buffalo EVX",
+        "Class": "MUSCLE",
+        "Price": 419000,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "dominator9",
+        "Name": "Dominator GT",
+        "Class": "MUSCLE",
+        "Price": 424500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "vigero3",
+        "Name": "Vigero ZX Convertible",
+        "Class": "MUSCLE",
+        "Price": 430000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "buffalo4",
+        "Name": "Buffalo STX",
+        "Class": "MUSCLE",
+        "Price": 430000,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "hermes",
+        "Name": "Hermes",
+        "Class": "MUSCLE",
+        "Price": 430000,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "cheburek",
+        "Name": "Cheburek",
+        "Class": "SPORT_CLASSIC",
+        "Price": 65000,
+        "Brand": "Rune"
+      },
+      {
+        "Model": "fagaloa",
+        "Name": "Fagaloa",
+        "Class": "SPORT_CLASSIC",
+        "Price": 72000,
+        "Brand": "Vulcar"
+      },
+      {
+        "Model": "tornado",
+        "Name": "Tornado",
+        "Class": "SPORT_CLASSIC",
+        "Price": 79000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "nebula",
+        "Name": "Nebula",
+        "Class": "SPORT_CLASSIC",
+        "Price": 86000,
+        "Brand": "Vulcar"
+      },
+      {
+        "Model": "tornado2",
+        "Name": "Tornado Convertible",
+        "Class": "SPORT_CLASSIC",
+        "Price": 93000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "tornado5",
+        "Name": "Tornado Custom",
+        "Class": "SPORT_CLASSIC",
+        "Price": 100000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "peyote",
+        "Name": "Peyote",
+        "Class": "SPORT_CLASSIC",
+        "Price": 107000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "dynasty",
+        "Name": "Dynasty",
+        "Class": "SPORT_CLASSIC",
+        "Price": 114000,
+        "Brand": "Weeny"
+      },
+      {
+        "Model": "ardent",
+        "Name": "Ardent",
+        "Class": "SPORT_CLASSIC",
+        "Price": 121000,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "michelli",
+        "Name": "Michelli GT",
+        "Class": "SPORT_CLASSIC",
+        "Price": 128000,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "retinue",
+        "Name": "Retinue",
+        "Class": "SPORT_CLASSIC",
+        "Price": 135000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "retinue2",
+        "Name": "Retinue MKII",
+        "Class": "SPORT_CLASSIC",
+        "Price": 142250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "stinger",
+        "Name": "Stinger",
+        "Class": "SPORT_CLASSIC",
+        "Price": 149250,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "jb7002",
+        "Name": "JB 700W",
+        "Class": "SPORT_CLASSIC",
+        "Price": 156250,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "peyote2",
+        "Name": "Peyote Gasser",
+        "Class": "SPORT_CLASSIC",
+        "Price": 163250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "zion3",
+        "Name": "Zion Classic",
+        "Class": "SPORT_CLASSIC",
+        "Price": 170250,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "peyote3",
+        "Name": "Peyote Custom",
+        "Class": "SPORT_CLASSIC",
+        "Price": 177250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "toreador",
+        "Name": "Toreador",
+        "Class": "SPORT_CLASSIC",
+        "Price": 184250,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "deluxo",
+        "Name": "Deluxo",
+        "Class": "SPORT_CLASSIC",
+        "Price": 191250,
+        "Brand": "Imponte"
+      },
+      {
+        "Model": "btype3",
+        "Name": "Roosevelt Valor",
+        "Class": "SPORT_CLASSIC",
+        "Price": 198250,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "savestra",
+        "Name": "Savestra",
+        "Class": "SPORT_CLASSIC",
+        "Price": 205250,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "stingergt",
+        "Name": "Stinger GT",
+        "Class": "SPORT_CLASSIC",
+        "Price": 212500,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "btype",
+        "Name": "Roosevelt",
+        "Class": "SPORT_CLASSIC",
+        "Price": 219500,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "z190",
+        "Name": "190Z",
+        "Class": "SPORT_CLASSIC",
+        "Price": 226500,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "stromberg",
+        "Name": "Stromberg",
+        "Class": "SPORT_CLASSIC",
+        "Price": 233500,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "torero",
+        "Name": "Torero",
+        "Class": "SPORT_CLASSIC",
+        "Price": 240500,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "btype2",
+        "Name": "Franken Stange",
+        "Class": "SPORT_CLASSIC",
+        "Price": 247500,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "rapidgt3",
+        "Name": "Rapid GT Classic",
+        "Class": "SPORT_CLASSIC",
+        "Price": 254500,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "pigalle",
+        "Name": "Pigalle",
+        "Class": "SPORT_CLASSIC",
+        "Price": 261500,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "casco",
+        "Name": "Casco",
+        "Class": "SPORT_CLASSIC",
+        "Price": 268500,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "driftnebula",
+        "Name": "Nebula Turbo",
+        "Class": "SPORT_CLASSIC",
+        "Price": 275500,
+        "Brand": "Vulcar"
+      },
+      {
+        "Model": "monroe",
+        "Name": "Monroe",
+        "Class": "SPORT_CLASSIC",
+        "Price": 282500,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "feltzer3",
+        "Name": "Stirling GT",
+        "Class": "SPORT_CLASSIC",
+        "Price": 289750,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "gt500",
+        "Name": "GT500",
+        "Class": "SPORT_CLASSIC",
+        "Price": 296750,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "mamba",
+        "Name": "Mamba",
+        "Class": "SPORT_CLASSIC",
+        "Price": 303750,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "coquette2",
+        "Name": "Coquette Classic",
+        "Class": "SPORT_CLASSIC",
+        "Price": 310750,
+        "Brand": "Invetero"
+      },
+      {
+        "Model": "turismo2",
+        "Name": "Turismo Classic",
+        "Class": "SPORT_CLASSIC",
+        "Price": 317750,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "envisage",
+        "Name": "Envisage",
+        "Class": "SPORT_CLASSIC",
+        "Price": 324750,
+        "Brand": "Bollokan"
+      },
+      {
+        "Model": "viseris",
+        "Name": "Viseris",
+        "Class": "SPORT_CLASSIC",
+        "Price": 331750,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "swinger",
+        "Name": "Swinger",
+        "Class": "SPORT_CLASSIC",
+        "Price": 338750,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "jb700",
+        "Name": "JB 700",
+        "Class": "SPORT_CLASSIC",
+        "Price": 345750,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "infernus2",
+        "Name": "Infernus Classic",
+        "Class": "SPORT_CLASSIC",
+        "Price": 352750,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "ztype",
+        "Name": "Z-Type",
+        "Class": "SPORT_CLASSIC",
+        "Price": 360000,
+        "Brand": "Truffade"
+      },
+      {
+        "Model": "issi8",
+        "Name": "Issi Rally",
+        "Class": "SPORT",
+        "Price": 140000,
+        "Brand": "Weeny"
+      },
+      {
+        "Model": "buffalo",
+        "Name": "Buffalo",
+        "Class": "SPORT",
+        "Price": 144250,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "schafter4",
+        "Name": "Schafter LWB",
+        "Class": "SPORT",
+        "Price": 148500,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "penumbra",
+        "Name": "Penumbra",
+        "Class": "SPORT",
+        "Price": 152750,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "buffalo2",
+        "Name": "Buffalo S",
+        "Class": "SPORT",
+        "Price": 157000,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "penumbra2",
+        "Name": "Penumbra FF",
+        "Class": "SPORT",
+        "Price": 161250,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "schafter3",
+        "Name": "Schafter V12",
+        "Class": "SPORT",
+        "Price": 165500,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "bestiagts",
+        "Name": "Bestia GTS",
+        "Class": "SPORT",
+        "Price": 169750,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "zr350",
+        "Name": "ZR350",
+        "Class": "SPORT",
+        "Price": 174000,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "calico",
+        "Name": "Calico GTF",
+        "Class": "SPORT",
+        "Price": 178250,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "futo2",
+        "Name": "Futo GTX",
+        "Class": "SPORT",
+        "Price": 182500,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "streiter",
+        "Name": "Streiter",
+        "Class": "SPORT",
+        "Price": 186750,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "schwarzer",
+        "Name": "Schwartzer",
+        "Class": "SPORT",
+        "Price": 191250,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "flashgt",
+        "Name": "Flash GT",
+        "Class": "SPORT",
+        "Price": 195500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "remus",
+        "Name": "Remus",
+        "Class": "SPORT",
+        "Price": 199750,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "sultan",
+        "Name": "Sultan",
+        "Class": "SPORT",
+        "Price": 204000,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "alpha",
+        "Name": "Alpha",
+        "Class": "SPORT",
+        "Price": 208250,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "komoda",
+        "Name": "Komoda",
+        "Class": "SPORT",
+        "Price": 212500,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "panthere",
+        "Name": "Panthere",
+        "Class": "SPORT",
+        "Price": 216750,
+        "Brand": "Toundra"
+      },
+      {
+        "Model": "sultan2",
+        "Name": "Sultan Custom",
+        "Class": "SPORT",
+        "Price": 221000,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "r300",
+        "Name": "300R",
+        "Class": "SPORT",
+        "Price": 225250,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "banshee",
+        "Name": "Banshee",
+        "Class": "SPORT",
+        "Price": 229500,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "sultan3",
+        "Name": "Sultan Classic Custom",
+        "Class": "SPORT",
+        "Price": 233750,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "paragon",
+        "Name": "Paragon",
+        "Class": "SPORT",
+        "Price": 238000,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "rt3000",
+        "Name": "RT3000",
+        "Class": "SPORT",
+        "Price": 242500,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "tropos",
+        "Name": "Tropos Rallye",
+        "Class": "SPORT",
+        "Price": 246750,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "kuruma",
+        "Name": "Kuruma",
+        "Class": "SPORT",
+        "Price": 251000,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "kuruma2",
+        "Name": "kuruma2",
+        "Class": "SPORT",
+        "Price": 255250,
+        "Brand": "Karin2"
+      },
+      {
+        "Model": "sultanrs",
+        "Name": "Sultan RS",
+        "Class": "SPORT",
+        "Price": 259500,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "furoregt",
+        "Name": "Furore GT",
+        "Class": "SPORT",
+        "Price": 263750,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "drafter",
+        "Name": "8F Drafter",
+        "Class": "SPORT",
+        "Price": 268000,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "euros",
+        "Name": "Euros",
+        "Class": "SPORT",
+        "Price": 272250,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "everon2",
+        "Name": "Everon Hotring",
+        "Class": "SPORT",
+        "Price": 276500,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "jugular",
+        "Name": "Jugular",
+        "Class": "SPORT",
+        "Price": 280750,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "massacro2",
+        "Name": "Massacro Racecar",
+        "Class": "SPORT",
+        "Price": 285000,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "surano",
+        "Name": "Surano",
+        "Class": "SPORT",
+        "Price": 289250,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "vstr",
+        "Name": "V-STR",
+        "Class": "SPORT",
+        "Price": 293750,
+        "Brand": "Albany"
+      },
+      {
+        "Model": "vectre",
+        "Name": "Vectre",
+        "Class": "SPORT",
+        "Price": 298000,
+        "Brand": "Emperor"
+      },
+      {
+        "Model": "jester3",
+        "Name": "Jester Classic",
+        "Class": "SPORT",
+        "Price": 302250,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "sugoi",
+        "Name": "Sugoi",
+        "Class": "SPORT",
+        "Price": 306500,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "rapidgt",
+        "Name": "Rapid GT",
+        "Class": "SPORT",
+        "Price": 310750,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "corsita",
+        "Name": "Corsita",
+        "Class": "SPORT",
+        "Price": 315000,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "khamelion",
+        "Name": "Khamelion",
+        "Class": "SPORT",
+        "Price": 319250,
+        "Brand": "Hijak"
+      },
+      {
+        "Model": "omnis",
+        "Name": "Omnis",
+        "Class": "SPORT",
+        "Price": 323500,
+        "Brand": "Wow"
+      },
+      {
+        "Model": "pariah",
+        "Name": "Pariah",
+        "Class": "SPORT",
+        "Price": 327750,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "raptor",
+        "Name": "Raptor",
+        "Class": "SPORT",
+        "Price": 332000,
+        "Brand": "BF"
+      },
+      {
+        "Model": "verlierer2",
+        "Name": "Verlierer",
+        "Class": "SPORT",
+        "Price": 336250,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "rapidgt2",
+        "Name": "Rapid GT Convertible",
+        "Class": "SPORT",
+        "Price": 340500,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "ninef",
+        "Name": "9F",
+        "Class": "SPORT",
+        "Price": 345000,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "revolter",
+        "Name": "Revolter",
+        "Class": "SPORT",
+        "Price": 349250,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "feltzer2",
+        "Name": "Feltzer",
+        "Class": "SPORT",
+        "Price": 353500,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "ninef2",
+        "Name": "9F Cabrio",
+        "Class": "SPORT",
+        "Price": 357750,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "comet4",
+        "Name": "Comet Safari",
+        "Class": "SPORT",
+        "Price": 362000,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "massacro",
+        "Name": "Massacro",
+        "Class": "SPORT",
+        "Price": 366250,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "imorgon",
+        "Name": "Imorgon",
+        "Class": "SPORT",
+        "Price": 370500,
+        "Brand": "Överflöd"
+      },
+      {
+        "Model": "sm722",
+        "Name": "SM722",
+        "Class": "SPORT",
+        "Price": 374750,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "comet2",
+        "Name": "Comet",
+        "Class": "SPORT",
+        "Price": 379000,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "ruston",
+        "Name": "Ruston",
+        "Class": "SPORT",
+        "Price": 383250,
+        "Brand": "Hijak"
+      },
+      {
+        "Model": "jester",
+        "Name": "Jester",
+        "Class": "SPORT",
+        "Price": 387500,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "gb200",
+        "Name": "GB 200",
+        "Class": "SPORT",
+        "Price": 391750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "sentinel4",
+        "Name": "Sentinel Classic Widebody",
+        "Class": "SPORT",
+        "Price": 396250,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "seven70",
+        "Name": "Seven-70",
+        "Class": "SPORT",
+        "Price": 400500,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "coquette",
+        "Name": "Coquette",
+        "Class": "SPORT",
+        "Price": 404750,
+        "Brand": "Invetero"
+      },
+      {
+        "Model": "elegy",
+        "Name": "Elegy Retro Custom",
+        "Class": "SPORT",
+        "Price": 409000,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "driftsentinel",
+        "Name": "Drift Sentinel Classic",
+        "Class": "SPORT",
+        "Price": 413250,
+        "Brand": "Ubermacht"
+      },
+      {
+        "Model": "elegy2",
+        "Name": "Elegy RH8",
+        "Class": "SPORT",
+        "Price": 417500,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "lynx",
+        "Name": "Lynx",
+        "Class": "SPORT",
+        "Price": 421750,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "carbonizzare",
+        "Name": "Carbonizzare",
+        "Class": "SPORT",
+        "Price": 426000,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "comet5",
+        "Name": "Comet SR",
+        "Class": "SPORT",
+        "Price": 430250,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "cypher",
+        "Name": "Cypher",
+        "Class": "SPORT",
+        "Price": 434500,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "driftcypher",
+        "Name": "Drift Cypher",
+        "Class": "SPORT",
+        "Price": 438750,
+        "Brand": "Ubermacht"
+      },
+      {
+        "Model": "schlagen",
+        "Name": "Schlagen GT",
+        "Class": "SPORT",
+        "Price": 443000,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "specter",
+        "Name": "Specter",
+        "Class": "SPORT",
+        "Price": 447500,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "comet3",
+        "Name": "Comet Retro Custom",
+        "Class": "SPORT",
+        "Price": 451750,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "eurosX32",
+        "Name": "Euros X32",
+        "Class": "SPORT",
+        "Price": 456000,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "niobe",
+        "Name": "Niobe",
+        "Class": "SPORT",
+        "Price": 460250,
+        "Brand": "Ubermacht"
+      },
+      {
+        "Model": "gauntlet6",
+        "Name": "Hotring Hellfire",
+        "Class": "SPORT",
+        "Price": 464500,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "tenf",
+        "Name": "10F",
+        "Class": "SPORT",
+        "Price": 468750,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "omnisegt",
+        "Name": "Omnis e-GT",
+        "Class": "SPORT",
+        "Price": 473000,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "cheetah2",
+        "Name": "Cheetah Classic",
+        "Class": "SPORT",
+        "Price": 477250,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "coureur",
+        "Name": "La Coureuse",
+        "Class": "SPORT",
+        "Price": 481500,
+        "Brand": "Penaud"
+      },
+      {
+        "Model": "locust",
+        "Name": "Locust",
+        "Class": "SPORT",
+        "Price": 485750,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "growler",
+        "Name": "Growler",
+        "Class": "SPORT",
+        "Price": 490000,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "jester2",
+        "Name": "Jester Racecar",
+        "Class": "SPORT",
+        "Price": 494250,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "tenf2",
+        "Name": "10F Widebody",
+        "Class": "SPORT",
+        "Price": 498750,
+        "Brand": "Obey"
+      },
+      {
+        "Model": "coquette5",
+        "Name": "Coquette D1",
+        "Class": "SPORT",
+        "Price": 503000,
+        "Brand": "Invetero"
+      },
+      {
+        "Model": "coquette4",
+        "Name": "Coquette D10",
+        "Class": "SPORT",
+        "Price": 507250,
+        "Brand": "Invetero"
+      },
+      {
+        "Model": "neon",
+        "Name": "Neon",
+        "Class": "SPORT",
+        "Price": 511500,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "paragon3",
+        "Name": "Paragon S",
+        "Class": "SPORT",
+        "Price": 515750,
+        "Brand": "Enus"
+      },
+      {
+        "Model": "comet6",
+        "Name": "Comet S2",
+        "Class": "SPORT",
+        "Price": 520000,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "neo",
+        "Name": "Neo",
+        "Class": "SPORT",
+        "Price": 524250,
+        "Brand": "Vysser"
+      },
+      {
+        "Model": "stingertt",
+        "Name": "Itali GTO Stinger TT",
+        "Class": "SPORT",
+        "Price": 528500,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "jester4",
+        "Name": "Jester RR",
+        "Class": "SPORT",
+        "Price": 532750,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "pipistrello",
+        "Name": "Pipistrello",
+        "Class": "SPORT",
+        "Price": 537000,
+        "Brand": "Overflod"
+      },
+      {
+        "Model": "vorschlaghammer",
+        "Name": "Vorschlaghammer",
+        "Class": "SPORT",
+        "Price": 541250,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "driftvorschlag",
+        "Name": "Vorschlaghammer",
+        "Class": "SPORT",
+        "Price": 545500,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "italigto",
+        "Name": "Itali GTO",
+        "Class": "SPORT",
+        "Price": 550000,
+        "Brand": "Progen"
+      },
+      {
+        "Model": "italirsx",
+        "Name": "Itali RSX",
+        "Class": "SPORT",
+        "Price": 550000,
+        "Brand": "Progen"
+      },
+      {
+        "Model": "visione",
+        "Name": "Visione",
+        "Class": "SPORT",
+        "Price": 550000,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "virtue",
+        "Name": "Virtue",
+        "Class": "SUPER",
+        "Price": 250000,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "sc1",
+        "Name": "SC1",
+        "Class": "SUPER",
+        "Price": 257000,
+        "Brand": "Übermacht"
+      },
+      {
+        "Model": "reaper",
+        "Name": "Reaper",
+        "Class": "SUPER",
+        "Price": 264000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "vacca",
+        "Name": "Vacca",
+        "Class": "SUPER",
+        "Price": 271000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "gp1",
+        "Name": "GP1",
+        "Class": "SUPER",
+        "Price": 278000,
+        "Brand": "Progen"
+      },
+      {
+        "Model": "banshee2",
+        "Name": "Banshee 900R",
+        "Class": "SUPER",
+        "Price": 285000,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "bullet",
+        "Name": "Bullet",
+        "Class": "SUPER",
+        "Price": 292000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "tempesta",
+        "Name": "Tempesta",
+        "Class": "SUPER",
+        "Price": 299000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "voltic",
+        "Name": "Voltic",
+        "Class": "SUPER",
+        "Price": 306000,
+        "Brand": "Coil"
+      },
+      {
+        "Model": "fmj",
+        "Name": "FMJ",
+        "Class": "SUPER",
+        "Price": 313000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "penetrator",
+        "Name": "Penetrator",
+        "Class": "SUPER",
+        "Price": 320000,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "turismor",
+        "Name": "Turismo R",
+        "Class": "SUPER",
+        "Price": 327000,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "lm87",
+        "Name": "LM87",
+        "Class": "SUPER",
+        "Price": 334000,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "entity2",
+        "Name": "Entity XXR",
+        "Class": "SUPER",
+        "Price": 341000,
+        "Brand": "Överflöd"
+      },
+      {
+        "Model": "italigtb",
+        "Name": "Itali GTB",
+        "Class": "SUPER",
+        "Price": 348000,
+        "Brand": "Progen"
+      },
+      {
+        "Model": "entityxf",
+        "Name": "Entity XF",
+        "Class": "SUPER",
+        "Price": 355000,
+        "Brand": "Överflöd"
+      },
+      {
+        "Model": "thrax",
+        "Name": "Thrax",
+        "Class": "SUPER",
+        "Price": 362000,
+        "Brand": "Truffade"
+      },
+      {
+        "Model": "xa21",
+        "Name": "XA-21",
+        "Class": "SUPER",
+        "Price": 369000,
+        "Brand": "Ocelot"
+      },
+      {
+        "Model": "entity3",
+        "Name": "Entity MT",
+        "Class": "SUPER",
+        "Price": 376000,
+        "Brand": "Overflod"
+      },
+      {
+        "Model": "nero",
+        "Name": "Nero",
+        "Class": "SUPER",
+        "Price": 383000,
+        "Brand": "Truffade"
+      },
+      {
+        "Model": "s80",
+        "Name": "S80RR",
+        "Class": "SUPER",
+        "Price": 390000,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "cheetah",
+        "Name": "Cheetah",
+        "Class": "SUPER",
+        "Price": 397000,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "pfister811",
+        "Name": "811",
+        "Class": "SUPER",
+        "Price": 404000,
+        "Brand": "Pfister"
+      },
+      {
+        "Model": "emerus",
+        "Name": "Emerus",
+        "Class": "SUPER",
+        "Price": 411000,
+        "Brand": "Progen"
+      },
+      {
+        "Model": "sheava",
+        "Name": "ETR1",
+        "Class": "SUPER",
+        "Price": 418000,
+        "Brand": "Emperor"
+      },
+      {
+        "Model": "osiris",
+        "Name": "Osiris",
+        "Class": "SUPER",
+        "Price": 425000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "tezeract",
+        "Name": "Tezeract",
+        "Class": "SUPER",
+        "Price": 432000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "krieger",
+        "Name": "Krieger",
+        "Class": "SUPER",
+        "Price": 439000,
+        "Brand": "Benefactor"
+      },
+      {
+        "Model": "autarch",
+        "Name": "Autarch",
+        "Class": "SUPER",
+        "Price": 446000,
+        "Brand": "Överflöd"
+      },
+      {
+        "Model": "furia",
+        "Name": "Furia",
+        "Class": "SUPER",
+        "Price": 453000,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "tyrus",
+        "Name": "Tyrus",
+        "Class": "SUPER",
+        "Price": 460000,
+        "Brand": "Progen"
+      },
+      {
+        "Model": "deveste",
+        "Name": "Deveste",
+        "Class": "SUPER",
+        "Price": 467000,
+        "Brand": "Principe"
+      },
+      {
+        "Model": "infernus",
+        "Name": "Infernus",
+        "Class": "SUPER",
+        "Price": 474000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "prototipo",
+        "Name": "X80 Proto",
+        "Class": "SUPER",
+        "Price": 481000,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "tigon",
+        "Name": "Tigon",
+        "Class": "SUPER",
+        "Price": 488000,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "torero2",
+        "Name": "Torero XO",
+        "Class": "SUPER",
+        "Price": 495000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "italigtb2",
+        "Name": "Itali GTB Custom",
+        "Class": "SUPER",
+        "Price": 502000,
+        "Brand": "Progen"
+      },
+      {
+        "Model": "nero2",
+        "Name": "Nero Custom",
+        "Class": "SUPER",
+        "Price": 509000,
+        "Brand": "Truffade"
+      },
+      {
+        "Model": "le7b",
+        "Name": "RE-7B",
+        "Class": "SUPER",
+        "Price": 516000,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "zorrusso",
+        "Name": "Zorrusso",
+        "Class": "SUPER",
+        "Price": 523000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "adder",
+        "Name": "Adder",
+        "Class": "SUPER",
+        "Price": 530000,
+        "Brand": "Truffade"
+      },
+      {
+        "Model": "turismo3",
+        "Name": "Turismo Omaggio",
+        "Class": "SUPER",
+        "Price": 537000,
+        "Brand": "Grotti"
+      },
+      {
+        "Model": "cyclone",
+        "Name": "Cyclone",
+        "Class": "SUPER",
+        "Price": 544000,
+        "Brand": "Coil"
+      },
+      {
+        "Model": "zentorno",
+        "Name": "Zentorno",
+        "Class": "SUPER",
+        "Price": 551000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "ignus",
+        "Name": "Ignus",
+        "Class": "SUPER",
+        "Price": 558000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "zeno",
+        "Name": "Zeno",
+        "Class": "SUPER",
+        "Price": 565000,
+        "Brand": "Överflöd"
+      },
+      {
+        "Model": "t20",
+        "Name": "T20",
+        "Class": "SUPER",
+        "Price": 572000,
+        "Brand": "Progen"
+      },
+      {
+        "Model": "vagner",
+        "Name": "Vagner",
+        "Class": "SUPER",
+        "Price": 579000,
+        "Brand": "Dewbauchee"
+      },
+      {
+        "Model": "taipan",
+        "Name": "Taipan",
+        "Class": "SUPER",
+        "Price": 586000,
+        "Brand": "Cheval"
+      },
+      {
+        "Model": "tyrant",
+        "Name": "Tyrant",
+        "Class": "SUPER",
+        "Price": 593000,
+        "Brand": "Överflöd"
+      },
+      {
+        "Model": "voltic2",
+        "Name": "Rocket Voltic",
+        "Class": "SUPER",
+        "Price": 600000,
+        "Brand": "Coil"
+      },
+      {
+        "Model": "faggio2",
+        "Name": "Faggio",
+        "Class": "MOTORCYCLE",
+        "Price": 20000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "faggio",
+        "Name": "Faggio Sport",
+        "Class": "MOTORCYCLE",
+        "Price": 25750,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "faggio3",
+        "Name": "Faggio Mod",
+        "Class": "MOTORCYCLE",
+        "Price": 31750,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "ratbike",
+        "Name": "Rat Bike",
+        "Class": "MOTORCYCLE",
+        "Price": 37500,
+        "Brand": "Western"
+      },
+      {
+        "Model": "fcr",
+        "Name": "FCR 1000",
+        "Class": "MOTORCYCLE",
+        "Price": 43500,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "sanchez2",
+        "Name": "Sanchez",
+        "Class": "MOTORCYCLE",
+        "Price": 49250,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "sanchez",
+        "Name": "Sanchez Livery",
+        "Class": "MOTORCYCLE",
+        "Price": 55250,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "enduro",
+        "Name": "Enduro",
+        "Class": "MOTORCYCLE",
+        "Price": 61250,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "powersurge",
+        "Name": "Powersurge",
+        "Class": "MOTORCYCLE",
+        "Price": 67000,
+        "Brand": "Western"
+      },
+      {
+        "Model": "vader",
+        "Name": "Vader",
+        "Class": "MOTORCYCLE",
+        "Price": 73000,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "sovereign",
+        "Name": "Sovereign",
+        "Class": "MOTORCYCLE",
+        "Price": 78750,
+        "Brand": "WMC"
+      },
+      {
+        "Model": "manchez",
+        "Name": "Manchez",
+        "Class": "MOTORCYCLE",
+        "Price": 84750,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "esskey",
+        "Name": "Esskey",
+        "Class": "MOTORCYCLE",
+        "Price": 90500,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "bagger",
+        "Name": "Bagger",
+        "Class": "MOTORCYCLE",
+        "Price": 96500,
+        "Brand": "WMC"
+      },
+      {
+        "Model": "daemon",
+        "Name": "Daemon",
+        "Class": "MOTORCYCLE",
+        "Price": 102500,
+        "Brand": "WMC"
+      },
+      {
+        "Model": "manchez2",
+        "Name": "Manchez Scout",
+        "Class": "MOTORCYCLE",
+        "Price": 108250,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "wolfsbane",
+        "Name": "Wolfsbane",
+        "Class": "MOTORCYCLE",
+        "Price": 114250,
+        "Brand": "Western"
+      },
+      {
+        "Model": "manchez3",
+        "Name": "Manchez Scout Classic",
+        "Class": "MOTORCYCLE",
+        "Price": 120000,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "pcj",
+        "Name": "PCJ-600",
+        "Class": "MOTORCYCLE",
+        "Price": 126000,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "hexer",
+        "Name": "Hexer",
+        "Class": "MOTORCYCLE",
+        "Price": 131750,
+        "Brand": "LCC"
+      },
+      {
+        "Model": "hakuchou",
+        "Name": "Hakuchou",
+        "Class": "MOTORCYCLE",
+        "Price": 137750,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "bati2",
+        "Name": "Bati 801RR",
+        "Class": "MOTORCYCLE",
+        "Price": 143750,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "fcr2",
+        "Name": "FCR 1000 Custom",
+        "Class": "MOTORCYCLE",
+        "Price": 149500,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "vindicator",
+        "Name": "Vindicator",
+        "Class": "MOTORCYCLE",
+        "Price": 155500,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "avarus",
+        "Name": "Avarus",
+        "Class": "MOTORCYCLE",
+        "Price": 161250,
+        "Brand": "LCC"
+      },
+      {
+        "Model": "nemesis",
+        "Name": "Nemesis",
+        "Class": "MOTORCYCLE",
+        "Price": 167250,
+        "Brand": "Principe"
+      },
+      {
+        "Model": "chimera",
+        "Name": "Chimera",
+        "Class": "MOTORCYCLE",
+        "Price": 173000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "bf400",
+        "Name": "BF400",
+        "Class": "MOTORCYCLE",
+        "Price": 179000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "carbonrs",
+        "Name": "Carbon RS",
+        "Class": "MOTORCYCLE",
+        "Price": 185000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "thrust",
+        "Name": "Thrust",
+        "Class": "MOTORCYCLE",
+        "Price": 190750,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "daemon2",
+        "Name": "Daemon Custom",
+        "Class": "MOTORCYCLE",
+        "Price": 196750,
+        "Brand": "Western"
+      },
+      {
+        "Model": "nightblade",
+        "Name": "Nightblade",
+        "Class": "MOTORCYCLE",
+        "Price": 202500,
+        "Brand": "WMC"
+      },
+      {
+        "Model": "bati",
+        "Name": "Bati 801",
+        "Class": "MOTORCYCLE",
+        "Price": 208500,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "reever",
+        "Name": "Reever",
+        "Class": "MOTORCYCLE",
+        "Price": 214250,
+        "Brand": "Western"
+      },
+      {
+        "Model": "ruffian",
+        "Name": "Ruffian",
+        "Class": "MOTORCYCLE",
+        "Price": 220250,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "shinobi",
+        "Name": "Shinobi",
+        "Class": "MOTORCYCLE",
+        "Price": 226250,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "zombieb",
+        "Name": "Zombie Chopper",
+        "Class": "MOTORCYCLE",
+        "Price": 232000,
+        "Brand": "Western"
+      },
+      {
+        "Model": "double",
+        "Name": "Double-T",
+        "Class": "MOTORCYCLE",
+        "Price": 238000,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "lectro",
+        "Name": "Lectro",
+        "Class": "MOTORCYCLE",
+        "Price": 243750,
+        "Brand": "Principe"
+      },
+      {
+        "Model": "zombiea",
+        "Name": "Zombie Bobber",
+        "Class": "MOTORCYCLE",
+        "Price": 249750,
+        "Brand": "Western"
+      },
+      {
+        "Model": "cliffhanger",
+        "Name": "Cliffhanger",
+        "Class": "MOTORCYCLE",
+        "Price": 255500,
+        "Brand": "Western"
+      },
+      {
+        "Model": "deathbike",
+        "Name": "Deathbike Apocalypse",
+        "Class": "MOTORCYCLE",
+        "Price": 261500,
+        "Brand": "Deathbike"
+      },
+      {
+        "Model": "deathbike2",
+        "Name": "Deathbike Future Shock",
+        "Class": "MOTORCYCLE",
+        "Price": 267500,
+        "Brand": "Deathbike"
+      },
+      {
+        "Model": "deathbike3",
+        "Name": "Deathbike Nightmare",
+        "Class": "MOTORCYCLE",
+        "Price": 273250,
+        "Brand": "Deathbike"
+      },
+      {
+        "Model": "defiler",
+        "Name": "Defiler",
+        "Class": "MOTORCYCLE",
+        "Price": 279250,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "diablous",
+        "Name": "Diablous",
+        "Class": "MOTORCYCLE",
+        "Price": 285000,
+        "Brand": "Principe"
+      },
+      {
+        "Model": "vortex",
+        "Name": "Vortex",
+        "Class": "MOTORCYCLE",
+        "Price": 291000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "gargoyle",
+        "Name": "Gargoyle",
+        "Class": "MOTORCYCLE",
+        "Price": 296750,
+        "Brand": "Western"
+      },
+      {
+        "Model": "innovation",
+        "Name": "Innovation",
+        "Class": "MOTORCYCLE",
+        "Price": 302750,
+        "Brand": "LLC"
+      },
+      {
+        "Model": "sanctus",
+        "Name": "Sanctus",
+        "Class": "MOTORCYCLE",
+        "Price": 308750,
+        "Brand": "LCC"
+      },
+      {
+        "Model": "diablous2",
+        "Name": "Diablous Custom",
+        "Class": "MOTORCYCLE",
+        "Price": 314500,
+        "Brand": "Principe"
+      },
+      {
+        "Model": "hakuchou2",
+        "Name": "Hakuchou Drag",
+        "Class": "MOTORCYCLE",
+        "Price": 320500,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "pizzaboy",
+        "Name": "Pizza Boy",
+        "Class": "MOTORCYCLE",
+        "Price": 326250,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "stryder",
+        "Name": "Stryder",
+        "Class": "MOTORCYCLE",
+        "Price": 332250,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "akuma",
+        "Name": "Akuma",
+        "Class": "MOTORCYCLE",
+        "Price": 338000,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "shotaro",
+        "Name": "Shotaro",
+        "Class": "MOTORCYCLE",
+        "Price": 344000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "oppressor",
+        "Name": "Oppressor",
+        "Class": "MOTORCYCLE",
+        "Price": 350000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "blazer3",
+        "Name": "Blazer Hot Rod",
+        "Class": "OFF_ROAD",
+        "Price": 100000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "blazer2",
+        "Name": "Blazer Lifeguard",
+        "Class": "OFF_ROAD",
+        "Price": 108750,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "blazer",
+        "Name": "Blazer",
+        "Class": "OFF_ROAD",
+        "Price": 117750,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "bfinjection",
+        "Name": "Bf Injection",
+        "Class": "OFF_ROAD",
+        "Price": 126500,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "blazer4",
+        "Name": "Blazer Sport",
+        "Class": "OFF_ROAD",
+        "Price": 135500,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "winky",
+        "Name": "Winky",
+        "Class": "OFF_ROAD",
+        "Price": 144250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "mesa",
+        "Name": "Mesa",
+        "Class": "OFF_ROAD",
+        "Price": 153250,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "dune",
+        "Name": "Dune Buggy",
+        "Class": "OFF_ROAD",
+        "Price": 162000,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "kalahari",
+        "Name": "Kalahari",
+        "Class": "OFF_ROAD",
+        "Price": 171000,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "outlaw",
+        "Name": "Outlaw",
+        "Class": "OFF_ROAD",
+        "Price": 180000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "bifta",
+        "Name": "Bifta",
+        "Class": "OFF_ROAD",
+        "Price": 188750,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "rebel2",
+        "Name": "Rebel",
+        "Class": "OFF_ROAD",
+        "Price": 197750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "verus",
+        "Name": "Verus",
+        "Class": "OFF_ROAD",
+        "Price": 206500,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "freecrawler",
+        "Name": "Freecrawler",
+        "Class": "OFF_ROAD",
+        "Price": 215500,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "rancherxl",
+        "Name": "Rancher XL",
+        "Class": "OFF_ROAD",
+        "Price": 224250,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "sandking",
+        "Name": "Sandking XL",
+        "Class": "OFF_ROAD",
+        "Price": 233250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "dubsta3",
+        "Name": "Dubsta 6x6",
+        "Class": "OFF_ROAD",
+        "Price": 242000,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "hellion",
+        "Name": "Hellion",
+        "Class": "OFF_ROAD",
+        "Price": 251000,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "sandking2",
+        "Name": "Sandking SWB",
+        "Class": "OFF_ROAD",
+        "Price": 260000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "blazer5",
+        "Name": "Blazer Aqua",
+        "Class": "OFF_ROAD",
+        "Price": 268750,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "brawler",
+        "Name": "Brawler",
+        "Class": "OFF_ROAD",
+        "Price": 277750,
+        "Brand": "Annis"
+      },
+      {
+        "Model": "monstrociti",
+        "Name": "MonstroCiti",
+        "Class": "OFF_ROAD",
+        "Price": 286500,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "kamacho",
+        "Name": "Kamacho",
+        "Class": "OFF_ROAD",
+        "Price": 295500,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "vagrant",
+        "Name": "Vagrant",
+        "Class": "OFF_ROAD",
+        "Price": 304250,
+        "Brand": "Maxwell"
+      },
+      {
+        "Model": "caracara",
+        "Name": "Caracara",
+        "Class": "OFF_ROAD",
+        "Price": 313250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "everon",
+        "Name": "Everon",
+        "Class": "OFF_ROAD",
+        "Price": 322000,
+        "Brand": "Karin"
+      },
+      {
+        "Model": "trophytruck",
+        "Name": "Trophy Truck",
+        "Class": "OFF_ROAD",
+        "Price": 331000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "caracara2",
+        "Name": "Caracara 4x4",
+        "Class": "OFF_ROAD",
+        "Price": 340000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "trophytruck2",
+        "Name": "Desert Raid",
+        "Class": "OFF_ROAD",
+        "Price": 348750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "draugur",
+        "Name": "Draugur",
+        "Class": "OFF_ROAD",
+        "Price": 357750,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "l35",
+        "Name": "Walton L35",
+        "Class": "OFF_ROAD",
+        "Price": 366500,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "terminus",
+        "Name": "Terminus",
+        "Class": "OFF_ROAD",
+        "Price": 375500,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "yosemite4",
+        "Name": "Yosemite 1500",
+        "Class": "OFF_ROAD",
+        "Price": 384250,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "ratel",
+        "Name": "Ratel",
+        "Class": "OFF_ROAD",
+        "Price": 393250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "riata",
+        "Name": "Riata",
+        "Class": "OFF_ROAD",
+        "Price": 402000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "mesa3",
+        "Name": "Mesa Merryweather",
+        "Class": "OFF_ROAD",
+        "Price": 411000,
+        "Brand": "Canis"
+      },
+      {
+        "Model": "yosemite3",
+        "Name": "Yosemite Rancher",
+        "Class": "OFF_ROAD",
+        "Price": 420000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "burrito3",
+        "Name": "Burrito",
+        "Class": "VAN",
+        "Price": 70000,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "journey",
+        "Name": "Journey",
+        "Class": "VAN",
+        "Price": 75500,
+        "Brand": "Zirconium"
+      },
+      {
+        "Model": "journey2",
+        "Name": "Journey II",
+        "Class": "VAN",
+        "Price": 81250,
+        "Brand": "Zirconium"
+      },
+      {
+        "Model": "minivan",
+        "Name": "Minivan",
+        "Class": "VAN",
+        "Price": 86750,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "youga",
+        "Name": "Youga",
+        "Class": "VAN",
+        "Price": 92500,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "paradise",
+        "Name": "Paradise",
+        "Class": "VAN",
+        "Price": 98000,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "rumpo",
+        "Name": "Rumpo",
+        "Class": "VAN",
+        "Price": 103750,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "surfer",
+        "Name": "Surfer",
+        "Class": "VAN",
+        "Price": 109250,
+        "Brand": "BF"
+      },
+      {
+        "Model": "minivan2",
+        "Name": "Minivan Custom",
+        "Class": "VAN",
+        "Price": 115000,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "speedo",
+        "Name": "Speedo",
+        "Class": "VAN",
+        "Price": 120500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "gburrito2",
+        "Name": "Burrito Custom",
+        "Class": "VAN",
+        "Price": 126250,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "moonbeam",
+        "Name": "Moonbeam",
+        "Class": "VAN",
+        "Price": 131750,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "bobcatxl",
+        "Name": "Bobcat XL Open",
+        "Class": "VAN",
+        "Price": 137500,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "youga2",
+        "Name": "Youga Classic",
+        "Class": "VAN",
+        "Price": 143000,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "moonbeam2",
+        "Name": "Moonbeam Custom",
+        "Class": "VAN",
+        "Price": 148750,
+        "Brand": "Declasse"
+      },
+      {
+        "Model": "speedo4",
+        "Name": "Speedo Custom",
+        "Class": "VAN",
+        "Price": 154250,
+        "Brand": "Vapid"
+      },
+      {
+        "Model": "surfer3",
+        "Name": "Surfer Custom",
+        "Class": "VAN",
+        "Price": 160000,
+        "Brand": "BF"
+      },
+      {
+        "Model": "youga3",
+        "Name": "Youga Classic 4x4",
+        "Class": "VAN",
+        "Price": 165500,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "bison",
+        "Name": "Bison",
+        "Class": "VAN",
+        "Price": 171250,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "rumpo3",
+        "Name": "Rumpo Custom",
+        "Class": "VAN",
+        "Price": 176750,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "mule2",
+        "Name": "Mule",
+        "Class": "VAN",
+        "Price": 182500,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "mule3",
+        "Name": "Mule",
+        "Class": "VAN",
+        "Price": 188000,
+        "Brand": "Maibatsu"
+      },
+      {
+        "Model": "boxville5",
+        "Name": "Armored Boxville",
+        "Class": "VAN",
+        "Price": 193750,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "boxville2",
+        "Name": "Boxville Go Postal",
+        "Class": "VAN",
+        "Price": 199250,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "boxville3",
+        "Name": "Boxville Humane Labs",
+        "Class": "VAN",
+        "Price": 205000,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "boxville",
+        "Name": "Boxville LSDWP",
+        "Class": "VAN",
+        "Price": 210500,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "boxville4",
+        "Name": "Boxville Post OP",
+        "Class": "VAN",
+        "Price": 216250,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "pony",
+        "Name": "Pony",
+        "Class": "VAN",
+        "Price": 221750,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "pony2",
+        "Name": "Pony (Smoke on the water)",
+        "Class": "VAN",
+        "Price": 227500,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "taco",
+        "Name": "Taco Truck",
+        "Class": "VAN",
+        "Price": 233000,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "boxville6",
+        "Name": "Boxville (LSDS)",
+        "Class": "VAN",
+        "Price": 238750,
+        "Brand": "Brute"
+      },
+      {
+        "Model": "youga4",
+        "Name": "Youga Custom",
+        "Class": "VAN",
+        "Price": 244250,
+        "Brand": "Bravado"
+      },
+      {
+        "Model": "speedo5",
+        "Name": "Speedo Custom",
+        "Class": "VAN",
+        "Price": 250000,
+        "Brand": "Vapid"
+      }
+    ]
   },
   "crafting": {
     "CraftEmsConfig": [
@@ -2268,7 +5875,7 @@
           "chance": [
             1
           ],
-          "repairCostPerHP": "1"
+          "repairCostPerHP": 1
         },
         "item_pickaxe_lvl_2": {
           "hits": 100,
@@ -2280,7 +5887,7 @@
             0.7,
             0.3
           ],
-          "repairCostPerHP": "2"
+          "repairCostPerHP": 2
         },
         "item_pickaxe_lvl_3": {
           "hits": 100,
@@ -2294,7 +5901,7 @@
             0.3,
             0.2
           ],
-          "repairCostPerHP": "3"
+          "repairCostPerHP": 3
         },
         "item_pickaxe_lvl_4": {
           "hits": 100,
@@ -2310,21 +5917,21 @@
             0.2,
             0.1
           ],
-          "repairCostPerHP": "4"
+          "repairCostPerHP": 4
         }
       },
       "kits": {
         "kit_antiSharp": {
           "time": 800,
-          "repairCostPerHP": "1"
+          "repairCostPerHP": 1
         },
         "kit_gas": {
           "time": 800,
-          "repairCostPerHP": "2"
+          "repairCostPerHP": 2
         },
         "kit_radioactive": {
           "time": 800,
-          "repairCostPerHP": "3"
+          "repairCostPerHP": 3
         }
       },
       "craftTools": [
@@ -2718,62 +6325,62 @@
         {
           "itemName": "item_ore_stone",
           "label": "Stone",
-          "singlePrice": "13"
+          "singlePrice": 12
         },
         {
           "itemName": "item_ore_sulfur",
           "label": "Sulfur",
-          "singlePrice": "20"
+          "singlePrice": 19
         },
         {
           "itemName": "item_ore_coal",
           "label": "Coal",
-          "singlePrice": "22"
+          "singlePrice": 21
         },
         {
           "itemName": "item_ore_iron",
           "label": "Iron Ore",
-          "singlePrice": "22"
+          "singlePrice": 21
         },
         {
           "itemName": "item_ore_gold",
           "label": "Gold Ore",
-          "singlePrice": "31"
+          "singlePrice": 30
         },
         {
           "itemName": "item_bar_iron",
           "label": "Iron Bar",
-          "singlePrice": "1260"
+          "singlePrice": 1260
         },
         {
           "itemName": "item_bar_gold",
           "label": "Gold Bar",
-          "singlePrice": "1800"
+          "singlePrice": 1800
         },
         {
           "itemName": "item_bar_gildiron",
           "label": "Gilded Iron Bar",
-          "singlePrice": "4500"
+          "singlePrice": 4500
         },
         {
           "itemName": "item_bar_auriron",
           "label": "Auriron Iron Bar",
-          "singlePrice": "6300"
+          "singlePrice": 6300
         },
         {
           "itemName": "item_gem_Amberite",
           "label": "Amberite gem",
-          "singlePrice": "18000"
+          "singlePrice": 18000
         },
         {
           "itemName": "item_gem_aqualith",
           "label": "qualith gem",
-          "singlePrice": "18000"
+          "singlePrice": 18000
         },
         {
           "itemName": "item_gem_luminite",
           "label": "luminite gem",
-          "singlePrice": "18000"
+          "singlePrice": 18000
         }
       ],
       "MiningShopBuy": [
@@ -2881,24 +6488,56 @@
             "isOneTimeOffer": false
           }
         ]
-      }
+      },
+      "singleHitDuration": 4,
+      "pickaxePerKit": 2
     },
     "electricJobConfig": {
-      "Lvl1SingleSalary": "250",
-      "Lvl2SingleSalary": "725",
-      "Lvl3SingleSalary": "710",
-      "levelRewards": {
-        "1": 1000,
-        "2": 2500,
-        "3": 3500,
-        "4": 4000,
-        "5": 5000,
-        "6": 6000,
-        "7": 7000,
-        "8": 7000,
-        "9": 7000,
-        "10": 7000
-      },
+      "Lvl1SingleSalary": 250,
+      "Lvl2SingleSalary": 725,
+      "Lvl3SingleSalary": 710,
+      "levelRewards": [
+        {
+          "id": 1,
+          "reward": 1000
+        },
+        {
+          "id": 2,
+          "reward": 2500
+        },
+        {
+          "id": 3,
+          "reward": 3500
+        },
+        {
+          "id": 4,
+          "reward": 4000
+        },
+        {
+          "id": 5,
+          "reward": 5000
+        },
+        {
+          "id": 6,
+          "reward": 6000
+        },
+        {
+          "id": 7,
+          "reward": 7000
+        },
+        {
+          "id": 8,
+          "reward": 7000
+        },
+        {
+          "id": 9,
+          "reward": 7000
+        },
+        {
+          "id": 10,
+          "reward": 7000
+        }
+      ],
       "shopItems": {
         "item_multi_metter": 3500,
         "item_hand_pilers": 3000,
@@ -2907,63 +6546,98 @@
       }
     },
     "busJobConfig": {
-      "levelRewards": {
-        "1": 1000,
-        "2": 2500,
-        "3": 3500,
-        "4": 4000,
-        "5": 5000,
-        "6": 6000,
-        "7": 7000,
-        "8": 7000,
-        "9": 7000,
-        "10": 7000
-      },
-      "singleBusStopSalary": "90"
+      "levelRewards": [
+        {
+          "id": 1,
+          "reward": 1000
+        },
+        {
+          "id": 2,
+          "reward": 2500
+        },
+        {
+          "id": 3,
+          "reward": 3500
+        },
+        {
+          "id": 4,
+          "reward": 4000
+        },
+        {
+          "id": 5,
+          "reward": 5000
+        },
+        {
+          "id": 6,
+          "reward": 6000
+        },
+        {
+          "id": 7,
+          "reward": 7000
+        },
+        {
+          "id": 8,
+          "reward": 7000
+        },
+        {
+          "id": 9,
+          "reward": 7000
+        },
+        {
+          "id": 10,
+          "reward": 7000
+        }
+      ],
+      "singleBusStopSalary": 90
+    }
+  },
+  "factionConfigs": {
+    "EmsConfig": {
+      "healingCost": 1500
     }
   },
   "governmentSalary": {
     "police": {
-      "Cadet": "1000",
-      "Police Officer 1": "1500",
-      "Police Officer 2": "2000",
-      "Police Officer 3": "2500",
-      "Sergeant": "3000",
-      "Lieutenant": "3500",
-      "Deputy": "4000",
-      "Chief": "4500"
+      "Cadet": 1000,
+      "Police Officer 1": 1500,
+      "Police Officer 2": 2000,
+      "Police Officer 3": 2500,
+      "Sergeant": 3000,
+      "Lieutenant": 3500,
+      "Deputy": 4000,
+      "Chief": 4500
     },
     "fbi": {
-      "Trainee": "1000",
-      "Agent": "1500",
-      "Field Agent": "2500",
-      "Special Agent": "3250",
-      "Director": "4500"
+      "Trainee": 1000,
+      "Agent": 1500,
+      "Field Agent": 2500,
+      "Special Agent": 3250,
+      "Director": 4500
     },
     "army": {
-      "Private": "750",
-      "Corporal": "1250",
-      "Sergeant": "1750",
-      "Sergeant Major": "2250",
-      "Lieutenant": "2750",
-      "Captain": "3250",
-      "General": "3750",
-      "Warrant Officer": "4250",
-      "Chief Warrant Officer": "4750"
+      "Private": 750,
+      "Corporal": 1250,
+      "Sergeant": 1750,
+      "Sergeant Major": 2250,
+      "Lieutenant": 2750,
+      "Captain": 3250,
+      "General": 3750,
+      "Warrant Officer": 4250,
+      "Chief Warrant Officer": 4750
     },
     "sheriff": {
-      "Cadet": "1000",
-      "Deputy": "1500",
-      "Corporal": "2500",
-      "Sergeant": "3000",
-      "Lieutenant": "3750",
-      "Sheriff": "4750"
+      "Cadet": 1000,
+      "Deputy": 1500,
+      "Corporal": 2500,
+      "Sergeant": 3000,
+      "Lieutenant": 3750,
+      "Sheriff": 4750
     },
     "ems": {
-      "Intern": "2750",
-      "Nurse": "3500",
-      "Doctor": "4500",
-      "Chief": "5000"
+      "Intern": 2750,
+      "Nurse": 3500,
+      "Doctor": 4500,
+      "Chief": 5000
     }
   }
 }

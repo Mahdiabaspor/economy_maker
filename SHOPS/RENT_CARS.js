@@ -3,7 +3,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'faggio',
         name: 'Faggio',
-        rentalPrice:( 250 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 250 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'motorcycle',
         class: 'MOTORCYCLE',
@@ -11,7 +11,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'faggio2',
         name: 'Faggio Mod',
-        rentalPrice:( 350 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 350 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'motorcycle',
         class: 'MOTORCYCLE',
@@ -19,7 +19,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'akuma',
         name: 'Akuma',
-        rentalPrice:( 1000 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 1000 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'motorcycle',
         class: 'SPORT',
@@ -27,7 +27,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'virgo',
         name: 'Virgo',
-        rentalPrice:( 1250 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 1250 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'MUSCLE',
@@ -35,7 +35,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'glendale',
         name: 'Glendale',
-        rentalPrice:( 1350 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 1350 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'SEDAN',
@@ -43,7 +43,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'washington',
         name: 'Washington',
-        rentalPrice:( 1400 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 1400 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'SEDAN',
@@ -51,7 +51,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'sentinel',
         name: 'Sentinel',
-        rentalPrice:( 1500 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 1500 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'COUPE',
@@ -59,7 +59,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'brioso',
         name: 'Brioso R/A',
-        rentalPrice:( 1700 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 1700 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'COMPACT',
@@ -67,7 +67,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'asbo',
         name: 'Asbo',
-        rentalPrice:( 1800 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 1800 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'COMPACT',
@@ -76,7 +76,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'zion',
         name: 'Zion',
-        rentalPrice:( 1900 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 1900 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'COUPE',
@@ -85,7 +85,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'radi',
         name: 'Radius',
-        rentalPrice:( 2400 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 2400 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'SUV',
@@ -94,7 +94,7 @@ export const carRentalsConfig= [
     {
         vehicleModel: 'jester2',
         name: 'Jester (Racecar)',
-        rentalPrice:( 5500 * RentalMultiplier).toFixed(0),
+        rentalPrice:Math.floor( 5500 * RentalMultiplier),
         fuelType: 'REGULAR',
         type: 'vehicle',
         class: 'SPORT',

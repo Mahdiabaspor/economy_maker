@@ -1,28 +1,28 @@
 const weaponPriceMMultiplier = 1
 
 export const weaponShopConfig = [
-    { label: 'Knife', dbName: 'item_melee_knife', category: 'Rifle', ammoType: null, price:( 14000 * weaponPriceMMultiplier).toFixed(0) },
-    { label: 'Combat Pistol', dbName: 'item_weapon_combat_pistol', category: 'Pistol', ammoType: '9mm', price:( 22000 * weaponPriceMMultiplier).toFixed(0) },
-    { label: 'Smg', dbName: 'item_weapon_smg', category: 'Sub MachinGun', ammoType: '9mm', price:( 35000 * weaponPriceMMultiplier).toFixed(0) },
+    { label: 'Knife', dbName: 'item_melee_knife', category: 'Rifle', ammoType: null, price:Math.floor( 14000 * weaponPriceMMultiplier) },
+    { label: 'Combat Pistol', dbName: 'item_weapon_combat_pistol', category: 'Pistol', ammoType: '9mm', price:Math.floor( 22000 * weaponPriceMMultiplier) },
+    { label: 'Smg', dbName: 'item_weapon_smg', category: 'Sub MachinGun', ammoType: '9mm', price:Math.floor( 35000 * weaponPriceMMultiplier) },
     {
         label: 'Pump Shotgun',
         dbName: 'item_weapon_pump_shotgun',
         category: 'ShotGun',
         ammoType: 'buckshot',
-        price:( 40000 * weaponPriceMMultiplier).toFixed(0),
+        price:Math.floor( 40000 * weaponPriceMMultiplier),
     },
     {
         label: 'Advanced Rifle',
         dbName: 'item_weapon_advanced_rifle',
         category: 'Rifle',
         ammoType: '5.56mm',
-        price:( 55000 * weaponPriceMMultiplier).toFixed(0),
+        price:Math.floor( 55000 * weaponPriceMMultiplier),
     },
 
-    { label: 'Bullet 5.56 Mm', dbName: 'item_bullet_5_56_mm', category: 'Ammo', ammoType: null, price:( 60 * weaponPriceMMultiplier).toFixed(0) },
-    { label: 'Bullet 7.62 Mm', dbName: 'item_bullet_7_62_mm', category: 'Ammo', ammoType: null, price:( 300 * weaponPriceMMultiplier).toFixed(0)   },
-    { label: 'Bullet 9 Mm', dbName: 'item_bullet_9_mm', category: 'Ammo', ammoType: null, price:( 50 * weaponPriceMMultiplier).toFixed(0) },
-    { label: 'Bullet Shoutgun', dbName: 'item_bullet_shotgun', category: 'Ammo', ammoType: null, price:( 80 * weaponPriceMMultiplier).toFixed(0) },
+    { label: 'Bullet 5.56 Mm', dbName: 'item_bullet_5_56_mm', category: 'Ammo', ammoType: null, price:Math.floor( 60 * weaponPriceMMultiplier) },
+    { label: 'Bullet 7.62 Mm', dbName: 'item_bullet_7_62_mm', category: 'Ammo', ammoType: null, price:Math.floor( 300 * weaponPriceMMultiplier)   },
+    { label: 'Bullet 9 Mm', dbName: 'item_bullet_9_mm', category: 'Ammo', ammoType: null, price:Math.floor( 50 * weaponPriceMMultiplier) },
+    { label: 'Bullet Shoutgun', dbName: 'item_bullet_shotgun', category: 'Ammo', ammoType: null, price:Math.floor( 80 * weaponPriceMMultiplier) },
 
     // { label: "Assault Shotgun", dbName: "item_weapon_assault_shotgun" },
     // { label: "Bs Gas", dbName: "item_weapon_bs_gas" },

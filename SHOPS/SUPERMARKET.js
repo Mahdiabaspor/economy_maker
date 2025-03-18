@@ -5,52 +5,52 @@ export const superMarketConfig = {
         {
             itemName: 'item_fabric',
             label: 'FABRIC',
-            singlePrice:( 200 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 200 * superMarketMultiplier),
         },
         // {
         //     itemName: 'item_repairkit',
         //     label: 'REPAIR KIT',
-        //     singlePrice:( 45 * superMarketMultiplier).toFixed(0),
+        //     singlePrice:Math.floor( 45 * superMarketMultiplier),
         // },
         {
             itemName: 'item_fuel_can',
             label: 'fuel CAN',
-            singlePrice:( 900 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 900 * superMarketMultiplier),
         },
         {
             itemName: 'item_methanol',
             label: 'METHHANOL',
-            singlePrice:( 800 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 800 * superMarketMultiplier),
         },
         {
             itemName: 'item_house_cleaner',
             label: 'HOUSE CLEANER',
-            singlePrice:( 600 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 600 * superMarketMultiplier),
         },
         {
             itemName: 'item_sodium_bicarbonate',
             label: 'SODIUM BICARBONATE',
-            singlePrice:( 550 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 550 * superMarketMultiplier),
         },
         {
             itemName: 'item_battery',
             label: 'BATTERY',
-            singlePrice:( 500 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 500 * superMarketMultiplier),
         },
         {
             itemName: 'item_paint_color',
             label: 'PAINT COLOR',
-            singlePrice:( 600 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 600 * superMarketMultiplier),
         },
         {
             itemName: 'item_empty_plastic_pack',
             label: 'EMPTY PLASTIC PACK',
-            singlePrice:( 433 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 433 * superMarketMultiplier),
         },
         {
             itemName: 'item_mining_map',
             label: 'MINING MAP',
-            singlePrice:( 3000 * superMarketMultiplier).toFixed(0),
+            singlePrice:Math.floor( 3000 * superMarketMultiplier),
         },
     ],
 

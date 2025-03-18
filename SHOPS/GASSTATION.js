@@ -1,6 +1,6 @@
 
 const fuelMultiplier = 1;
-const normalFuelPerLitter  =  (7 * fuelMultiplier).toFixed(0)
+const normalFuelPerLitter  =  Math.floor(7 * fuelMultiplier)
 
 // max fuel = 100
 // 100 fuel per 20 min = 300 fuel per hour

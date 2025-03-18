@@ -14,6 +14,10 @@ import {  electricJobConfig } from "./JOBS/ELECTRIC.js";
 import { busJobConfig } from "./JOBS/BUS.js";
 import { licenseDmvConfig } from "./SHOPS/LICENSEDMV.js";
 import { tunningConfig } from "./SHOPS/TUNNING.js";
+
+import { EmsConfig } from "./Factions/Ems.js";
+import { carV3 } from "./SHOPS/Dealership2.js";
+
 const economyConfig = {
   shops: {
     garageConfig,
@@ -24,7 +28,8 @@ const economyConfig = {
     mechanicShopConfig,
     emsShopConfig,
     superMarketConfig,
-    tunningConfig
+    tunningConfig,
+    dealershipCars:carV3
     
   },
   crafting: {
@@ -36,7 +41,9 @@ const economyConfig = {
     electricJobConfig,
     busJobConfig,
   },
-
+  factionConfigs:{
+    EmsConfig
+  },
   governmentSalary,
   
 };
@@ -45,3 +52,7 @@ const economyConfig = {
 fs.writeFileSync("economyConfig.json", JSON.stringify(economyConfig, null, 2));
 
 console.log("Economy config JSON file generated successfully.");
+
+
+
+

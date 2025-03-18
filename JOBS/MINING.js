@@ -1,76 +1,76 @@
 const incomeMulti = 1.8;
 const costMulti = 1;
-const singleHitTime = 4;
+const singleHitDuration = 4;
 const pickaxeTotalHits = 100;
-const kitLifePerPickaxe = 2;
+const pickaxePerKit = 2;
 const buyShopMultiple = 1;
 
 const MiningShopSell = [
   {
     itemName: "item_ore_stone",
     label: "Stone",
-    singlePrice: (7 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(7 * incomeMulti),
   },
   {
     itemName: "item_ore_sulfur",
     label: "Sulfur",
-    singlePrice: (11 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(11 * incomeMulti),
   },
   {
     itemName: "item_ore_coal",
     label: "Coal",
-    singlePrice: (12 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(12 * incomeMulti),
   },
   {
     itemName: "item_ore_iron",
     label: "Iron Ore",
-    singlePrice: (12 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(12 * incomeMulti),
   },
   {
     itemName: "item_ore_gold",
     label: "Gold Ore",
-    singlePrice: (17 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(17 * incomeMulti),
   },
   {
     itemName: "item_bar_iron",
     label: "Iron Bar",
-    singlePrice: (700 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(700 * incomeMulti),
   },
   {
     itemName: "item_bar_gold",
     label: "Gold Bar",
-    singlePrice: (1000 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(1000 * incomeMulti),
   },
   {
     itemName: "item_bar_gildiron",
     label: "Gilded Iron Bar",
-    singlePrice: (2500 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(2500 * incomeMulti),
   },
   {
     itemName: "item_bar_auriron",
     label: "Auriron Iron Bar",
-    singlePrice: (3500 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(3500 * incomeMulti),
   },
   {
     itemName: "item_gem_Amberite",
     label: "Amberite gem",
-    singlePrice: (10000 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(10000 * incomeMulti),
   },
   {
     itemName: "item_gem_aqualith",
     label: "qualith gem",
-    singlePrice: (10000 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(10000 * incomeMulti),
   },
   {
     itemName: "item_gem_luminite",
     label: "luminite gem",
-    singlePrice: (10000 * incomeMulti).toFixed(0),
+    singlePrice: Math.floor(10000 * incomeMulti),
   },
 ];
 const zones = {
   zone1: {
     resources: [{ name: "item_ore_stone", chance: 100, label: "stone" }],
-    miningTime: pickaxeTotalHits * singleHitTime, // Mining time in seconds
+    miningTime: pickaxeTotalHits * singleHitDuration, // Mining time in seconds
     travelTime: 270, // Travel time in seconds
   },
   zone2: {
@@ -81,7 +81,7 @@ const zones = {
       { name: "item_ore_sulfur", chance: 20, label: "sulfur" },
       { name: "item_gem_Amberite", chance: 0.006, label: "amberite gem" },
     ],
-    miningTime: pickaxeTotalHits * singleHitTime,
+    miningTime: pickaxeTotalHits * singleHitDuration,
     travelTime: 434,
     kit: "kit_antiSharp",
   },
@@ -92,7 +92,7 @@ const zones = {
       { name: "item_ore_gold", chance: 9.994, label: "gold ore" },
       { name: "item_gem_luminite", chance: 0.006, label: "luminite gem" },
     ],
-    miningTime: pickaxeTotalHits * singleHitTime,
+    miningTime: pickaxeTotalHits * singleHitDuration,
     travelTime: 456,
     kit: "kit_gas",
   },
@@ -103,7 +103,7 @@ const zones = {
       { name: "item_ore_gold", chance: 39.94, label: "gold ore" },
       { name: "item_gem_aqualith", chance: 0.006, label: "aqualith gem" },
     ],
-    miningTime: pickaxeTotalHits * singleHitTime,
+    miningTime: pickaxeTotalHits * singleHitDuration,
     travelTime: 408,
     kit: "kit_radioactive",
   },
@@ -114,39 +114,39 @@ const pickaxes = {
     hits: 100,
     reward: [1],
     chance: [1],
-    repairCostPerHP: (1 * costMulti).toFixed(0),
+    repairCostPerHP: Math.floor(1 * costMulti),
   },
   item_pickaxe_lvl_2: {
     hits: 100,
     reward: [1, 2],
     chance: [0.7, 0.3],
-    repairCostPerHP: (2 * costMulti).toFixed(0),
+    repairCostPerHP: Math.floor(2 * costMulti),
   },
   item_pickaxe_lvl_3: {
     hits: 100,
     reward: [1, 2, 3],
     chance: [0.5, 0.3, 0.2],
-    repairCostPerHP: (3 * costMulti).toFixed(0),
+    repairCostPerHP: Math.floor(3 * costMulti),
   },
   item_pickaxe_lvl_4: {
     hits: 100,
     reward: [1, 2, 3, 4],
     chance: [0.2, 0.5, 0.2, 0.1],
-    repairCostPerHP: (4 * costMulti).toFixed(0),
+    repairCostPerHP: Math.floor(4 * costMulti),
   },
 };
 const kits = {
   kit_antiSharp: {
-    time: pickaxeTotalHits * singleHitTime * kitLifePerPickaxe, //800
-    repairCostPerHP: (1 * costMulti).toFixed(0),
+    time: pickaxeTotalHits * singleHitDuration * pickaxePerKit, //800
+    repairCostPerHP: Math.floor(1 * costMulti),
   },
   kit_gas: {
-    time: pickaxeTotalHits * singleHitTime * kitLifePerPickaxe, //800
-    repairCostPerHP: (2 * costMulti).toFixed(0),
+    time: pickaxeTotalHits * singleHitDuration * pickaxePerKit, //800
+    repairCostPerHP: Math.floor(2 * costMulti),
   },
   kit_radioactive: {
-    time: pickaxeTotalHits * singleHitTime * kitLifePerPickaxe, //800
-    repairCostPerHP: (3 * costMulti).toFixed(0),
+    time: pickaxeTotalHits * singleHitDuration * pickaxePerKit, //800
+    repairCostPerHP: Math.floor(3 * costMulti),
   },
   // سایر کیت‌ها...
 };
@@ -505,9 +505,15 @@ export const miningJobConfig = {
         label: "PICK AXE LVL 3",
         price: 3.76 * 100, //350 t
         description: `
-        ${pickaxes.item_pickaxe_lvl_3.chance[0] * 100 } % chance to mine   ${pickaxes.item_pickaxe_lvl_3.reward[0]  } ore per hit  
-        ${pickaxes.item_pickaxe_lvl_3.chance[1] * 100 } % chance to mine  ${pickaxes.item_pickaxe_lvl_3.reward[1]  } ore per hit 
-        ${pickaxes.item_pickaxe_lvl_3.chance[2] * 100 } % chance to  mine  ${pickaxes.item_pickaxe_lvl_3.reward[2]  } ore per hit
+        ${pickaxes.item_pickaxe_lvl_3.chance[0] * 100} % chance to mine   ${
+          pickaxes.item_pickaxe_lvl_3.reward[0]
+        } ore per hit  
+        ${pickaxes.item_pickaxe_lvl_3.chance[1] * 100} % chance to mine  ${
+          pickaxes.item_pickaxe_lvl_3.reward[1]
+        } ore per hit 
+        ${pickaxes.item_pickaxe_lvl_3.chance[2] * 100} % chance to  mine  ${
+          pickaxes.item_pickaxe_lvl_3.reward[2]
+        } ore per hit
         `,
         isOneTimeOffer: false,
       },
@@ -516,14 +522,98 @@ export const miningJobConfig = {
         label: "PICK AXE LVL 4",
         price: 6.45 * 100, //600 t
         description: `
-        ${pickaxes.item_pickaxe_lvl_4.chance[0]* 100  } % chance to mine   ${pickaxes.item_pickaxe_lvl_4.reward[0]  } ore per hit  
-        ${pickaxes.item_pickaxe_lvl_4.chance[1] * 100 } % chance to mine  ${pickaxes.item_pickaxe_lvl_4.reward[1]  } ore per hit 
-        ${pickaxes.item_pickaxe_lvl_4.chance[2]* 100  } % chance to  mine  ${pickaxes.item_pickaxe_lvl_4.reward[2]  } ore per hit
-        ${pickaxes.item_pickaxe_lvl_4.chance[3]* 100  } % chance to  mine  ${pickaxes.item_pickaxe_lvl_4.reward[3]  } ore per hit
+        ${pickaxes.item_pickaxe_lvl_4.chance[0] * 100} % chance to mine   ${
+          pickaxes.item_pickaxe_lvl_4.reward[0]
+        } ore per hit  
+        ${pickaxes.item_pickaxe_lvl_4.chance[1] * 100} % chance to mine  ${
+          pickaxes.item_pickaxe_lvl_4.reward[1]
+        } ore per hit 
+        ${pickaxes.item_pickaxe_lvl_4.chance[2] * 100} % chance to  mine  ${
+          pickaxes.item_pickaxe_lvl_4.reward[2]
+        } ore per hit
+        ${pickaxes.item_pickaxe_lvl_4.chance[3] * 100} % chance to  mine  ${
+          pickaxes.item_pickaxe_lvl_4.reward[3]
+        } ore per hit
        
         `,
         isOneTimeOffer: false,
       },
     ],
   },
+  singleHitDuration,
+  pickaxePerKit,
 };
+
+// function getRandomReward(rewards, chances) {
+//   const random = Math.random();
+//   let cumulativeChance = 0;
+
+//   for (let i = 0; i < rewards.length; i++) {
+//     cumulativeChance += chances[i];
+//     if (random < cumulativeChance) {
+//       return rewards[i];
+//     }
+//   }
+
+//   return rewards[rewards.length - 1]; // Fallback in case of rounding errors
+// }
+
+// const toolLevel = miningJobConfig.pickaxes["item_pickaxe_lvl_4"];
+// const randomReward = getRandomReward(toolLevel.reward, toolLevel.chance);
+
+// console.log(randomReward); // This will print a random reward based on the given chances
+
+// function simulateRewards(toolLevel, iterations = 1000) {
+//   const rewardCounts = {};
+
+//   for (let i = 0; i < iterations; i++) {
+//     const reward = getRandomReward(toolLevel.reward, toolLevel.chance);
+//     rewardCounts[reward] = (rewardCounts[reward] || 0) + 1;
+//   }
+
+//   console.log("Reward Distribution after", iterations, "iterations:");
+//   console.log(rewardCounts);
+// }
+
+// simulateRewards(miningJobConfig.pickaxes["item_pickaxe_lvl_3"]);
+
+
+function getChance(zoneName,zones) {
+  const zoneResorces = {
+    zone1:zones.zone1.resources,
+    zone2:zones.zone2.resources,
+    zone3:zones.zone3.resources,
+    zone4:zones.zone4.resources,
+
+  }
+  const zone = zoneResorces[zoneName];
+  const totalChance = zone.reduce((sum, item) => sum + item.chance, 0);
+  const randomNumber = Math.random() * totalChance;
+  let cumulativeChance = 0;
+
+  for (let item of zone) {
+    cumulativeChance += item.chance;
+    if (randomNumber <= cumulativeChance) {
+      return {itemName: item.name, label: item.label};
+    }
+  }
+
+  return 'none';
+}
+
+
+function testGetChance() {
+  const testResults = {};
+
+  for (let i = 0; i < 100000; i++) {
+      const result = getChance("zone2", zones); // Change zone as needed
+      if (result !== "none") {
+          testResults[result.itemName] = (testResults[result.itemName] || 0) + 1;
+      }
+  }
+
+  console.log("Test Results (1000 runs):");
+  console.table(testResults);
+}
+
+testGetChance();

@@ -39,10 +39,6 @@ const economyConfig = {
       buyConfig:emsShopConfig,
       sellConfig:emsShopSellConfig,
     },
-
-
-
-
     
     superMarketConfig,
     tunningConfig,
@@ -76,7 +72,10 @@ const economyConfig = {
   governmentSalary,
 };
 
-// Write to JSON file
-fs.writeFileSync("economyConfig.json", JSON.stringify(economyConfig, null, 2));
+// Write to JSON file without pretty-formatting (no whitespace)
+fs.writeFileSync("economyConfig.json", JSON.stringify(economyConfig));
+
+// If you still need a readable version for development, create a separate file
+fs.writeFileSync("economyConfig.pretty.json", JSON.stringify(economyConfig, null, 2));
 
 console.log("Economy config JSON file generated successfully.");

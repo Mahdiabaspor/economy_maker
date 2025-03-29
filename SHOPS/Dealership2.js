@@ -68,7 +68,7 @@ export const carV3 =[
             { Model: "astron", Name: "Astron", Class: "SEDAN", Price: calcPrice(34.811), Brand: "Pfister" },
             { Model: "iwagen", Name: "Obey", Class: "SEDAN", Price: calcPrice(35.649), Brand: "I-Wagen" },
             { Model: "asterope2", Name: "Asterope GZ", Class: "SEDAN", Price: calcPrice(36.486), Brand: "Karin" },
-            { Model: "jubilee", Name: "Jubilee", Class: "SEDAN", Price: calcPrice(37.324), Brand: "Enus" },
+            // { Model: "jubilee", Name: "Jubilee", Class: "SEDAN", Price: calcPrice(37.324), Brand: "Enus" },
             { Model: "deity", Name: "Deity", Class: "SEDAN", Price: calcPrice(40.162), Brand: "Enus" },
             { Model: "impaler5", Name: "Impaler SZ", Class: "SEDAN", Price: calcPrice(39.000), Brand: "Declasse" },
         

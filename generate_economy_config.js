@@ -5,7 +5,7 @@ import { weaponShopConfig } from "./SHOPS/WEAPONSHOP.js";
 import { carRentalsConfig } from "./SHOPS/RENT_CARS.js";
 import { mechanicShopConfig } from "./SHOPS/MECHANICSHOP.js";
 import { superMarketConfig } from "./SHOPS/SUPERMARKET.js";
-import { emsShopConfig } from "./SHOPS/EMS.js";
+import { emsShopConfig, emsShopSellConfig } from "./SHOPS/EMS.js";
 import { CraftEmsConfig } from "./CRAFTS/EMS.js";
 import { CraftingGangConfig } from "./CRAFTS/GANG.js";
 import { governmentSalary } from "./SALARY/SALARY.js";
@@ -24,6 +24,7 @@ import { VipDealershipCars } from "./SHOPS/VIPDEALERSHIP.js";
 import { GANG } from "./Factions/GANGS.js";
 import { beautySalon } from "./SHOPS/BEAUTYSALON.js";
 import { plateShop } from "./SHOPS/PLATESHOP.js";
+import { Insurance } from "./SHOPS/INSURANCE.js";
 
 
 const economyConfig = {
@@ -34,7 +35,15 @@ const economyConfig = {
     weaponShopConfig,
     carRentalsConfig,
     mechanicShopConfig,
-    emsShopConfig,
+    emsShopConfig:{
+      buyConfig:emsShopConfig,
+      sellConfig:emsShopSellConfig,
+    },
+
+
+
+
+    
     superMarketConfig,
     tunningConfig,
     dealershipCars: carV3,
@@ -48,7 +57,8 @@ const economyConfig = {
       male: MaleTattooPackage,
       female: FemaleTattooPackage,
     },
-    beautySalon: beautySalon
+    beautySalon: beautySalon,
+    Insurance,
   },
   crafting: {
     CraftEmsConfig,

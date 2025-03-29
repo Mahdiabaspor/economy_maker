@@ -10,7 +10,7 @@ const MiningShopSell = [
     {
         itemName: 'item_ore_stone',
         label: 'Stone',
-        singlePrice:  (7 * incomeMulti).toFixed(0),
+        singlePrice:  (8 * incomeMulti).toFixed(0),
     },
     {
         itemName: 'item_ore_sulfur',
@@ -294,12 +294,12 @@ function calculateIncomeForPickaxes(zoneName, pickaxeList, kitCount) {
 }
 
 // مثال استفاده
-calculateIncomeForPickaxes("zone3", [
-    { type: "item_pickaxe_lvl_1", count: 4 },
+calculateIncomeForPickaxes("zone1", [
+    { type: "item_pickaxe_lvl_1", count: 1 },
     // { type: "item_pickaxe_lvl_3", count:1 },
     // { type: "item_pickaxe_lvl_2", count: 1 },
     // { type: "item_pickaxe_lvl_4", count:1  },
-], 2);
+], 3);
 
 
 // const METER_TO_MILE = 0.000621371;

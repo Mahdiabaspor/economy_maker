@@ -9,7 +9,7 @@ const MiningShopSell = [
   {
     itemName: "item_ore_stone",
     label: "Stone",
-    singlePrice: Math.floor(7 * incomeMulti),
+    singlePrice: Math.floor(8 * incomeMulti),
   },
   {
     itemName: "item_ore_sulfur",
@@ -160,7 +160,7 @@ export const miningJobConfig = {
       itemName: "item_pickaxe_lvl_1",
       materials: [
         { itemName: "item_ore_stone", count: 200, label: "STONE" },
-        { itemName: "item_ore_iron", count: 50, label: "COAL" },
+        { itemName: "item_ore_iron", count: 50, label: "IRON ORE" },
       ],
       itemType: "UNCOMMON",
       craftTimeMinutes: 60,
@@ -210,7 +210,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "LEGENDARY",
-      craftTimeMinutes: 1440,
+      craftTimeMinutes: 3440,
     },
     {
       label: "ANTI SHARPEN KIT", // craft cost 20,600      30000
@@ -224,7 +224,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "COMMON",
-      craftTimeMinutes: 15,
+      craftTimeMinutes: 35,
     },
     {
       label: "GAS KIT",
@@ -240,7 +240,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "UNCOMMON",
-      craftTimeMinutes: 120,
+      craftTimeMinutes: 320,
     },
     {
       label: "RADIO ACTIVE KIT", // craft const 83 k    price 110k
@@ -248,7 +248,7 @@ export const miningJobConfig = {
       materials: [
         { itemName: "item_ore_sulfur", count: 300, label: "SULFUR" },
         { itemName: "item_ore_coal", count: 200, label: "COAL" },
-        { itemName: "item_ore_iron", count: 15, label: "IRON BAR" },
+        { itemName: "item_bar_iron", count: 15, label: "IRON BAR" },
         { itemName: "item_bar_gold", count: 10, label: "GOLD BAR" },
         {
           itemName: "item_reinforced_steel",
@@ -269,7 +269,7 @@ export const miningJobConfig = {
         // { count: 10, item: 'item_ore_gold' }
       ],
       coalCost: 10,
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       numberOfOutput: 4,
     },
     {
@@ -280,7 +280,7 @@ export const miningJobConfig = {
         { count: 100, item: "item_ore_gold" },
       ],
       coalCost: 10,
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       numberOfOutput: 4,
     },
     {
@@ -309,7 +309,7 @@ export const miningJobConfig = {
         { count: 2, item: "item_gem_luminite" },
       ],
       coalCost: 90,
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       numberOfOutput: 10,
     },
   ],
@@ -322,7 +322,7 @@ export const miningJobConfig = {
         { itemName: "item_bar_gold", count: 4, label: "GOLD BAR" },
       ],
       itemType: "RARE",
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       output: 4,
     },
     {
@@ -330,7 +330,7 @@ export const miningJobConfig = {
       itemName: "item_stock_weapon",
       materials: [{ itemName: "item_bar_iron", count: 3, label: "IRON BAR" }],
       itemType: "RARE",
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       output: 1,
     },
     {
@@ -344,7 +344,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "RARE",
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       output: 1,
     },
     {
@@ -359,7 +359,7 @@ export const miningJobConfig = {
         { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
       ],
       itemType: "RARE",
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       output: 1,
     },
     {
@@ -367,7 +367,7 @@ export const miningJobConfig = {
       itemName: "item_grip_weapon",
       materials: [{ itemName: "item_bar_iron", count: 3, label: "IRON BAR" }],
       itemType: "RARE",
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       output: 1,
     },
     {
@@ -382,7 +382,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "RARE",
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       output: 1,
     },
     {
@@ -393,7 +393,7 @@ export const miningJobConfig = {
         { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
       ],
       itemType: "RARE",
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       output: 1,
     },
     {
@@ -408,7 +408,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "RARE",
-      craftTimeMinutes: 1,
+      craftTimeMinutes: 3,
       output: 1,
     },
   ],
@@ -465,7 +465,7 @@ export const miningJobConfig = {
     {
       itemName: "item_pickaxe_lvl_1",
       label: "PICK AXE LVL 1",
-      singlePrice: (7500 * buyShopMultiple).toFixed(0),
+      singlePrice: (7200 * buyShopMultiple).toFixed(0),
       isSingleBuy: true,
     },
     {

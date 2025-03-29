@@ -1,3 +1,3 @@
 export const garageConfig = {
-    returnVehiclePrice: 2000,
+    returnVehiclePrice: 1000,
 }

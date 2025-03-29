@@ -3,6 +3,11 @@ const superMarketMultiplier = 1
 export const superMarketConfig = {
     regular: [
         {
+            itemName: 'item_repairkit',
+            label: 'REPAIR KIT',
+            singlePrice:Math.floor( 4000 * superMarketMultiplier),
+        },
+        {
             itemName: 'item_fabric',
             label: 'FABRIC',
             singlePrice:Math.floor( 200 * superMarketMultiplier),

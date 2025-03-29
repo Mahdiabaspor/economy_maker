@@ -1,10 +1,11 @@
 {
   "shops": {
     "garageConfig": {
-      "returnVehiclePrice": 2000
+      "returnVehiclePrice": 1000
     },
     "gasStationConfig": {
-      "normalFuelPerLitter": 7
+      "normalFuelPerLitter": 3,
+      "gasUsageTime": 20
     },
     "licenseDmvConfig": {
       "VEHICLE": 7000,
@@ -185,46 +186,75 @@
       "nitroRefillCost": 4500
     },
     "emsShopConfig": {
-      "regular": [
-        {
-          "itemName": "item_medical_bandage",
-          "label": "MEDICAL BANDAGE",
-          "singlePrice": 1500
-        },
-        {
-          "itemName": "item_capsaicin_powder",
-          "label": "capsaicin POWDER",
-          "singlePrice": 1000
-        },
-        {
-          "itemName": "item_pain_killer_pill",
-          "label": "pain killer PILL",
-          "singlePrice": 2000
-        },
-        {
-          "itemName": "item_ethanol",
-          "label": "ETHANOL",
-          "singlePrice": 800
-        },
-        {
-          "itemName": "item_medicine_stablizer",
-          "label": "medical STABILIZER",
-          "singlePrice": 250
-        },
-        {
-          "itemName": "item_empty_pill_capsule",
-          "label": "empty pill capsule",
-          "singlePrice": 250
-        },
-        {
-          "itemName": "item_acetone",
-          "label": "acetone",
-          "singlePrice": 2000
-        }
-      ]
+      "buyConfig": {
+        "regular": [
+          {
+            "itemName": "item_medical_bandage",
+            "label": "MEDICAL BANDAGE",
+            "singlePrice": 1500
+          },
+          {
+            "itemName": "item_capsaicin_powder",
+            "label": "capsaicin POWDER",
+            "singlePrice": 1000
+          },
+          {
+            "itemName": "item_pain_killer_pill",
+            "label": "pain killer PILL",
+            "singlePrice": 2000
+          },
+          {
+            "itemName": "item_ethanol",
+            "label": "ETHANOL",
+            "singlePrice": 800
+          },
+          {
+            "itemName": "item_medicine_stablizer",
+            "label": "medical STABILIZER",
+            "singlePrice": 250
+          },
+          {
+            "itemName": "item_empty_pill_capsule",
+            "label": "empty pill capsule",
+            "singlePrice": 250
+          },
+          {
+            "itemName": "item_acetone",
+            "label": "acetone",
+            "singlePrice": 2000
+          }
+        ]
+      },
+      "sellConfig": {
+        "regular": [
+          {
+            "itemName": "item_medical_bandage",
+            "label": "MEDICAL BANDAGE",
+            "singlePrice": 1000,
+            "limitation": {
+              "count": 8,
+              "perTime": 15
+            }
+          },
+          {
+            "itemName": "item_pain_killer_pill",
+            "label": "pain killer PILL",
+            "singlePrice": 1750,
+            "limitation": {
+              "count": 5,
+              "perTime": 15
+            }
+          }
+        ]
+      }
     },
     "superMarketConfig": {
       "regular": [
+        {
+          "itemName": "item_repairkit",
+          "label": "REPAIR KIT",
+          "singlePrice": 4000
+        },
         {
           "itemName": "item_fabric",
           "label": "FABRIC",
@@ -1477,28 +1507,28 @@
       ],
       "parts": {
         "Engine": {
-          "basePercentage": 0.1,
-          "step": 0.05
+          "basePercentage": 0.7,
+          "step": 0.04
         },
         "Suspension": {
-          "basePercentage": 0.1,
-          "step": 0.05
+          "basePercentage": 0.7,
+          "step": 0.04
         },
         "Transmission": {
-          "basePercentage": 0.1,
-          "step": 0.05
+          "basePercentage": 0.7,
+          "step": 0.04
         },
         "Armor": {
-          "basePercentage": 0.15,
-          "step": 0.1
+          "basePercentage": 0.1,
+          "step": 0.4
         },
         "Turbo": {
-          "basePercentage": 0.1,
-          "step": 0.05
+          "basePercentage": 0.7,
+          "step": 0.04
         },
         "Brake": {
-          "basePercentage": 0.1,
-          "step": 0.05
+          "basePercentage": 0.7,
+          "step": 0.04
         },
         "AirFilter": {
           "basePercentage": 0.05,
@@ -2054,13 +2084,6 @@
         "Class": "SEDAN",
         "Price": 364750,
         "Brand": "Karin"
-      },
-      {
-        "Model": "jubilee",
-        "Name": "Jubilee",
-        "Class": "SEDAN",
-        "Price": 373000,
-        "Brand": "Enus"
       },
       {
         "Model": "deity",
@@ -25352,6 +25375,9 @@
           "price": 2500
         }
       ]
+    },
+    "Insurance": {
+      "InsurancePercent": 0.01
     }
   },
   "crafting": {
@@ -25372,7 +25398,7 @@
           }
         ],
         "itemType": "RARE",
-        "craftTimeMinutes": 1,
+        "craftTimeMinutes": 3,
         "output": 5
       },
       {
@@ -25391,8 +25417,8 @@
           }
         ],
         "itemType": "RARE",
-        "craftTimeMinutes": 1,
-        "output": 4
+        "craftTimeMinutes": 3,
+        "output": 5
       },
       {
         "label": "PAIN KILLER PILL",
@@ -25400,18 +25426,18 @@
         "materials": [
           {
             "itemName": "item_empty_pill_capsule",
-            "count": 4,
+            "count": 5,
             "label": "EMPTY PILL CAPSULE"
           },
           {
             "itemName": "item_pain_killer_powder",
-            "count": 4,
+            "count": 5,
             "label": "PAIN KILLER POWDER"
           }
         ],
         "itemType": "RARE",
-        "craftTimeMinutes": 1,
-        "output": 4
+        "craftTimeMinutes": 3,
+        "output": 5
       }
     ],
     "CraftingGangConfig": {
@@ -25427,7 +25453,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 2,
           "requiredGangLevel": 1
         },
@@ -25447,7 +25473,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 3,
           "requiredGangLevel": 1
         },
@@ -25462,7 +25488,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 2,
           "requiredGangLevel": 1
         },
@@ -25482,7 +25508,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 1
         },
@@ -25497,7 +25523,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 2,
           "requiredGangLevel": 1
         },
@@ -25517,7 +25543,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 3
         },
@@ -25532,7 +25558,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 2,
           "requiredGangLevel": 1
         },
@@ -25562,7 +25588,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 3,
           "requiredGangLevel": 3
         },
@@ -25587,7 +25613,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 4
         },
@@ -25607,7 +25633,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 3,
           "requiredGangLevel": 4
         }
@@ -25624,7 +25650,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 1
         },
@@ -25649,7 +25675,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 1
         },
@@ -25664,7 +25690,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 2
         },
@@ -25689,7 +25715,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 2
         },
@@ -25719,7 +25745,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 3
         },
@@ -25749,7 +25775,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 3
         },
@@ -25779,7 +25805,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 4
         },
@@ -25814,7 +25840,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 4
         }
@@ -26003,7 +26029,7 @@
             {
               "itemName": "item_ore_iron",
               "count": 50,
-              "label": "COAL"
+              "label": "IRON ORE"
             }
           ],
           "itemType": "UNCOMMON",
@@ -26086,7 +26112,7 @@
             }
           ],
           "itemType": "LEGENDARY",
-          "craftTimeMinutes": 1440
+          "craftTimeMinutes": 3440
         },
         {
           "label": "ANTI SHARPEN KIT",
@@ -26104,7 +26130,7 @@
             }
           ],
           "itemType": "COMMON",
-          "craftTimeMinutes": 15
+          "craftTimeMinutes": 35
         },
         {
           "label": "GAS KIT",
@@ -26132,7 +26158,7 @@
             }
           ],
           "itemType": "UNCOMMON",
-          "craftTimeMinutes": 120
+          "craftTimeMinutes": 320
         },
         {
           "label": "RADIO ACTIVE KIT",
@@ -26149,7 +26175,7 @@
               "label": "COAL"
             },
             {
-              "itemName": "item_ore_iron",
+              "itemName": "item_bar_iron",
               "count": 15,
               "label": "IRON BAR"
             },
@@ -26179,7 +26205,7 @@
             }
           ],
           "coalCost": 10,
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "numberOfOutput": 4
         },
         {
@@ -26196,7 +26222,7 @@
             }
           ],
           "coalCost": 10,
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "numberOfOutput": 4
         },
         {
@@ -26234,7 +26260,7 @@
             }
           ],
           "coalCost": 90,
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "numberOfOutput": 10
         }
       ],
@@ -26255,7 +26281,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 4
         },
         {
@@ -26269,7 +26295,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1
         },
         {
@@ -26283,7 +26309,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1
         },
         {
@@ -26302,7 +26328,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1
         },
         {
@@ -26316,7 +26342,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1
         },
         {
@@ -26335,7 +26361,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1
         },
         {
@@ -26354,7 +26380,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1
         },
         {
@@ -26373,7 +26399,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 3,
           "output": 1
         }
       ],
@@ -26381,7 +26407,7 @@
         {
           "itemName": "item_ore_stone",
           "label": "Stone",
-          "singlePrice": 12
+          "singlePrice": 14
         },
         {
           "itemName": "item_ore_sulfur",
@@ -26491,7 +26517,7 @@
         {
           "itemName": "item_pickaxe_lvl_1",
           "label": "PICK AXE LVL 1",
-          "singlePrice": "7500",
+          "singlePrice": "7200",
           "isSingleBuy": true
         },
         {

@@ -10,7 +10,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_battery', count: 4, label: 'BATTERY' },
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 2,
             requiredGangLevel: 1,
         },
@@ -29,7 +29,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_empty_plastic_pack', count: 3, label: 'PLASTIC PACK' }, //1300
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 3,
             requiredGangLevel: 1,
         },
@@ -41,7 +41,7 @@ export const CraftingGangConfig = {
 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 2,
             requiredGangLevel: 1,
         },
@@ -55,7 +55,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_empty_pill_capsule', count: 1, label: 'EMPTY PILL CAPSULE' }, //250
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 1,
         },
@@ -66,7 +66,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_paint_color', count: 2, label: 'PAINT COLOR' },
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 2,
             requiredGangLevel: 1,
         },
@@ -79,7 +79,7 @@ export const CraftingGangConfig = {
 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 3,
         },
@@ -91,7 +91,7 @@ export const CraftingGangConfig = {
 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 2,
             requiredGangLevel: 1,
         },
@@ -106,7 +106,7 @@ export const CraftingGangConfig = {
 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 3,
             requiredGangLevel: 3,
         },
@@ -119,7 +119,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_ammonia', count: 1, label: 'AMMONIA' }, // 1200
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 4,
         },
@@ -133,7 +133,7 @@ export const CraftingGangConfig = {
 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 3,
             requiredGangLevel: 4,
         },
@@ -148,7 +148,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_bar_iron', count: 5, label: 'IRON BAR' },
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 1,
         },
@@ -163,7 +163,7 @@ export const CraftingGangConfig = {
 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 1,
         },
@@ -174,7 +174,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_reinforced_steel', count: 4, label: 'REINFORCED STEEL' },  //2* 7,630 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 2,
         },
@@ -187,7 +187,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_grip_weapon', count: 1, label: 'GRIP' },   //2,775
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 2,
         },
@@ -201,7 +201,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_reinforced_steel', count: 2, label: 'REINFORCED STEEL' }, //7,630
             ], 
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 3,
         },
@@ -216,7 +216,7 @@ export const CraftingGangConfig = {
 
             ],
             itemType: 'RARE',   
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 3,
         },
@@ -231,7 +231,7 @@ export const CraftingGangConfig = {
 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 4,
         },
@@ -247,7 +247,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_reinforced_steel', count: 2, label: 'REINFORCED STEEL' }, //7,630 
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 1,
+            craftTimeMinutes: 3,
             output: 1,
             requiredGangLevel: 4,
         },

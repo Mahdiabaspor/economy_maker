@@ -1211,28 +1211,28 @@ const colorCostMultiplier = 1.5
 
 const parts =  {
     Engine: {
-        basePercentage: 0.10,
-        step: 0.05
+        basePercentage: 0.7,
+        step: 0.04
     },
     Suspension: {
-        basePercentage: 0.10,
-        step: 0.05
+        basePercentage: 0.7,
+        step: 0.04
     },
     Transmission: {
-        basePercentage: 0.10,
-        step: 0.05
+        basePercentage: 0.7,
+        step: 0.04
     },
     Armor: {
-        basePercentage: 0.15,
-        step: 0.10
+        basePercentage: 0.10,
+        step: 0.4
     },
     Turbo: {
-        basePercentage: 0.10,
-        step: 0.05
+        basePercentage: 0.7,
+        step: 0.04
     },
     Brake: {
-        basePercentage: 0.10,
-        step: 0.05
+        basePercentage: 0.7,
+        step: 0.04
     },
 
     AirFilter: {

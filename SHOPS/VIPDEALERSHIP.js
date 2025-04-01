@@ -1,33 +1,38 @@
 export const VipDealershipCars = [
   {
     "Model": "720s",
-    "Name": "Progen ",
+    "Name": "Progen 720s",
     "Class": "SUPER",
-    "Price": 3500
+    "Price": 4250
   },
   {
     "Model": "divo18",
-    "Name": "Truffade ",
+    "Name": "Truffade divo ",
     "Class": "SUPER",
-    "Price": 5000
+    "Price": 5350
   },
   {
     "Model": "19raptor",
-    "Name": "vapid ",
+    "Name": "vapid raptor" ,
     "Class": "SUV",
-    "Price": 3000
+    "Price": 3500
   },
   {
     "Model": "avtr",
-    "Name": "Benefactor ",
+    "Name": "Benefactor avtr ",
     "Class": "SUPER",
-    "Price": 8700
+    "Price": 8750
   },
   {
     "Model": "bmwi4",
-    "Name": "Übermacht",
+    "Name": "Ubermacht i4",
     "Class": "SUPER",
-    "Price": 2600
+    "Price": 3650
+  },
+  {
+    "Model": "skyline",
+    "Name": "Annis skyline",
+    "Class": "SPORTS",
+    "Price": 2530
   }
-
 ]

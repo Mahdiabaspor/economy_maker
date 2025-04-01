@@ -25,6 +25,9 @@ import { GANG } from "./Factions/GANGS.js";
 import { beautySalon } from "./SHOPS/BEAUTYSALON.js";
 import { plateShop } from "./SHOPS/PLATESHOP.js";
 import { Insurance } from "./SHOPS/INSURANCE.js";
+import { itemsProperties, medicalItems, MiningItems, weaponsItem } from "./items/itemProperties.js";
+import { DrugDealer } from "./SHOPS/DrugLab.js";
+import { WeaponDealer } from "./SHOPS/WeaponDealer.js";
 
 
 const economyConfig = {
@@ -55,6 +58,8 @@ const economyConfig = {
     },
     beautySalon: beautySalon,
     Insurance,
+    DrugDealer:DrugDealer,
+    WeaponDealer:WeaponDealer,
   },
   crafting: {
     CraftEmsConfig,
@@ -70,6 +75,13 @@ const economyConfig = {
     gangConfig: GANG,
   },
   governmentSalary,
+  itemsProperties:{
+    ...MiningItems,
+    ...medicalItems,
+    ...weaponsItem,
+    ...itemsProperties,
+  }
+
 };
 
 // Write to JSON file without pretty-formatting (no whitespace)

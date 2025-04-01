@@ -5263,6 +5263,32 @@
             ],
             "price": 4000,
             "index": 11
+          },
+          {
+            "drawable": 30,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "price": 6000,
+            "index": 12
+          },
+          {
+            "drawable": 31,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "price": 6000,
+            "index": 13
           }
         ],
         "torsos_men": [
@@ -5390,6 +5416,36 @@
             "index": 0
           },
           {
+            "drawable": 19,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "price": 9000,
+            "index": 1
+          },
+          {
+            "drawable": 20,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "price": 11000,
+            "index": 2
+          },
+          {
             "drawable": 28,
             "colors": [
               0,
@@ -5406,7 +5462,7 @@
               9
             ],
             "price": 8000,
-            "index": 1
+            "index": 3
           },
           {
             "drawable": 29,
@@ -5433,7 +5489,7 @@
               9
             ],
             "price": 10000,
-            "index": 2
+            "index": 4
           }
         ],
         "undershirts_men": [
@@ -5701,12 +5757,129 @@
             "index": 15
           },
           {
-            "drawable": 144,
+            "drawable": 37,
             "colors": [
               0
             ],
             "price": 2000,
             "index": 16
+          },
+          {
+            "drawable": 38,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 3000,
+            "index": 17
+          },
+          {
+            "drawable": 39,
+            "colors": [
+              0
+            ],
+            "price": 1500,
+            "index": 18
+          },
+          {
+            "drawable": 40,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "price": 3000,
+            "index": 19
+          },
+          {
+            "drawable": 41,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "price": 5000,
+            "index": 20
+          },
+          {
+            "drawable": 42,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 1000,
+            "index": 21
+          },
+          {
+            "drawable": 43,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "price": 2000,
+            "index": 22
+          },
+          {
+            "drawable": 44,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 2700,
+            "index": 23
+          },
+          {
+            "drawable": 45,
+            "colors": [
+              0
+            ],
+            "price": 5000,
+            "index": 24
+          },
+          {
+            "drawable": 46,
+            "colors": [
+              0
+            ],
+            "price": 6000,
+            "index": 25
+          },
+          {
+            "drawable": 47,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "price": 3000,
+            "index": 26
+          },
+          {
+            "drawable": 48,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "price": 2700,
+            "index": 27
+          },
+          {
+            "drawable": 144,
+            "colors": [
+              0
+            ],
+            "price": 2000,
+            "index": 28
           },
           {
             "drawable": 146,
@@ -5727,7 +5900,7 @@
               9
             ],
             "price": 3500,
-            "index": 17
+            "index": 29
           },
           {
             "drawable": 147,
@@ -5748,7 +5921,7 @@
               9
             ],
             "price": 3500,
-            "index": 18
+            "index": 30
           },
           {
             "drawable": 148,
@@ -5769,7 +5942,7 @@
               9
             ],
             "price": 3500,
-            "index": 19
+            "index": 31
           },
           {
             "drawable": 149,
@@ -5790,7 +5963,7 @@
               9
             ],
             "price": 3500,
-            "index": 20
+            "index": 32
           },
           {
             "drawable": 150,
@@ -5811,7 +5984,7 @@
               9
             ],
             "price": 2300,
-            "index": 21
+            "index": 33
           }
         ],
         "hats_men": [
@@ -5861,6 +6034,43 @@
             "index": 3
           },
           {
+            "drawable": 28,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "price": 3000,
+            "index": 4
+          },
+          {
+            "drawable": 29,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "price": 6500,
+            "index": 5
+          },
+          {
+            "drawable": 30,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 15000,
+            "index": 6
+          },
+          {
             "drawable": 135,
             "colors": [
               0,
@@ -5889,7 +6099,7 @@
               9
             ],
             "price": 1900,
-            "index": 4
+            "index": 7
           }
         ],
         "legs_men": [
@@ -6027,6 +6237,67 @@
             "index": 7
           },
           {
+            "drawable": 26,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 13000,
+            "index": 8
+          },
+          {
+            "drawable": 27,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 17000,
+            "index": 9
+          },
+          {
+            "drawable": 28,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 12000,
+            "index": 10
+          },
+          {
             "drawable": 116,
             "colors": [
               0,
@@ -6041,7 +6312,7 @@
               9
             ],
             "price": 11000,
-            "index": 8
+            "index": 11
           },
           {
             "drawable": 117,
@@ -6059,7 +6330,7 @@
               9
             ],
             "price": 2500,
-            "index": 9
+            "index": 12
           },
           {
             "drawable": 118,
@@ -6092,7 +6363,7 @@
               9
             ],
             "price": 7800,
-            "index": 10
+            "index": 13
           },
           {
             "drawable": 119,
@@ -6110,7 +6381,7 @@
               9
             ],
             "price": 2100,
-            "index": 11
+            "index": 14
           }
         ],
         "masks_men": [
@@ -6191,12 +6462,48 @@
             "index": 5
           },
           {
+            "drawable": 17,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 7000,
+            "index": 6
+          },
+          {
+            "drawable": 18,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 7000,
+            "index": 7
+          },
+          {
+            "drawable": 19,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 7000,
+            "index": 8
+          },
+          {
+            "drawable": 20,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 7000,
+            "index": 9
+          },
+          {
             "drawable": 148,
             "colors": [
               0
             ],
             "price": 1200,
-            "index": 6
+            "index": 10
           },
           {
             "drawable": 149,
@@ -6204,7 +6511,7 @@
               0
             ],
             "price": 2200,
-            "index": 7
+            "index": 11
           },
           {
             "drawable": 150,
@@ -6212,7 +6519,7 @@
               0
             ],
             "price": 2200,
-            "index": 8
+            "index": 12
           },
           {
             "drawable": 151,
@@ -6220,7 +6527,7 @@
               0
             ],
             "price": 2200,
-            "index": 9
+            "index": 13
           },
           {
             "drawable": 152,
@@ -6228,7 +6535,7 @@
               0
             ],
             "price": 2200,
-            "index": 10
+            "index": 14
           },
           {
             "drawable": 153,
@@ -6236,7 +6543,7 @@
               0
             ],
             "price": 2200,
-            "index": 11
+            "index": 15
           },
           {
             "drawable": 154,
@@ -6244,7 +6551,7 @@
               0
             ],
             "price": 8200,
-            "index": 12
+            "index": 16
           },
           {
             "drawable": 155,
@@ -6255,7 +6562,7 @@
               3
             ],
             "price": 15000,
-            "index": 13
+            "index": 17
           },
           {
             "drawable": 156,
@@ -6266,7 +6573,7 @@
               3
             ],
             "price": 25000,
-            "index": 14
+            "index": 18
           },
           {
             "drawable": 157,
@@ -6277,7 +6584,7 @@
               3
             ],
             "price": 25000,
-            "index": 15
+            "index": 19
           },
           {
             "drawable": 158,
@@ -6288,7 +6595,7 @@
               3
             ],
             "price": 25000,
-            "index": 16
+            "index": 20
           },
           {
             "drawable": 159,
@@ -6299,7 +6606,7 @@
               3
             ],
             "price": 29000,
-            "index": 17
+            "index": 21
           }
         ],
         "shoes_men": [
@@ -6369,6 +6676,48 @@
             "index": 3
           },
           {
+            "drawable": 22,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 9000,
+            "index": 4
+          },
+          {
+            "drawable": 23,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 3000,
+            "index": 5
+          },
+          {
             "drawable": 92,
             "colors": [
               0,
@@ -6381,7 +6730,7 @@
               7
             ],
             "price": 4500,
-            "index": 4
+            "index": 6
           },
           {
             "drawable": 93,
@@ -6403,7 +6752,7 @@
               9
             ],
             "price": 9000,
-            "index": 5
+            "index": 7
           },
           {
             "drawable": 94,
@@ -6425,7 +6774,7 @@
               9
             ],
             "price": 6000,
-            "index": 6
+            "index": 8
           }
         ],
         "tops_men": [
@@ -6573,6 +6922,114 @@
             "index": 10
           },
           {
+            "drawable": 33,
+            "colors": [
+              0
+            ],
+            "price": 4000,
+            "index": 11
+          },
+          {
+            "drawable": 34,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 5000,
+            "index": 12
+          },
+          {
+            "drawable": 36,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "price": 4500,
+            "index": 13
+          },
+          {
+            "drawable": 37,
+            "colors": [
+              0,
+              1,
+              2
+            ],
+            "price": 25000,
+            "index": 14
+          },
+          {
+            "drawable": 38,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "price": 6000,
+            "index": 15
+          },
+          {
+            "drawable": 39,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 2000,
+            "index": 16
+          },
+          {
+            "drawable": 40,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 5000,
+            "index": 17
+          },
+          {
+            "drawable": 41,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "price": 3500,
+            "index": 18
+          },
+          {
+            "drawable": 42,
+            "colors": [
+              0
+            ],
+            "price": 14000,
+            "index": 19
+          },
+          {
+            "drawable": 43,
+            "colors": [
+              0
+            ],
+            "price": 14500,
+            "index": 20
+          },
+          {
+            "drawable": 44,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "price": 4000,
+            "index": 21
+          },
+          {
             "drawable": 296,
             "colors": [
               0,
@@ -6603,7 +7060,7 @@
               9
             ],
             "price": 8000,
-            "index": 11
+            "index": 22
           },
           {
             "drawable": 297,
@@ -6636,7 +7093,7 @@
               9
             ],
             "price": 8000,
-            "index": 12
+            "index": 23
           },
           {
             "drawable": 298,
@@ -6668,7 +7125,7 @@
               9
             ],
             "price": 4500,
-            "index": 13
+            "index": 24
           },
           {
             "drawable": 299,
@@ -6701,7 +7158,7 @@
               9
             ],
             "price": 5000,
-            "index": 14
+            "index": 25
           },
           {
             "drawable": 300,
@@ -6734,7 +7191,7 @@
               9
             ],
             "price": 6800,
-            "index": 15
+            "index": 26
           },
           {
             "drawable": 301,
@@ -6767,7 +7224,7 @@
               9
             ],
             "price": 6800,
-            "index": 16
+            "index": 27
           },
           {
             "drawable": 302,
@@ -6800,7 +7257,7 @@
               9
             ],
             "price": 6800,
-            "index": 17
+            "index": 28
           },
           {
             "drawable": 303,
@@ -6833,7 +7290,7 @@
               9
             ],
             "price": 7800,
-            "index": 18
+            "index": 29
           },
           {
             "drawable": 304,
@@ -6850,7 +7307,7 @@
               9
             ],
             "price": 15000,
-            "index": 19
+            "index": 30
           },
           {
             "drawable": 305,
@@ -6883,7 +7340,7 @@
               9
             ],
             "price": 6000,
-            "index": 20
+            "index": 31
           },
           {
             "drawable": 306,
@@ -6916,7 +7373,7 @@
               9
             ],
             "price": 6000,
-            "index": 21
+            "index": 32
           },
           {
             "drawable": 307,
@@ -6947,7 +7404,7 @@
               9
             ],
             "price": 4000,
-            "index": 22
+            "index": 33
           },
           {
             "drawable": 308,
@@ -6966,7 +7423,7 @@
               9
             ],
             "price": 3600,
-            "index": 23
+            "index": 34
           },
           {
             "drawable": 309,
@@ -6987,7 +7444,7 @@
               9
             ],
             "price": 14000,
-            "index": 24
+            "index": 35
           },
           {
             "drawable": 310,
@@ -7005,7 +7462,7 @@
               9
             ],
             "price": 3000,
-            "index": 25
+            "index": 36
           },
           {
             "drawable": 313,
@@ -7033,7 +7490,7 @@
               9
             ],
             "price": 2100,
-            "index": 26
+            "index": 37
           }
         ],
         "watches_men": [
@@ -7050,6 +7507,17 @@
             "index": 0
           },
           {
+            "drawable": 5,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "price": 33000,
+            "index": 1
+          },
+          {
             "drawable": 30,
             "colors": [
               0,
@@ -7060,7 +7528,7 @@
               5
             ],
             "price": 28000,
-            "index": 1
+            "index": 2
           },
           {
             "drawable": 31,
@@ -7073,7 +7541,7 @@
               5
             ],
             "price": 25000,
-            "index": 2
+            "index": 3
           },
           {
             "drawable": 32,
@@ -7090,7 +7558,7 @@
               9
             ],
             "price": 22000,
-            "index": 3
+            "index": 4
           },
           {
             "drawable": 33,
@@ -7103,7 +7571,7 @@
               5
             ],
             "price": 26000,
-            "index": 4
+            "index": 5
           },
           {
             "drawable": 34,
@@ -7116,7 +7584,7 @@
               5
             ],
             "price": 21000,
-            "index": 5
+            "index": 6
           },
           {
             "drawable": 35,
@@ -7129,7 +7597,7 @@
               5
             ],
             "price": 20000,
-            "index": 6
+            "index": 7
           },
           {
             "drawable": 36,
@@ -7142,7 +7610,7 @@
               5
             ],
             "price": 17000,
-            "index": 7
+            "index": 8
           },
           {
             "drawable": 37,
@@ -7155,7 +7623,7 @@
               5
             ],
             "price": 17000,
-            "index": 8
+            "index": 9
           },
           {
             "drawable": 38,
@@ -7165,7 +7633,7 @@
               2
             ],
             "price": 17000,
-            "index": 9
+            "index": 10
           },
           {
             "drawable": 39,
@@ -7175,7 +7643,7 @@
               2
             ],
             "price": 17000,
-            "index": 10
+            "index": 11
           }
         ]
       },
@@ -7204,6 +7672,18 @@
             ],
             "price": 17000,
             "index": 1
+          },
+          {
+            "drawable": 15,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "price": 3000,
+            "index": 2
           }
         ],
         "torsos_female": [
@@ -7345,6 +7825,36 @@
             "index": 1
           },
           {
+            "drawable": 20,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "price": 4000,
+            "index": 2
+          },
+          {
+            "drawable": 21,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "price": 5500,
+            "index": 3
+          },
+          {
             "drawable": 30,
             "colors": [
               0,
@@ -7361,7 +7871,7 @@
               9
             ],
             "price": 8500,
-            "index": 2
+            "index": 4
           },
           {
             "drawable": 31,
@@ -7388,7 +7898,7 @@
               9
             ],
             "price": 9500,
-            "index": 3
+            "index": 5
           }
         ],
         "undershirts_female": [
@@ -7494,12 +8004,61 @@
             "index": 6
           },
           {
+            "drawable": 27,
+            "colors": [
+              0,
+              1,
+              2
+            ],
+            "price": 4000,
+            "index": 7
+          },
+          {
+            "drawable": 28,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "price": 2000,
+            "index": 8
+          },
+          {
+            "drawable": 29,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "price": 3000,
+            "index": 9
+          },
+          {
+            "drawable": 30,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "price": 5250,
+            "index": 10
+          },
+          {
             "drawable": 185,
             "colors": [
               0
             ],
             "price": 4500,
-            "index": 7
+            "index": 11
           }
         ],
         "hats_female": [
@@ -7571,6 +8130,33 @@
             "index": 5
           },
           {
+            "drawable": 28,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "price": 7000,
+            "index": 6
+          },
+          {
+            "drawable": 29,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "price": 3000,
+            "index": 7
+          },
+          {
             "drawable": 135,
             "colors": [
               0,
@@ -7599,7 +8185,7 @@
               9
             ],
             "price": 5500,
-            "index": 6
+            "index": 8
           }
         ],
         "legs_female": [
@@ -7672,6 +8258,57 @@
             "index": 3
           },
           {
+            "drawable": 25,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 4000,
+            "index": 4
+          },
+          {
+            "drawable": 26,
+            "colors": [
+              0
+            ],
+            "price": 5000,
+            "index": 5
+          },
+          {
+            "drawable": 27,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 19000,
+            "index": 6
+          },
+          {
             "drawable": 123,
             "colors": [
               0,
@@ -7687,7 +8324,7 @@
               9
             ],
             "price": 3500,
-            "index": 4
+            "index": 7
           },
           {
             "drawable": 124,
@@ -7720,7 +8357,7 @@
               9
             ],
             "price": 5500,
-            "index": 5
+            "index": 8
           },
           {
             "drawable": 125,
@@ -7738,7 +8375,7 @@
               9
             ],
             "price": 3500,
-            "index": 6
+            "index": 9
           }
         ],
         "masks_female": [
@@ -7819,12 +8456,48 @@
             "index": 5
           },
           {
+            "drawable": 17,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 7000,
+            "index": 6
+          },
+          {
+            "drawable": 18,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 7000,
+            "index": 7
+          },
+          {
+            "drawable": 19,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 7000,
+            "index": 8
+          },
+          {
+            "drawable": 20,
+            "colors": [
+              0,
+              1
+            ],
+            "price": 7000,
+            "index": 9
+          },
+          {
             "drawable": 148,
             "colors": [
               0
             ],
             "price": 1000,
-            "index": 6
+            "index": 10
           },
           {
             "drawable": 149,
@@ -7832,7 +8505,7 @@
               0
             ],
             "price": 2500,
-            "index": 7
+            "index": 11
           },
           {
             "drawable": 150,
@@ -7840,7 +8513,7 @@
               0
             ],
             "price": 2500,
-            "index": 8
+            "index": 12
           },
           {
             "drawable": 151,
@@ -7848,7 +8521,7 @@
               0
             ],
             "price": 2500,
-            "index": 9
+            "index": 13
           },
           {
             "drawable": 152,
@@ -7856,7 +8529,7 @@
               0
             ],
             "price": 2500,
-            "index": 10
+            "index": 14
           },
           {
             "drawable": 153,
@@ -7864,7 +8537,7 @@
               0
             ],
             "price": 2500,
-            "index": 11
+            "index": 15
           },
           {
             "drawable": 154,
@@ -7872,7 +8545,7 @@
               0
             ],
             "price": 8500,
-            "index": 12
+            "index": 16
           },
           {
             "drawable": 155,
@@ -7883,7 +8556,7 @@
               3
             ],
             "price": 14000,
-            "index": 13
+            "index": 17
           },
           {
             "drawable": 156,
@@ -7894,7 +8567,7 @@
               3
             ],
             "price": 18000,
-            "index": 14
+            "index": 18
           },
           {
             "drawable": 157,
@@ -7905,7 +8578,7 @@
               3
             ],
             "price": 18000,
-            "index": 15
+            "index": 19
           },
           {
             "drawable": 158,
@@ -7916,7 +8589,7 @@
               3
             ],
             "price": 18000,
-            "index": 16
+            "index": 20
           },
           {
             "drawable": 159,
@@ -7927,7 +8600,7 @@
               3
             ],
             "price": 19000,
-            "index": 17
+            "index": 21
           }
         ],
         "shoes_female": [
@@ -7997,6 +8670,46 @@
             "index": 3
           },
           {
+            "drawable": 21,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 8000,
+            "index": 4
+          },
+          {
+            "drawable": 22,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 16000,
+            "index": 5
+          },
+          {
             "drawable": 96,
             "colors": [
               0,
@@ -8016,7 +8729,7 @@
               9
             ],
             "price": 6000,
-            "index": 4
+            "index": 6
           },
           {
             "drawable": 97,
@@ -8038,7 +8751,7 @@
               9
             ],
             "price": 4200,
-            "index": 5
+            "index": 7
           },
           {
             "drawable": 98,
@@ -8053,7 +8766,7 @@
               7
             ],
             "price": 4700,
-            "index": 6
+            "index": 8
           }
         ],
         "tops_female": [
@@ -8221,12 +8934,115 @@
             "index": 10
           },
           {
+            "drawable": 31,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "price": 8000,
+            "index": 11
+          },
+          {
+            "drawable": 32,
+            "colors": [
+              0,
+              1,
+              2
+            ],
+            "price": 2500,
+            "index": 12
+          },
+          {
+            "drawable": 33,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "price": 8500,
+            "index": 13
+          },
+          {
+            "drawable": 34,
+            "colors": [
+              0
+            ],
+            "price": 4000,
+            "index": 14
+          },
+          {
+            "drawable": 35,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "price": 25000,
+            "index": 15
+          },
+          {
+            "drawable": 36,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "price": 5500,
+            "index": 16
+          },
+          {
+            "drawable": 37,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "price": 16000,
+            "index": 17
+          },
+          {
+            "drawable": 38,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "price": 4000,
+            "index": 18
+          },
+          {
             "drawable": 303,
             "colors": [
               0
             ],
             "price": 2300,
-            "index": 11
+            "index": 19
           },
           {
             "drawable": 305,
@@ -8243,7 +9059,7 @@
               9
             ],
             "price": 8300,
-            "index": 12
+            "index": 20
           },
           {
             "drawable": 306,
@@ -8260,7 +9076,7 @@
               9
             ],
             "price": 8300,
-            "index": 13
+            "index": 21
           },
           {
             "drawable": 307,
@@ -8293,7 +9109,7 @@
               9
             ],
             "price": 5000,
-            "index": 14
+            "index": 22
           },
           {
             "drawable": 308,
@@ -8326,7 +9142,7 @@
               9
             ],
             "price": 5000,
-            "index": 15
+            "index": 23
           },
           {
             "drawable": 309,
@@ -8358,7 +9174,7 @@
               9
             ],
             "price": 3200,
-            "index": 16
+            "index": 24
           },
           {
             "drawable": 310,
@@ -8391,7 +9207,7 @@
               9
             ],
             "price": 3400,
-            "index": 17
+            "index": 25
           },
           {
             "drawable": 311,
@@ -8424,7 +9240,7 @@
               9
             ],
             "price": 9000,
-            "index": 18
+            "index": 26
           },
           {
             "drawable": 312,
@@ -8457,7 +9273,7 @@
               9
             ],
             "price": 9000,
-            "index": 19
+            "index": 27
           },
           {
             "drawable": 313,
@@ -8490,7 +9306,7 @@
               9
             ],
             "price": 9000,
-            "index": 20
+            "index": 28
           },
           {
             "drawable": 314,
@@ -8523,7 +9339,7 @@
               9
             ],
             "price": 9000,
-            "index": 21
+            "index": 29
           },
           {
             "drawable": 315,
@@ -8540,7 +9356,7 @@
               9
             ],
             "price": 9800,
-            "index": 22
+            "index": 30
           },
           {
             "drawable": 316,
@@ -8573,7 +9389,7 @@
               9
             ],
             "price": 3800,
-            "index": 23
+            "index": 31
           },
           {
             "drawable": 317,
@@ -8606,7 +9422,7 @@
               9
             ],
             "price": 3800,
-            "index": 24
+            "index": 32
           },
           {
             "drawable": 318,
@@ -8637,7 +9453,7 @@
               9
             ],
             "price": 3800,
-            "index": 25
+            "index": 33
           },
           {
             "drawable": 319,
@@ -8656,7 +9472,7 @@
               9
             ],
             "price": 3100,
-            "index": 26
+            "index": 34
           },
           {
             "drawable": 320,
@@ -8677,7 +9493,7 @@
               9
             ],
             "price": 9800,
-            "index": 27
+            "index": 35
           },
           {
             "drawable": 321,
@@ -8695,7 +9511,7 @@
               9
             ],
             "price": 2900,
-            "index": 28
+            "index": 36
           },
           {
             "drawable": 322,
@@ -8728,7 +9544,7 @@
               9
             ],
             "price": 18000,
-            "index": 29
+            "index": 37
           },
           {
             "drawable": 323,
@@ -8761,7 +9577,7 @@
               9
             ],
             "price": 15000,
-            "index": 30
+            "index": 38
           },
           {
             "drawable": 324,
@@ -8789,7 +9605,7 @@
               9
             ],
             "price": 3000,
-            "index": 31
+            "index": 39
           }
         ],
         "watches_female": [
@@ -25378,6 +26194,261 @@
     },
     "Insurance": {
       "InsurancePercent": 0.01
+    },
+    "DrugDealer": {
+      "sell": [
+        {
+          "itemName": "item_weed",
+          "label": "WEED",
+          "singlePrice": 700
+        },
+        {
+          "itemName": "item_coca_leaves",
+          "label": "COCA LEAVES",
+          "singlePrice": 750
+        },
+        {
+          "itemName": "item_saffarole_leave",
+          "label": "SAFFAROLE LEAVE",
+          "singlePrice": 800
+        },
+        {
+          "itemName": "item_saffarole_oil",
+          "label": "SAFFAROLE OIL",
+          "singlePrice": 1800
+        },
+        {
+          "itemName": "item_methylamine_crystal",
+          "label": "METHYLAMINE CRYSTAL",
+          "singlePrice": 4800
+        },
+        {
+          "itemName": "item_cocain_powder",
+          "label": "COCAINE POWDER",
+          "singlePrice": 3400
+        },
+        {
+          "itemName": "item_mdp2p",
+          "label": "MDP2P",
+          "singlePrice": 4200
+        },
+        {
+          "itemName": "item_cocain_pack",
+          "label": "COCAINE PACK",
+          "singlePrice": 5500
+        },
+        {
+          "itemName": "item_mdma_powder",
+          "label": "MDMA POWDER",
+          "singlePrice": 5800
+        },
+        {
+          "itemName": "item_mdma_pill",
+          "label": "MDMA PILL",
+          "singlePrice": 7500
+        }
+      ],
+      "buy": [
+        {
+          "itemName": "item_weed",
+          "label": "WEED",
+          "singlePrice": 1400
+        },
+        {
+          "itemName": "item_coca_leaves",
+          "label": "COCA LEAVES",
+          "singlePrice": 1500
+        },
+        {
+          "itemName": "item_saffarole_leave",
+          "label": "SAFFAROLE LEAVE",
+          "singlePrice": 1600
+        },
+        {
+          "itemName": "item_saffarole_oil",
+          "label": "SAFFAROLE OIL",
+          "singlePrice": 2700
+        },
+        {
+          "itemName": "item_methylamine_crystal",
+          "label": "METHYLAMINE CRYSTAL",
+          "singlePrice": 7200
+        },
+        {
+          "itemName": "item_cocain_powder",
+          "label": "COCAINE POWDER",
+          "singlePrice": 5100
+        },
+        {
+          "itemName": "item_mdp2p",
+          "label": "MDP2P",
+          "singlePrice": 6300
+        },
+        {
+          "itemName": "item_cocain_pack",
+          "label": "COCAINE PACK",
+          "singlePrice": 8800
+        },
+        {
+          "itemName": "item_mdma_powder",
+          "label": "MDMA POWDER",
+          "singlePrice": 9300
+        },
+        {
+          "itemName": "item_mdma_pill",
+          "label": "MDMA PILL",
+          "singlePrice": 13600
+        }
+      ]
+    },
+    "WeaponDealer": {
+      "sell": [
+        {
+          "itemName": "item_normal_barrel",
+          "label": "NORMAL BARREL",
+          "singlePrice": 4005
+        },
+        {
+          "itemName": "item_reinforced_barrel",
+          "label": "REINFORCED BARREL",
+          "singlePrice": 5318
+        },
+        {
+          "itemName": "item_grip_weapon",
+          "label": "WEAPON GRIP",
+          "singlePrice": 2913
+        },
+        {
+          "itemName": "item_stock_weapon",
+          "label": "WEAPON STOCK",
+          "singlePrice": 2913
+        },
+        {
+          "itemName": "item_normal_trigger",
+          "label": "NORMAL TRIGGER",
+          "singlePrice": 3255
+        },
+        {
+          "itemName": "item_advanced_trigger",
+          "label": "ADVANCED TRIGGER",
+          "singlePrice": 5318
+        },
+        {
+          "itemName": "item_scope_weapon",
+          "label": "WEAPON SCOPE",
+          "singlePrice": 10636
+        },
+        {
+          "itemName": "item_melee_knife",
+          "label": "KNIFE",
+          "singlePrice": 7000
+        },
+        {
+          "itemName": "item_melee_machete",
+          "label": "MACHETE",
+          "singlePrice": 16023
+        },
+        {
+          "itemName": "item_weapon_nightstick",
+          "label": "NIGHT STICK",
+          "singlePrice": 4000
+        },
+        {
+          "itemName": "item_weapon_combat_pistol",
+          "label": "COMBAT PISTOL",
+          "singlePrice": 11000
+        },
+        {
+          "itemName": "item_weapon_double_action_revolver",
+          "label": "DOUBLE ACTION REVOLVER",
+          "singlePrice": 16506
+        },
+        {
+          "itemName": "item_weapon_db_shotgun",
+          "label": "DB SHOTGUN",
+          "singlePrice": 22086
+        },
+        {
+          "itemName": "item_weapon_micro_smg",
+          "label": "MICRO SMG",
+          "singlePrice": 20506
+        },
+        {
+          "itemName": "item_weapon_smg",
+          "label": "SMG",
+          "singlePrice": 17500
+        },
+        {
+          "itemName": "item_weapon_sawnoff_shotgun",
+          "label": "SAWNOFF SHOTGUN",
+          "singlePrice": 27667
+        },
+        {
+          "itemName": "item_weapon_compact_rifle",
+          "label": "COMPACT RIFLE",
+          "singlePrice": 28638
+        },
+        {
+          "itemName": "item_weapon_pump_shotgun",
+          "label": "PUMP SHOTGUN",
+          "singlePrice": 20000
+        },
+        {
+          "itemName": "item_weapon_advanced_rifle",
+          "label": "ADVANCED RIFLE",
+          "singlePrice": 27500
+        },
+        {
+          "itemName": "item_weapon_stun_gun",
+          "label": "STUN GUN",
+          "singlePrice": 7500
+        },
+        {
+          "itemName": "item_weapon_combat_pwd",
+          "label": "COMBAT PWD",
+          "singlePrice": 15000
+        },
+        {
+          "itemName": "item_weapon_combat_shotgun",
+          "label": "COMBAT SHOTGUN",
+          "singlePrice": 18000
+        },
+        {
+          "itemName": "item_weapon_combat_mg",
+          "label": "COMBAT MG",
+          "singlePrice": 22000
+        },
+        {
+          "itemName": "item_weapon_carbine_rifle",
+          "label": "CARBINE RIFLE",
+          "singlePrice": 20000
+        },
+        {
+          "itemName": "item_weapon_sniper_rifle",
+          "label": "SNIPER RIFLE",
+          "singlePrice": 25000
+        },
+        {
+          "itemName": "item_bullet_9_mm",
+          "label": "9MM BULLETS",
+          "singlePrice": 25
+        },
+        {
+          "itemName": "item_bullet_shotgun",
+          "label": "SHOTGUN SHELLS",
+          "singlePrice": 40
+        },
+        {
+          "itemName": "item_bullet_5_56_mm",
+          "label": "5.56MM BULLETS",
+          "singlePrice": 30
+        },
+        {
+          "itemName": "item_bullet_7_62_mm",
+          "label": "7.62MM BULLETS",
+          "singlePrice": 150
+        }
+      ]
     }
   },
   "crafting": {
@@ -26730,6 +27801,1316 @@
       "Nurse": 3500,
       "Doctor": 4500,
       "Chief": 5000
+    }
+  },
+  "itemsProperties": {
+    "kit_antiSharp": {
+      "name": "kit_antiSharp",
+      "label": "anti sharp kit",
+      "accessKey": "KIT",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "kits",
+      "canUnStack": false,
+      "weight": 2,
+      "durability": 100,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "kit_radioactive": {
+      "name": "kit_radioactive",
+      "label": "anti radiation kit ",
+      "accessKey": "KIT",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "kits",
+      "canUnStack": false,
+      "durability": 100,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "kit_gas": {
+      "name": "kit_gas",
+      "label": "anti gas kit",
+      "accessKey": "KIT",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "kits",
+      "canUnStack": false,
+      "durability": 100,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_pickaxe_lvl_1": {
+      "name": "item_pickaxe_lvl_1",
+      "label": "pickaxe lvl 1",
+      "accessKey": "TOOL",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 100,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_pickaxe_lvl_2": {
+      "name": "item_pickaxe_lvl_2",
+      "label": "pickaxe lvl 2",
+      "accessKey": "TOOL",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 100,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_pickaxe_lvl_3": {
+      "name": "item_pickaxe_lvl_3",
+      "label": "pickaxe lvl 3",
+      "accessKey": "TOOL",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "durability": 100,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_pickaxe_lvl_4": {
+      "name": "item_pickaxe_lvl_4",
+      "label": "pickaxe lvl 4",
+      "accessKey": "TOOL",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 100,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_bar_auriron": {
+      "name": "item_bar_auriron",
+      "label": "aur iron bar",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_bar_gildiron": {
+      "name": "item_bar_gildiron",
+      "label": "gild iron bar",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_bar_gold": {
+      "name": "item_bar_gold",
+      "label": "gold bar",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_bar_iron": {
+      "name": "item_bar_iron",
+      "label": "iron bar",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_gem_Amberite": {
+      "name": "item_gem_Amberite",
+      "label": "amberite gem",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": false,
+      "weight": 0.3,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_gem_aqualith": {
+      "name": "item_gem_aqualith",
+      "label": "aqualith gem",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": false,
+      "weight": 0.3,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_gem_luminite": {
+      "name": "item_gem_luminite",
+      "label": "luminite gem",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": false,
+      "weight": 0.3,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_ore_coal": {
+      "name": "item_ore_coal",
+      "label": "coal ore",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_ore_gold": {
+      "name": "item_ore_gold",
+      "label": "gold ore",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_ore_iron": {
+      "name": "item_ore_iron",
+      "label": "iron ore",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_ore_stone": {
+      "name": "item_ore_stone",
+      "label": "stone",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_ore_sulfur": {
+      "name": "item_ore_sulfur",
+      "label": "sulfur",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_mining_map": {
+      "name": "item_mining_map",
+      "label": "MINING MAP",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "category": "tools"
+    },
+    "item_pain_killer_pill": {
+      "name": "item_pain_killer_pill",
+      "label": "pain killer pill",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "medical",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_fabric": {
+      "name": "item_fabric",
+      "label": "fabric",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_ethanol": {
+      "name": "item_ethanol",
+      "label": "ethanol",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_empty_pill_capsule": {
+      "name": "item_empty_pill_capsule",
+      "label": "empty pill capsule",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_medicine_stablizer": {
+      "name": "item_medicine_stablizer",
+      "label": "medicine stablizer",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_capsaicin_powder": {
+      "name": "item_capsaicin_powder",
+      "label": "capsaicin powder",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_pain_killer_powder": {
+      "name": "item_pain_killer_powder",
+      "label": "pain killer powder",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_weapon_knife": {
+      "name": "item_weapon_knife",
+      "label": "knife",
+      "accessKey": "MELEE",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_melee_machete": {
+      "name": "item_melee_machete",
+      "label": "machete",
+      "accessKey": "MELEE",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_revolver": {
+      "name": "item_weapon_revolver",
+      "label": "Heavy Revolver",
+      "accessKey": "SECONDARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_double_action_revolver": {
+      "name": "item_weapon_double_action_revolver",
+      "label": "Double Revolver",
+      "accessKey": "SECONDARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_db_shotgun": {
+      "name": "item_weapon_db_shotgun",
+      "label": "Double Barrel Shotgun",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_micro_smg": {
+      "name": "item_weapon_micro_smg",
+      "label": "Micro SMG",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_sawnoff_shotgun": {
+      "name": "item_weapon_sawnoff_shotgun",
+      "label": "Sawed-Off Shotgun",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_compact_rifle": {
+      "name": "item_weapon_compact_rifle",
+      "label": "Compact Rifle",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_bullet_7_62_mm": {
+      "name": "item_bullet_7_62_mm",
+      "label": "7.62mm bullet",
+      "accessKey": "SNIPER_AMMO",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": true,
+      "category": "ammo",
+      "weight": 0.02,
+      "canStack": true,
+      "maxStack": 250,
+      "canTrade": true
+    },
+    "item_bullet_5_56_mm": {
+      "name": "item_bullet_5_56_mm",
+      "label": "5.56mm bullet",
+      "accessKey": "RIFLE_AMMO",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "ammo",
+      "canUnStack": true,
+      "weight": 0.02,
+      "canStack": true,
+      "maxStack": 250,
+      "canTrade": true
+    },
+    "item_bullet_shotgun": {
+      "name": "item_bullet_shotgun",
+      "label": "shotgun shell",
+      "accessKey": "SHOTGUN_AMMO",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "ammo",
+      "canDrop": false,
+      "canUnStack": true,
+      "weight": 0.05,
+      "canStack": true,
+      "maxStack": 250,
+      "canTrade": true
+    },
+    "item_weapon_advanced_rifle": {
+      "name": "item_weapon_advanced_rifle",
+      "label": "Advanced Rifle",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.01,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_combat_mg": {
+      "name": "item_weapon_combat_mg",
+      "label": "Mg Rifle",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.01,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_sniper_rifle": {
+      "name": "item_weapon_sniper_rifle",
+      "label": "Sniper Rifle",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.07,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_carbine_rifle": {
+      "name": "item_weapon_carbine_rifle",
+      "label": "Carbine Rifle",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.07,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_assault_shotgun": {
+      "name": "item_weapon_assault_shotgun",
+      "label": "assault shotgun",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 3.5,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_smg": {
+      "name": "item_weapon_smg",
+      "label": "smg",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_combat_pwd": {
+      "name": "item_weapon_combat_pwd",
+      "label": "combat pwd",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_combat_shotgun": {
+      "name": "item_weapon_combat_shotgun",
+      "label": "combat shotgun",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "weapon",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_heavy_rifle": {
+      "name": "item_weapon_heavy_rifle",
+      "label": "heavy rifle",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_pump_shotgun": {
+      "name": "item_weapon_pump_shotgun",
+      "label": "Pump Shotgun",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "weapon",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_heavy_shotgun": {
+      "name": "item_weapon_heavy_shotgun",
+      "label": "heavy shotgun",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "weapon",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_stun_gun": {
+      "name": "item_weapon_stun_gun",
+      "label": "stun gun",
+      "accessKey": "SECONDARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_vest_police": {
+      "name": "item_vest_police",
+      "label": "Police Vest",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "Vest",
+      "canUSE": true,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_combat_pistol": {
+      "name": "item_weapon_combat_pistol",
+      "label": "combat pistol",
+      "accessKey": "SECONDARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_bullet_9_mm": {
+      "name": "item_bullet_9_mm",
+      "label": "9mm bullet",
+      "accessKey": "PISTOL_AMMO",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "ammo",
+      "canDrop": false,
+      "canUnStack": true,
+      "weight": 0.01,
+      "canStack": true,
+      "maxStack": 200,
+      "canTrade": true
+    },
+    "item_weapon_nightstick": {
+      "name": "item_weapon_nightstick",
+      "label": "night stick",
+      "accessKey": "MELEE",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.5,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_flashlight": {
+      "name": "item_weapon_flashlight",
+      "label": "flashlight",
+      "accessKey": "SECONDARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.5,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_melee_knife": {
+      "name": "item_melee_knife",
+      "label": "Knife",
+      "accessKey": "MELEE",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "category": "weapon",
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.5,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_repairkit": {
+      "name": "item_repairkit",
+      "label": "repair kit",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_hand_pilers": {
+      "name": "item_hand_pilers",
+      "label": "Tools Pliers",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 80,
+      "canTrade": true
+    },
+    "item_multi_metter": {
+      "name": "item_multi_metter",
+      "label": "Tools Multimeter",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_drink_fanta": {
+      "name": "item_drink_fanta",
+      "label": "fanta",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "drink",
+      "canUnStack": false,
+      "weight": 0.3,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_drink_water": {
+      "name": "item_drink_water",
+      "label": "water",
+      "accessKey": "none",
+      "category": "drink",
+      "canUSE": true,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 0.3,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_medical_bandage": {
+      "name": "item_medical_bandage",
+      "label": "bandage",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "medical",
+      "canUnStack": true,
+      "weight": 0.5,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_medical_first_aid": {
+      "name": "item_medical_first_aid",
+      "label": "first aid kit",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "medical",
+      "canUnStack": true,
+      "weight": 0.5,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_fuel_can": {
+      "name": "item_fuel_can",
+      "label": "fuel can",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.5,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_food_burger": {
+      "name": "item_food_burger",
+      "label": "burger",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "food",
+      "canUnStack": false,
+      "weight": 0.5,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_reinforced_barrel": {
+      "name": "item_reinforced_barrel",
+      "label": "reinforced barrel",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_normal_barrel": {
+      "name": "item_normal_barrel",
+      "label": "normal barrel",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_normal_trigger": {
+      "name": "item_normal_trigger",
+      "label": "normal trigger",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_advanced_trigger": {
+      "name": "item_advanced_trigger",
+      "label": "advanced trigger",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_stock_weapon": {
+      "name": "item_stock_weapon",
+      "label": "stock weapon",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_grip_weapon": {
+      "name": "item_grip_weapon",
+      "label": "grip weapon",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_scope_weapon": {
+      "name": "item_scope_weapon",
+      "label": "scope weapon",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": false,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_reinforced_steel": {
+      "name": "item_reinforced_steel",
+      "label": "reinforced steel",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_coca_leaves": {
+      "name": "item_coca_leaves",
+      "label": "coca leaves",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_cocain_pack": {
+      "name": "item_cocain_pack",
+      "label": "cocain pack",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": true,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_cocain_powder": {
+      "name": "item_cocain_powder",
+      "label": "cocain powder",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_mdma_pill": {
+      "name": "item_mdma_pill",
+      "label": "mdma pill",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": true,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_mdma_powder": {
+      "name": "item_mdma_powder",
+      "label": "mdma powder",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_mdp2p": {
+      "name": "item_mdp2p",
+      "label": "mdp2p",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_saffarole_oil": {
+      "name": "item_saffarole_oil",
+      "label": "saffarole oil",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "drug",
+      "isIllegal": true,
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_weed": {
+      "name": "item_weed",
+      "label": "weed",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": true,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 40,
+      "canTrade": true
+    },
+    "item_saffarole_leave": {
+      "name": "item_saffarole_leave",
+      "label": "saffarole leave",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 40,
+      "canTrade": true
+    },
+    "item_acetone": {
+      "name": "item_acetone",
+      "label": "acetone",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_ammonia": {
+      "name": "item_ammonia",
+      "label": "ammonia",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_battery": {
+      "name": "item_battery",
+      "label": "battery",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_empty_plastic_pack": {
+      "name": "item_empty_plastic_pack",
+      "label": "empty plastic pack",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "parts",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_gun_powder": {
+      "name": "item_gun_powder",
+      "label": "gun powder",
+      "accessKey": "none",
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_house_cleaner": {
+      "name": "item_house_cleaner",
+      "label": "house cleaner",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_methanol": {
+      "name": "item_methanol",
+      "label": "methanol",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 35,
+      "canTrade": true
+    },
+    "item_methylamine_crystal": {
+      "name": "item_methylamine_crystal",
+      "label": "methylamine crystal",
+      "accessKey": "none",
+      "canDelete": false,
+      "isIllegal": true,
+      "canUSE": false,
+      "canDrop": false,
+      "category": "drug",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_paint_color": {
+      "name": "item_paint_color",
+      "label": "paint color",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 30,
+      "canTrade": true
+    },
+    "item_lock_pick": {
+      "name": "item_lock_pick",
+      "label": "Lock Pick",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": true,
+      "isIllegal": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_sodium_bicarbonate": {
+      "name": "item_sodium_bicarbonate",
+      "label": "sodium bicarbonate",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 90,
+      "canTrade": true
+    },
+    "item_sulfuric_acid": {
+      "name": "item_sulfuric_acid",
+      "label": "sulfuric acid",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
     }
   }
 }

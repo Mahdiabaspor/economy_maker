@@ -11,7 +11,7 @@ export const CraftEmsConfig = [
             { itemName: 'item_fabric', count: 5, label: 'Fabric' }, // 1000
         ],
         itemType: 'RARE',
-        craftTimeMinutes: 3,
+        craftTimeMinutes: 4,
         output: 5,
     },
     {

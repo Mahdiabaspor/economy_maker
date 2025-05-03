@@ -1,4 +1,4 @@
-const electricSalaryMultiplier = 1
+const electricSalaryMultiplier = 1.3
 
 // level 1   36 task per hour
 // for 9000 per hour 
@@ -20,22 +20,22 @@ const Lvl3SingleSalary = Math.floor(710 * electricSalaryMultiplier)
 
 
 const levelRewards = [
-    { id: 1, reward: 1000 },
-    { id: 2, reward: 2500 },
-    { id: 3, reward: 3500 },
-    { id: 4, reward: 4000 },
-    { id: 5, reward: 5000 },
-    { id: 6, reward: 6000 },
-    { id: 7, reward: 7000 },
-    { id: 8, reward: 7000 },
-    { id: 9, reward: 7000 },
-    { id: 10, reward: 7000 }
+    { id: 1, reward: 2000 },
+    { id: 2, reward: 5000 },
+    { id: 3, reward: 7000 },
+    { id: 4, reward: 8000 },
+    { id: 5, reward: 10000 },
+    { id: 6, reward: 12000 },
+    { id: 7, reward: 14000 },
+    { id: 8, reward: 15000 },
+    { id: 9, reward: 16000 },
+    { id: 10, reward: 17000 }
 ]
 
 
 const shopItems = {
-    item_multi_metter: 3500,
-    item_hand_pilers: 3000,
+    item_multi_metter: 2500,
+    item_hand_pilers: 2000,
     mediumCircuit: 5500,
     advancedCircuit: 7650,
 }

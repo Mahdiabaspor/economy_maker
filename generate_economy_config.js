@@ -28,6 +28,8 @@ import { Insurance } from "./SHOPS/INSURANCE.js";
 import { itemsProperties, medicalItems, MiningItems, weaponsItem } from "./items/itemProperties.js";
 import { DrugDealer } from "./SHOPS/DrugLab.js";
 import { WeaponDealer } from "./SHOPS/WeaponDealer.js";
+import { femaleClothP } from "./SHOPS/ClothShopPermium/Female.js";
+import { maleClothP } from "./SHOPS/ClothShopPermium/Male.js";
 
 
 const economyConfig = {
@@ -51,6 +53,10 @@ const economyConfig = {
     clothShop: {
       male: maleCloth,
       female: femaleCloth,
+    },
+    clothShopPremium: {
+      male: maleClothP,
+      female: femaleClothP,
     },
     tattooShop: {
       male: MaleTattooPackage,

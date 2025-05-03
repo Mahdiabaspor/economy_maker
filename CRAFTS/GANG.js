@@ -29,7 +29,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_empty_plastic_pack', count: 3, label: 'PLASTIC PACK' }, //1300
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 3,
+            craftTimeMinutes: 2,
             output: 3,
             requiredGangLevel: 1,
         },
@@ -55,7 +55,7 @@ export const CraftingGangConfig = {
                 { itemName: 'item_empty_pill_capsule', count: 1, label: 'EMPTY PILL CAPSULE' }, //250
             ],
             itemType: 'RARE',
-            craftTimeMinutes: 3,
+            craftTimeMinutes: 1,
             output: 1,
             requiredGangLevel: 1,
         },
@@ -159,8 +159,6 @@ export const CraftingGangConfig = {
                 { itemName: 'item_normal_barrel', count: 1, label: 'NORMAL BARREL' }, //3815
                 { itemName: 'item_normal_trigger', count: 1, label: 'TRIGGER' },      //3,350
                 { itemName: 'item_grip_weapon', count: 1, label: 'GRIP' },            //2,775
-
-
             ],
             itemType: 'RARE',
             craftTimeMinutes: 3,
@@ -241,7 +239,7 @@ export const CraftingGangConfig = {
             itemName: 'item_weapon_compact_rifle',
             materials: [
                 { itemName: 'item_reinforced_barrel', count: 1, label: 'REINFORCED BARREL' },  //5315 * 2
-                { itemName: 'item_advanced_trigger', count: 1, label: 'NORMAL TRIGGER' }, //5,315
+                { itemName: 'item_advanced_trigger', count: 1, label: 'ADVANCED TRIGGER' }, //5,315
                 { itemName: 'item_grip_weapon', count: 1, label: 'GRIP' },  //2,775
                 { itemName: 'item_stock_weapon', count: 2, label: 'STOCK' }, //2,775 * 2
                 { itemName: 'item_reinforced_steel', count: 2, label: 'REINFORCED STEEL' }, //7,630 

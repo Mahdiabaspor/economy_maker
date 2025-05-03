@@ -1,4 +1,4 @@
-const busSalaryMultiplier = 1
+const busSalaryMultiplier = 1.3
 
 
 //  oneRoundTime = 430
@@ -11,16 +11,16 @@ const singleBusStopSalary = Math.floor(90 * busSalaryMultiplier) ;  // 10000  pe
 
 
 const levelRewards = [
-    { id: 1, reward: 1000 },
-    { id: 2, reward: 2500 },
-    { id: 3, reward: 3500 },
-    { id: 4, reward: 4000 },
-    { id: 5, reward: 5000 },
-    { id: 6, reward: 6000 },
-    { id: 7, reward: 7000 },
-    { id: 8, reward: 7000 },
-    { id: 9, reward: 7000 },
-    { id: 10, reward: 7000 }
+    { id: 1, reward: 2000 },
+    { id: 2, reward: 5000 },
+    { id: 3, reward: 7000 },
+    { id: 4, reward: 8000 },
+    { id: 5, reward: 10000 },
+    { id: 6, reward: 12000 },
+    { id: 7, reward: 14000 },
+    { id: 8, reward: 15000 },
+    { id: 9, reward: 16000 },
+    { id: 10, reward: 17000 }
 ]
 
 

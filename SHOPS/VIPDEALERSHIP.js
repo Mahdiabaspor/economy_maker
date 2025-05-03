@@ -34,5 +34,17 @@ export const VipDealershipCars = [
     "Name": "Annis skyline",
     "Class": "SPORTS",
     "Price": 2530
+  },
+  {
+    "Model": "r820",
+    "Name": "Obey R8",
+    "Class": "SPORTS",
+    "Price": 2350
+  },
+  {
+    "Model": "gtr",
+    "Name": "Annis gtr",
+    "Class": "SPORTS",
+    "Price": 1950
   }
 ]

@@ -63,7 +63,7 @@ export const emsShopSellConfig = {
     {
       itemName: "item_medical_bandage",
       label: "MEDICAL BANDAGE",
-      singlePrice: Math.floor(1000 * shopEmsMultiplier),
+      singlePrice: Math.floor(900 * shopEmsMultiplier),
       limitation: {
         count: 8,
         perTime: 15,
@@ -73,7 +73,7 @@ export const emsShopSellConfig = {
     {
       itemName: "item_pain_killer_pill",
       label: "pain killer PILL",
-      singlePrice: Math.floor(1750 * shopEmsMultiplier),
+      singlePrice: Math.floor(1550 * shopEmsMultiplier),
       limitation: {
         count: 5,
         perTime: 15,

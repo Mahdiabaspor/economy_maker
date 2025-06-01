@@ -9,7 +9,8 @@
 	PARTS : 'parts',
 	DRUGS : 'drug',
 	KITS : 'kits',
-	VEST : 'Vest'
+	VEST : 'Vest',
+
 }
 
   const ItemAccessKey ={
@@ -874,7 +875,78 @@ export const weaponsItem = {
 	}
 };
 
+
+
+
 export const itemsProperties = {
+	item_drink_water: {
+		name: 'item_drink_water',
+		label: 'mineral water',
+		accessKey: ItemAccessKey.NONE,
+		canUSE: true,
+		canDrop: false,
+		category: ItemCategory.DRINK,
+		canUnStack: true,
+		weight: 1,
+		canStack: true,
+		maxStack: 5,
+		canTrade: true
+	},
+
+	item_drink_sprunk: {
+		name: 'item_drink_sprunk',
+		label: 'sprunk soda',
+		accessKey: ItemAccessKey.NONE,
+		canUSE: true,
+		canDrop: false,
+		category: ItemCategory.DRINK,
+		canUnStack: true,
+		weight: 1,
+		canStack: true,
+		maxStack: 5,
+		canTrade: true
+	},
+	item_walkie_talkie: {
+		name: 'item_walkie_talkie',
+		label: 'walkie talkie',
+		accessKey: ItemAccessKey.NONE,
+		canUSE: false,
+		canDrop: false,
+		category: ItemCategory.TOOLS,
+		canUnStack: false,
+		weight: 1,
+		canStack: false,
+		maxStack: 1,
+		canTrade: true
+	},
+	item_food_chocolate: {
+		name: 'item_food_chocolate',
+		label: 'chocolate bar',
+		accessKey: ItemAccessKey.NONE,
+		canUSE: true,
+		canDrop: false,
+		category: ItemCategory.FOOD,
+		canUnStack: true,
+		weight: 1,
+		canStack: true,
+		maxStack: 5,
+		canTrade: true
+	},
+	
+	item_food_hamburger: {
+		name: 'item_food_hamburger',
+		label: 'hamburger',
+		accessKey: ItemAccessKey.NONE,
+		canUSE: true,
+		canDrop: false,
+		category: ItemCategory.FOOD,
+		canUnStack: true,
+		weight: 1,
+		canStack: true,
+		maxStack: 5,
+		canTrade: true
+	},
+
 	item_repairkit: {
 		name: 'item_repairkit',
 		label: 'repair kit',
@@ -930,19 +1002,7 @@ export const itemsProperties = {
 		maxStack: 1,
 		canTrade: true
 	},
-	item_drink_water: {
-		name: 'item_drink_water',
-		label: 'water',
-		accessKey: ItemAccessKey.NONE,
-		category: ItemCategory.DRINK,
-		canUSE: true,
-		canDrop: false,
-		canUnStack: false,
-		weight: 0.3,
-		canStack: false,
-		maxStack: 1,
-		canTrade: true
-	},
+
 	item_medical_bandage: {
 		name: 'item_medical_bandage',
 		label: 'bandage',

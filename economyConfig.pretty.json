@@ -4,7 +4,7 @@
       "returnVehiclePrice": 1000
     },
     "gasStationConfig": {
-      "normalFuelPerLitter": 3,
+      "normalFuelPerLitter": 4,
       "gasUsageTime": 20
     },
     "licenseDmvConfig": {
@@ -250,6 +250,31 @@
     },
     "superMarketConfig": {
       "regular": [
+        {
+          "itemName": "item_walkie_talkie",
+          "label": "WALKIE TALKIE",
+          "singlePrice": 3350
+        },
+        {
+          "itemName": "item_drink_water",
+          "label": "MINERAL WATER",
+          "singlePrice": 250
+        },
+        {
+          "itemName": "item_drink_sprunk",
+          "label": "SPRUNK SODA",
+          "singlePrice": 400
+        },
+        {
+          "itemName": "item_food_chocolate",
+          "label": "CHOCOLATE BAR",
+          "singlePrice": 250
+        },
+        {
+          "itemName": "item_food_hamburger",
+          "label": "HAMBURGER",
+          "singlePrice": 400
+        },
         {
           "itemName": "item_repairkit",
           "label": "REPAIR KIT",
@@ -1507,216 +1532,216 @@
       ],
       "parts": {
         "Engine": {
-          "basePercentage": 0.7,
-          "step": 0.04
+          "basePercentage": 0.1,
+          "step": 0.08
         },
         "Suspension": {
-          "basePercentage": 0.7,
-          "step": 0.04
+          "basePercentage": 0.1,
+          "step": 0.08
         },
         "Transmission": {
-          "basePercentage": 0.7,
-          "step": 0.04
+          "basePercentage": 0.1,
+          "step": 0.08
         },
         "Armor": {
           "basePercentage": 0.1,
-          "step": 0.4
+          "step": 0.08
         },
         "Turbo": {
-          "basePercentage": 0.7,
-          "step": 0.04
+          "basePercentage": 0.1,
+          "step": 0.08
         },
         "Brake": {
-          "basePercentage": 0.7,
-          "step": 0.04
+          "basePercentage": 0.1,
+          "step": 0.08
         },
         "AirFilter": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "ArchCover": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "BackWheel": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "DashBoard": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Dial": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "DoorSpeaker": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "EngineBlock": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.03,
+          "step": 0
         },
         "Exhaust": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "FrontBumper": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "FrontWheels": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Grill": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Hood": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.03,
+          "step": 0
         },
         "Horns": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Hydraulics": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "LeftFender": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Livery": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.03,
+          "step": 0
         },
         "Ornaments": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Plaques": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Plate": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "PlateHolder": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "RearBumper": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "RightFender": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Roof": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Seats": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "ShifterLeaver": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "SideSkirt": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Speaker": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Spoiler": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "SteeringWheel": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Struts": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Tank": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "TrimDesign": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Trunk": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "VanityPlate": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Window": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.01,
+          "step": 0
         },
         "Xenon": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "PrimaryColor": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "SecondaryColor": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "PearleScentColor": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "XenonColor": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.04,
+          "step": 0
         },
         "TyreSmokeColor": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "NeonColor": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Neon": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Aerials": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "Frame": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         },
         "WheelType": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.03,
+          "step": 0
         },
         "WheelColor": {
-          "basePercentage": 0.05,
-          "step": 0.03
+          "basePercentage": 0.02,
+          "step": 0
         }
       }
     },
@@ -2079,25 +2104,11 @@
         "Brand": "I-Wagen"
       },
       {
-        "Model": "asterope2",
-        "Name": "Asterope GZ",
-        "Class": "SEDAN",
-        "Price": 364750,
-        "Brand": "Karin"
-      },
-      {
         "Model": "deity",
         "Name": "Deity",
         "Class": "SEDAN",
         "Price": 401500,
         "Brand": "Enus"
-      },
-      {
-        "Model": "impaler5",
-        "Name": "Impaler SZ",
-        "Class": "SEDAN",
-        "Price": 390000,
-        "Brand": "Declasse"
       },
       {
         "Model": "landstalker",
@@ -2296,48 +2307,6 @@
         "Brand": "Lampadati"
       },
       {
-        "Model": "dorado",
-        "Name": "Dorado",
-        "Class": "SUV",
-        "Price": 331250,
-        "Brand": "Bravado"
-      },
-      {
-        "Model": "castigator",
-        "Name": "Castigator",
-        "Class": "SUV",
-        "Price": 339500,
-        "Brand": "Canis"
-      },
-      {
-        "Model": "vivanite",
-        "Name": "Vivanite",
-        "Class": "SUV",
-        "Price": 348000,
-        "Brand": "Karin"
-      },
-      {
-        "Model": "cavalcade3",
-        "Name": "Cavalcade XL",
-        "Class": "SUV",
-        "Price": 356250,
-        "Brand": "Albany"
-      },
-      {
-        "Model": "baller8",
-        "Name": "Baller ST-D",
-        "Class": "SUV",
-        "Price": 364750,
-        "Brand": "Gallivanter"
-      },
-      {
-        "Model": "aleutian",
-        "Name": "Aleutian",
-        "Class": "SUV",
-        "Price": 373000,
-        "Brand": "Vapid"
-      },
-      {
         "Model": "granger2",
         "Name": "Granger 3600LX",
         "Class": "SUV",
@@ -2469,13 +2438,6 @@
         "Class": "COUPE",
         "Price": 350250,
         "Brand": "Karin"
-      },
-      {
-        "Model": "fr36",
-        "Name": "FR36",
-        "Class": "COUPE",
-        "Price": 365000,
-        "Brand": "Fathom"
       },
       {
         "Model": "champion",
@@ -2870,25 +2832,11 @@
         "Brand": "BF"
       },
       {
-        "Model": "clique2",
-        "Name": "Clique Wagon",
-        "Class": "MUSCLE",
-        "Price": 370250,
-        "Brand": "Vapid"
-      },
-      {
         "Model": "greenwood",
         "Name": "Greenwood",
         "Class": "MUSCLE",
         "Price": 375750,
         "Brand": "Bravado"
-      },
-      {
-        "Model": "vigero2",
-        "Name": "Vigero ZX",
-        "Class": "MUSCLE",
-        "Price": 381250,
-        "Brand": "Declasse"
       },
       {
         "Model": "dominator7",
@@ -2905,46 +2853,11 @@
         "Brand": "Bravado"
       },
       {
-        "Model": "impaler6",
-        "Name": "Impaler LX",
-        "Class": "MUSCLE",
-        "Price": 197500,
-        "Brand": "Declasse"
-      },
-      {
-        "Model": "brigham",
-        "Name": "Brigham",
-        "Class": "MUSCLE",
-        "Price": 402750,
-        "Brand": "Albany"
-      },
-      {
         "Model": "coquette3",
         "Name": "Coquette BlackFin",
         "Class": "MUSCLE",
         "Price": 408250,
         "Brand": "Invetero"
-      },
-      {
-        "Model": "buffalo5",
-        "Name": "Buffalo EVX",
-        "Class": "MUSCLE",
-        "Price": 419000,
-        "Brand": "Bravado"
-      },
-      {
-        "Model": "dominator9",
-        "Name": "Dominator GT",
-        "Class": "MUSCLE",
-        "Price": 424500,
-        "Brand": "Vapid"
-      },
-      {
-        "Model": "vigero3",
-        "Name": "Vigero ZX Convertible",
-        "Class": "MUSCLE",
-        "Price": 430000,
-        "Brand": "Declasse"
       },
       {
         "Model": "buffalo4",
@@ -2980,13 +2893,6 @@
         "Class": "SPORT_CLASSIC",
         "Price": 79000,
         "Brand": "Declasse"
-      },
-      {
-        "Model": "nebula",
-        "Name": "Nebula",
-        "Class": "SPORT_CLASSIC",
-        "Price": 86000,
-        "Brand": "Vulcar"
       },
       {
         "Model": "tornado2",
@@ -3143,13 +3049,6 @@
         "Brand": "Lampadati"
       },
       {
-        "Model": "driftnebula",
-        "Name": "Nebula Turbo",
-        "Class": "SPORT_CLASSIC",
-        "Price": 275500,
-        "Brand": "Vulcar"
-      },
-      {
         "Model": "monroe",
         "Name": "Monroe",
         "Class": "SPORT_CLASSIC",
@@ -3190,13 +3089,6 @@
         "Class": "SPORT_CLASSIC",
         "Price": 317750,
         "Brand": "Grotti"
-      },
-      {
-        "Model": "envisage",
-        "Name": "Envisage",
-        "Class": "SPORT_CLASSIC",
-        "Price": 324750,
-        "Brand": "Bollokan"
       },
       {
         "Model": "viseris",
@@ -3668,13 +3560,6 @@
         "Brand": "Annis"
       },
       {
-        "Model": "driftsentinel",
-        "Name": "Drift Sentinel Classic",
-        "Class": "SPORT",
-        "Price": 513250,
-        "Brand": "Ubermacht"
-      },
-      {
         "Model": "elegy2",
         "Name": "Elegy RH8",
         "Class": "SPORT",
@@ -3710,13 +3595,6 @@
         "Brand": "Übermacht"
       },
       {
-        "Model": "driftcypher",
-        "Name": "Drift Cypher",
-        "Class": "SPORT",
-        "Price": 538750,
-        "Brand": "Ubermacht"
-      },
-      {
         "Model": "schlagen",
         "Name": "Schlagen GT",
         "Class": "SPORT",
@@ -3738,27 +3616,6 @@
         "Brand": "Pfister"
       },
       {
-        "Model": "eurosX32",
-        "Name": "Euros X32",
-        "Class": "SPORT",
-        "Price": 556000,
-        "Brand": "Annis"
-      },
-      {
-        "Model": "niobe",
-        "Name": "Niobe",
-        "Class": "SPORT",
-        "Price": 560250,
-        "Brand": "Ubermacht"
-      },
-      {
-        "Model": "gauntlet6",
-        "Name": "Hotring Hellfire",
-        "Class": "SPORT",
-        "Price": 564500,
-        "Brand": "Bravado"
-      },
-      {
         "Model": "tenf",
         "Name": "10F",
         "Class": "SPORT",
@@ -3778,13 +3635,6 @@
         "Class": "SPORT",
         "Price": 577250,
         "Brand": "Grotti"
-      },
-      {
-        "Model": "coureur",
-        "Name": "La Coureuse",
-        "Class": "SPORT",
-        "Price": 581500,
-        "Brand": "Penaud"
       },
       {
         "Model": "locust",
@@ -3815,13 +3665,6 @@
         "Brand": "Obey"
       },
       {
-        "Model": "coquette5",
-        "Name": "Coquette D1",
-        "Class": "SPORT",
-        "Price": 603000,
-        "Brand": "Invetero"
-      },
-      {
         "Model": "coquette4",
         "Name": "Coquette D10",
         "Class": "SPORT",
@@ -3834,13 +3677,6 @@
         "Class": "SPORT",
         "Price": 611500,
         "Brand": "Pfister"
-      },
-      {
-        "Model": "paragon3",
-        "Name": "Paragon S",
-        "Class": "SPORT",
-        "Price": 615750,
-        "Brand": "Enus"
       },
       {
         "Model": "comet6",
@@ -3857,39 +3693,11 @@
         "Brand": "Vysser"
       },
       {
-        "Model": "stingertt",
-        "Name": "Itali GTO Stinger TT",
-        "Class": "SPORT",
-        "Price": 628500,
-        "Brand": "Maibatsu"
-      },
-      {
         "Model": "jester4",
         "Name": "Jester RR",
         "Class": "SPORT",
         "Price": 632750,
         "Brand": "Dinka"
-      },
-      {
-        "Model": "pipistrello",
-        "Name": "Pipistrello",
-        "Class": "SPORT",
-        "Price": 637000,
-        "Brand": "Overflod"
-      },
-      {
-        "Model": "vorschlaghammer",
-        "Name": "Vorschlaghammer",
-        "Class": "SPORT",
-        "Price": 641250,
-        "Brand": "Pfister"
-      },
-      {
-        "Model": "driftvorschlag",
-        "Name": "Vorschlaghammer Drift",
-        "Class": "SPORT",
-        "Price": 645500,
-        "Brand": "Pfister"
       },
       {
         "Model": "italigto",
@@ -4205,13 +4013,6 @@
         "Class": "SUPER",
         "Price": 768500,
         "Brand": "Truffade"
-      },
-      {
-        "Model": "turismo3",
-        "Name": "Turismo Omaggio",
-        "Class": "SUPER",
-        "Price": 778500,
-        "Brand": "Grotti"
       },
       {
         "Model": "cyclone",
@@ -4795,27 +4596,6 @@
         "Brand": "Declasse"
       },
       {
-        "Model": "l35",
-        "Name": "Walton L35",
-        "Class": "OFF_ROAD",
-        "Price": 366500,
-        "Brand": "Declasse"
-      },
-      {
-        "Model": "terminus",
-        "Name": "Terminus",
-        "Class": "OFF_ROAD",
-        "Price": 375500,
-        "Brand": "Canis"
-      },
-      {
-        "Model": "ratel",
-        "Name": "Ratel",
-        "Class": "OFF_ROAD",
-        "Price": 393250,
-        "Brand": "Vapid"
-      },
-      {
         "Model": "riata",
         "Name": "Riata",
         "Class": "OFF_ROAD",
@@ -5011,6 +4791,12 @@
         "Name": "Annis gtr",
         "Class": "SPORTS",
         "Price": 1950
+      },
+      {
+        "Model": "regera",
+        "Name": "OverFlod regera",
+        "Class": "SPORTS",
+        "Price": 3400
       }
     ],
     "plateShop": {
@@ -47188,1100 +46974,12 @@
       "male": {
         "accessories_men": [
           {
-            "drawable": 194,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 172500,
-            "coinPrice": 230,
-            "index": 0
-          },
-          {
-            "drawable": 195,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 352500,
-            "coinPrice": 470,
-            "index": 1
-          },
-          {
-            "drawable": 196,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 262500,
-            "coinPrice": 350,
-            "index": 2
-          },
-          {
-            "drawable": 197,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "moneyPrice": 1575000,
-            "coinPrice": 2100,
-            "index": 3
-          },
-          {
-            "drawable": 198,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7
-            ],
-            "moneyPrice": 675000,
-            "coinPrice": 900,
-            "index": 4
-          },
-          {
-            "drawable": 199,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 450000,
-            "coinPrice": 600,
-            "index": 5
-          },
-          {
-            "drawable": 200,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 375000,
-            "coinPrice": 500,
-            "index": 6
-          },
-          {
-            "drawable": 201,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "moneyPrice": 427500,
-            "coinPrice": 570,
-            "index": 7
-          },
-          {
-            "drawable": 202,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "moneyPrice": 1125000,
-            "coinPrice": 1500,
-            "index": 8
-          },
-          {
-            "drawable": 203,
-            "colors": [
-              0,
-              1
-            ],
-            "moneyPrice": 375000,
-            "coinPrice": 500,
-            "index": 9
-          },
-          {
-            "drawable": 204,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 375000,
-            "coinPrice": 500,
-            "index": 10
-          },
-          {
-            "drawable": 205,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 262500,
-            "coinPrice": 350,
-            "index": 11
-          },
-          {
-            "drawable": 206,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 825000,
-            "coinPrice": 1100,
-            "index": 12
-          },
-          {
-            "drawable": 207,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 585000,
-            "coinPrice": 780,
-            "index": 13
-          },
-          {
-            "drawable": 208,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 262500,
-            "coinPrice": 350,
-            "index": 14
-          },
-          {
-            "drawable": 209,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 225000,
-            "coinPrice": 300,
-            "index": 15
-          },
-          {
-            "drawable": 210,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 202500,
-            "coinPrice": 270,
-            "index": 16
-          },
-          {
-            "drawable": 211,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 150000,
-            "coinPrice": 200,
-            "index": 17
-          },
-          {
-            "drawable": 212,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 375000,
-            "coinPrice": 500,
-            "index": 18
-          },
-          {
-            "drawable": 213,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 487500,
-            "coinPrice": 650,
-            "index": 19
-          },
-          {
-            "drawable": 214,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "moneyPrice": 1650000,
-            "coinPrice": 2200,
-            "index": 20
-          },
-          {
-            "drawable": 215,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 449250,
-            "coinPrice": 599,
-            "index": 21
-          },
-          {
-            "drawable": 216,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 449250,
-            "coinPrice": 599,
-            "index": 22
-          },
-          {
-            "drawable": 217,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 449250,
-            "coinPrice": 599,
-            "index": 23
-          },
-          {
-            "drawable": 218,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 449250,
-            "coinPrice": 599,
-            "index": 24
-          },
-          {
-            "drawable": 219,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8
-            ],
-            "moneyPrice": 562500,
-            "coinPrice": 750,
-            "index": 25
-          },
-          {
-            "drawable": 220,
-            "colors": [
-              0,
-              1,
-              2,
-              3
-            ],
-            "moneyPrice": 1087500,
-            "coinPrice": 1450,
-            "index": 26
-          },
-          {
-            "drawable": 221,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7
-            ],
-            "moneyPrice": 1027500,
-            "coinPrice": 1370,
-            "index": 27
-          }
-        ],
-        "torsos_men": [],
-        "bags_men": [],
-        "bracelets_men": [],
-        "ears_men": [],
-        "glasses_men": [
-          {
-            "drawable": 60,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 172500,
-            "coinPrice": 230,
-            "index": 0
-          }
-        ],
-        "undershirts_men": [],
-        "hats_men": [
-          {
-            "drawable": 238,
-            "colors": [
-              0,
-              1,
-              2
-            ],
-            "moneyPrice": 42000,
-            "coinPrice": 70,
-            "index": 0
-          },
-          {
-            "drawable": 239,
-            "colors": [
-              0,
-              1,
-              2
-            ],
-            "moneyPrice": 42000,
-            "coinPrice": 70,
-            "index": 1
-          },
-          {
-            "drawable": 240,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 150000,
-            "coinPrice": 200,
-            "index": 2
-          },
-          {
-            "drawable": 241,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 60000,
-            "coinPrice": 80,
-            "index": 3
-          },
-          {
-            "drawable": 242,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "moneyPrice": 78750,
-            "coinPrice": 105,
-            "index": 4
-          },
-          {
-            "drawable": 243,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 78750,
-            "coinPrice": 105,
-            "index": 5
-          },
-          {
-            "drawable": 244,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7
-            ],
-            "moneyPrice": 90000,
-            "coinPrice": 120,
-            "index": 6
-          },
-          {
-            "drawable": 245,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 149250,
-            "coinPrice": 199,
-            "index": 7
-          },
-          {
-            "drawable": 246,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4
-            ],
-            "moneyPrice": 525000,
-            "coinPrice": 700,
-            "index": 8
-          },
-          {
-            "drawable": 247,
-            "colors": [
-              0,
-              1,
-              2,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 637500,
-            "coinPrice": 850,
-            "index": 9
-          },
-          {
-            "drawable": 249,
-            "colors": [
-              0,
-              1,
-              2,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 375000,
-            "coinPrice": 500,
-            "index": 10
-          },
-          {
-            "drawable": 250,
-            "colors": [
-              0,
-              1,
-              10,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 487500,
-            "coinPrice": 650,
-            "index": 11
-          },
-          {
-            "drawable": 251,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4
-            ],
-            "moneyPrice": 172500,
-            "coinPrice": 230,
-            "index": 12
-          },
-          {
-            "drawable": 252,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 142500,
-            "coinPrice": 190,
-            "index": 13
-          },
-          {
-            "drawable": 253,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 135000,
-            "coinPrice": 180,
-            "index": 14
-          },
-          {
-            "drawable": 254,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 135000,
-            "coinPrice": 180,
-            "index": 15
-          },
-          {
-            "drawable": 255,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 135000,
-            "coinPrice": 180,
-            "index": 16
-          },
-          {
-            "drawable": 256,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 187500,
-            "coinPrice": 250,
-            "index": 17
-          }
-        ],
-        "legs_men": [],
-        "masks_men": [
-          {
-            "drawable": 250,
-            "colors": [
-              0,
-              1,
-              2
-            ],
-            "moneyPrice": 105000,
-            "coinPrice": 140,
-            "index": 0
-          },
-          {
-            "drawable": 251,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 116250,
-            "coinPrice": 155,
-            "index": 1
-          },
-          {
-            "drawable": 252,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 97500,
-            "coinPrice": 130,
-            "index": 2
-          },
-          {
-            "drawable": 253,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 150000,
-            "coinPrice": 200,
-            "index": 3
-          },
-          {
-            "drawable": 254,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 60000,
-            "coinPrice": 80,
-            "index": 4
-          },
-          {
-            "drawable": 255,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 202500,
-            "coinPrice": 270,
-            "index": 5
-          },
-          {
-            "drawable": 256,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4
-            ],
-            "moneyPrice": 142500,
-            "coinPrice": 190,
-            "index": 6
-          },
-          {
-            "drawable": 257,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              2,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 60000,
-            "coinPrice": 80,
-            "index": 7
-          },
-          {
-            "drawable": 258,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              2,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 37500,
-            "coinPrice": 50,
-            "index": 8
-          },
-          {
-            "drawable": 259,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              2,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 37500,
-            "coinPrice": 50,
-            "index": 9
-          },
-          {
-            "drawable": 260,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              2,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 37500,
-            "coinPrice": 50,
-            "index": 10
-          },
-          {
-            "drawable": 261,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              2,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 37500,
-            "coinPrice": 50,
-            "index": 11
-          },
-          {
-            "drawable": 262,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              2,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 37500,
-            "coinPrice": 50,
-            "index": 12
-          },
-          {
-            "drawable": 263,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              2,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 37500,
-            "coinPrice": 50,
-            "index": 13
-          },
-          {
-            "drawable": 264,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              2,
-              20,
-              21,
-              22,
-              23,
-              24,
-              25,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 37500,
-            "coinPrice": 50,
-            "index": 14
-          },
-          {
-            "drawable": 265,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 307500,
-            "coinPrice": 410,
-            "index": 15
-          },
-          {
-            "drawable": 266,
-            "colors": [
-              0,
-              1,
-              10,
-              11,
-              12,
-              13,
-              14,
-              15,
-              16,
-              17,
-              18,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 374250,
-            "coinPrice": 499,
-            "index": 16
-          }
-        ],
-        "shoes_men": [],
-        "tops_men": [],
-        "watches_men": [
-          {
-            "drawable": 50,
-            "colors": [
-              0,
-              1,
-              2
-            ],
-            "moneyPrice": 97800,
-            "coinPrice": 150,
-            "index": 0
-          }
-        ]
-      },
-      "female": {
-        "accessories_female": [
-          {
-            "drawable": 166,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6
-            ],
-            "moneyPrice": 224250,
-            "coinPrice": 299,
-            "index": 0
-          },
-          {
-            "drawable": 167,
-            "colors": [
-              0,
-              1,
-              2,
-              3
-            ],
-            "moneyPrice": 300000,
-            "coinPrice": 400,
-            "index": 1
-          },
-          {
-            "drawable": 168,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
-            ],
-            "moneyPrice": 412500,
-            "coinPrice": 550,
-            "index": 2
-          },
-          {
             "drawable": 169,
             "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
+              0
             ],
-            "moneyPrice": 262500,
-            "coinPrice": 350,
-            "index": 3
+            "coinPrice": 230,
+            "index": 0
           },
           {
             "drawable": 170,
@@ -48291,11 +46989,14 @@
               2,
               3,
               4,
-              5
+              5,
+              6,
+              7,
+              8,
+              9
             ],
-            "moneyPrice": 1575000,
-            "coinPrice": 2100,
-            "index": 4
+            "coinPrice": 470,
+            "index": 1
           },
           {
             "drawable": 171,
@@ -48307,88 +47008,72 @@
               4,
               5,
               6,
-              7
+              7,
+              8,
+              9
             ],
-            "moneyPrice": 825000,
-            "coinPrice": 1100,
-            "index": 5
+            "coinPrice": 350,
+            "index": 2
           },
           {
             "drawable": 172,
             "colors": [
-              0
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
             ],
-            "moneyPrice": 374250,
-            "coinPrice": 499,
-            "index": 6
+            "coinPrice": 2100,
+            "index": 3
           },
           {
             "drawable": 173,
             "colors": [
-              0
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
             ],
-            "moneyPrice": 374250,
-            "coinPrice": 499,
-            "index": 7
+            "coinPrice": 900,
+            "index": 4
           },
           {
             "drawable": 174,
             "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
+              0
             ],
-            "moneyPrice": 487500,
-            "coinPrice": 650,
-            "index": 8
+            "coinPrice": 600,
+            "index": 5
           },
           {
             "drawable": 175,
             "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
+              0
             ],
-            "moneyPrice": 937500,
-            "coinPrice": 1250,
-            "index": 9
+            "coinPrice": 500,
+            "index": 6
           },
           {
             "drawable": 176,
             "colors": [
               0,
-              1
+              1,
+              2,
+              3,
+              4,
+              5
             ],
-            "moneyPrice": 374250,
-            "coinPrice": 499,
-            "index": 10
+            "coinPrice": 570,
+            "index": 7
           },
           {
             "drawable": 177,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 374250,
-            "coinPrice": 499,
-            "index": 11
-          },
-          {
-            "drawable": 178,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 450,
-            "coinPrice": 337500,
-            "index": 12
-          },
-          {
-            "drawable": 179,
             "colors": [
               0,
               1,
@@ -48397,30 +47082,36 @@
               4,
               5
             ],
-            "moneyPrice": 247500,
-            "coinPrice": 330,
-            "index": 13
+            "coinPrice": 1500,
+            "index": 8
+          },
+          {
+            "drawable": 178,
+            "colors": [
+              0,
+              1
+            ],
+            "coinPrice": 500,
+            "index": 9
+          },
+          {
+            "drawable": 179,
+            "colors": [
+              0
+            ],
+            "coinPrice": 500,
+            "index": 10
           },
           {
             "drawable": 180,
             "colors": [
               0
             ],
-            "moneyPrice": 133500,
-            "coinPrice": 178,
-            "index": 14
+            "coinPrice": 350,
+            "index": 11
           },
           {
-            "drawable": 182,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 90000,
-            "coinPrice": 120,
-            "index": 15
-          },
-          {
-            "drawable": 183,
+            "drawable": 181,
             "colors": [
               0,
               1,
@@ -48430,20 +47121,53 @@
               5,
               6,
               7,
-              8
+              8,
+              9
             ],
-            "moneyPrice": 345000,
-            "coinPrice": 460,
-            "index": 16
+            "coinPrice": 1100,
+            "index": 12
+          },
+          {
+            "drawable": 182,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 780,
+            "index": 13
+          },
+          {
+            "drawable": 183,
+            "colors": [
+              0
+            ],
+            "coinPrice": 350,
+            "index": 14
           },
           {
             "drawable": 184,
             "colors": [
-              0
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
             ],
-            "moneyPrice": 414000,
-            "coinPrice": 552,
-            "index": 17
+            "coinPrice": 300,
+            "index": 15
           },
           {
             "drawable": 185,
@@ -48459,15 +47183,16 @@
               8,
               9
             ],
-            "moneyPrice": 825000,
-            "coinPrice": 1100,
-            "index": 18
+            "coinPrice": 270,
+            "index": 16
           },
           {
             "drawable": 186,
             "colors": [
               0,
               1,
+              10,
+              11,
               2,
               3,
               4,
@@ -48477,27 +47202,24 @@
               8,
               9
             ],
-            "moneyPrice": 562500,
-            "coinPrice": 750,
-            "index": 19
+            "coinPrice": 200,
+            "index": 17
           },
           {
             "drawable": 187,
             "colors": [
               0
             ],
-            "moneyPrice": 240000,
-            "coinPrice": 320,
-            "index": 20
+            "coinPrice": 500,
+            "index": 18
           },
           {
             "drawable": 188,
             "colors": [
               0
             ],
-            "moneyPrice": 187500,
-            "coinPrice": 250,
-            "index": 21
+            "coinPrice": 650,
+            "index": 19
           },
           {
             "drawable": 189,
@@ -48507,132 +47229,45 @@
               2,
               3,
               4,
-              5,
-              6,
-              7,
-              8,
-              9
+              5
             ],
-            "moneyPrice": 165000,
-            "coinPrice": 220,
-            "index": 22
+            "coinPrice": 2200,
+            "index": 20
           },
           {
             "drawable": 190,
             "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
+              0
             ],
-            "moneyPrice": 282750,
-            "coinPrice": 377,
-            "index": 23
+            "coinPrice": 599,
+            "index": 21
           },
           {
             "drawable": 191,
             "colors": [
               0
             ],
-            "moneyPrice": 449250,
             "coinPrice": 599,
-            "index": 24
+            "index": 22
           },
           {
             "drawable": 192,
             "colors": [
               0
             ],
-            "moneyPrice": 427500,
-            "coinPrice": 570,
-            "index": 25
+            "coinPrice": 599,
+            "index": 23
           },
           {
             "drawable": 193,
             "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9
+              0
             ],
-            "moneyPrice": 135000,
-            "coinPrice": 180,
-            "index": 170
+            "coinPrice": 599,
+            "index": 24
           },
           {
             "drawable": 194,
-            "colors": [
-              0,
-              1
-            ],
-            "moneyPrice": 157500,
-            "coinPrice": 210,
-            "index": 27
-          },
-          {
-            "drawable": 195,
-            "colors": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "moneyPrice": 1650000,
-            "coinPrice": 2200,
-            "index": 28
-          },
-          {
-            "drawable": 196,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 449250,
-            "coinPrice": 599,
-            "index": 29
-          },
-          {
-            "drawable": 197,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 449250,
-            "coinPrice": 599,
-            "index": 30
-          },
-          {
-            "drawable": 198,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 449250,
-            "coinPrice": 599,
-            "index": 31
-          },
-          {
-            "drawable": 199,
-            "colors": [
-              0
-            ],
-            "moneyPrice": 449250,
-            "coinPrice": 599,
-            "index": 32
-          },
-          {
-            "drawable": 200,
             "colors": [
               0,
               1,
@@ -48644,21 +47279,149 @@
               7,
               8
             ],
-            "moneyPrice": 562500,
             "coinPrice": 750,
-            "index": 33
+            "index": 25
           },
           {
-            "drawable": 201,
+            "drawable": 195,
             "colors": [
               0,
               1,
               2,
               3
             ],
-            "moneyPrice": 1087500,
             "coinPrice": 1450,
-            "index": 34
+            "index": 26
+          },
+          {
+            "drawable": 196,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "coinPrice": 1370,
+            "index": 27
+          }
+        ],
+        "torsos_men": [],
+        "bags_men": [],
+        "bracelets_men": [],
+        "ears_men": [],
+        "glasses_men": [
+          {
+            "drawable": 48,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 230,
+            "index": 0
+          }
+        ],
+        "undershirts_men": [],
+        "hats_men": [
+          {
+            "drawable": 196,
+            "colors": [
+              0,
+              1,
+              2
+            ],
+            "coinPrice": 70,
+            "index": 0
+          },
+          {
+            "drawable": 197,
+            "colors": [
+              0,
+              1,
+              2
+            ],
+            "coinPrice": 70,
+            "index": 1
+          },
+          {
+            "drawable": 198,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 200,
+            "index": 2
+          },
+          {
+            "drawable": 199,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 80,
+            "index": 3
+          },
+          {
+            "drawable": 200,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "coinPrice": 105,
+            "index": 4
+          },
+          {
+            "drawable": 201,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 105,
+            "index": 5
           },
           {
             "drawable": 202,
@@ -48672,9 +47435,940 @@
               6,
               7
             ],
-            "moneyPrice": 1027500,
+            "coinPrice": 120,
+            "index": 6
+          },
+          {
+            "drawable": 203,
+            "colors": [
+              0
+            ],
+            "coinPrice": 199,
+            "index": 7
+          },
+          {
+            "drawable": 204,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "coinPrice": 700,
+            "index": 8
+          },
+          {
+            "drawable": 205,
+            "colors": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 850,
+            "index": 9
+          },
+          {
+            "drawable": 207,
+            "colors": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 500,
+            "index": 10
+          },
+          {
+            "drawable": 208,
+            "colors": [
+              0,
+              1,
+              10,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 650,
+            "index": 11
+          },
+          {
+            "drawable": 209,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "coinPrice": 230,
+            "index": 12
+          },
+          {
+            "drawable": 210,
+            "colors": [
+              0
+            ],
+            "coinPrice": 190,
+            "index": 13
+          },
+          {
+            "drawable": 211,
+            "colors": [
+              0
+            ],
+            "coinPrice": 180,
+            "index": 14
+          },
+          {
+            "drawable": 212,
+            "colors": [
+              0
+            ],
+            "coinPrice": 180,
+            "index": 15
+          },
+          {
+            "drawable": 213,
+            "colors": [
+              0
+            ],
+            "coinPrice": 180,
+            "index": 16
+          },
+          {
+            "drawable": 214,
+            "colors": [
+              0
+            ],
+            "coinPrice": 250,
+            "index": 17
+          }
+        ],
+        "legs_men": [],
+        "masks_men": [
+          {
+            "drawable": 217,
+            "colors": [
+              0,
+              1,
+              2
+            ],
+            "coinPrice": 140,
+            "index": 0
+          },
+          {
+            "drawable": 218,
+            "colors": [
+              0
+            ],
+            "coinPrice": 155,
+            "index": 1
+          },
+          {
+            "drawable": 219,
+            "colors": [
+              0
+            ],
+            "coinPrice": 130,
+            "index": 2
+          },
+          {
+            "drawable": 220,
+            "colors": [
+              0
+            ],
+            "coinPrice": 200,
+            "index": 3
+          },
+          {
+            "drawable": 221,
+            "colors": [
+              0
+            ],
+            "coinPrice": 80,
+            "index": 4
+          },
+          {
+            "drawable": 222,
+            "colors": [
+              0
+            ],
+            "coinPrice": 270,
+            "index": 5
+          },
+          {
+            "drawable": 223,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "coinPrice": 190,
+            "index": 6
+          },
+          {
+            "drawable": 224,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              2,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 80,
+            "index": 7
+          },
+          {
+            "drawable": 225,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              2,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 50,
+            "index": 8
+          },
+          {
+            "drawable": 226,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              2,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 50,
+            "index": 9
+          },
+          {
+            "drawable": 227,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              2,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 50,
+            "index": 10
+          },
+          {
+            "drawable": 228,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              2,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 50,
+            "index": 11
+          },
+          {
+            "drawable": 229,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              2,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 50,
+            "index": 12
+          },
+          {
+            "drawable": 230,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              2,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 50,
+            "index": 13
+          },
+          {
+            "drawable": 231,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              16,
+              17,
+              18,
+              19,
+              2,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 50,
+            "index": 14
+          },
+          {
+            "drawable": 232,
+            "colors": [
+              0
+            ],
+            "coinPrice": 410,
+            "index": 15
+          },
+          {
+            "drawable": 233,
+            "colors": [
+              0,
+              1,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 499,
+            "index": 16
+          }
+        ],
+        "shoes_men": [],
+        "tops_men": [],
+        "watches_men": [
+          {
+            "drawable": 47,
+            "colors": [
+              0,
+              1,
+              2
+            ],
+            "coinPrice": 150,
+            "index": 0
+          }
+        ]
+      },
+      "female": {
+        "accessories_female": [
+          {
+            "drawable": 138,
+            "colors": [
+              0
+            ],
+            "coinPrice": 299,
+            "index": 0
+          },
+          {
+            "drawable": 139,
+            "colors": [
+              0
+            ],
+            "coinPrice": 320,
+            "index": 1
+          },
+          {
+            "drawable": 140,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "coinPrice": 320,
+            "index": 2
+          },
+          {
+            "drawable": 141,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "coinPrice": 350,
+            "index": 3
+          },
+          {
+            "drawable": 142,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 450,
+            "index": 4
+          },
+          {
+            "drawable": 143,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 246,
+            "index": 5
+          },
+          {
+            "drawable": 144,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "coinPrice": 2100,
+            "index": 6
+          },
+          {
+            "drawable": 145,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "coinPrice": 1100,
+            "index": 7
+          },
+          {
+            "drawable": 146,
+            "colors": [
+              0
+            ],
+            "coinPrice": 650,
+            "index": 8
+          },
+          {
+            "drawable": 147,
+            "colors": [
+              0
+            ],
+            "coinPrice": 400,
+            "index": 9
+          },
+          {
+            "drawable": 148,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "coinPrice": 499,
+            "index": 10
+          },
+          {
+            "drawable": 149,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "coinPrice": 1250,
+            "index": 11
+          },
+          {
+            "drawable": 150,
+            "colors": [
+              0,
+              1
+            ],
+            "coinPrice": 450,
+            "index": 12
+          },
+          {
+            "drawable": 151,
+            "colors": [
+              0
+            ],
+            "coinPrice": 330,
+            "index": 13
+          },
+          {
+            "drawable": 152,
+            "colors": [
+              0
+            ],
+            "coinPrice": 178,
+            "index": 14
+          },
+          {
+            "drawable": 153,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "coinPrice": 120,
+            "index": 15
+          },
+          {
+            "drawable": 154,
+            "colors": [
+              0
+            ],
+            "coinPrice": 460,
+            "index": 16
+          },
+          {
+            "drawable": 156,
+            "colors": [
+              0
+            ],
+            "coinPrice": 552,
+            "index": 17
+          },
+          {
+            "drawable": 157,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "coinPrice": 1100,
+            "index": 18
+          },
+          {
+            "drawable": 158,
+            "colors": [
+              0
+            ],
+            "coinPrice": 750,
+            "index": 19
+          },
+          {
+            "drawable": 159,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 320,
+            "index": 20
+          },
+          {
+            "drawable": 160,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 250,
+            "index": 21
+          },
+          {
+            "drawable": 161,
+            "colors": [
+              0
+            ],
+            "coinPrice": 220,
+            "index": 22
+          },
+          {
+            "drawable": 162,
+            "colors": [
+              0
+            ],
+            "coinPrice": 377,
+            "index": 23
+          },
+          {
+            "drawable": 163,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 599,
+            "index": 24
+          },
+          {
+            "drawable": 164,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 570,
+            "index": 25
+          },
+          {
+            "drawable": 165,
+            "colors": [
+              0
+            ],
+            "coinPrice": 180,
+            "index": 26
+          },
+          {
+            "drawable": 166,
+            "colors": [
+              0
+            ],
+            "coinPrice": 210,
+            "index": 27
+          },
+          {
+            "drawable": 167,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "coinPrice": 300,
+            "index": 28
+          },
+          {
+            "drawable": 168,
+            "colors": [
+              0,
+              1
+            ],
+            "coinPrice": 599,
+            "index": 29
+          },
+          {
+            "drawable": 169,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "coinPrice": 2250,
+            "index": 30
+          },
+          {
+            "drawable": 170,
+            "colors": [
+              0
+            ],
+            "coinPrice": 599,
+            "index": 31
+          },
+          {
+            "drawable": 171,
+            "colors": [
+              0
+            ],
+            "coinPrice": 599,
+            "index": 32
+          },
+          {
+            "drawable": 172,
+            "colors": [
+              0
+            ],
+            "coinPrice": 750,
+            "index": 33
+          },
+          {
+            "drawable": 173,
+            "colors": [
+              0
+            ],
+            "coinPrice": 1450,
+            "index": 34
+          },
+          {
+            "drawable": 174,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
             "coinPrice": 1370,
             "index": 35
+          },
+          {
+            "drawable": 175,
+            "colors": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "coinPrice": 1450,
+            "index": 36
+          },
+          {
+            "drawable": 176,
+            "colors": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "coinPrice": 1370,
+            "index": 37
           }
         ],
         "torsos_female": [],
@@ -48682,7 +48376,7 @@
         "bracelets_female": [],
         "ears_female": [
           {
-            "drawable": 24,
+            "drawable": 23,
             "colors": [
               0,
               1,
@@ -48705,23 +48399,21 @@
               8,
               9
             ],
-            "moneyPrice": 187500,
             "coinPrice": 250,
             "index": 0
           },
           {
-            "drawable": 25,
+            "drawable": 24,
             "colors": [
               0
             ],
-            "moneyPrice": 82500,
             "coinPrice": 110,
             "index": 1
           }
         ],
         "glasses_female": [
           {
-            "drawable": 61,
+            "drawable": 49,
             "colors": [
               0,
               1,
@@ -48736,24 +48428,14 @@
               8,
               9
             ],
-            "moneyPrice": 172500,
             "coinPrice": 230,
             "index": 0
-          },
-          {
-            "drawable": 76,
-            "colors": [
-              16
-            ],
-            "moneyPrice": 172500,
-            "coinPrice": 230,
-            "index": 1
           }
         ],
         "undershirts_female": [],
         "hats_female": [
           {
-            "drawable": 234,
+            "drawable": 192,
             "colors": [
               0,
               1,
@@ -48762,12 +48444,11 @@
               4,
               5
             ],
-            "moneyPrice": 78750,
             "coinPrice": 105,
             "index": 0
           },
           {
-            "drawable": 235,
+            "drawable": 193,
             "colors": [
               0,
               1,
@@ -48783,21 +48464,19 @@
               8,
               9
             ],
-            "moneyPrice": 78750,
             "coinPrice": 105,
             "index": 1
           },
           {
-            "drawable": 236,
+            "drawable": 194,
             "colors": [
               0
             ],
-            "moneyPrice": 150000,
             "coinPrice": 200,
             "index": 2
           },
           {
-            "drawable": 237,
+            "drawable": 195,
             "colors": [
               0,
               1,
@@ -48805,12 +48484,11 @@
               3,
               4
             ],
-            "moneyPrice": 525000,
             "coinPrice": 700,
             "index": 3
           },
           {
-            "drawable": 238,
+            "drawable": 196,
             "colors": [
               0,
               1,
@@ -48821,27 +48499,26 @@
               6,
               7
             ],
-            "moneyPrice": 97500,
             "coinPrice": 130,
             "index": 4
           },
           {
-            "drawable": 239,
+            "drawable": 197,
             "colors": [
               0,
               1,
               2
             ],
-            "moneyPrice": 97500,
             "coinPrice": 130,
             "index": 5
           },
           {
-            "drawable": 240,
+            "drawable": 198,
             "colors": [
               0,
               1,
               2,
+              3,
               4,
               5,
               6,
@@ -48849,21 +48526,19 @@
               8,
               9
             ],
-            "moneyPrice": 637500,
             "coinPrice": 850,
             "index": 6
           },
           {
-            "drawable": 241,
+            "drawable": 199,
             "colors": [
               0
             ],
-            "moneyPrice": 450000,
             "coinPrice": 600,
             "index": 7
           },
           {
-            "drawable": 242,
+            "drawable": 200,
             "colors": [
               0,
               1,
@@ -48876,12 +48551,11 @@
               8,
               9
             ],
-            "moneyPrice": 585000,
             "coinPrice": 780,
             "index": 8
           },
           {
-            "drawable": 243,
+            "drawable": 201,
             "colors": [
               0,
               1,
@@ -48889,52 +48563,46 @@
               3,
               4
             ],
-            "moneyPrice": 300000,
             "coinPrice": 400,
             "index": 9
           },
           {
-            "drawable": 244,
+            "drawable": 202,
             "colors": [
               0
             ],
-            "moneyPrice": 261750,
             "coinPrice": 349,
             "index": 10
           },
           {
-            "drawable": 245,
+            "drawable": 203,
             "colors": [
               0
             ],
-            "moneyPrice": 261750,
             "coinPrice": 349,
             "index": 11
           },
           {
-            "drawable": 246,
+            "drawable": 204,
             "colors": [
               0
             ],
-            "moneyPrice": 261750,
             "coinPrice": 349,
             "index": 12
           },
           {
-            "drawable": 247,
+            "drawable": 205,
             "colors": [
               0
             ],
-            "moneyPrice": 261750,
             "coinPrice": 349,
             "index": 13
           },
           {
-            "drawable": 248,
+            "drawable": 206,
             "colors": [
               0
             ],
-            "moneyPrice": 336750,
             "coinPrice": 449,
             "index": 14
           }
@@ -48942,63 +48610,57 @@
         "legs_female": [],
         "masks_female": [
           {
-            "drawable": 250,
+            "drawable": 217,
             "colors": [
               0,
               1,
               2
             ],
-            "moneyPrice": 105000,
             "coinPrice": 140,
             "index": 0
           },
           {
-            "drawable": 251,
+            "drawable": 218,
             "colors": [
               0
             ],
-            "moneyPrice": 116250,
             "coinPrice": 155,
             "index": 1
           },
           {
-            "drawable": 252,
+            "drawable": 219,
             "colors": [
               0
             ],
-            "moneyPrice": 60000,
             "coinPrice": 80,
             "index": 2
           },
           {
-            "drawable": 253,
+            "drawable": 220,
             "colors": [
               0
             ],
-            "moneyPrice": 202500,
             "coinPrice": 270,
             "index": 3
           },
           {
-            "drawable": 254,
+            "drawable": 221,
             "colors": [
               0
             ],
-            "moneyPrice": 60000,
             "coinPrice": 80,
             "index": 4
           },
           {
-            "drawable": 255,
+            "drawable": 222,
             "colors": [
               0
             ],
-            "moneyPrice": 217500,
             "coinPrice": 290,
             "index": 5
           },
           {
-            "drawable": 256,
+            "drawable": 223,
             "colors": [
               0,
               1,
@@ -49006,21 +48668,19 @@
               3,
               4
             ],
-            "moneyPrice": 247500,
             "coinPrice": 330,
             "index": 6
           },
           {
-            "drawable": 265,
+            "drawable": 232,
             "colors": [
               0
             ],
-            "moneyPrice": 307500,
             "coinPrice": 410,
             "index": 7
           },
           {
-            "drawable": 266,
+            "drawable": 233,
             "colors": [
               0,
               1,
@@ -49042,7 +48702,6 @@
               8,
               9
             ],
-            "moneyPrice": 374250,
             "coinPrice": 499,
             "index": 8
           }
@@ -49051,13 +48710,12 @@
         "tops_female": [],
         "watches_female": [
           {
-            "drawable": 39,
+            "drawable": 36,
             "colors": [
               0,
               1,
               2
             ],
-            "moneyPrice": 112500,
             "coinPrice": 150,
             "index": 0
           }
@@ -63704,363 +63362,363 @@
         },
         {
           "drawable": 83,
-          "price": 20000
+          "price": 12000
         },
         {
           "drawable": 84,
-          "price": 25000
+          "price": 15000
         },
         {
           "drawable": 85,
-          "price": 32000
+          "price": 19200
         },
         {
           "drawable": 86,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 87,
-          "price": 80000
+          "price": 48000
         },
         {
           "drawable": 88,
-          "price": 85000
+          "price": 51000
         },
         {
           "drawable": 89,
-          "price": 110000
+          "price": 66000
         },
         {
           "drawable": 90,
-          "price": 50000
+          "price": 30000
         },
         {
           "drawable": 91,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 92,
-          "price": 25000
+          "price": 15000
         },
         {
           "drawable": 93,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 94,
-          "price": 35000
+          "price": 21000
         },
         {
           "drawable": 95,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 96,
-          "price": 50000
+          "price": 30000
         },
         {
           "drawable": 97,
-          "price": 35000
+          "price": 21000
         },
         {
           "drawable": 98,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 99,
-          "price": 60000
+          "price": 36000
         },
         {
           "drawable": 100,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 101,
-          "price": 110000
+          "price": 66000
         },
         {
           "drawable": 102,
-          "price": 140000
+          "price": 84000
         },
         {
           "drawable": 103,
-          "price": 55000
+          "price": 33000
         },
         {
           "drawable": 104,
-          "price": 95000
+          "price": 57000
         },
         {
           "drawable": 105,
-          "price": 35000
+          "price": 21000
         },
         {
           "drawable": 106,
-          "price": 80000
+          "price": 48000
         },
         {
           "drawable": 107,
-          "price": 75000
+          "price": 45000
         },
         {
           "drawable": 108,
-          "price": 80000
+          "price": 48000
         },
         {
           "drawable": 109,
-          "price": 90000
+          "price": 54000
         },
         {
           "drawable": 110,
-          "price": 110000
+          "price": 66000
         },
         {
           "drawable": 111,
-          "price": 80000
+          "price": 48000
         },
         {
           "drawable": 112,
-          "price": 75000
+          "price": 45000
         },
         {
           "drawable": 113,
-          "price": 55000
+          "price": 33000
         },
         {
           "drawable": 114,
-          "price": 80000
+          "price": 48000
         },
         {
           "drawable": 115,
-          "price": 55000
+          "price": 33000
         },
         {
           "drawable": 116,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 117,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 118,
-          "price": 140000
+          "price": 84000
         },
         {
           "drawable": 119,
-          "price": 90000
+          "price": 54000
         },
         {
           "drawable": 120,
-          "price": 25000
+          "price": 15000
         },
         {
           "drawable": 121,
-          "price": 35000
+          "price": 21000
         },
         {
           "drawable": 122,
-          "price": 25000
+          "price": 15000
         },
         {
           "drawable": 123,
-          "price": 170000
+          "price": 102000
         },
         {
           "drawable": 124,
-          "price": 40000
+          "price": 24000
         },
         {
           "drawable": 125,
-          "price": 115000
+          "price": 69000
         },
         {
           "drawable": 126,
-          "price": 140000
+          "price": 84000
         },
         {
           "drawable": 127,
-          "price": 65000
+          "price": 39000
         },
         {
           "drawable": 128,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 129,
-          "price": 50000
+          "price": 30000
         },
         {
           "drawable": 130,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 131,
-          "price": 35000
+          "price": 21000
         },
         {
           "drawable": 132,
-          "price": 190000
+          "price": 114000
         },
         {
           "drawable": 133,
-          "price": 95000
+          "price": 57000
         },
         {
           "drawable": 134,
-          "price": 120000
+          "price": 72000
         },
         {
           "drawable": 135,
-          "price": 35000
+          "price": 21000
         },
         {
           "drawable": 136,
-          "price": 125000
-        },
-        {
-          "drawable": 137,
-          "price": 60000
-        },
-        {
-          "drawable": 138,
-          "price": 50000
-        },
-        {
-          "drawable": 139,
-          "price": 60000
-        },
-        {
-          "drawable": 140,
-          "price": 250000
-        },
-        {
-          "drawable": 141,
-          "price": 110000
-        },
-        {
-          "drawable": 142,
-          "price": 90000
-        },
-        {
-          "drawable": 143,
-          "price": 100000
-        },
-        {
-          "drawable": 144,
-          "price": 70000
-        },
-        {
-          "drawable": 145,
-          "price": 80000
-        },
-        {
-          "drawable": 146,
-          "price": 50000
-        },
-        {
-          "drawable": 147,
-          "price": 110000
-        },
-        {
-          "drawable": 148,
-          "price": 120000
-        },
-        {
-          "drawable": 149,
-          "price": 90000
-        },
-        {
-          "drawable": 150,
-          "price": 70000
-        },
-        {
-          "drawable": 151,
-          "price": 60000
-        },
-        {
-          "drawable": 152,
-          "price": 79000
-        },
-        {
-          "drawable": 153,
-          "price": 85000
-        },
-        {
-          "drawable": 154,
-          "price": 70000
-        },
-        {
-          "drawable": 155,
-          "price": 96000
-        },
-        {
-          "drawable": 156,
-          "price": 170000
-        },
-        {
-          "drawable": 157,
-          "price": 55000
-        },
-        {
-          "drawable": 158,
           "price": 75000
         },
         {
-          "drawable": 159,
-          "price": 25000
+          "drawable": 137,
+          "price": 36000
         },
         {
-          "drawable": 160,
-          "price": 40000
+          "drawable": 138,
+          "price": 30000
         },
         {
-          "drawable": 161,
-          "price": 230000
+          "drawable": 139,
+          "price": 36000
         },
         {
-          "drawable": 162,
+          "drawable": 140,
+          "price": 150000
+        },
+        {
+          "drawable": 141,
+          "price": 66000
+        },
+        {
+          "drawable": 142,
+          "price": 54000
+        },
+        {
+          "drawable": 143,
           "price": 60000
         },
         {
+          "drawable": 144,
+          "price": 42000
+        },
+        {
+          "drawable": 145,
+          "price": 48000
+        },
+        {
+          "drawable": 146,
+          "price": 30000
+        },
+        {
+          "drawable": 147,
+          "price": 66000
+        },
+        {
+          "drawable": 148,
+          "price": 72000
+        },
+        {
+          "drawable": 149,
+          "price": 54000
+        },
+        {
+          "drawable": 150,
+          "price": 42000
+        },
+        {
+          "drawable": 151,
+          "price": 36000
+        },
+        {
+          "drawable": 152,
+          "price": 47400
+        },
+        {
+          "drawable": 153,
+          "price": 51000
+        },
+        {
+          "drawable": 154,
+          "price": 42000
+        },
+        {
+          "drawable": 155,
+          "price": 57600
+        },
+        {
+          "drawable": 156,
+          "price": 102000
+        },
+        {
+          "drawable": 157,
+          "price": 33000
+        },
+        {
+          "drawable": 158,
+          "price": 45000
+        },
+        {
+          "drawable": 159,
+          "price": 15000
+        },
+        {
+          "drawable": 160,
+          "price": 24000
+        },
+        {
+          "drawable": 161,
+          "price": 138000
+        },
+        {
+          "drawable": 162,
+          "price": 36000
+        },
+        {
           "drawable": 163,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 164,
-          "price": 96000
+          "price": 57600
         },
         {
           "drawable": 165,
-          "price": 120000
+          "price": 72000
         },
         {
           "drawable": 166,
-          "price": 130000
+          "price": 78000
         },
         {
           "drawable": 167,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 168,
-          "price": 80000
+          "price": 48000
         },
         {
           "drawable": 169,
-          "price": 95000
+          "price": 57000
         },
         {
           "drawable": 170,
-          "price": 135000
+          "price": 81000
         },
         {
           "drawable": 171,
-          "price": 155000
+          "price": 93000
         },
         {
           "drawable": 172,
-          "price": 90000
+          "price": 54000
         },
         {
           "drawable": 173,
@@ -64068,123 +63726,115 @@
         },
         {
           "drawable": 174,
-          "price": 65000
-        },
-        {
-          "drawable": 175,
-          "price": 98000
-        },
-        {
-          "drawable": 176,
-          "price": 35000
-        },
-        {
-          "drawable": 177,
-          "price": 65000
-        },
-        {
-          "drawable": 178,
-          "price": 155000
-        },
-        {
-          "drawable": 179,
-          "price": 270000
-        },
-        {
-          "drawable": 180,
-          "price": 58000
-        },
-        {
-          "drawable": 181,
-          "price": 45000
-        },
-        {
-          "drawable": 182,
-          "price": 60000
-        },
-        {
-          "drawable": 183,
-          "price": 95000
-        },
-        {
-          "drawable": 184,
-          "price": 55000
-        },
-        {
-          "drawable": 185,
           "price": 39000
         },
         {
+          "drawable": 175,
+          "price": 58800
+        },
+        {
+          "drawable": 176,
+          "price": 21000
+        },
+        {
+          "drawable": 177,
+          "price": 39000
+        },
+        {
+          "drawable": 178,
+          "price": 93000
+        },
+        {
+          "drawable": 179,
+          "price": 162000
+        },
+        {
+          "drawable": 180,
+          "price": 34800
+        },
+        {
+          "drawable": 181,
+          "price": 27000
+        },
+        {
+          "drawable": 182,
+          "price": 36000
+        },
+        {
+          "drawable": 183,
+          "price": 57000
+        },
+        {
+          "drawable": 184,
+          "price": 33000
+        },
+        {
+          "drawable": 185,
+          "price": 23400
+        },
+        {
           "drawable": 186,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 187,
-          "price": 95000
+          "price": 57000
         },
         {
           "drawable": 188,
-          "price": 75000
-        },
-        {
-          "drawable": 189,
-          "price": 135000
-        },
-        {
-          "drawable": 190,
-          "price": 70000
-        },
-        {
-          "drawable": 191,
-          "price": 230000
-        },
-        {
-          "drawable": 192,
-          "price": 85000
-        },
-        {
-          "drawable": 193,
-          "price": 75000
-        },
-        {
-          "drawable": 194,
-          "price": 55000
-        },
-        {
-          "drawable": 195,
-          "price": 65000
-        },
-        {
-          "drawable": 196,
-          "price": 135000
-        },
-        {
-          "drawable": 197,
-          "price": 110000
-        },
-        {
-          "drawable": 198,
-          "price": 95000
-        },
-        {
-          "drawable": 199,
-          "price": 170000
-        },
-        {
-          "drawable": 200,
-          "price": 124000
-        },
-        {
-          "drawable": 201,
-          "price": 55000
-        },
-        {
-          "drawable": 202,
           "price": 45000
         },
         {
-          "drawable": 203,
-          "price": 75000
+          "drawable": 189,
+          "price": 81000
+        },
+        {
+          "drawable": 190,
+          "price": 42000
+        },
+        {
+          "drawable": 191,
+          "price": 138000
+        },
+        {
+          "drawable": 192,
+          "price": 51000
+        },
+        {
+          "drawable": 193,
+          "price": 45000
+        },
+        {
+          "drawable": 194,
+          "price": 33000
+        },
+        {
+          "drawable": 195,
+          "price": 39000
+        },
+        {
+          "drawable": 196,
+          "price": 81000
+        },
+        {
+          "drawable": 197,
+          "price": 66000
+        },
+        {
+          "drawable": 198,
+          "price": 57000
+        },
+        {
+          "drawable": 199,
+          "price": 102000
+        },
+        {
+          "drawable": 200,
+          "price": 74400
+        },
+        {
+          "drawable": 201,
+          "price": 33000
         }
       ],
       "HairStyleMan": [
@@ -64510,7 +64160,7 @@
         },
         {
           "drawable": 81,
-          "price": 30000
+          "price": 18000
         },
         {
           "drawable": 82,
@@ -64542,11 +64192,11 @@
         },
         {
           "drawable": 89,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 90,
-          "price": 32000
+          "price": 19200
         },
         {
           "drawable": 91,
@@ -64566,47 +64216,47 @@
         },
         {
           "drawable": 95,
-          "price": 75000
-        },
-        {
-          "drawable": 96,
-          "price": 80000
-        },
-        {
-          "drawable": 97,
-          "price": 75000
-        },
-        {
-          "drawable": 98,
-          "price": 70000
-        },
-        {
-          "drawable": 99,
-          "price": 65000
-        },
-        {
-          "drawable": 100,
-          "price": 30000
-        },
-        {
-          "drawable": 101,
-          "price": 140000
-        },
-        {
-          "drawable": 102,
-          "price": 65000
-        },
-        {
-          "drawable": 103,
           "price": 45000
         },
         {
+          "drawable": 96,
+          "price": 48000
+        },
+        {
+          "drawable": 97,
+          "price": 45000
+        },
+        {
+          "drawable": 98,
+          "price": 42000
+        },
+        {
+          "drawable": 99,
+          "price": 39000
+        },
+        {
+          "drawable": 100,
+          "price": 18000
+        },
+        {
+          "drawable": 101,
+          "price": 84000
+        },
+        {
+          "drawable": 102,
+          "price": 39000
+        },
+        {
+          "drawable": 103,
+          "price": 27000
+        },
+        {
           "drawable": 104,
-          "price": 22000
+          "price": 13200
         },
         {
           "drawable": 105,
-          "price": 100000
+          "price": 60000
         },
         {
           "drawable": 106,
@@ -64614,239 +64264,227 @@
         },
         {
           "drawable": 107,
-          "price": 75000
+          "price": 45000
         },
         {
           "drawable": 108,
-          "price": 65000
+          "price": 39000
         },
         {
           "drawable": 109,
-          "price": 90000
-        },
-        {
-          "drawable": 110,
-          "price": 75000
-        },
-        {
-          "drawable": 111,
-          "price": 85000
-        },
-        {
-          "drawable": 112,
-          "price": 40000
-        },
-        {
-          "drawable": 113,
-          "price": 35000
-        },
-        {
-          "drawable": 114,
-          "price": 20000
-        },
-        {
-          "drawable": 115,
-          "price": 170000
-        },
-        {
-          "drawable": 116,
-          "price": 90000
-        },
-        {
-          "drawable": 117,
-          "price": 230000
-        },
-        {
-          "drawable": 118,
-          "price": 80000
-        },
-        {
-          "drawable": 119,
-          "price": 140000
-        },
-        {
-          "drawable": 120,
-          "price": 40000
-        },
-        {
-          "drawable": 121,
-          "price": 64000
-        },
-        {
-          "drawable": 122,
-          "price": 78000
-        },
-        {
-          "drawable": 123,
-          "price": 22000
-        },
-        {
-          "drawable": 124,
-          "price": 32000
-        },
-        {
-          "drawable": 125,
-          "price": 45000
-        },
-        {
-          "drawable": 126,
-          "price": 120000
-        },
-        {
-          "drawable": 127,
-          "price": 70000
-        },
-        {
-          "drawable": 128,
-          "price": 60000
-        },
-        {
-          "drawable": 129,
-          "price": 35000
-        },
-        {
-          "drawable": 130,
-          "price": 170000
-        },
-        {
-          "drawable": 131,
-          "price": 70000
-        },
-        {
-          "drawable": 132,
-          "price": 90000
-        },
-        {
-          "drawable": 133,
-          "price": 95000
-        },
-        {
-          "drawable": 134,
-          "price": 55000
-        },
-        {
-          "drawable": 135,
-          "price": 45000
-        },
-        {
-          "drawable": 136,
           "price": 54000
         },
         {
+          "drawable": 110,
+          "price": 45000
+        },
+        {
+          "drawable": 111,
+          "price": 51000
+        },
+        {
+          "drawable": 112,
+          "price": 24000
+        },
+        {
+          "drawable": 113,
+          "price": 21000
+        },
+        {
+          "drawable": 114,
+          "price": 12000
+        },
+        {
+          "drawable": 115,
+          "price": 102000
+        },
+        {
+          "drawable": 116,
+          "price": 54000
+        },
+        {
+          "drawable": 117,
+          "price": 138000
+        },
+        {
+          "drawable": 118,
+          "price": 48000
+        },
+        {
+          "drawable": 119,
+          "price": 84000
+        },
+        {
+          "drawable": 120,
+          "price": 24000
+        },
+        {
+          "drawable": 121,
+          "price": 38400
+        },
+        {
+          "drawable": 122,
+          "price": 46800
+        },
+        {
+          "drawable": 123,
+          "price": 13200
+        },
+        {
+          "drawable": 124,
+          "price": 19200
+        },
+        {
+          "drawable": 125,
+          "price": 27000
+        },
+        {
+          "drawable": 126,
+          "price": 72000
+        },
+        {
+          "drawable": 127,
+          "price": 42000
+        },
+        {
+          "drawable": 128,
+          "price": 36000
+        },
+        {
+          "drawable": 129,
+          "price": 21000
+        },
+        {
+          "drawable": 130,
+          "price": 102000
+        },
+        {
+          "drawable": 131,
+          "price": 42000
+        },
+        {
+          "drawable": 132,
+          "price": 54000
+        },
+        {
+          "drawable": 133,
+          "price": 57000
+        },
+        {
+          "drawable": 134,
+          "price": 33000
+        },
+        {
+          "drawable": 135,
+          "price": 27000
+        },
+        {
+          "drawable": 136,
+          "price": 32400
+        },
+        {
           "drawable": 137,
-          "price": 67000
+          "price": 40200
         },
         {
           "drawable": 138,
-          "price": 55000
+          "price": 33000
         },
         {
           "drawable": 139,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 140,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 141,
-          "price": 110000
+          "price": 66000
         },
         {
           "drawable": 142,
-          "price": 60000
+          "price": 36000
         },
         {
           "drawable": 143,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 144,
-          "price": 95000
+          "price": 57000
         },
         {
           "drawable": 145,
-          "price": 165000
+          "price": 99000
         },
         {
           "drawable": 146,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 147,
-          "price": 80000
+          "price": 48000
         },
         {
           "drawable": 148,
-          "price": 110000
+          "price": 66000
         },
         {
           "drawable": 149,
-          "price": 70000
+          "price": 42000
         },
         {
           "drawable": 150,
-          "price": 65000
+          "price": 39000
         },
         {
           "drawable": 151,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 152,
-          "price": 35000
+          "price": 21000
         },
         {
           "drawable": 153,
-          "price": 45000
+          "price": 27000
         },
         {
           "drawable": 154,
-          "price": 55000
+          "price": 33000
         },
         {
           "drawable": 155,
-          "price": 85000
+          "price": 51000
         },
         {
           "drawable": 156,
-          "price": 95000
+          "price": 57000
         },
         {
           "drawable": 157,
-          "price": 50000
+          "price": 30000
         },
         {
           "drawable": 158,
-          "price": 370000
+          "price": 222000
         },
         {
           "drawable": 159,
-          "price": 240000
+          "price": 144000
         },
         {
           "drawable": 160,
-          "price": 270000
+          "price": 162000
         },
         {
           "drawable": 161,
-          "price": 140000
+          "price": 84000
         },
         {
           "drawable": 162,
-          "price": 50000
-        },
-        {
-          "drawable": 163,
-          "price": 130000
-        },
-        {
-          "drawable": 164,
-          "price": 110000
-        },
-        {
-          "drawable": 165,
-          "price": 55000
+          "price": 30000
         }
       ],
       "FacialHairMan": [
@@ -64965,559 +64603,11 @@
         {
           "drawable": 28,
           "price": 2500
-        },
-        {
-          "drawable": 29,
-          "price": 2500
-        },
-        {
-          "drawable": 30,
-          "price": 2500
-        },
-        {
-          "drawable": 31,
-          "price": 2500
-        },
-        {
-          "drawable": 32,
-          "price": 2500
-        },
-        {
-          "drawable": 33,
-          "price": 2500
-        },
-        {
-          "drawable": 34,
-          "price": 2500
-        },
-        {
-          "drawable": 35,
-          "price": 2500
-        },
-        {
-          "drawable": 36,
-          "price": 2500
-        },
-        {
-          "drawable": 37,
-          "price": 2500
-        },
-        {
-          "drawable": 38,
-          "price": 2500
-        },
-        {
-          "drawable": 39,
-          "price": 2500
-        },
-        {
-          "drawable": 40,
-          "price": 2500
-        },
-        {
-          "drawable": 41,
-          "price": 2500
-        },
-        {
-          "drawable": 42,
-          "price": 2500
-        },
-        {
-          "drawable": 43,
-          "price": 2500
-        },
-        {
-          "drawable": 44,
-          "price": 2500
-        },
-        {
-          "drawable": 45,
-          "price": 2500
-        },
-        {
-          "drawable": 46,
-          "price": 2500
-        },
-        {
-          "drawable": 47,
-          "price": 2500
-        },
-        {
-          "drawable": 48,
-          "price": 2500
-        },
-        {
-          "drawable": 49,
-          "price": 2500
-        },
-        {
-          "drawable": 50,
-          "price": 2500
-        },
-        {
-          "drawable": 51,
-          "price": 2500
-        },
-        {
-          "drawable": 52,
-          "price": 2500
-        },
-        {
-          "drawable": 53,
-          "price": 2500
-        },
-        {
-          "drawable": 54,
-          "price": 2500
-        },
-        {
-          "drawable": 55,
-          "price": 2500
-        },
-        {
-          "drawable": 56,
-          "price": 2500
-        },
-        {
-          "drawable": 57,
-          "price": 2500
-        },
-        {
-          "drawable": 58,
-          "price": 2500
-        },
-        {
-          "drawable": 59,
-          "price": 2500
-        },
-        {
-          "drawable": 60,
-          "price": 2500
-        },
-        {
-          "drawable": 61,
-          "price": 2500
-        },
-        {
-          "drawable": 62,
-          "price": 2500
-        },
-        {
-          "drawable": 63,
-          "price": 2500
-        },
-        {
-          "drawable": 64,
-          "price": 2500
-        },
-        {
-          "drawable": 65,
-          "price": 2500
-        },
-        {
-          "drawable": 66,
-          "price": 2500
-        },
-        {
-          "drawable": 67,
-          "price": 2500
-        },
-        {
-          "drawable": 68,
-          "price": 2500
-        },
-        {
-          "drawable": 69,
-          "price": 2500
-        },
-        {
-          "drawable": 70,
-          "price": 2500
-        },
-        {
-          "drawable": 71,
-          "price": 2500
-        },
-        {
-          "drawable": 72,
-          "price": 2500
-        },
-        {
-          "drawable": 73,
-          "price": 2500
-        },
-        {
-          "drawable": 74,
-          "price": 2500
-        },
-        {
-          "drawable": 75,
-          "price": 2500
-        },
-        {
-          "drawable": 76,
-          "price": 2500
-        },
-        {
-          "drawable": 77,
-          "price": 2500
-        },
-        {
-          "drawable": 78,
-          "price": 2500
-        },
-        {
-          "drawable": 79,
-          "price": 2500
-        },
-        {
-          "drawable": 80,
-          "price": 2500
-        },
-        {
-          "drawable": 81,
-          "price": 2500
-        },
-        {
-          "drawable": 82,
-          "price": 2500
-        },
-        {
-          "drawable": 83,
-          "price": 2500
-        },
-        {
-          "drawable": 84,
-          "price": 2500
-        },
-        {
-          "drawable": 85,
-          "price": 2500
-        },
-        {
-          "drawable": 86,
-          "price": 2500
-        },
-        {
-          "drawable": 87,
-          "price": 2500
-        },
-        {
-          "drawable": 88,
-          "price": 2500
-        },
-        {
-          "drawable": 89,
-          "price": 2500
-        },
-        {
-          "drawable": 90,
-          "price": 2500
-        },
-        {
-          "drawable": 91,
-          "price": 2500
-        },
-        {
-          "drawable": 92,
-          "price": 2500
-        },
-        {
-          "drawable": 93,
-          "price": 2500
-        },
-        {
-          "drawable": 94,
-          "price": 2500
-        },
-        {
-          "drawable": 95,
-          "price": 2500
-        },
-        {
-          "drawable": 96,
-          "price": 2500
-        },
-        {
-          "drawable": 97,
-          "price": 2500
-        },
-        {
-          "drawable": 98,
-          "price": 2500
-        },
-        {
-          "drawable": 99,
-          "price": 2500
-        },
-        {
-          "drawable": 100,
-          "price": 2500
-        },
-        {
-          "drawable": 101,
-          "price": 2500
-        },
-        {
-          "drawable": 102,
-          "price": 2500
-        },
-        {
-          "drawable": 103,
-          "price": 2500
-        },
-        {
-          "drawable": 104,
-          "price": 2500
-        },
-        {
-          "drawable": 105,
-          "price": 2500
-        },
-        {
-          "drawable": 106,
-          "price": 2500
-        },
-        {
-          "drawable": 107,
-          "price": 2500
-        },
-        {
-          "drawable": 108,
-          "price": 2500
-        },
-        {
-          "drawable": 109,
-          "price": 2500
-        },
-        {
-          "drawable": 110,
-          "price": 2500
-        },
-        {
-          "drawable": 111,
-          "price": 2500
-        },
-        {
-          "drawable": 112,
-          "price": 2500
-        },
-        {
-          "drawable": 113,
-          "price": 2500
-        },
-        {
-          "drawable": 114,
-          "price": 2500
-        },
-        {
-          "drawable": 115,
-          "price": 2500
-        },
-        {
-          "drawable": 116,
-          "price": 2500
-        },
-        {
-          "drawable": 117,
-          "price": 2500
-        },
-        {
-          "drawable": 118,
-          "price": 2500
-        },
-        {
-          "drawable": 119,
-          "price": 2500
-        },
-        {
-          "drawable": 120,
-          "price": 2500
-        },
-        {
-          "drawable": 121,
-          "price": 2500
-        },
-        {
-          "drawable": 122,
-          "price": 2500
-        },
-        {
-          "drawable": 123,
-          "price": 2500
-        },
-        {
-          "drawable": 124,
-          "price": 2500
-        },
-        {
-          "drawable": 125,
-          "price": 2500
-        },
-        {
-          "drawable": 126,
-          "price": 2500
-        },
-        {
-          "drawable": 127,
-          "price": 2500
-        },
-        {
-          "drawable": 128,
-          "price": 2500
-        },
-        {
-          "drawable": 129,
-          "price": 2500
-        },
-        {
-          "drawable": 130,
-          "price": 2500
-        },
-        {
-          "drawable": 131,
-          "price": 2500
-        },
-        {
-          "drawable": 132,
-          "price": 2500
-        },
-        {
-          "drawable": 133,
-          "price": 2500
-        },
-        {
-          "drawable": 134,
-          "price": 2500
-        },
-        {
-          "drawable": 135,
-          "price": 2500
-        },
-        {
-          "drawable": 136,
-          "price": 2500
-        },
-        {
-          "drawable": 137,
-          "price": 2500
-        },
-        {
-          "drawable": 138,
-          "price": 2500
-        },
-        {
-          "drawable": 139,
-          "price": 2500
-        },
-        {
-          "drawable": 140,
-          "price": 2500
-        },
-        {
-          "drawable": 141,
-          "price": 2500
-        },
-        {
-          "drawable": 142,
-          "price": 2500
-        },
-        {
-          "drawable": 143,
-          "price": 2500
-        },
-        {
-          "drawable": 144,
-          "price": 2500
-        },
-        {
-          "drawable": 145,
-          "price": 2500
-        },
-        {
-          "drawable": 146,
-          "price": 2500
-        },
-        {
-          "drawable": 147,
-          "price": 2500
-        },
-        {
-          "drawable": 148,
-          "price": 2500
-        },
-        {
-          "drawable": 149,
-          "price": 2500
-        },
-        {
-          "drawable": 150,
-          "price": 2500
-        },
-        {
-          "drawable": 151,
-          "price": 2500
-        },
-        {
-          "drawable": 152,
-          "price": 2500
-        },
-        {
-          "drawable": 153,
-          "price": 2500
-        },
-        {
-          "drawable": 154,
-          "price": 2500
-        },
-        {
-          "drawable": 155,
-          "price": 2500
-        },
-        {
-          "drawable": 156,
-          "price": 2500
-        },
-        {
-          "drawable": 157,
-          "price": 2500
-        },
-        {
-          "drawable": 158,
-          "price": 2500
-        },
-        {
-          "drawable": 159,
-          "price": 2500
-        },
-        {
-          "drawable": 160,
-          "price": 2500
-        },
-        {
-          "drawable": 161,
-          "price": 2500
-        },
-        {
-          "drawable": 162,
-          "price": 2500
-        },
-        {
-          "drawable": 163,
-          "price": 2500
-        },
-        {
-          "drawable": 164,
-          "price": 2500
-        },
-        {
-          "drawable": 165,
-          "price": 2500
         }
       ]
     },
     "Insurance": {
-      "InsurancePercent": 0.01
+      "InsurancePercent": 0.008
     },
     "DrugDealer": {
       "sell": [
@@ -66270,7 +65360,7 @@
             },
             {
               "name": "item_ore_coal",
-              "chance": 39.994,
+              "chance": 39.94,
               "label": "coal ore"
             },
             {
@@ -66280,7 +65370,7 @@
             },
             {
               "name": "item_gem_Amberite",
-              "chance": 0.006,
+              "chance": 0.06,
               "label": "amberite gem"
             }
           ],
@@ -66302,12 +65392,12 @@
             },
             {
               "name": "item_ore_gold",
-              "chance": 9.994,
+              "chance": 9.94,
               "label": "gold ore"
             },
             {
               "name": "item_gem_luminite",
-              "chance": 0.006,
+              "chance": 0.06,
               "label": "luminite gem"
             }
           ],
@@ -66334,7 +65424,7 @@
             },
             {
               "name": "item_gem_aqualith",
-              "chance": 0.006,
+              "chance": 0.06,
               "label": "aqualith gem"
             }
           ],
@@ -66837,27 +65927,27 @@
         {
           "itemName": "item_bar_gildiron",
           "label": "Gilded Iron Bar",
-          "singlePrice": 4500
+          "singlePrice": 18000
         },
         {
           "itemName": "item_bar_auriron",
           "label": "Auriron Iron Bar",
-          "singlePrice": 6300
+          "singlePrice": 25200
         },
         {
           "itemName": "item_gem_Amberite",
           "label": "Amberite gem",
-          "singlePrice": 18000
+          "singlePrice": 72000
         },
         {
           "itemName": "item_gem_aqualith",
           "label": "qualith gem",
-          "singlePrice": 18000
+          "singlePrice": 72000
         },
         {
           "itemName": "item_gem_luminite",
           "label": "luminite gem",
-          "singlePrice": 18000
+          "singlePrice": 72000
         }
       ],
       "MiningShopBuy": [
@@ -67085,46 +66175,46 @@
   },
   "governmentSalary": {
     "police": {
-      "Cadet": 1000,
-      "Police Officer 1": 2000,
-      "Police Officer 2": 2250,
-      "Police Officer 3": 2500,
-      "Sergeant": 3000,
-      "Lieutenant": 3500,
-      "Deputy": 4000,
-      "Chief": 4500
+      "Cadet": 1400,
+      "Police Officer 1": 3500,
+      "Police Officer 2": 4200,
+      "Police Officer 3": 4900,
+      "Sergeant": 5250,
+      "Lieutenant": 5600,
+      "Deputy": 5950,
+      "Chief": 6300
     },
     "fbi": {
-      "Trainee": 1000,
-      "Agent": 1500,
-      "Field Agent": 2500,
-      "Special Agent": 3250,
-      "Director": 4500
+      "Trainee": 1400,
+      "Agent": 2100,
+      "Field Agent": 3500,
+      "Special Agent": 4550,
+      "Director": 6300
     },
     "army": {
-      "Private": 750,
-      "Corporal": 1250,
-      "Sergeant": 1750,
-      "Sergeant Major": 2250,
-      "Lieutenant": 2750,
-      "Captain": 3250,
-      "General": 3750,
-      "Warrant Officer": 4250,
-      "Chief Warrant Officer": 4750
+      "Private": 1050,
+      "Corporal": 1750,
+      "Sergeant": 2450,
+      "Sergeant Major": 3150,
+      "Lieutenant": 3850,
+      "Captain": 4550,
+      "General": 5250,
+      "Warrant Officer": 5950,
+      "Chief Warrant Officer": 6650
     },
     "sheriff": {
-      "Cadet": 1000,
-      "Deputy": 1500,
-      "Corporal": 2500,
-      "Sergeant": 3000,
-      "Lieutenant": 3750,
-      "Sheriff": 4750
+      "Cadet": 1400,
+      "Deputy": 2100,
+      "Corporal": 3500,
+      "Sergeant": 4200,
+      "Lieutenant": 5250,
+      "Sheriff": 6650
     },
     "ems": {
-      "Intern": 2750,
-      "Nurse": 3500,
-      "Doctor": 4500,
-      "Chief": 5000
+      "Intern": 3500,
+      "Nurse": 4550,
+      "Doctor": 5600,
+      "Chief": 6300
     }
   },
   "itemsProperties": {
@@ -67921,6 +67011,71 @@
       "maxStack": 1,
       "canTrade": true
     },
+    "item_drink_water": {
+      "name": "item_drink_water",
+      "label": "mineral water",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "drink",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 5,
+      "canTrade": true
+    },
+    "item_drink_sprunk": {
+      "name": "item_drink_sprunk",
+      "label": "sprunk soda",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "drink",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 5,
+      "canTrade": true
+    },
+    "item_walkie_talkie": {
+      "name": "item_walkie_talkie",
+      "label": "walkie talkie",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_food_chocolate": {
+      "name": "item_food_chocolate",
+      "label": "chocolate bar",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "food",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 5,
+      "canTrade": true
+    },
+    "item_food_hamburger": {
+      "name": "item_food_hamburger",
+      "label": "hamburger",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "food",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 5,
+      "canTrade": true
+    },
     "item_repairkit": {
       "name": "item_repairkit",
       "label": "repair kit",
@@ -67967,19 +67122,6 @@
       "canUSE": true,
       "canDrop": false,
       "category": "drink",
-      "canUnStack": false,
-      "weight": 0.3,
-      "canStack": false,
-      "maxStack": 1,
-      "canTrade": true
-    },
-    "item_drink_water": {
-      "name": "item_drink_water",
-      "label": "water",
-      "accessKey": "none",
-      "category": "drink",
-      "canUSE": true,
-      "canDrop": false,
       "canUnStack": false,
       "weight": 0.3,
       "canStack": false,

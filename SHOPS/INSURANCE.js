@@ -1,4 +1,4 @@
- const InsurancePercent = 0.01;
+ const InsurancePercent = 0.008;
 export const Insurance ={
     InsurancePercent
 }

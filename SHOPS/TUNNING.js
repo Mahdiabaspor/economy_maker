@@ -1211,217 +1211,217 @@ const colorCostMultiplier = 1.5
 
 const parts =  {
     Engine: {
-        basePercentage: 0.7,
-        step: 0.04
+        basePercentage: 0.1,
+        step: 0.08
     },
     Suspension: {
-        basePercentage: 0.7,
-        step: 0.04
+        basePercentage: 0.1,
+        step: 0.08
     },
     Transmission: {
-        basePercentage: 0.7,
-        step: 0.04
+        basePercentage: 0.1,
+        step: 0.08
     },
     Armor: {
-        basePercentage: 0.10,
-        step: 0.4
+        basePercentage: 0.1,
+        step: 0.08
     },
     Turbo: {
-        basePercentage: 0.7,
-        step: 0.04
+        basePercentage: 0.1,
+        step: 0.08
     },
     Brake: {
-        basePercentage: 0.7,
-        step: 0.04
+        basePercentage: 0.1,
+        step: 0.08
     },
 
     AirFilter: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     ArchCover: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     BackWheel: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     DashBoard: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Dial: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     DoorSpeaker: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     EngineBlock: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.03,
+        step: 0
     },
     Exhaust: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     FrontBumper: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     FrontWheels: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Grill: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Hood: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.03,
+        step: 0
     },
     Horns: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Hydraulics: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     LeftFender: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Livery: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.03,
+        step: 0
     },
     Ornaments: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Plaques: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Plate: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     PlateHolder: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     RearBumper: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     RightFender: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Roof: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Seats: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     ShifterLeaver: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     SideSkirt: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Speaker: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Spoiler: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     SteeringWheel: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Struts: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Tank: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     TrimDesign: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Trunk: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     VanityPlate: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Window: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.01,
+        step: 0
     },
     Xenon: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     PrimaryColor: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     SecondaryColor: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     PearleScentColor: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     XenonColor: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.04,
+        step: 0
     },
     TyreSmokeColor: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     NeonColor: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Neon: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Aerials: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     Frame: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
     WheelType: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.03,
+        step: 0
     },
     WheelColor: {
-        basePercentage: 0.05,
-        step: 0.03
+        basePercentage: 0.02,
+        step: 0
     },
 }
 

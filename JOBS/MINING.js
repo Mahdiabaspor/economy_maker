@@ -44,27 +44,27 @@ const MiningShopSell = [
   {
     itemName: "item_bar_gildiron",
     label: "Gilded Iron Bar",
-    singlePrice: Math.floor(2500 * incomeMulti),
+    singlePrice: Math.floor(10000 * incomeMulti),
   },
   {
     itemName: "item_bar_auriron",
     label: "Auriron Iron Bar",
-    singlePrice: Math.floor(3500 * incomeMulti),
+    singlePrice: Math.floor(14000 * incomeMulti),
   },
   {
     itemName: "item_gem_Amberite",
     label: "Amberite gem",
-    singlePrice: Math.floor(10000 * incomeMulti),
+    singlePrice: Math.floor(40000 * incomeMulti),
   },
   {
     itemName: "item_gem_aqualith",
     label: "qualith gem",
-    singlePrice: Math.floor(10000 * incomeMulti),
+    singlePrice: Math.floor(40000 * incomeMulti),
   },
   {
     itemName: "item_gem_luminite",
     label: "luminite gem",
-    singlePrice: Math.floor(10000 * incomeMulti),
+    singlePrice: Math.floor(40000 * incomeMulti),
   },
 ];
 const zones = {
@@ -77,9 +77,9 @@ const zones = {
     resources: [
       { name: "item_ore_iron", chance: 20, label: "iron ore" },
       { name: "item_ore_stone", chance: 20, label: "stone" },
-      { name: "item_ore_coal", chance: 39.994, label: "coal ore" },
+      { name: "item_ore_coal", chance: 39.94, label: "coal ore" },
       { name: "item_ore_sulfur", chance: 20, label: "sulfur" },
-      { name: "item_gem_Amberite", chance: 0.006, label: "amberite gem" },
+      { name: "item_gem_Amberite", chance: 0.06, label: "amberite gem" },
     ],
     miningTime: pickaxeTotalHits * singleHitDuration,
     travelTime: 434,
@@ -89,8 +89,8 @@ const zones = {
     resources: [
       { name: "item_ore_stone", chance: 50, label: "stone" },
       { name: "item_ore_iron", chance: 40, label: "iron ore" },
-      { name: "item_ore_gold", chance: 9.994, label: "gold ore" },
-      { name: "item_gem_luminite", chance: 0.006, label: "luminite gem" },
+      { name: "item_ore_gold", chance: 9.94, label: "gold ore" },
+      { name: "item_gem_luminite", chance: 0.06, label: "luminite gem" },
     ],
     miningTime: pickaxeTotalHits * singleHitDuration,
     travelTime: 456,
@@ -101,7 +101,7 @@ const zones = {
       { name: "item_ore_stone", chance: 30, label: "stone" },
       { name: "item_ore_iron", chance: 30, label: "iron ore" },
       { name: "item_ore_gold", chance: 39.94, label: "gold ore" },
-      { name: "item_gem_aqualith", chance: 0.006, label: "aqualith gem" },
+      { name: "item_gem_aqualith", chance: 0.06, label: "aqualith gem" },
     ],
     miningTime: pickaxeTotalHits * singleHitDuration,
     travelTime: 408,

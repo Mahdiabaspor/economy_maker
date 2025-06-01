@@ -3,10 +3,11 @@ const hardLvl = 1;
 const calcPrice = (hourToGain) => {
   const price = playerAvaregeIncome * hourToGain;
   // Round the price to the nearest 250, 500, 750, or 000
-  const remainder = price % 250;
-  const roundedPrice = price - remainder;
+  const PriceAfterMulty = price * hardLvl
+  const remainder = PriceAfterMulty  % 250;
+  const roundedPrice = PriceAfterMulty - remainder;
 
-  return Math.floor(roundedPrice * hardLvl);
+  return Math.floor(roundedPrice );
 };
 
 export const carV3 = [
@@ -369,13 +370,7 @@ export const carV3 = [
     Price: calcPrice(35.649),
     Brand: "I-Wagen",
   },
-  {
-    Model: "asterope2",
-    Name: "Asterope GZ",
-    Class: "SEDAN",
-    Price: calcPrice(36.486),
-    Brand: "Karin",
-  },
+
   // { Model: "jubilee", Name: "Jubilee", Class: "SEDAN", Price: calcPrice(37.324), Brand: "Enus" },
   {
     Model: "deity",
@@ -384,13 +379,7 @@ export const carV3 = [
     Price: calcPrice(40.162),
     Brand: "Enus",
   },
-  {
-    Model: "impaler5",
-    Name: "Impaler SZ",
-    Class: "SEDAN",
-    Price: calcPrice(39.0),
-    Brand: "Declasse",
-  },
+
 
   {
     Model: "landstalker",
@@ -589,48 +578,12 @@ export const carV3 = [
     Brand: "Lampadati",
   },
 
-  {
-    Model: "dorado",
-    Name: "Dorado",
-    Class: "SUV",
-    Price: calcPrice(33.135),
-    Brand: "Bravado",
-  },
-  {
-    Model: "castigator",
-    Name: "Castigator",
-    Class: "SUV",
-    Price: calcPrice(33.973),
-    Brand: "Canis",
-  },
-  {
-    Model: "vivanite",
-    Name: "Vivanite",
-    Class: "SUV",
-    Price: calcPrice(34.811),
-    Brand: "Karin",
-  },
-  {
-    Model: "cavalcade3",
-    Name: "Cavalcade XL",
-    Class: "SUV",
-    Price: calcPrice(35.649),
-    Brand: "Albany",
-  },
-  {
-    Model: "baller8",
-    Name: "Baller ST-D",
-    Class: "SUV",
-    Price: calcPrice(36.486),
-    Brand: "Gallivanter",
-  },
-  {
-    Model: "aleutian",
-    Name: "Aleutian",
-    Class: "SUV",
-    Price: calcPrice(37.324),
-    Brand: "Vapid",
-  },
+
+
+
+
+
+
   {
     Model: "granger2",
     Name: "Granger 3600LX",
@@ -765,13 +718,7 @@ export const carV3 = [
     Price: calcPrice(35.048),
     Brand: "Karin",
   },
-  {
-    Model: "fr36",
-    Name: "FR36",
-    Class: "COUPE",
-    Price: calcPrice(36.524),
-    Brand: "Fathom",
-  },
+
   {
     Model: "champion",
     Name: "Champion",
@@ -1171,13 +1118,7 @@ export const carV3 = [
     Price: calcPrice(36.5),
     Brand: "BF",
   },
-  {
-    Model: "clique2",
-    Name: "Clique Wagon",
-    Class: "MUSCLE",
-    Price: calcPrice(37.042),
-    Brand: "Vapid",
-  },
+
   {
     Model: "greenwood",
     Name: "Greenwood",
@@ -1185,13 +1126,7 @@ export const carV3 = [
     Price: calcPrice(37.583),
     Brand: "Bravado",
   },
-  {
-    Model: "vigero2",
-    Name: "Vigero ZX",
-    Class: "MUSCLE",
-    Price: calcPrice(38.125),
-    Brand: "Declasse",
-  },
+
   {
     Model: "dominator7",
     Name: "Dominator ASP",
@@ -1206,20 +1141,8 @@ export const carV3 = [
     Price: calcPrice(39.208),
     Brand: "Bravado",
   },
-  {
-    Model: "impaler6",
-    Name: "Impaler LX",
-    Class: "MUSCLE",
-    Price: calcPrice(19.75),
-    Brand: "Declasse",
-  },
-  {
-    Model: "brigham",
-    Name: "Brigham",
-    Class: "MUSCLE",
-    Price: calcPrice(40.292),
-    Brand: "Albany",
-  },
+
+
   {
     Model: "coquette3",
     Name: "Coquette BlackFin",
@@ -1228,27 +1151,9 @@ export const carV3 = [
     Brand: "Invetero",
   },
 
-  {
-    Model: "buffalo5",
-    Name: "Buffalo EVX",
-    Class: "MUSCLE",
-    Price: calcPrice(41.917),
-    Brand: "Bravado",
-  },
-  {
-    Model: "dominator9",
-    Name: "Dominator GT",
-    Class: "MUSCLE",
-    Price: calcPrice(42.458),
-    Brand: "Vapid",
-  },
-  {
-    Model: "vigero3",
-    Name: "Vigero ZX Convertible",
-    Class: "MUSCLE",
-    Price: calcPrice(43.0),
-    Brand: "Declasse",
-  },
+
+
+
   {
     Model: "buffalo4",
     Name: "Buffalo STX",
@@ -1285,13 +1190,7 @@ export const carV3 = [
     Price: calcPrice(7.905),
     Brand: "Declasse",
   },
-  {
-    Model: "nebula",
-    Name: "Nebula",
-    Class: "SPORT_CLASSIC",
-    Price: calcPrice(8.607),
-    Brand: "Vulcar",
-  },
+
   {
     Model: "tornado2",
     Name: "Tornado Convertible",
@@ -1446,13 +1345,7 @@ export const carV3 = [
     Price: calcPrice(26.869),
     Brand: "Lampadati",
   },
-  {
-    Model: "driftnebula",
-    Name: "Nebula Turbo",
-    Class: "SPORT_CLASSIC",
-    Price: calcPrice(27.571),
-    Brand: "Vulcar",
-  },
+
   {
     Model: "monroe",
     Name: "Monroe",
@@ -1495,13 +1388,7 @@ export const carV3 = [
     Price: calcPrice(31.786),
     Brand: "Grotti",
   },
-  {
-    Model: "envisage",
-    Name: "Envisage",
-    Class: "SPORT_CLASSIC",
-    Price: calcPrice(32.488),
-    Brand: "Bollokan",
-  },
+
   {
     Model: "viseris",
     Name: "Viseris",
@@ -1972,13 +1859,7 @@ export const carV3 = [
     Price: calcPrice(50.906),
     Brand: "Annis",
   },
-  {
-    Model: "driftsentinel",
-    Name: "Drift Sentinel Classic",
-    Class: "SPORT",
-    Price: calcPrice(51.333),
-    Brand: "Ubermacht",
-  },
+
   {
     Model: "elegy2",
     Name: "Elegy RH8",
@@ -2014,13 +1895,7 @@ export const carV3 = [
     Price: calcPrice(53.469),
     Brand: "Übermacht",
   },
-  {
-    Model: "driftcypher",
-    Name: "Drift Cypher",
-    Class: "SPORT",
-    Price: calcPrice(53.896),
-    Brand: "Ubermacht",
-  },
+
   {
     Model: "schlagen",
     Name: "Schlagen GT",
@@ -2042,27 +1917,8 @@ export const carV3 = [
     Price: calcPrice(55.177),
     Brand: "Pfister",
   },
-  {
-    Model: "eurosX32",
-    Name: "Euros X32",
-    Class: "SPORT",
-    Price: calcPrice(55.604),
-    Brand: "Annis",
-  },
-  {
-    Model: "niobe",
-    Name: "Niobe",
-    Class: "SPORT",
-    Price: calcPrice(56.031),
-    Brand: "Ubermacht",
-  },
-  {
-    Model: "gauntlet6",
-    Name: "Hotring Hellfire",
-    Class: "SPORT",
-    Price: calcPrice(56.458),
-    Brand: "Bravado",
-  },
+
+
   {
     Model: "tenf",
     Name: "10F",
@@ -2084,13 +1940,7 @@ export const carV3 = [
     Price: calcPrice(57.74),
     Brand: "Grotti",
   },
-  {
-    Model: "coureur",
-    Name: "La Coureuse",
-    Class: "SPORT",
-    Price: calcPrice(58.167),
-    Brand: "Penaud",
-  },
+
   {
     Model: "locust",
     Name: "Locust",
@@ -2119,13 +1969,7 @@ export const carV3 = [
     Price: calcPrice(59.875),
     Brand: "Obey",
   },
-  {
-    Model: "coquette5",
-    Name: "Coquette D1",
-    Class: "SPORT",
-    Price: calcPrice(60.302),
-    Brand: "Invetero",
-  },
+
   {
     Model: "coquette4",
     Name: "Coquette D10",
@@ -2140,13 +1984,7 @@ export const carV3 = [
     Price: calcPrice(61.156),
     Brand: "Pfister",
   },
-  {
-    Model: "paragon3",
-    Name: "Paragon S",
-    Class: "SPORT",
-    Price: calcPrice(61.583),
-    Brand: "Enus",
-  },
+
   {
     Model: "comet6",
     Name: "Comet S2",
@@ -2161,13 +1999,7 @@ export const carV3 = [
     Price: calcPrice(62.437),
     Brand: "Vysser",
   },
-  {
-    Model: "stingertt",
-    Name: "Itali GTO Stinger TT",
-    Class: "SPORT",
-    Price: calcPrice(62.865),
-    Brand: "Maibatsu",
-  },
+
   {
     Model: "jester4",
     Name: "Jester RR",
@@ -2175,27 +2007,8 @@ export const carV3 = [
     Price: calcPrice(63.292),
     Brand: "Dinka",
   },
-  {
-    Model: "pipistrello",
-    Name: "Pipistrello",
-    Class: "SPORT",
-    Price: calcPrice(63.719),
-    Brand: "Overflod",
-  },
-  {
-    Model: "vorschlaghammer",
-    Name: "Vorschlaghammer",
-    Class: "SPORT",
-    Price: calcPrice(64.146),
-    Brand: "Pfister",
-  },
-  {
-    Model: "driftvorschlag",
-    Name: "Vorschlaghammer Drift",
-    Class: "SPORT",
-    Price: calcPrice(64.573),
-    Brand: "Pfister",
-  },
+
+
   {
     Model: "italigto",
     Name: "Itali GTO",
@@ -2512,13 +2325,7 @@ export const carV3 = [
     Price: calcPrice(53.0 * 1.45),
     Brand: "Truffade",
   },
-  {
-    Model: "turismo3",
-    Name: "Turismo Omaggio",
-    Class: "SUPER",
-    Price: calcPrice(53.7 * 1.45),
-    Brand: "Grotti",
-  },
+
   {
     Model: "cyclone",
     Name: "Cyclone",
@@ -3106,27 +2913,6 @@ export const carV3 = [
     Class: "OFF_ROAD",
     Price: calcPrice(48.778),
     Brand: "Declasse",
-  },
-  {
-    Model: "l35",
-    Name: "Walton L35",
-    Class: "OFF_ROAD",
-    Price: calcPrice(36.667),
-    Brand: "Declasse",
-  },
-  {
-    Model: "terminus",
-    Name: "Terminus",
-    Class: "OFF_ROAD",
-    Price: calcPrice(37.556),
-    Brand: "Canis",
-  },
-  {
-    Model: "ratel",
-    Name: "Ratel",
-    Class: "OFF_ROAD",
-    Price: calcPrice(39.333),
-    Brand: "Vapid",
   },
   {
     Model: "riata",

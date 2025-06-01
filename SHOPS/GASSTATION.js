@@ -1,6 +1,6 @@
 
 const fuelMultiplier = 1;
-const normalFuelPerLitter  =  Math.floor(3 * fuelMultiplier)
+const normalFuelPerLitter  =  Math.floor(4 * fuelMultiplier)
 
 
 // max fuel = 100

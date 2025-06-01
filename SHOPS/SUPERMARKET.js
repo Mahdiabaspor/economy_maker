@@ -2,6 +2,37 @@
 const superMarketMultiplier = 1
 export const superMarketConfig = {
     regular: [
+        
+        {
+            itemName: 'item_walkie_talkie',
+            label: 'WALKIE TALKIE',
+            singlePrice:Math.floor( 3350 * superMarketMultiplier),
+        },
+        {
+            itemName: 'item_drink_water',
+            label: 'MINERAL WATER',
+            singlePrice:Math.floor( 250 * superMarketMultiplier),
+        },
+        {
+            itemName: 'item_drink_sprunk',
+            label: 'SPRUNK SODA',
+            singlePrice:Math.floor( 400 * superMarketMultiplier),
+        },
+
+        {
+            itemName: 'item_food_chocolate',
+            label: 'CHOCOLATE BAR',
+            singlePrice:Math.floor( 250 * superMarketMultiplier),
+        },
+        {
+            itemName: 'item_food_hamburger',
+            label: 'HAMBURGER',
+            singlePrice:Math.floor( 400 * superMarketMultiplier),
+        },
+
+
+
+        
         {
             itemName: 'item_repairkit',
             label: 'REPAIR KIT',
@@ -57,6 +88,11 @@ export const superMarketConfig = {
             label: 'MINING MAP',
             singlePrice:Math.floor( 3000 * superMarketMultiplier),
         },
+
+
+
+
+
     ],
 
 

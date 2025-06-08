@@ -470,7 +470,7 @@ export const miningJobConfig = {
     },
     {
       itemName: "kit_antiSharp",
-      label: "ANTI SHARPEN ORE ",
+      label: "ANTI SHARPEN KIT ",
       singlePrice: (22000 * buyShopMultiple).toFixed(0),
       isSingleBuy: true,
     },

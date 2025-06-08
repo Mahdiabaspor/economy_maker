@@ -301,7 +301,7 @@ export function getDetailedCraftingCost(materials, outputCount = 1) {
   
   for (const material of materials) {
     const itemName = material.itemName || material.item;
-    const count = material.count; 
+    const count = material.count;
     const materialPrice = getItemPrice(itemName);
     const materialCost = materialPrice * count;
     totalCost += materialCost;

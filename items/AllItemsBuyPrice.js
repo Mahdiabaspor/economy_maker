@@ -33,25 +33,6 @@ export const PAIN_KILLER_PILL_PRICE = (EMPTY_PILL_CAPSULE_PRICE * 5 + PAIN_KILLE
 // ===== FUEL =====
 export const FUEL_PRICE_PER_LITER = 3;
 
-// ===== WEAPONS =====
-// Weapons 
-export const KNIFE_PRICE = IRON_BAR_BUY_PRICE * 5; // Calculated from materials: 5 iron bars
-export const MACHETE_PRICE = REINFORCED_STEEL_PRICE * 4; // Calculated from materials: 4 reinforced steel
-export const COMBAT_PISTOL_PRICE = NORMAL_BARREL_PRICE * 1 + NORMAL_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1; // Calculated from weapon components
-export const DOUBLE_ACTION_REVOLVER_PRICE = ADVANCED_TRIGGER_PRICE * 1 + NORMAL_BARREL_PRICE * 2 + WEAPON_GRIP_PRICE * 1; // Calculated from weapon components
-export const DB_SHOTGUN_PRICE = REINFORCED_BARREL_PRICE * 1 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
-export const MICRO_SMG_PRICE = REINFORCED_BARREL_PRICE * 2 + NORMAL_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + WEAPON_STOCK_PRICE * 1; // Calculated from weapon components
-export const PUMP_SHOTGUN_PRICE = REINFORCED_BARREL_PRICE * 2 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
-export const COMPACT_RIFLE_PRICE = REINFORCED_BARREL_PRICE * 1 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + WEAPON_STOCK_PRICE * 2 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
-export const SMG_PRICE = 35000; // Shop price
-export const ADVANCED_RIFLE_PRICE = 55000; // Shop price
-
-// Ammo
-export const AMMO_556_PRICE = 60;
-export const AMMO_762_PRICE = 300; // Updated from WEAPONSHOP.js
-export const AMMO_9MM_PRICE = 50; // Updated from WEAPONSHOP.js
-export const AMMO_BUCKSHOT_PRICE = 80; // Updated from WEAPONSHOP.js (item_bullet_shotgun) 
-
 // ===== DRUGS =====
 // Raw Materials
 export const WEED_RAW_PRICE = 500;
@@ -131,6 +112,25 @@ export const WEAPON_GRIP_PRICE = IRON_BAR_BUY_PRICE * 3; // Based on materials: 
 export const WEAPON_SCOPE_PRICE = GOLD_BAR_BUY_PRICE * 2 + REINFORCED_STEEL_PRICE * 2; // Based on materials
 export const NORMAL_TRIGGER_PRICE = IRON_BAR_BUY_PRICE * 2 + GOLD_BAR_BUY_PRICE * 1; // Based on materials
 export const ADVANCED_TRIGGER_PRICE = GOLD_BAR_BUY_PRICE * 1 + REINFORCED_STEEL_PRICE * 1; // Based on materials
+
+// ===== WEAPONS =====
+// Weapons
+export const KNIFE_PRICE = IRON_BAR_BUY_PRICE * 5; // Calculated from materials: 5 iron bars
+export const MACHETE_PRICE = REINFORCED_STEEL_PRICE * 4; // Calculated from materials: 4 reinforced steel
+export const COMBAT_PISTOL_PRICE = NORMAL_BARREL_PRICE * 1 + NORMAL_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1; // Calculated from weapon components
+export const DOUBLE_ACTION_REVOLVER_PRICE = ADVANCED_TRIGGER_PRICE * 1 + NORMAL_BARREL_PRICE * 2 + WEAPON_GRIP_PRICE * 1; // Calculated from weapon components
+export const DB_SHOTGUN_PRICE = REINFORCED_BARREL_PRICE * 1 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
+export const MICRO_SMG_PRICE = REINFORCED_BARREL_PRICE * 2 + NORMAL_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + WEAPON_STOCK_PRICE * 1; // Calculated from weapon components
+export const PUMP_SHOTGUN_PRICE = REINFORCED_BARREL_PRICE * 2 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
+export const COMPACT_RIFLE_PRICE = REINFORCED_BARREL_PRICE * 1 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + WEAPON_STOCK_PRICE * 2 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
+export const SMG_PRICE = 35000; // Shop price
+export const ADVANCED_RIFLE_PRICE = 55000; // Shop price
+
+// Ammo
+export const AMMO_556_PRICE = 60;
+export const AMMO_762_PRICE = 300; // Updated from WEAPONSHOP.js
+export const AMMO_9MM_PRICE = 50; // Updated from WEAPONSHOP.js
+export const AMMO_BUCKSHOT_PRICE = 80; // Updated from WEAPONSHOP.js (item_bullet_shotgun)
 
 // ===== ITEM MAP =====
 // This object allows you to look up prices by item name

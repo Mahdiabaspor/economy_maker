@@ -1,3 +1,10 @@
+import {
+  AMMO_9MM_PRICE,
+  AMMO_BUCKSHOT_PRICE,
+  AMMO_556_PRICE,
+  AMMO_762_PRICE,
+} from "../items/AllItemsBuyPrice.js";
+
 const weaponDealerBuyMulti = 1;
 
 const SellToWeaponDealer = [
@@ -138,22 +145,22 @@ const SellToWeaponDealer = [
   {
     itemName: "item_bullet_9_mm",
     label: "9MM BULLETS",
-    singlePrice: Math.floor(25 * weaponDealerBuyMulti), // Weapon shop sells for 50, dealer buys at 50% (25)
+    singlePrice: Math.floor((AMMO_9MM_PRICE / 2) * weaponDealerBuyMulti),
   },
   {
     itemName: "item_bullet_shotgun",
     label: "SHOTGUN SHELLS",
-    singlePrice: Math.floor(40 * weaponDealerBuyMulti), // Weapon shop sells for 80, dealer buys at 50% (40)
+    singlePrice: Math.floor((AMMO_BUCKSHOT_PRICE / 2) * weaponDealerBuyMulti),
   },
   {
     itemName: "item_bullet_5_56_mm",
     label: "5.56MM BULLETS",
-    singlePrice: Math.floor(30 * weaponDealerBuyMulti), // Weapon shop sells for 60, dealer buys at 50% (30)
+    singlePrice: Math.floor((AMMO_556_PRICE / 2) * weaponDealerBuyMulti),
   },
   {
     itemName: "item_bullet_7_62_mm",
     label: "7.62MM BULLETS",
-    singlePrice: Math.floor(150 * weaponDealerBuyMulti), // Weapon shop sells for 300, dealer buys at 50% (150)
+    singlePrice: Math.floor((AMMO_762_PRICE / 2) * weaponDealerBuyMulti),
   },
 ];
 

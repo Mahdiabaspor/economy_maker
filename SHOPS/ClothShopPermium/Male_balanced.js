@@ -4,7 +4,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 185,
+    "coinPrice": 144,
     "index": 0
   },
   {
@@ -21,7 +21,7 @@ export const accessories_men = [
       8,
       9
     ],
-    "coinPrice": 379,
+    "coinPrice": 295,
     "index": 1
   },
   {
@@ -38,7 +38,7 @@ export const accessories_men = [
       8,
       9
     ],
-    "coinPrice": 282,
+    "coinPrice": 219,
     "index": 2
   },
   {
@@ -51,7 +51,7 @@ export const accessories_men = [
       4,
       5
     ],
-    "coinPrice": 1693,
+    "coinPrice": 1317,
     "index": 3
   },
   {
@@ -66,7 +66,7 @@ export const accessories_men = [
       6,
       7
     ],
-    "coinPrice": 725,
+    "coinPrice": 564,
     "index": 4
   },
   {
@@ -74,7 +74,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 484,
+    "coinPrice": 376,
     "index": 5
   },
   {
@@ -82,7 +82,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 403,
+    "coinPrice": 313,
     "index": 6
   },
   {
@@ -95,7 +95,7 @@ export const accessories_men = [
       4,
       5
     ],
-    "coinPrice": 459,
+    "coinPrice": 357,
     "index": 7
   },
   {
@@ -108,7 +108,7 @@ export const accessories_men = [
       4,
       5
     ],
-    "coinPrice": 1209,
+    "coinPrice": 940,
     "index": 8
   },
   {
@@ -117,7 +117,7 @@ export const accessories_men = [
       0,
       1
     ],
-    "coinPrice": 403,
+    "coinPrice": 313,
     "index": 9
   },
   {
@@ -125,7 +125,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 403,
+    "coinPrice": 313,
     "index": 10
   },
   {
@@ -133,7 +133,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 282,
+    "coinPrice": 219,
     "index": 11
   },
   {
@@ -150,7 +150,7 @@ export const accessories_men = [
       8,
       9
     ],
-    "coinPrice": 887,
+    "coinPrice": 690,
     "index": 12
   },
   {
@@ -167,7 +167,7 @@ export const accessories_men = [
       8,
       9
     ],
-    "coinPrice": 629,
+    "coinPrice": 489,
     "index": 13
   },
   {
@@ -175,7 +175,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 282,
+    "coinPrice": 219,
     "index": 14
   },
   {
@@ -192,7 +192,7 @@ export const accessories_men = [
       8,
       9
     ],
-    "coinPrice": 242,
+    "coinPrice": 188,
     "index": 15
   },
   {
@@ -209,7 +209,7 @@ export const accessories_men = [
       8,
       9
     ],
-    "coinPrice": 218,
+    "coinPrice": 169,
     "index": 16
   },
   {
@@ -228,7 +228,7 @@ export const accessories_men = [
       8,
       9
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 17
   },
   {
@@ -236,7 +236,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 403,
+    "coinPrice": 313,
     "index": 18
   },
   {
@@ -244,7 +244,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 524,
+    "coinPrice": 408,
     "index": 19
   },
   {
@@ -257,7 +257,7 @@ export const accessories_men = [
       4,
       5
     ],
-    "coinPrice": 1773,
+    "coinPrice": 1379,
     "index": 20
   },
   {
@@ -265,7 +265,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 483,
+    "coinPrice": 376,
     "index": 21
   },
   {
@@ -273,7 +273,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 483,
+    "coinPrice": 376,
     "index": 22
   },
   {
@@ -281,7 +281,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 483,
+    "coinPrice": 376,
     "index": 23
   },
   {
@@ -289,7 +289,7 @@ export const accessories_men = [
     "colors": [
       0
     ],
-    "coinPrice": 483,
+    "coinPrice": 376,
     "index": 24
   },
   {
@@ -305,7 +305,7 @@ export const accessories_men = [
       7,
       8
     ],
-    "coinPrice": 605,
+    "coinPrice": 470,
     "index": 25
   },
   {
@@ -316,7 +316,7 @@ export const accessories_men = [
       2,
       3
     ],
-    "coinPrice": 1169,
+    "coinPrice": 909,
     "index": 26
   },
   {
@@ -331,7 +331,7 @@ export const accessories_men = [
       6,
       7
     ],
-    "coinPrice": 1104,
+    "coinPrice": 859,
     "index": 27
   }
 ];
@@ -361,7 +361,7 @@ export const glasses_men = [
       8,
       9
     ],
-    "coinPrice": 207,
+    "coinPrice": 161,
     "index": 0
   }
 ];
@@ -376,7 +376,7 @@ export const hats_men = [
       1,
       2
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 0
   },
   {
@@ -386,7 +386,7 @@ export const hats_men = [
       1,
       2
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 1
   },
   {
@@ -403,7 +403,7 @@ export const hats_men = [
       8,
       9
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 2
   },
   {
@@ -420,7 +420,7 @@ export const hats_men = [
       8,
       9
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 3
   },
   {
@@ -433,7 +433,7 @@ export const hats_men = [
       4,
       5
     ],
-    "coinPrice": 95,
+    "coinPrice": 74,
     "index": 4
   },
   {
@@ -453,7 +453,7 @@ export const hats_men = [
       8,
       9
     ],
-    "coinPrice": 95,
+    "coinPrice": 74,
     "index": 5
   },
   {
@@ -468,7 +468,7 @@ export const hats_men = [
       6,
       7
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 6
   },
   {
@@ -476,7 +476,7 @@ export const hats_men = [
     "colors": [
       0
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 7
   },
   {
@@ -488,7 +488,7 @@ export const hats_men = [
       3,
       4
     ],
-    "coinPrice": 630,
+    "coinPrice": 490,
     "index": 8
   },
   {
@@ -504,7 +504,7 @@ export const hats_men = [
       8,
       9
     ],
-    "coinPrice": 765,
+    "coinPrice": 595,
     "index": 9
   },
   {
@@ -520,7 +520,7 @@ export const hats_men = [
       8,
       9
     ],
-    "coinPrice": 450,
+    "coinPrice": 350,
     "index": 10
   },
   {
@@ -538,7 +538,7 @@ export const hats_men = [
       8,
       9
     ],
-    "coinPrice": 585,
+    "coinPrice": 455,
     "index": 11
   },
   {
@@ -550,7 +550,7 @@ export const hats_men = [
       3,
       4
     ],
-    "coinPrice": 207,
+    "coinPrice": 161,
     "index": 12
   },
   {
@@ -558,7 +558,7 @@ export const hats_men = [
     "colors": [
       0
     ],
-    "coinPrice": 171,
+    "coinPrice": 133,
     "index": 13
   },
   {
@@ -566,7 +566,7 @@ export const hats_men = [
     "colors": [
       0
     ],
-    "coinPrice": 162,
+    "coinPrice": 126,
     "index": 14
   },
   {
@@ -574,7 +574,7 @@ export const hats_men = [
     "colors": [
       0
     ],
-    "coinPrice": 162,
+    "coinPrice": 126,
     "index": 15
   },
   {
@@ -582,7 +582,7 @@ export const hats_men = [
     "colors": [
       0
     ],
-    "coinPrice": 162,
+    "coinPrice": 126,
     "index": 16
   },
   {
@@ -590,7 +590,7 @@ export const hats_men = [
     "colors": [
       0
     ],
-    "coinPrice": 225,
+    "coinPrice": 175,
     "index": 17
   }
 ];
@@ -607,7 +607,7 @@ export const legs_men = [
       5,
       7
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 0
   },
   {
@@ -618,7 +618,7 @@ export const legs_men = [
       2,
       3
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 1
   },
   {
@@ -631,7 +631,7 @@ export const legs_men = [
       4,
       5
     ],
-    "coinPrice": 206,
+    "coinPrice": 160,
     "index": 2
   },
   {
@@ -648,7 +648,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 69,
+    "coinPrice": 53,
     "index": 3
   },
   {
@@ -657,7 +657,7 @@ export const legs_men = [
       0,
       1
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 4
   },
   {
@@ -666,7 +666,7 @@ export const legs_men = [
       0,
       1
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 5
   },
   {
@@ -690,7 +690,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 92,
+    "coinPrice": 71,
     "index": 6
   },
   {
@@ -700,7 +700,7 @@ export const legs_men = [
       1,
       2
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 7
   },
   {
@@ -713,7 +713,7 @@ export const legs_men = [
       4,
       5
     ],
-    "coinPrice": 137,
+    "coinPrice": 107,
     "index": 8
   },
   {
@@ -723,7 +723,7 @@ export const legs_men = [
       1,
       2
     ],
-    "coinPrice": 114,
+    "coinPrice": 89,
     "index": 9
   },
   {
@@ -735,7 +735,7 @@ export const legs_men = [
       3,
       4
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 10
   },
   {
@@ -743,7 +743,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 11
   },
   {
@@ -762,7 +762,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 61,
+    "coinPrice": 47,
     "index": 12
   },
   {
@@ -770,7 +770,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 53,
+    "coinPrice": 42,
     "index": 13
   },
   {
@@ -778,7 +778,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 14
   },
   {
@@ -798,7 +798,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 15
   },
   {
@@ -811,7 +811,7 @@ export const legs_men = [
       4,
       5
     ],
-    "coinPrice": 92,
+    "coinPrice": 71,
     "index": 16
   },
   {
@@ -820,7 +820,7 @@ export const legs_men = [
       0,
       1
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 17
   },
   {
@@ -830,7 +830,7 @@ export const legs_men = [
       1,
       2
     ],
-    "coinPrice": 114,
+    "coinPrice": 89,
     "index": 18
   },
   {
@@ -838,7 +838,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 38,
+    "coinPrice": 30,
     "index": 19
   },
   {
@@ -846,7 +846,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 61,
+    "coinPrice": 47,
     "index": 20
   },
   {
@@ -854,7 +854,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 21
   },
   {
@@ -868,7 +868,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 114,
+    "coinPrice": 89,
     "index": 22
   },
   {
@@ -876,7 +876,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 114,
+    "coinPrice": 89,
     "index": 23
   },
   {
@@ -884,7 +884,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 24
   },
   {
@@ -892,7 +892,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 25
   },
   {
@@ -906,7 +906,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 26
   },
   {
@@ -914,7 +914,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 114,
+    "coinPrice": 89,
     "index": 27
   },
   {
@@ -927,7 +927,7 @@ export const legs_men = [
       4,
       6
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 28
   },
   {
@@ -939,7 +939,7 @@ export const legs_men = [
       3,
       4
     ],
-    "coinPrice": 214,
+    "coinPrice": 166,
     "index": 29
   },
   {
@@ -947,7 +947,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 30
   },
   {
@@ -960,7 +960,7 @@ export const legs_men = [
       4,
       6
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 31
   },
   {
@@ -968,7 +968,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 32
   },
   {
@@ -976,7 +976,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 33
   },
   {
@@ -984,7 +984,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 34
   },
   {
@@ -992,7 +992,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 35
   },
   {
@@ -1000,7 +1000,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 36
   },
   {
@@ -1008,7 +1008,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 37
   },
   {
@@ -1023,7 +1023,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 259,
+    "coinPrice": 202,
     "index": 38
   },
   {
@@ -1038,7 +1038,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 259,
+    "coinPrice": 202,
     "index": 39
   },
   {
@@ -1051,7 +1051,7 @@ export const legs_men = [
       4,
       5
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 40
   },
   {
@@ -1065,7 +1065,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 41
   },
   {
@@ -1073,7 +1073,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 42
   },
   {
@@ -1087,7 +1087,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 43
   },
   {
@@ -1095,7 +1095,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 44
   },
   {
@@ -1109,7 +1109,7 @@ export const legs_men = [
       5,
       6
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 45
   },
   {
@@ -1117,7 +1117,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 305,
+    "coinPrice": 237,
     "index": 46
   },
   {
@@ -1125,7 +1125,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 305,
+    "coinPrice": 237,
     "index": 47
   },
   {
@@ -1133,7 +1133,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 114,
+    "coinPrice": 89,
     "index": 48
   },
   {
@@ -1141,7 +1141,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 229,
+    "coinPrice": 178,
     "index": 49
   },
   {
@@ -1156,7 +1156,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 50
   },
   {
@@ -1164,7 +1164,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 127,
+    "coinPrice": 98,
     "index": 51
   },
   {
@@ -1190,7 +1190,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 52
   },
   {
@@ -1213,7 +1213,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 130,
+    "coinPrice": 101,
     "index": 53
   },
   {
@@ -1227,7 +1227,7 @@ export const legs_men = [
       5,
       6
     ],
-    "coinPrice": 114,
+    "coinPrice": 89,
     "index": 54
   },
   {
@@ -1248,7 +1248,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 106,
+    "coinPrice": 82,
     "index": 55
   },
   {
@@ -1261,7 +1261,7 @@ export const legs_men = [
       4,
       5
     ],
-    "coinPrice": 191,
+    "coinPrice": 148,
     "index": 56
   },
   {
@@ -1274,7 +1274,7 @@ export const legs_men = [
       5,
       6
     ],
-    "coinPrice": 198,
+    "coinPrice": 154,
     "index": 57
   },
   {
@@ -1282,7 +1282,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 114,
+    "coinPrice": 89,
     "index": 58
   },
   {
@@ -1290,7 +1290,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 84,
+    "coinPrice": 65,
     "index": 59
   },
   {
@@ -1298,7 +1298,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 175,
+    "coinPrice": 136,
     "index": 60
   },
   {
@@ -1306,7 +1306,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 175,
+    "coinPrice": 136,
     "index": 61
   },
   {
@@ -1321,7 +1321,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 62
   },
   {
@@ -1329,7 +1329,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 92,
+    "coinPrice": 71,
     "index": 63
   },
   {
@@ -1337,7 +1337,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 229,
+    "coinPrice": 178,
     "index": 64
   },
   {
@@ -1347,7 +1347,7 @@ export const legs_men = [
       1,
       2
     ],
-    "coinPrice": 137,
+    "coinPrice": 107,
     "index": 65
   },
   {
@@ -1362,7 +1362,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 66
   },
   {
@@ -1370,7 +1370,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 229,
+    "coinPrice": 178,
     "index": 67
   },
   {
@@ -1379,7 +1379,7 @@ export const legs_men = [
       0,
       1
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 68
   },
   {
@@ -1387,7 +1387,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 69
   },
   {
@@ -1395,7 +1395,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 130,
+    "coinPrice": 101,
     "index": 70
   },
   {
@@ -1403,7 +1403,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 145,
+    "coinPrice": 113,
     "index": 71
   },
   {
@@ -1414,7 +1414,7 @@ export const legs_men = [
       2,
       3
     ],
-    "coinPrice": 84,
+    "coinPrice": 65,
     "index": 72
   },
   {
@@ -1431,7 +1431,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 61,
+    "coinPrice": 47,
     "index": 73
   },
   {
@@ -1440,7 +1440,7 @@ export const legs_men = [
       0,
       1
     ],
-    "coinPrice": 84,
+    "coinPrice": 65,
     "index": 74
   },
   {
@@ -1455,7 +1455,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 53,
+    "coinPrice": 42,
     "index": 75
   },
   {
@@ -1463,7 +1463,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 267,
+    "coinPrice": 208,
     "index": 76
   },
   {
@@ -1478,7 +1478,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 343,
+    "coinPrice": 267,
     "index": 77
   },
   {
@@ -1494,7 +1494,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 78
   },
   {
@@ -1502,7 +1502,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 84,
+    "coinPrice": 65,
     "index": 79
   },
   {
@@ -1516,7 +1516,7 @@ export const legs_men = [
       5,
       6
     ],
-    "coinPrice": 53,
+    "coinPrice": 42,
     "index": 80
   },
   {
@@ -1524,7 +1524,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 81
   },
   {
@@ -1532,7 +1532,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 82
   },
   {
@@ -1540,7 +1540,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 83
   },
   {
@@ -1561,7 +1561,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 84
   },
   {
@@ -1579,7 +1579,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 85
   },
   {
@@ -1593,7 +1593,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 86
   },
   {
@@ -1607,7 +1607,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 87
   },
   {
@@ -1621,7 +1621,7 @@ export const legs_men = [
       6,
       7
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 88
   },
   {
@@ -1629,7 +1629,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 206,
+    "coinPrice": 160,
     "index": 89
   },
   {
@@ -1637,7 +1637,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 229,
+    "coinPrice": 178,
     "index": 90
   },
   {
@@ -1653,7 +1653,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 91
   },
   {
@@ -1661,7 +1661,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 92
   },
   {
@@ -1670,7 +1670,7 @@ export const legs_men = [
       0,
       1
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 93
   },
   {
@@ -1686,7 +1686,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 175,
+    "coinPrice": 136,
     "index": 94
   },
   {
@@ -1703,7 +1703,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 84,
+    "coinPrice": 65,
     "index": 95
   },
   {
@@ -1721,7 +1721,7 @@ export const legs_men = [
       8,
       9
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 96
   },
   {
@@ -1730,7 +1730,7 @@ export const legs_men = [
       0,
       1
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 97
   },
   {
@@ -1745,7 +1745,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 194,
+    "coinPrice": 151,
     "index": 98
   },
   {
@@ -1753,7 +1753,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 99
   },
   {
@@ -1768,7 +1768,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 84,
+    "coinPrice": 65,
     "index": 100
   },
   {
@@ -1776,7 +1776,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 101
   },
   {
@@ -1785,7 +1785,7 @@ export const legs_men = [
       0,
       1
     ],
-    "coinPrice": 178,
+    "coinPrice": 138,
     "index": 102
   },
   {
@@ -1795,7 +1795,7 @@ export const legs_men = [
       1,
       2
     ],
-    "coinPrice": 61,
+    "coinPrice": 47,
     "index": 103
   },
   {
@@ -1803,7 +1803,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 214,
+    "coinPrice": 166,
     "index": 104
   },
   {
@@ -1818,7 +1818,7 @@ export const legs_men = [
       7,
       8
     ],
-    "coinPrice": 137,
+    "coinPrice": 107,
     "index": 105
   },
   {
@@ -1826,7 +1826,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 106
   },
   {
@@ -1834,7 +1834,7 @@ export const legs_men = [
     "colors": [
       0
     ],
-    "coinPrice": 76,
+    "coinPrice": 59,
     "index": 107
   }
 ];
@@ -1847,7 +1847,7 @@ export const masks_men = [
       1,
       2
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 0
   },
   {
@@ -1855,7 +1855,7 @@ export const masks_men = [
     "colors": [
       0
     ],
-    "coinPrice": 140,
+    "coinPrice": 109,
     "index": 1
   },
   {
@@ -1863,7 +1863,7 @@ export const masks_men = [
     "colors": [
       0
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 2
   },
   {
@@ -1871,7 +1871,7 @@ export const masks_men = [
     "colors": [
       0
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 3
   },
   {
@@ -1879,7 +1879,7 @@ export const masks_men = [
     "colors": [
       0
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 4
   },
   {
@@ -1887,7 +1887,7 @@ export const masks_men = [
     "colors": [
       0
     ],
-    "coinPrice": 243,
+    "coinPrice": 189,
     "index": 5
   },
   {
@@ -1899,7 +1899,7 @@ export const masks_men = [
       3,
       4
     ],
-    "coinPrice": 171,
+    "coinPrice": 133,
     "index": 6
   },
   {
@@ -1931,7 +1931,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 7
   },
   {
@@ -1963,7 +1963,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 8
   },
   {
@@ -1995,7 +1995,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 9
   },
   {
@@ -2027,7 +2027,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 10
   },
   {
@@ -2060,7 +2060,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 11
   },
   {
@@ -2092,7 +2092,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 12
   },
   {
@@ -2124,7 +2124,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 13
   },
   {
@@ -2156,7 +2156,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 14
   },
   {
@@ -2164,7 +2164,7 @@ export const masks_men = [
     "colors": [
       0
     ],
-    "coinPrice": 369,
+    "coinPrice": 287,
     "index": 15
   },
   {
@@ -2190,7 +2190,7 @@ export const masks_men = [
       8,
       9
     ],
-    "coinPrice": 449,
+    "coinPrice": 349,
     "index": 16
   }
 ];
@@ -2217,7 +2217,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 170,
+    "coinPrice": 132,
     "index": 0
   },
   {
@@ -2236,7 +2236,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 170,
+    "coinPrice": 132,
     "index": 1
   },
   {
@@ -2255,7 +2255,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 195,
+    "coinPrice": 152,
     "index": 2
   },
   {
@@ -2271,7 +2271,7 @@ export const shoes_men = [
       7,
       8
     ],
-    "coinPrice": 347,
+    "coinPrice": 270,
     "index": 3
   },
   {
@@ -2288,7 +2288,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 347,
+    "coinPrice": 270,
     "index": 4
   },
   {
@@ -2302,7 +2302,7 @@ export const shoes_men = [
       5,
       6
     ],
-    "coinPrice": 274,
+    "coinPrice": 213,
     "index": 5
   },
   {
@@ -2325,7 +2325,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 252,
+    "coinPrice": 196,
     "index": 6
   },
   {
@@ -2338,7 +2338,7 @@ export const shoes_men = [
       4,
       5
     ],
-    "coinPrice": 233,
+    "coinPrice": 181,
     "index": 7
   },
   {
@@ -2356,7 +2356,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 378,
+    "coinPrice": 294,
     "index": 8
   },
   {
@@ -2379,7 +2379,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 271,
+    "coinPrice": 211,
     "index": 9
   },
   {
@@ -2408,7 +2408,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 10
   },
   {
@@ -2420,7 +2420,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 221,
+    "coinPrice": 172,
     "index": 11
   },
   {
@@ -2432,7 +2432,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 12
   },
   {
@@ -2460,7 +2460,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 334,
+    "coinPrice": 260,
     "index": 13
   },
   {
@@ -2477,7 +2477,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 258,
+    "coinPrice": 201,
     "index": 14
   },
   {
@@ -2485,7 +2485,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 284,
+    "coinPrice": 221,
     "index": 15
   },
   {
@@ -2498,7 +2498,7 @@ export const shoes_men = [
       4,
       5
     ],
-    "coinPrice": 252,
+    "coinPrice": 196,
     "index": 16
   },
   {
@@ -2506,7 +2506,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 145,
+    "coinPrice": 113,
     "index": 17
   },
   {
@@ -2514,7 +2514,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 170,
+    "coinPrice": 132,
     "index": 18
   },
   {
@@ -2532,7 +2532,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 224,
+    "coinPrice": 174,
     "index": 19
   },
   {
@@ -2545,7 +2545,7 @@ export const shoes_men = [
       4,
       5
     ],
-    "coinPrice": 473,
+    "coinPrice": 368,
     "index": 20
   },
   {
@@ -2557,7 +2557,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 233,
+    "coinPrice": 181,
     "index": 21
   },
   {
@@ -2571,7 +2571,7 @@ export const shoes_men = [
       5,
       6
     ],
-    "coinPrice": 107,
+    "coinPrice": 83,
     "index": 22
   },
   {
@@ -2589,7 +2589,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 252,
+    "coinPrice": 196,
     "index": 23
   },
   {
@@ -2611,7 +2611,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 154,
+    "coinPrice": 120,
     "index": 24
   },
   {
@@ -2636,7 +2636,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 269,
+    "coinPrice": 209,
     "index": 25
   },
   {
@@ -2657,7 +2657,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 284,
+    "coinPrice": 221,
     "index": 26
   },
   {
@@ -2665,7 +2665,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 27
   },
   {
@@ -2682,7 +2682,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 359,
+    "coinPrice": 279,
     "index": 28
   },
   {
@@ -2705,7 +2705,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 290,
+    "coinPrice": 225,
     "index": 29
   },
   {
@@ -2719,7 +2719,7 @@ export const shoes_men = [
       5,
       6
     ],
-    "coinPrice": 416,
+    "coinPrice": 323,
     "index": 30
   },
   {
@@ -2727,7 +2727,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 315,
+    "coinPrice": 245,
     "index": 31
   },
   {
@@ -2742,7 +2742,7 @@ export const shoes_men = [
       6,
       7
     ],
-    "coinPrice": 183,
+    "coinPrice": 142,
     "index": 32
   },
   {
@@ -2757,7 +2757,7 @@ export const shoes_men = [
       6,
       7
     ],
-    "coinPrice": 233,
+    "coinPrice": 181,
     "index": 33
   },
   {
@@ -2773,7 +2773,7 @@ export const shoes_men = [
       7,
       8
     ],
-    "coinPrice": 104,
+    "coinPrice": 81,
     "index": 34
   },
   {
@@ -2805,7 +2805,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 305,
+    "coinPrice": 237,
     "index": 35
   },
   {
@@ -2831,7 +2831,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 132,
+    "coinPrice": 103,
     "index": 36
   },
   {
@@ -2839,7 +2839,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 504,
+    "coinPrice": 392,
     "index": 37
   },
   {
@@ -2847,7 +2847,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 347,
+    "coinPrice": 270,
     "index": 38
   },
   {
@@ -2860,7 +2860,7 @@ export const shoes_men = [
       4,
       5
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 39
   },
   {
@@ -2868,7 +2868,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 145,
+    "coinPrice": 113,
     "index": 40
   },
   {
@@ -2876,7 +2876,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 473,
+    "coinPrice": 368,
     "index": 41
   },
   {
@@ -2884,7 +2884,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 42
   },
   {
@@ -2898,7 +2898,7 @@ export const shoes_men = [
       5,
       6
     ],
-    "coinPrice": 233,
+    "coinPrice": 181,
     "index": 43
   },
   {
@@ -2910,7 +2910,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 132,
+    "coinPrice": 103,
     "index": 44
   },
   {
@@ -2922,7 +2922,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 630,
+    "coinPrice": 490,
     "index": 45
   },
   {
@@ -2934,7 +2934,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 217,
+    "coinPrice": 169,
     "index": 46
   },
   {
@@ -2946,7 +2946,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 277,
+    "coinPrice": 216,
     "index": 47
   },
   {
@@ -2958,7 +2958,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 296,
+    "coinPrice": 230,
     "index": 48
   },
   {
@@ -2970,7 +2970,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 309,
+    "coinPrice": 240,
     "index": 49
   },
   {
@@ -2982,7 +2982,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 321,
+    "coinPrice": 250,
     "index": 50
   },
   {
@@ -2994,7 +2994,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 251,
+    "coinPrice": 195,
     "index": 51
   },
   {
@@ -3006,7 +3006,7 @@ export const shoes_men = [
       3,
       4
     ],
-    "coinPrice": 359,
+    "coinPrice": 279,
     "index": 52
   },
   {
@@ -3022,7 +3022,7 @@ export const shoes_men = [
       7,
       8
     ],
-    "coinPrice": 170,
+    "coinPrice": 132,
     "index": 53
   },
   {
@@ -3036,7 +3036,7 @@ export const shoes_men = [
       5,
       6
     ],
-    "coinPrice": 195,
+    "coinPrice": 152,
     "index": 54
   },
   {
@@ -3053,7 +3053,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 211,
+    "coinPrice": 164,
     "index": 55
   },
   {
@@ -3061,7 +3061,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 315,
+    "coinPrice": 245,
     "index": 56
   },
   {
@@ -3076,7 +3076,7 @@ export const shoes_men = [
       6,
       7
     ],
-    "coinPrice": 630,
+    "coinPrice": 490,
     "index": 57
   },
   {
@@ -3085,7 +3085,7 @@ export const shoes_men = [
       0,
       1
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 58
   },
   {
@@ -3110,7 +3110,7 @@ export const shoes_men = [
       8,
       9
     ],
-    "coinPrice": 788,
+    "coinPrice": 613,
     "index": 59
   },
   {
@@ -3118,7 +3118,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 441,
+    "coinPrice": 343,
     "index": 60
   },
   {
@@ -3127,7 +3127,7 @@ export const shoes_men = [
       0,
       1
     ],
-    "coinPrice": 286,
+    "coinPrice": 223,
     "index": 61
   },
   {
@@ -3135,7 +3135,7 @@ export const shoes_men = [
     "colors": [
       0
     ],
-    "coinPrice": 91,
+    "coinPrice": 71,
     "index": 62
   }
 ];
@@ -3147,7 +3147,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 0
   },
   {
@@ -3160,7 +3160,7 @@ export const tops_men = [
       4,
       5
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 1
   },
   {
@@ -3171,7 +3171,7 @@ export const tops_men = [
       2,
       3
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 2
   },
   {
@@ -3188,7 +3188,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 243,
+    "coinPrice": 189,
     "index": 3
   },
   {
@@ -3216,7 +3216,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 4
   },
   {
@@ -3230,7 +3230,7 @@ export const tops_men = [
       5,
       7
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 5
   },
   {
@@ -3249,7 +3249,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 225,
+    "coinPrice": 175,
     "index": 6
   },
   {
@@ -3259,7 +3259,7 @@ export const tops_men = [
       1,
       2
     ],
-    "coinPrice": 144,
+    "coinPrice": 112,
     "index": 7
   },
   {
@@ -3273,7 +3273,7 @@ export const tops_men = [
       5,
       6
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 8
   },
   {
@@ -3304,7 +3304,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 9
   },
   {
@@ -3324,7 +3324,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 194,
+    "coinPrice": 151,
     "index": 10
   },
   {
@@ -3343,7 +3343,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 216,
+    "coinPrice": 168,
     "index": 11
   },
   {
@@ -3362,7 +3362,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 270,
+    "coinPrice": 210,
     "index": 12
   },
   {
@@ -3387,7 +3387,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 297,
+    "coinPrice": 231,
     "index": 13
   },
   {
@@ -3410,7 +3410,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 171,
+    "coinPrice": 133,
     "index": 14
   },
   {
@@ -3425,7 +3425,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 15
   },
   {
@@ -3448,7 +3448,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 207,
+    "coinPrice": 161,
     "index": 16
   },
   {
@@ -3463,7 +3463,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 207,
+    "coinPrice": 161,
     "index": 17
   },
   {
@@ -3472,7 +3472,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 297,
+    "coinPrice": 231,
     "index": 18
   },
   {
@@ -3493,7 +3493,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 311,
+    "coinPrice": 241,
     "index": 19
   },
   {
@@ -3505,7 +3505,7 @@ export const tops_men = [
       3,
       4
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 20
   },
   {
@@ -3513,7 +3513,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 21
   },
   {
@@ -3528,7 +3528,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 119,
+    "coinPrice": 92,
     "index": 22
   },
   {
@@ -3543,7 +3543,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 23
   },
   {
@@ -3558,7 +3558,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 603,
+    "coinPrice": 469,
     "index": 24
   },
   {
@@ -3572,7 +3572,7 @@ export const tops_men = [
       5,
       7
     ],
-    "coinPrice": 495,
+    "coinPrice": 385,
     "index": 25
   },
   {
@@ -3602,7 +3602,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 315,
+    "coinPrice": 245,
     "index": 26
   },
   {
@@ -3615,7 +3615,7 @@ export const tops_men = [
       4,
       5
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 27
   },
   {
@@ -3638,7 +3638,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 297,
+    "coinPrice": 231,
     "index": 28
   },
   {
@@ -3647,7 +3647,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 360,
+    "coinPrice": 280,
     "index": 29
   },
   {
@@ -3656,7 +3656,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 585,
+    "coinPrice": 455,
     "index": 30
   },
   {
@@ -3670,7 +3670,7 @@ export const tops_men = [
       5,
       6
     ],
-    "coinPrice": 207,
+    "coinPrice": 161,
     "index": 31
   },
   {
@@ -3680,7 +3680,7 @@ export const tops_men = [
       1,
       2
     ],
-    "coinPrice": 216,
+    "coinPrice": 168,
     "index": 32
   },
   {
@@ -3692,7 +3692,7 @@ export const tops_men = [
       3,
       4
     ],
-    "coinPrice": 248,
+    "coinPrice": 193,
     "index": 33
   },
   {
@@ -3700,7 +3700,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 34
   },
   {
@@ -3708,7 +3708,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 54,
+    "coinPrice": 42,
     "index": 35
   },
   {
@@ -3716,7 +3716,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 68,
+    "coinPrice": 53,
     "index": 36
   },
   {
@@ -3724,7 +3724,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 37
   },
   {
@@ -3732,7 +3732,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 38
   },
   {
@@ -3740,7 +3740,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 39
   },
   {
@@ -3748,7 +3748,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 144,
+    "coinPrice": 112,
     "index": 40
   },
   {
@@ -3756,7 +3756,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 41
   },
   {
@@ -3771,7 +3771,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 42
   },
   {
@@ -3796,7 +3796,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 198,
+    "coinPrice": 154,
     "index": 43
   },
   {
@@ -3804,7 +3804,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 44
   },
   {
@@ -3816,7 +3816,7 @@ export const tops_men = [
       3,
       4
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 45
   },
   {
@@ -3828,7 +3828,7 @@ export const tops_men = [
       3,
       4
     ],
-    "coinPrice": 252,
+    "coinPrice": 196,
     "index": 46
   },
   {
@@ -3836,7 +3836,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 47
   },
   {
@@ -3844,7 +3844,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 360,
+    "coinPrice": 280,
     "index": 48
   },
   {
@@ -3857,7 +3857,7 @@ export const tops_men = [
       4,
       6
     ],
-    "coinPrice": 270,
+    "coinPrice": 210,
     "index": 49
   },
   {
@@ -3870,7 +3870,7 @@ export const tops_men = [
       4,
       5
     ],
-    "coinPrice": 333,
+    "coinPrice": 259,
     "index": 50
   },
   {
@@ -3878,7 +3878,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 89,
+    "coinPrice": 69,
     "index": 51
   },
   {
@@ -3886,7 +3886,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 96,
+    "coinPrice": 75,
     "index": 52
   },
   {
@@ -3900,7 +3900,7 @@ export const tops_men = [
       5,
       6
     ],
-    "coinPrice": 123,
+    "coinPrice": 96,
     "index": 53
   },
   {
@@ -3908,7 +3908,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 54
   },
   {
@@ -3916,7 +3916,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 55
   },
   {
@@ -3924,7 +3924,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 56
   },
   {
@@ -3932,7 +3932,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 57
   },
   {
@@ -3940,7 +3940,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 162,
+    "coinPrice": 126,
     "index": 58
   },
   {
@@ -3948,7 +3948,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 230,
+    "coinPrice": 179,
     "index": 59
   },
   {
@@ -3970,7 +3970,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 261,
+    "coinPrice": 203,
     "index": 60
   },
   {
@@ -3987,7 +3987,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 198,
+    "coinPrice": 154,
     "index": 61
   },
   {
@@ -4005,7 +4005,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 62
   },
   {
@@ -4022,7 +4022,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 63
   },
   {
@@ -4040,7 +4040,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 64
   },
   {
@@ -4057,7 +4057,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 65
   },
   {
@@ -4066,7 +4066,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 297,
+    "coinPrice": 231,
     "index": 66
   },
   {
@@ -4083,7 +4083,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 67
   },
   {
@@ -4100,7 +4100,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 68
   },
   {
@@ -4122,7 +4122,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 449,
+    "coinPrice": 349,
     "index": 69
   },
   {
@@ -4137,7 +4137,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 387,
+    "coinPrice": 301,
     "index": 70
   },
   {
@@ -4152,7 +4152,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 378,
+    "coinPrice": 294,
     "index": 71
   },
   {
@@ -4181,7 +4181,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 72
   },
   {
@@ -4195,7 +4195,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 73
   },
   {
@@ -4203,7 +4203,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 74
   },
   {
@@ -4217,7 +4217,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 75
   },
   {
@@ -4225,7 +4225,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 76
   },
   {
@@ -4240,7 +4240,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 77
   },
   {
@@ -4248,7 +4248,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 78
   },
   {
@@ -4256,7 +4256,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 79
   },
   {
@@ -4264,7 +4264,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 80
   },
   {
@@ -4272,7 +4272,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 81
   },
   {
@@ -4287,7 +4287,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 162,
+    "coinPrice": 126,
     "index": 82
   },
   {
@@ -4295,7 +4295,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 297,
+    "coinPrice": 231,
     "index": 83
   },
   {
@@ -4303,7 +4303,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 243,
+    "coinPrice": 189,
     "index": 84
   },
   {
@@ -4330,7 +4330,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 360,
+    "coinPrice": 280,
     "index": 85
   },
   {
@@ -4346,7 +4346,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 86
   },
   {
@@ -4359,7 +4359,7 @@ export const tops_men = [
       4,
       5
     ],
-    "coinPrice": 243,
+    "coinPrice": 189,
     "index": 87
   },
   {
@@ -4367,7 +4367,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 279,
+    "coinPrice": 217,
     "index": 88
   },
   {
@@ -4385,7 +4385,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 495,
+    "coinPrice": 385,
     "index": 89
   },
   {
@@ -4395,7 +4395,7 @@ export const tops_men = [
       1,
       2
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 90
   },
   {
@@ -4408,7 +4408,7 @@ export const tops_men = [
       4,
       5
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 91
   },
   {
@@ -4416,7 +4416,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 162,
+    "coinPrice": 126,
     "index": 92
   },
   {
@@ -4424,7 +4424,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 93
   },
   {
@@ -4432,7 +4432,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 94
   },
   {
@@ -4440,7 +4440,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 95
   },
   {
@@ -4455,7 +4455,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 140,
+    "coinPrice": 109,
     "index": 96
   },
   {
@@ -4463,7 +4463,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 97
   },
   {
@@ -4471,7 +4471,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 98
   },
   {
@@ -4484,7 +4484,7 @@ export const tops_men = [
       5,
       6
     ],
-    "coinPrice": 243,
+    "coinPrice": 189,
     "index": 99
   },
   {
@@ -4499,7 +4499,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 100
   },
   {
@@ -4514,7 +4514,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 101
   },
   {
@@ -4522,7 +4522,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 102
   },
   {
@@ -4531,7 +4531,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 279,
+    "coinPrice": 217,
     "index": 103
   },
   {
@@ -4539,7 +4539,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 104
   },
   {
@@ -4547,7 +4547,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 105
   },
   {
@@ -4557,7 +4557,7 @@ export const tops_men = [
       1,
       2
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 106
   },
   {
@@ -4565,7 +4565,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 239,
+    "coinPrice": 186,
     "index": 107
   },
   {
@@ -4574,7 +4574,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 225,
+    "coinPrice": 175,
     "index": 108
   },
   {
@@ -4591,7 +4591,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 248,
+    "coinPrice": 193,
     "index": 109
   },
   {
@@ -4605,7 +4605,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 234,
+    "coinPrice": 182,
     "index": 110
   },
   {
@@ -4613,7 +4613,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 315,
+    "coinPrice": 245,
     "index": 111
   },
   {
@@ -4621,7 +4621,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 387,
+    "coinPrice": 301,
     "index": 112
   },
   {
@@ -4636,7 +4636,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 59,
+    "coinPrice": 46,
     "index": 113
   },
   {
@@ -4651,7 +4651,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 114
   },
   {
@@ -4667,7 +4667,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 115
   },
   {
@@ -4675,7 +4675,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 495,
+    "coinPrice": 385,
     "index": 116
   },
   {
@@ -4688,7 +4688,7 @@ export const tops_men = [
       4,
       5
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 117
   },
   {
@@ -4696,7 +4696,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 118
   },
   {
@@ -4704,7 +4704,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 119
   },
   {
@@ -4712,7 +4712,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 120
   },
   {
@@ -4734,7 +4734,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 391,
+    "coinPrice": 304,
     "index": 121
   },
   {
@@ -4752,7 +4752,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 216,
+    "coinPrice": 168,
     "index": 122
   },
   {
@@ -4760,7 +4760,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 270,
+    "coinPrice": 210,
     "index": 123
   },
   {
@@ -4777,7 +4777,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 124
   },
   {
@@ -4789,7 +4789,7 @@ export const tops_men = [
       3,
       4
     ],
-    "coinPrice": 140,
+    "coinPrice": 109,
     "index": 125
   },
   {
@@ -4806,7 +4806,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 131,
+    "coinPrice": 102,
     "index": 126
   },
   {
@@ -4837,7 +4837,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 405,
+    "coinPrice": 315,
     "index": 127
   },
   {
@@ -4854,7 +4854,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 128
   },
   {
@@ -4869,7 +4869,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 129
   },
   {
@@ -4883,7 +4883,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 130
   },
   {
@@ -4897,7 +4897,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 225,
+    "coinPrice": 175,
     "index": 131
   },
   {
@@ -4905,7 +4905,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 270,
+    "coinPrice": 210,
     "index": 132
   },
   {
@@ -4913,7 +4913,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 288,
+    "coinPrice": 224,
     "index": 133
   },
   {
@@ -4921,7 +4921,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 324,
+    "coinPrice": 252,
     "index": 134
   },
   {
@@ -4937,7 +4937,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 324,
+    "coinPrice": 252,
     "index": 135
   },
   {
@@ -4946,7 +4946,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 306,
+    "coinPrice": 238,
     "index": 136
   },
   {
@@ -4962,7 +4962,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 252,
+    "coinPrice": 196,
     "index": 137
   },
   {
@@ -4971,7 +4971,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 252,
+    "coinPrice": 196,
     "index": 138
   },
   {
@@ -4988,7 +4988,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 139
   },
   {
@@ -5003,7 +5003,7 @@ export const tops_men = [
       6,
       7
     ],
-    "coinPrice": 1080,
+    "coinPrice": 840,
     "index": 140
   },
   {
@@ -5021,7 +5021,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 270,
+    "coinPrice": 210,
     "index": 141
   },
   {
@@ -5030,7 +5030,7 @@ export const tops_men = [
       0,
       1
     ],
-    "coinPrice": 333,
+    "coinPrice": 259,
     "index": 142
   },
   {
@@ -5045,7 +5045,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 143
   },
   {
@@ -5053,7 +5053,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 144
   },
   {
@@ -5061,7 +5061,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 145
   },
   {
@@ -5076,7 +5076,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 146
   },
   {
@@ -5084,7 +5084,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 147
   },
   {
@@ -5094,7 +5094,7 @@ export const tops_men = [
       1,
       2
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 148
   },
   {
@@ -5112,7 +5112,7 @@ export const tops_men = [
       8,
       9
     ],
-    "coinPrice": 162,
+    "coinPrice": 126,
     "index": 149
   },
   {
@@ -5122,7 +5122,7 @@ export const tops_men = [
       1,
       2
     ],
-    "coinPrice": 144,
+    "coinPrice": 112,
     "index": 150
   },
   {
@@ -5130,7 +5130,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 151
   },
   {
@@ -5145,7 +5145,7 @@ export const tops_men = [
       7,
       8
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 152
   },
   {
@@ -5153,7 +5153,7 @@ export const tops_men = [
     "colors": [
       0
     ],
-    "coinPrice": 144,
+    "coinPrice": 112,
     "index": 153
   }
 ];
@@ -5166,7 +5166,7 @@ export const watches_men = [
       1,
       2
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 0
   }
 ];

@@ -4,7 +4,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 269,
+    "coinPrice": 209,
     "index": 0
   },
   {
@@ -12,7 +12,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 288,
+    "coinPrice": 224,
     "index": 1
   },
   {
@@ -26,7 +26,7 @@ export const accessories_female = [
       5,
       6
     ],
-    "coinPrice": 288,
+    "coinPrice": 224,
     "index": 2
   },
   {
@@ -37,7 +37,7 @@ export const accessories_female = [
       2,
       3
     ],
-    "coinPrice": 315,
+    "coinPrice": 245,
     "index": 3
   },
   {
@@ -54,7 +54,7 @@ export const accessories_female = [
       8,
       9
     ],
-    "coinPrice": 405,
+    "coinPrice": 315,
     "index": 4
   },
   {
@@ -71,7 +71,7 @@ export const accessories_female = [
       8,
       9
     ],
-    "coinPrice": 221,
+    "coinPrice": 172,
     "index": 5
   },
   {
@@ -84,7 +84,7 @@ export const accessories_female = [
       4,
       5
     ],
-    "coinPrice": 1890,
+    "coinPrice": 1470,
     "index": 6
   },
   {
@@ -99,7 +99,7 @@ export const accessories_female = [
       6,
       7
     ],
-    "coinPrice": 990,
+    "coinPrice": 770,
     "index": 7
   },
   {
@@ -107,7 +107,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 585,
+    "coinPrice": 455,
     "index": 8
   },
   {
@@ -115,7 +115,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 360,
+    "coinPrice": 280,
     "index": 9
   },
   {
@@ -128,7 +128,7 @@ export const accessories_female = [
       4,
       5
     ],
-    "coinPrice": 449,
+    "coinPrice": 349,
     "index": 10
   },
   {
@@ -141,7 +141,7 @@ export const accessories_female = [
       4,
       5
     ],
-    "coinPrice": 1125,
+    "coinPrice": 875,
     "index": 11
   },
   {
@@ -150,7 +150,7 @@ export const accessories_female = [
       0,
       1
     ],
-    "coinPrice": 405,
+    "coinPrice": 315,
     "index": 12
   },
   {
@@ -158,7 +158,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 297,
+    "coinPrice": 231,
     "index": 13
   },
   {
@@ -166,7 +166,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 14
   },
   {
@@ -179,7 +179,7 @@ export const accessories_female = [
       4,
       5
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 15
   },
   {
@@ -187,7 +187,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 414,
+    "coinPrice": 322,
     "index": 16
   },
   {
@@ -195,7 +195,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 497,
+    "coinPrice": 386,
     "index": 17
   },
   {
@@ -211,7 +211,7 @@ export const accessories_female = [
       7,
       8
     ],
-    "coinPrice": 990,
+    "coinPrice": 770,
     "index": 18
   },
   {
@@ -219,7 +219,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 675,
+    "coinPrice": 525,
     "index": 19
   },
   {
@@ -236,7 +236,7 @@ export const accessories_female = [
       8,
       9
     ],
-    "coinPrice": 288,
+    "coinPrice": 224,
     "index": 20
   },
   {
@@ -253,7 +253,7 @@ export const accessories_female = [
       8,
       9
     ],
-    "coinPrice": 225,
+    "coinPrice": 175,
     "index": 21
   },
   {
@@ -261,7 +261,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 198,
+    "coinPrice": 154,
     "index": 22
   },
   {
@@ -269,7 +269,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 339,
+    "coinPrice": 264,
     "index": 23
   },
   {
@@ -286,7 +286,7 @@ export const accessories_female = [
       8,
       9
     ],
-    "coinPrice": 539,
+    "coinPrice": 419,
     "index": 24
   },
   {
@@ -303,7 +303,7 @@ export const accessories_female = [
       8,
       9
     ],
-    "coinPrice": 513,
+    "coinPrice": 399,
     "index": 25
   },
   {
@@ -311,7 +311,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 162,
+    "coinPrice": 126,
     "index": 26
   },
   {
@@ -319,7 +319,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 27
   },
   {
@@ -336,7 +336,7 @@ export const accessories_female = [
       8,
       9
     ],
-    "coinPrice": 270,
+    "coinPrice": 210,
     "index": 28
   },
   {
@@ -345,7 +345,7 @@ export const accessories_female = [
       0,
       1
     ],
-    "coinPrice": 539,
+    "coinPrice": 419,
     "index": 29
   },
   {
@@ -358,7 +358,7 @@ export const accessories_female = [
       4,
       5
     ],
-    "coinPrice": 2025,
+    "coinPrice": 1575,
     "index": 30
   },
   {
@@ -366,7 +366,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 539,
+    "coinPrice": 419,
     "index": 31
   },
   {
@@ -374,7 +374,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 539,
+    "coinPrice": 419,
     "index": 32
   },
   {
@@ -382,7 +382,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 675,
+    "coinPrice": 525,
     "index": 33
   },
   {
@@ -390,7 +390,7 @@ export const accessories_female = [
     "colors": [
       0
     ],
-    "coinPrice": 1305,
+    "coinPrice": 1015,
     "index": 34
   },
   {
@@ -406,7 +406,7 @@ export const accessories_female = [
       7,
       8
     ],
-    "coinPrice": 1233,
+    "coinPrice": 959,
     "index": 35
   },
   {
@@ -417,7 +417,7 @@ export const accessories_female = [
       2,
       3
     ],
-    "coinPrice": 1305,
+    "coinPrice": 1015,
     "index": 36
   },
   {
@@ -432,7 +432,7 @@ export const accessories_female = [
       6,
       7
     ],
-    "coinPrice": 1233,
+    "coinPrice": 959,
     "index": 37
   }
 ];
@@ -468,7 +468,7 @@ export const ears_female = [
       8,
       9
     ],
-    "coinPrice": 225,
+    "coinPrice": 175,
     "index": 0
   },
   {
@@ -476,7 +476,7 @@ export const ears_female = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 1
   }
 ];
@@ -498,7 +498,7 @@ export const glasses_female = [
       8,
       9
     ],
-    "coinPrice": 207,
+    "coinPrice": 161,
     "index": 0
   }
 ];
@@ -516,7 +516,7 @@ export const hats_female = [
       4,
       5
     ],
-    "coinPrice": 65,
+    "coinPrice": 51,
     "index": 0
   },
   {
@@ -536,7 +536,7 @@ export const hats_female = [
       8,
       9
     ],
-    "coinPrice": 65,
+    "coinPrice": 51,
     "index": 1
   },
   {
@@ -544,7 +544,7 @@ export const hats_female = [
     "colors": [
       0
     ],
-    "coinPrice": 125,
+    "coinPrice": 97,
     "index": 2
   },
   {
@@ -556,7 +556,7 @@ export const hats_female = [
       3,
       4
     ],
-    "coinPrice": 436,
+    "coinPrice": 339,
     "index": 3
   },
   {
@@ -571,7 +571,7 @@ export const hats_female = [
       6,
       7
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 4
   },
   {
@@ -581,7 +581,7 @@ export const hats_female = [
       1,
       2
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 5
   },
   {
@@ -598,7 +598,7 @@ export const hats_female = [
       8,
       9
     ],
-    "coinPrice": 530,
+    "coinPrice": 412,
     "index": 6
   },
   {
@@ -606,7 +606,7 @@ export const hats_female = [
     "colors": [
       0
     ],
-    "coinPrice": 374,
+    "coinPrice": 291,
     "index": 7
   },
   {
@@ -623,7 +623,7 @@ export const hats_female = [
       8,
       9
     ],
-    "coinPrice": 486,
+    "coinPrice": 378,
     "index": 8
   },
   {
@@ -635,7 +635,7 @@ export const hats_female = [
       3,
       4
     ],
-    "coinPrice": 249,
+    "coinPrice": 194,
     "index": 9
   },
   {
@@ -643,7 +643,7 @@ export const hats_female = [
     "colors": [
       0
     ],
-    "coinPrice": 218,
+    "coinPrice": 169,
     "index": 10
   },
   {
@@ -651,7 +651,7 @@ export const hats_female = [
     "colors": [
       0
     ],
-    "coinPrice": 218,
+    "coinPrice": 169,
     "index": 11
   },
   {
@@ -659,7 +659,7 @@ export const hats_female = [
     "colors": [
       0
     ],
-    "coinPrice": 218,
+    "coinPrice": 169,
     "index": 12
   },
   {
@@ -667,7 +667,7 @@ export const hats_female = [
     "colors": [
       0
     ],
-    "coinPrice": 218,
+    "coinPrice": 169,
     "index": 13
   },
   {
@@ -675,7 +675,7 @@ export const hats_female = [
     "colors": [
       0
     ],
-    "coinPrice": 280,
+    "coinPrice": 218,
     "index": 14
   }
 ];
@@ -701,7 +701,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 225,
+    "coinPrice": 175,
     "index": 0
   },
   {
@@ -715,7 +715,7 @@ export const legs_female = [
       5,
       7
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 1
   },
   {
@@ -726,7 +726,7 @@ export const legs_female = [
       2,
       3
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 2
   },
   {
@@ -752,7 +752,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 3
   },
   {
@@ -769,7 +769,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 144,
+    "coinPrice": 112,
     "index": 4
   },
   {
@@ -779,7 +779,7 @@ export const legs_female = [
       1,
       2
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 5
   },
   {
@@ -799,7 +799,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 6
   },
   {
@@ -812,7 +812,7 @@ export const legs_female = [
       4,
       5
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 7
   },
   {
@@ -831,7 +831,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 171,
+    "coinPrice": 133,
     "index": 8
   },
   {
@@ -846,7 +846,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 9
   },
   {
@@ -865,7 +865,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 243,
+    "coinPrice": 189,
     "index": 10
   },
   {
@@ -875,7 +875,7 @@ export const legs_female = [
       1,
       2
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 11
   },
   {
@@ -891,7 +891,7 @@ export const legs_female = [
       7,
       8
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 12
   },
   {
@@ -905,7 +905,7 @@ export const legs_female = [
       5,
       6
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 13
   },
   {
@@ -922,7 +922,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 14
   },
   {
@@ -935,7 +935,7 @@ export const legs_female = [
       4,
       5
     ],
-    "coinPrice": 189,
+    "coinPrice": 147,
     "index": 15
   },
   {
@@ -950,7 +950,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 16
   },
   {
@@ -958,7 +958,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 17
   },
   {
@@ -966,7 +966,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 18
   },
   {
@@ -974,7 +974,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 19
   },
   {
@@ -982,7 +982,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 20
   },
   {
@@ -997,7 +997,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 171,
+    "coinPrice": 133,
     "index": 21
   },
   {
@@ -1012,7 +1012,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 144,
+    "coinPrice": 112,
     "index": 22
   },
   {
@@ -1020,7 +1020,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 23
   },
   {
@@ -1028,7 +1028,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 24
   },
   {
@@ -1036,7 +1036,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 230,
+    "coinPrice": 179,
     "index": 25
   },
   {
@@ -1046,7 +1046,7 @@ export const legs_female = [
       1,
       2
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 26
   },
   {
@@ -1056,7 +1056,7 @@ export const legs_female = [
       1,
       2
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 27
   },
   {
@@ -1087,7 +1087,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 28
   },
   {
@@ -1106,7 +1106,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 29
   },
   {
@@ -1133,7 +1133,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 270,
+    "coinPrice": 210,
     "index": 30
   },
   {
@@ -1155,7 +1155,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 31
   },
   {
@@ -1170,7 +1170,7 @@ export const legs_female = [
       7,
       8
     ],
-    "coinPrice": 207,
+    "coinPrice": 161,
     "index": 32
   },
   {
@@ -1183,7 +1183,7 @@ export const legs_female = [
       4,
       5
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 33
   },
   {
@@ -1191,7 +1191,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 34
   },
   {
@@ -1199,7 +1199,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 35
   },
   {
@@ -1207,7 +1207,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 36
   },
   {
@@ -1221,7 +1221,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 37
   },
   {
@@ -1229,7 +1229,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 38
   },
   {
@@ -1242,7 +1242,7 @@ export const legs_female = [
       4,
       5
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 39
   },
   {
@@ -1254,7 +1254,7 @@ export const legs_female = [
       3,
       4
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 40
   },
   {
@@ -1268,7 +1268,7 @@ export const legs_female = [
       5,
       6
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 41
   },
   {
@@ -1282,7 +1282,7 @@ export const legs_female = [
       5,
       6
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 42
   },
   {
@@ -1296,7 +1296,7 @@ export const legs_female = [
       5,
       6
     ],
-    "coinPrice": 140,
+    "coinPrice": 109,
     "index": 43
   },
   {
@@ -1311,7 +1311,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 44
   },
   {
@@ -1325,7 +1325,7 @@ export const legs_female = [
       5,
       6
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 45
   },
   {
@@ -1338,7 +1338,7 @@ export const legs_female = [
       4,
       5
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 46
   },
   {
@@ -1350,7 +1350,7 @@ export const legs_female = [
       4,
       5
     ],
-    "coinPrice": 248,
+    "coinPrice": 193,
     "index": 47
   },
   {
@@ -1363,7 +1363,7 @@ export const legs_female = [
       5,
       6
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 48
   },
   {
@@ -1374,7 +1374,7 @@ export const legs_female = [
       3,
       4
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 49
   },
   {
@@ -1382,7 +1382,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 50
   },
   {
@@ -1397,7 +1397,7 @@ export const legs_female = [
       7,
       8
     ],
-    "coinPrice": 160,
+    "coinPrice": 125,
     "index": 51
   },
   {
@@ -1405,7 +1405,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 52
   },
   {
@@ -1414,7 +1414,7 @@ export const legs_female = [
       0,
       1
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 53
   },
   {
@@ -1429,7 +1429,7 @@ export const legs_female = [
       7,
       8
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 54
   },
   {
@@ -1437,7 +1437,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 55
   },
   {
@@ -1446,7 +1446,7 @@ export const legs_female = [
       0,
       1
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 56
   },
   {
@@ -1462,7 +1462,7 @@ export const legs_female = [
       7,
       8
     ],
-    "coinPrice": 216,
+    "coinPrice": 168,
     "index": 57
   },
   {
@@ -1479,7 +1479,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 58
   },
   {
@@ -1494,7 +1494,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 54,
+    "coinPrice": 42,
     "index": 59
   },
   {
@@ -1502,7 +1502,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 54,
+    "coinPrice": 42,
     "index": 60
   },
   {
@@ -1510,7 +1510,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 61
   },
   {
@@ -1518,7 +1518,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 99,
+    "coinPrice": 77,
     "index": 62
   },
   {
@@ -1540,7 +1540,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 63
   },
   {
@@ -1563,7 +1563,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 64
   },
   {
@@ -1580,7 +1580,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 65
   },
   {
@@ -1606,7 +1606,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 66
   },
   {
@@ -1614,7 +1614,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 144,
+    "coinPrice": 112,
     "index": 67
   },
   {
@@ -1629,7 +1629,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 198,
+    "coinPrice": 154,
     "index": 68
   },
   {
@@ -1637,7 +1637,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 180,
+    "coinPrice": 140,
     "index": 69
   },
   {
@@ -1645,7 +1645,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 216,
+    "coinPrice": 168,
     "index": 70
   },
   {
@@ -1653,7 +1653,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 36,
+    "coinPrice": 28,
     "index": 71
   },
   {
@@ -1661,7 +1661,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 72
   },
   {
@@ -1677,7 +1677,7 @@ export const legs_female = [
       7,
       8
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 73
   },
   {
@@ -1686,7 +1686,7 @@ export const legs_female = [
       0,
       1
     ],
-    "coinPrice": 117,
+    "coinPrice": 91,
     "index": 74
   },
   {
@@ -1704,7 +1704,7 @@ export const legs_female = [
       8,
       9
     ],
-    "coinPrice": 126,
+    "coinPrice": 98,
     "index": 75
   },
   {
@@ -1719,7 +1719,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 269,
+    "coinPrice": 209,
     "index": 76
   },
   {
@@ -1727,7 +1727,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 77
   },
   {
@@ -1741,7 +1741,7 @@ export const legs_female = [
       6,
       7
     ],
-    "coinPrice": 108,
+    "coinPrice": 84,
     "index": 78
   },
   {
@@ -1749,7 +1749,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 122,
+    "coinPrice": 95,
     "index": 79
   },
   {
@@ -1757,7 +1757,7 @@ export const legs_female = [
     "colors": [
       0
     ],
-    "coinPrice": 153,
+    "coinPrice": 119,
     "index": 80
   }
 ];
@@ -1770,7 +1770,7 @@ export const masks_female = [
       1,
       2
     ],
-    "coinPrice": 74,
+    "coinPrice": 58,
     "index": 0
   },
   {
@@ -1778,7 +1778,7 @@ export const masks_female = [
     "colors": [
       0
     ],
-    "coinPrice": 82,
+    "coinPrice": 64,
     "index": 1
   },
   {
@@ -1786,7 +1786,7 @@ export const masks_female = [
     "colors": [
       0
     ],
-    "coinPrice": 42,
+    "coinPrice": 33,
     "index": 2
   },
   {
@@ -1794,7 +1794,7 @@ export const masks_female = [
     "colors": [
       0
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 3
   },
   {
@@ -1802,7 +1802,7 @@ export const masks_female = [
     "colors": [
       0
     ],
-    "coinPrice": 42,
+    "coinPrice": 33,
     "index": 4
   },
   {
@@ -1810,7 +1810,7 @@ export const masks_female = [
     "colors": [
       0
     ],
-    "coinPrice": 154,
+    "coinPrice": 119,
     "index": 5
   },
   {
@@ -1822,7 +1822,7 @@ export const masks_female = [
       3,
       4
     ],
-    "coinPrice": 175,
+    "coinPrice": 136,
     "index": 6
   },
   {
@@ -1830,7 +1830,7 @@ export const masks_female = [
     "colors": [
       0
     ],
-    "coinPrice": 217,
+    "coinPrice": 169,
     "index": 7
   },
   {
@@ -1856,7 +1856,7 @@ export const masks_female = [
       8,
       9
     ],
-    "coinPrice": 264,
+    "coinPrice": 205,
     "index": 8
   }
 ];
@@ -1883,7 +1883,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 187,
+    "coinPrice": 145,
     "index": 0
   },
   {
@@ -1902,7 +1902,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 199,
+    "coinPrice": 155,
     "index": 1
   },
   {
@@ -1921,7 +1921,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 199,
+    "coinPrice": 155,
     "index": 2
   },
   {
@@ -1936,7 +1936,7 @@ export const shoes_female = [
       6,
       7
     ],
-    "coinPrice": 280,
+    "coinPrice": 218,
     "index": 3
   },
   {
@@ -1953,7 +1953,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 280,
+    "coinPrice": 218,
     "index": 4
   },
   {
@@ -1967,7 +1967,7 @@ export const shoes_female = [
       5,
       6
     ],
-    "coinPrice": 231,
+    "coinPrice": 179,
     "index": 5
   },
   {
@@ -1990,7 +1990,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 308,
+    "coinPrice": 240,
     "index": 6
   },
   {
@@ -2003,7 +2003,7 @@ export const shoes_female = [
       4,
       5
     ],
-    "coinPrice": 262,
+    "coinPrice": 204,
     "index": 7
   },
   {
@@ -2021,7 +2021,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 274,
+    "coinPrice": 213,
     "index": 8
   },
   {
@@ -2044,7 +2044,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 249,
+    "coinPrice": 194,
     "index": 9
   },
   {
@@ -2073,7 +2073,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 168,
+    "coinPrice": 131,
     "index": 10
   },
   {
@@ -2085,7 +2085,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 330,
+    "coinPrice": 257,
     "index": 11
   },
   {
@@ -2104,7 +2104,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 231,
+    "coinPrice": 179,
     "index": 12
   },
   {
@@ -2132,7 +2132,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 426,
+    "coinPrice": 332,
     "index": 13
   },
   {
@@ -2141,7 +2141,7 @@ export const shoes_female = [
       0,
       1
     ],
-    "coinPrice": 355,
+    "coinPrice": 276,
     "index": 14
   },
   {
@@ -2158,7 +2158,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 224,
+    "coinPrice": 174,
     "index": 15
   },
   {
@@ -2166,7 +2166,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 311,
+    "coinPrice": 242,
     "index": 16
   },
   {
@@ -2179,7 +2179,7 @@ export const shoes_female = [
       4,
       5
     ],
-    "coinPrice": 318,
+    "coinPrice": 247,
     "index": 17
   },
   {
@@ -2187,7 +2187,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 100,
+    "coinPrice": 78,
     "index": 18
   },
   {
@@ -2195,7 +2195,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 131,
+    "coinPrice": 102,
     "index": 19
   },
   {
@@ -2213,7 +2213,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 268,
+    "coinPrice": 208,
     "index": 20
   },
   {
@@ -2226,7 +2226,7 @@ export const shoes_female = [
       4,
       5
     ],
-    "coinPrice": 436,
+    "coinPrice": 339,
     "index": 21
   },
   {
@@ -2238,7 +2238,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 206,
+    "coinPrice": 160,
     "index": 22
   },
   {
@@ -2252,7 +2252,7 @@ export const shoes_female = [
       5,
       6
     ],
-    "coinPrice": 81,
+    "coinPrice": 63,
     "index": 23
   },
   {
@@ -2270,7 +2270,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 231,
+    "coinPrice": 179,
     "index": 24
   },
   {
@@ -2295,7 +2295,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 237,
+    "coinPrice": 184,
     "index": 25
   },
   {
@@ -2316,7 +2316,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 499,
+    "coinPrice": 388,
     "index": 26
   },
   {
@@ -2324,7 +2324,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 218,
+    "coinPrice": 170,
     "index": 27
   },
   {
@@ -2332,7 +2332,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 156,
+    "coinPrice": 121,
     "index": 28
   },
   {
@@ -2340,7 +2340,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 268,
+    "coinPrice": 208,
     "index": 29
   },
   {
@@ -2357,7 +2357,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 343,
+    "coinPrice": 267,
     "index": 30
   },
   {
@@ -2380,7 +2380,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 311,
+    "coinPrice": 242,
     "index": 31
   },
   {
@@ -2394,7 +2394,7 @@ export const shoes_female = [
       5,
       6
     ],
-    "coinPrice": 256,
+    "coinPrice": 199,
     "index": 32
   },
   {
@@ -2409,7 +2409,7 @@ export const shoes_female = [
       6,
       7
     ],
-    "coinPrice": 256,
+    "coinPrice": 199,
     "index": 33
   },
   {
@@ -2424,7 +2424,7 @@ export const shoes_female = [
       6,
       7
     ],
-    "coinPrice": 368,
+    "coinPrice": 286,
     "index": 34
   },
   {
@@ -2440,7 +2440,7 @@ export const shoes_female = [
       7,
       8
     ],
-    "coinPrice": 218,
+    "coinPrice": 170,
     "index": 35
   },
   {
@@ -2472,7 +2472,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 280,
+    "coinPrice": 218,
     "index": 36
   },
   {
@@ -2498,7 +2498,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 37
   },
   {
@@ -2506,7 +2506,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 418,
+    "coinPrice": 325,
     "index": 38
   },
   {
@@ -2524,7 +2524,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 231,
+    "coinPrice": 179,
     "index": 39
   },
   {
@@ -2537,7 +2537,7 @@ export const shoes_female = [
       4,
       5
     ],
-    "coinPrice": 181,
+    "coinPrice": 141,
     "index": 40
   },
   {
@@ -2545,7 +2545,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 231,
+    "coinPrice": 179,
     "index": 41
   },
   {
@@ -2557,7 +2557,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 231,
+    "coinPrice": 179,
     "index": 42
   },
   {
@@ -2569,7 +2569,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 355,
+    "coinPrice": 276,
     "index": 43
   },
   {
@@ -2581,7 +2581,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 125,
+    "coinPrice": 97,
     "index": 44
   },
   {
@@ -2593,7 +2593,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 248,
+    "coinPrice": 193,
     "index": 45
   },
   {
@@ -2610,7 +2610,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 256,
+    "coinPrice": 199,
     "index": 46
   },
   {
@@ -2622,7 +2622,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 435,
+    "coinPrice": 339,
     "index": 47
   },
   {
@@ -2634,7 +2634,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 168,
+    "coinPrice": 131,
     "index": 48
   },
   {
@@ -2653,7 +2653,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 283,
+    "coinPrice": 220,
     "index": 49
   },
   {
@@ -2670,7 +2670,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 249,
+    "coinPrice": 194,
     "index": 50
   },
   {
@@ -2682,7 +2682,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 346,
+    "coinPrice": 269,
     "index": 51
   },
   {
@@ -2694,7 +2694,7 @@ export const shoes_female = [
       3,
       4
     ],
-    "coinPrice": 264,
+    "coinPrice": 206,
     "index": 52
   },
   {
@@ -2702,7 +2702,7 @@ export const shoes_female = [
     "colors": [
       0
     ],
-    "coinPrice": 193,
+    "coinPrice": 150,
     "index": 53
   },
   {
@@ -2719,7 +2719,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 270,
+    "coinPrice": 210,
     "index": 54
   },
   {
@@ -2736,7 +2736,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 282,
+    "coinPrice": 220,
     "index": 55
   },
   {
@@ -2745,7 +2745,7 @@ export const shoes_female = [
       0,
       1
     ],
-    "coinPrice": 249,
+    "coinPrice": 194,
     "index": 56
   },
   {
@@ -2760,7 +2760,7 @@ export const shoes_female = [
       6,
       7
     ],
-    "coinPrice": 623,
+    "coinPrice": 485,
     "index": 57
   },
   {
@@ -2769,7 +2769,7 @@ export const shoes_female = [
       0,
       1
     ],
-    "coinPrice": 62,
+    "coinPrice": 48,
     "index": 58
   },
   {
@@ -2794,7 +2794,7 @@ export const shoes_female = [
       8,
       9
     ],
-    "coinPrice": 779,
+    "coinPrice": 606,
     "index": 59
   }
 ];
@@ -2808,7 +2808,7 @@ export const tops_female = [
       2,
       3
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 0
   },
   {
@@ -2818,7 +2818,7 @@ export const tops_female = [
       1,
       2
     ],
-    "coinPrice": 107,
+    "coinPrice": 84,
     "index": 1
   },
   {
@@ -2832,7 +2832,7 @@ export const tops_female = [
       5,
       7
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 2
   },
   {
@@ -2842,7 +2842,7 @@ export const tops_female = [
       1,
       2
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 3
   },
   {
@@ -2870,7 +2870,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 134,
+    "coinPrice": 104,
     "index": 4
   },
   {
@@ -2893,7 +2893,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 5
   },
   {
@@ -2903,7 +2903,7 @@ export const tops_female = [
       1,
       2
     ],
-    "coinPrice": 125,
+    "coinPrice": 98,
     "index": 6
   },
   {
@@ -2917,7 +2917,7 @@ export const tops_female = [
       5,
       6
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 7
   },
   {
@@ -2940,7 +2940,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 125,
+    "coinPrice": 98,
     "index": 8
   },
   {
@@ -2971,7 +2971,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 130,
+    "coinPrice": 101,
     "index": 9
   },
   {
@@ -2991,7 +2991,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 112,
+    "coinPrice": 87,
     "index": 10
   },
   {
@@ -3002,7 +3002,7 @@ export const tops_female = [
       2,
       3
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 11
   },
   {
@@ -3021,7 +3021,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 412,
+    "coinPrice": 320,
     "index": 12
   },
   {
@@ -3044,7 +3044,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 206,
+    "coinPrice": 160,
     "index": 13
   },
   {
@@ -3056,7 +3056,7 @@ export const tops_female = [
       3,
       4
     ],
-    "coinPrice": 107,
+    "coinPrice": 84,
     "index": 14
   },
   {
@@ -3070,7 +3070,7 @@ export const tops_female = [
       5,
       6
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 15
   },
   {
@@ -3092,7 +3092,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 537,
+    "coinPrice": 418,
     "index": 16
   },
   {
@@ -3106,7 +3106,7 @@ export const tops_female = [
       5,
       6
     ],
-    "coinPrice": 582,
+    "coinPrice": 453,
     "index": 17
   },
   {
@@ -3121,7 +3121,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 18
   },
   {
@@ -3138,7 +3138,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 385,
+    "coinPrice": 299,
     "index": 19
   },
   {
@@ -3153,7 +3153,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 340,
+    "coinPrice": 265,
     "index": 20
   },
   {
@@ -3171,7 +3171,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 242,
+    "coinPrice": 188,
     "index": 21
   },
   {
@@ -3181,7 +3181,7 @@ export const tops_female = [
       1,
       2
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 22
   },
   {
@@ -3196,7 +3196,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 125,
+    "coinPrice": 98,
     "index": 23
   },
   {
@@ -3217,7 +3217,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 242,
+    "coinPrice": 188,
     "index": 24
   },
   {
@@ -3237,7 +3237,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 25
   },
   {
@@ -3254,7 +3254,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 26
   },
   {
@@ -3280,7 +3280,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 157,
+    "coinPrice": 122,
     "index": 27
   },
   {
@@ -3300,7 +3300,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 140,
+    "coinPrice": 109,
     "index": 28
   },
   {
@@ -3325,7 +3325,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 29
   },
   {
@@ -3335,7 +3335,7 @@ export const tops_female = [
       1,
       2
     ],
-    "coinPrice": 304,
+    "coinPrice": 237,
     "index": 30
   },
   {
@@ -3346,7 +3346,7 @@ export const tops_female = [
       2,
       3
     ],
-    "coinPrice": 398,
+    "coinPrice": 310,
     "index": 31
   },
   {
@@ -3355,7 +3355,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 32
   },
   {
@@ -3388,7 +3388,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 125,
+    "coinPrice": 98,
     "index": 33
   },
   {
@@ -3411,7 +3411,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 457,
+    "coinPrice": 355,
     "index": 34
   },
   {
@@ -3423,7 +3423,7 @@ export const tops_female = [
       3,
       4
     ],
-    "coinPrice": 268,
+    "coinPrice": 208,
     "index": 35
   },
   {
@@ -3439,7 +3439,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 304,
+    "coinPrice": 237,
     "index": 36
   },
   {
@@ -3457,7 +3457,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 37
   },
   {
@@ -3473,7 +3473,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 193,
+    "coinPrice": 150,
     "index": 38
   },
   {
@@ -3486,7 +3486,7 @@ export const tops_female = [
       4,
       5
     ],
-    "coinPrice": 313,
+    "coinPrice": 244,
     "index": 39
   },
   {
@@ -3496,7 +3496,7 @@ export const tops_female = [
       1,
       2
     ],
-    "coinPrice": 268,
+    "coinPrice": 208,
     "index": 40
   },
   {
@@ -3527,7 +3527,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 367,
+    "coinPrice": 286,
     "index": 41
   },
   {
@@ -3558,7 +3558,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 367,
+    "coinPrice": 286,
     "index": 42
   },
   {
@@ -3566,7 +3566,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 43
   },
   {
@@ -3574,7 +3574,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 44
   },
   {
@@ -3582,7 +3582,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 45
   },
   {
@@ -3590,7 +3590,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 46
   },
   {
@@ -3598,7 +3598,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 47
   },
   {
@@ -3623,7 +3623,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 210,
+    "coinPrice": 164,
     "index": 48
   },
   {
@@ -3631,7 +3631,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 49
   },
   {
@@ -3643,7 +3643,7 @@ export const tops_female = [
       3,
       4
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 50
   },
   {
@@ -3655,7 +3655,7 @@ export const tops_female = [
       3,
       4
     ],
-    "coinPrice": 215,
+    "coinPrice": 167,
     "index": 51
   },
   {
@@ -3663,7 +3663,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 116,
+    "coinPrice": 91,
     "index": 52
   },
   {
@@ -3677,7 +3677,7 @@ export const tops_female = [
       5,
       6
     ],
-    "coinPrice": 251,
+    "coinPrice": 195,
     "index": 53
   },
   {
@@ -3690,7 +3690,7 @@ export const tops_female = [
       4,
       6
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 54
   },
   {
@@ -3705,7 +3705,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 394,
+    "coinPrice": 306,
     "index": 55
   },
   {
@@ -3720,7 +3720,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 134,
+    "coinPrice": 104,
     "index": 56
   },
   {
@@ -3728,7 +3728,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 57
   },
   {
@@ -3736,7 +3736,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 58
   },
   {
@@ -3744,7 +3744,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 242,
+    "coinPrice": 188,
     "index": 59
   },
   {
@@ -3752,7 +3752,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 206,
+    "coinPrice": 160,
     "index": 60
   },
   {
@@ -3760,7 +3760,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 107,
+    "coinPrice": 84,
     "index": 61
   },
   {
@@ -3768,7 +3768,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 170,
+    "coinPrice": 132,
     "index": 62
   },
   {
@@ -3795,7 +3795,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 134,
+    "coinPrice": 104,
     "index": 63
   },
   {
@@ -3822,7 +3822,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 64
   },
   {
@@ -3853,7 +3853,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 65
   },
   {
@@ -3870,7 +3870,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 278,
+    "coinPrice": 216,
     "index": 66
   },
   {
@@ -3884,7 +3884,7 @@ export const tops_female = [
       5,
       6
     ],
-    "coinPrice": 627,
+    "coinPrice": 488,
     "index": 67
   },
   {
@@ -3917,7 +3917,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 68
   },
   {
@@ -3935,7 +3935,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 256,
+    "coinPrice": 199,
     "index": 69
   },
   {
@@ -3953,7 +3953,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 206,
+    "coinPrice": 160,
     "index": 70
   },
   {
@@ -3962,7 +3962,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 71
   },
   {
@@ -3974,7 +3974,7 @@ export const tops_female = [
       3,
       4
     ],
-    "coinPrice": 215,
+    "coinPrice": 167,
     "index": 72
   },
   {
@@ -3994,7 +3994,7 @@ export const tops_female = [
       7,
       9
     ],
-    "coinPrice": 251,
+    "coinPrice": 195,
     "index": 73
   },
   {
@@ -4009,7 +4009,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 331,
+    "coinPrice": 258,
     "index": 74
   },
   {
@@ -4024,7 +4024,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 260,
+    "coinPrice": 202,
     "index": 75
   },
   {
@@ -4039,7 +4039,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 269,
+    "coinPrice": 209,
     "index": 76
   },
   {
@@ -4066,7 +4066,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 77
   },
   {
@@ -4080,7 +4080,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 125,
+    "coinPrice": 98,
     "index": 78
   },
   {
@@ -4088,7 +4088,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 79
   },
   {
@@ -4096,7 +4096,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 448,
+    "coinPrice": 348,
     "index": 80
   },
   {
@@ -4104,7 +4104,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 304,
+    "coinPrice": 237,
     "index": 81
   },
   {
@@ -4112,7 +4112,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 304,
+    "coinPrice": 237,
     "index": 82
   },
   {
@@ -4120,7 +4120,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 304,
+    "coinPrice": 237,
     "index": 83
   },
   {
@@ -4128,7 +4128,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 242,
+    "coinPrice": 188,
     "index": 84
   },
   {
@@ -4142,7 +4142,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 242,
+    "coinPrice": 188,
     "index": 85
   },
   {
@@ -4150,7 +4150,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 349,
+    "coinPrice": 272,
     "index": 86
   },
   {
@@ -4158,7 +4158,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 349,
+    "coinPrice": 272,
     "index": 87
   },
   {
@@ -4166,7 +4166,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 349,
+    "coinPrice": 272,
     "index": 88
   },
   {
@@ -4188,7 +4188,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 89
   },
   {
@@ -4200,7 +4200,7 @@ export const tops_female = [
       3,
       4
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 90
   },
   {
@@ -4212,7 +4212,7 @@ export const tops_female = [
       3,
       4
     ],
-    "coinPrice": 170,
+    "coinPrice": 132,
     "index": 91
   },
   {
@@ -4227,7 +4227,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 269,
+    "coinPrice": 209,
     "index": 92
   },
   {
@@ -4241,7 +4241,7 @@ export const tops_female = [
       5,
       6
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 93
   },
   {
@@ -4256,7 +4256,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 94
   },
   {
@@ -4271,7 +4271,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 95
   },
   {
@@ -4284,7 +4284,7 @@ export const tops_female = [
       4,
       5
     ],
-    "coinPrice": 206,
+    "coinPrice": 160,
     "index": 96
   },
   {
@@ -4298,7 +4298,7 @@ export const tops_female = [
       5,
       6
     ],
-    "coinPrice": 242,
+    "coinPrice": 188,
     "index": 97
   },
   {
@@ -4315,7 +4315,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 269,
+    "coinPrice": 209,
     "index": 98
   },
   {
@@ -4332,7 +4332,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 124,
+    "coinPrice": 96,
     "index": 99
   },
   {
@@ -4349,7 +4349,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 100
   },
   {
@@ -4366,7 +4366,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 101
   },
   {
@@ -4382,7 +4382,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 340,
+    "coinPrice": 265,
     "index": 102
   },
   {
@@ -4400,7 +4400,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 206,
+    "coinPrice": 160,
     "index": 103
   },
   {
@@ -4419,7 +4419,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 104
   },
   {
@@ -4435,7 +4435,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 105
   },
   {
@@ -4451,7 +4451,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 106
   },
   {
@@ -4464,7 +4464,7 @@ export const tops_female = [
       4,
       5
     ],
-    "coinPrice": 116,
+    "coinPrice": 91,
     "index": 107
   },
   {
@@ -4477,7 +4477,7 @@ export const tops_female = [
       4,
       5
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 108
   },
   {
@@ -4489,7 +4489,7 @@ export const tops_female = [
       3,
       4
     ],
-    "coinPrice": 269,
+    "coinPrice": 209,
     "index": 109
   },
   {
@@ -4507,7 +4507,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 110
   },
   {
@@ -4515,7 +4515,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 242,
+    "coinPrice": 188,
     "index": 111
   },
   {
@@ -4523,7 +4523,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 112
   },
   {
@@ -4531,7 +4531,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 113
   },
   {
@@ -4546,7 +4546,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 114
   },
   {
@@ -4554,7 +4554,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 115
   },
   {
@@ -4563,7 +4563,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 116
   },
   {
@@ -4578,7 +4578,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 125,
+    "coinPrice": 98,
     "index": 117
   },
   {
@@ -4586,7 +4586,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 118
   },
   {
@@ -4595,7 +4595,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 119
   },
   {
@@ -4604,7 +4604,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 285,
+    "coinPrice": 221,
     "index": 120
   },
   {
@@ -4619,7 +4619,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 121
   },
   {
@@ -4637,7 +4637,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 63,
+    "coinPrice": 49,
     "index": 122
   },
   {
@@ -4654,7 +4654,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 134,
+    "coinPrice": 104,
     "index": 123
   },
   {
@@ -4669,7 +4669,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 188,
+    "coinPrice": 146,
     "index": 124
   },
   {
@@ -4677,7 +4677,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 269,
+    "coinPrice": 209,
     "index": 125
   },
   {
@@ -4685,7 +4685,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 107,
+    "coinPrice": 84,
     "index": 126
   },
   {
@@ -4693,7 +4693,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 121,
+    "coinPrice": 94,
     "index": 127
   },
   {
@@ -4720,7 +4720,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 116,
+    "coinPrice": 91,
     "index": 128
   },
   {
@@ -4728,7 +4728,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 134,
+    "coinPrice": 104,
     "index": 129
   },
   {
@@ -4736,7 +4736,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 130
   },
   {
@@ -4744,7 +4744,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 131
   },
   {
@@ -4758,7 +4758,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 132
   },
   {
@@ -4766,7 +4766,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 143,
+    "coinPrice": 111,
     "index": 133
   },
   {
@@ -4774,7 +4774,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 134
   },
   {
@@ -4782,7 +4782,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 161,
+    "coinPrice": 125,
     "index": 135
   },
   {
@@ -4798,7 +4798,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 215,
+    "coinPrice": 167,
     "index": 136
   },
   {
@@ -4807,7 +4807,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 322,
+    "coinPrice": 251,
     "index": 137
   },
   {
@@ -4823,7 +4823,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 90,
+    "coinPrice": 70,
     "index": 138
   },
   {
@@ -4832,7 +4832,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 98,
+    "coinPrice": 77,
     "index": 139
   },
   {
@@ -4841,7 +4841,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 36,
+    "coinPrice": 28,
     "index": 140
   },
   {
@@ -4859,7 +4859,7 @@ export const tops_female = [
       8,
       9
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 141
   },
   {
@@ -4874,7 +4874,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 895,
+    "coinPrice": 696,
     "index": 142
   },
   {
@@ -4883,7 +4883,7 @@ export const tops_female = [
       0,
       1
     ],
-    "coinPrice": 179,
+    "coinPrice": 139,
     "index": 143
   },
   {
@@ -4898,7 +4898,7 @@ export const tops_female = [
       7,
       8
     ],
-    "coinPrice": 448,
+    "coinPrice": 348,
     "index": 144
   },
   {
@@ -4913,7 +4913,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 89,
+    "coinPrice": 69,
     "index": 145
   },
   {
@@ -4923,7 +4923,7 @@ export const tops_female = [
       1,
       2
     ],
-    "coinPrice": 72,
+    "coinPrice": 56,
     "index": 146
   },
   {
@@ -4931,7 +4931,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 125,
+    "coinPrice": 98,
     "index": 147
   },
   {
@@ -4946,7 +4946,7 @@ export const tops_female = [
       6,
       7
     ],
-    "coinPrice": 152,
+    "coinPrice": 118,
     "index": 148
   },
   {
@@ -4954,7 +4954,7 @@ export const tops_female = [
     "colors": [
       0
     ],
-    "coinPrice": 45,
+    "coinPrice": 35,
     "index": 149
   }
 ];
@@ -4967,7 +4967,7 @@ export const watches_female = [
       1,
       2
     ],
-    "coinPrice": 135,
+    "coinPrice": 105,
     "index": 0
   }
 ];

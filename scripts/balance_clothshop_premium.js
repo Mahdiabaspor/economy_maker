@@ -27,7 +27,7 @@ function adjustArray(arr, factor) {
   return arr.map(i => ({ ...i, coinPrice: Math.round(i.coinPrice * factor) }));
 }
 
-const globalDiscount = 0.9; // 10% off after balancing
+const globalDiscount = 0.7; // 30% off after balancing
 
 const newMale = {};
 const newFemale = {};

@@ -11,23 +11,23 @@ export const superMarketConfig = {
         {
             itemName: 'item_drink_water',
             label: 'MINERAL WATER',
-            singlePrice:Math.floor( 250 * superMarketMultiplier),
+            singlePrice:Math.floor( 370 * superMarketMultiplier),
         },
         {
             itemName: 'item_drink_sprunk',
             label: 'SPRUNK SODA',
-            singlePrice:Math.floor( 400 * superMarketMultiplier),
+            singlePrice:Math.floor( 600 * superMarketMultiplier),
         },
 
         {
             itemName: 'item_food_chocolate',
             label: 'CHOCOLATE BAR',
-            singlePrice:Math.floor( 250 * superMarketMultiplier),
+            singlePrice:Math.floor( 350 * superMarketMultiplier),
         },
         {
             itemName: 'item_food_hamburger',
             label: 'HAMBURGER',
-            singlePrice:Math.floor( 400 * superMarketMultiplier),
+            singlePrice:Math.floor( 570 * superMarketMultiplier),
         },
 
 

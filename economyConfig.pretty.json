@@ -258,22 +258,22 @@
         {
           "itemName": "item_drink_water",
           "label": "MINERAL WATER",
-          "singlePrice": 250
+          "singlePrice": 370
         },
         {
           "itemName": "item_drink_sprunk",
           "label": "SPRUNK SODA",
-          "singlePrice": 400
+          "singlePrice": 600
         },
         {
           "itemName": "item_food_chocolate",
           "label": "CHOCOLATE BAR",
-          "singlePrice": 250
+          "singlePrice": 350
         },
         {
           "itemName": "item_food_hamburger",
           "label": "HAMBURGER",
-          "singlePrice": 400
+          "singlePrice": 570
         },
         {
           "itemName": "item_repairkit",
@@ -73145,22 +73145,22 @@
         {
           "itemName": "item_weed",
           "label": "WEED",
-          "singlePrice": 500
+          "singlePrice": 260
         },
         {
           "itemName": "item_coca_leaves",
           "label": "COCA LEAVES",
-          "singlePrice": 550
+          "singlePrice": 310
         },
         {
           "itemName": "item_saffarole_leave",
           "label": "SAFFAROLE LEAVE",
-          "singlePrice": 600
+          "singlePrice": 350
         },
         {
           "itemName": "item_saffarole_oil",
           "label": "SAFFAROLE OIL",
-          "singlePrice": 1600
+          "singlePrice": 800
         },
         {
           "itemName": "item_methylamine_crystal",
@@ -73180,12 +73180,12 @@
         {
           "itemName": "item_cocain_pack",
           "label": "COCAINE PACK",
-          "singlePrice": 6500
+          "singlePrice": 5200
         },
         {
           "itemName": "item_mdma_powder",
           "label": "MDMA POWDER",
-          "singlePrice": 7800
+          "singlePrice": 3900
         },
         {
           "itemName": "item_mdma_pill",

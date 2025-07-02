@@ -30,6 +30,7 @@ import { DrugDealer } from "./SHOPS/DrugLab.js";
 import { WeaponDealer } from "./SHOPS/WeaponDealer.js";
 import { femaleClothP } from "./SHOPS/ClothShopPermium/Female.js";
 import { maleClothP } from "./SHOPS/ClothShopPermium/Male.js";
+import * as priceConstants from "./items/AllItemsBuyPrice.js";
 
 
 const economyConfig = {

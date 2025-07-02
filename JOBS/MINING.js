@@ -1,4 +1,29 @@
-const incomeMulti = 1.8;
+import {
+  STONE_ORE_SELL_PRICE,
+  SULFUR_ORE_SELL_PRICE,
+  COAL_ORE_SELL_PRICE,
+  IRON_ORE_SELL_PRICE,
+  GOLD_ORE_SELL_PRICE,
+  IRON_BAR_SELL_PRICE,
+  GOLD_BAR_SELL_PRICE,
+  GILDED_IRON_SELL_PRICE,
+  AURIRON_SELL_PRICE,
+  AMBERITE_GEM_SELL_PRICE,
+  AQUALITH_GEM_SELL_PRICE,
+  LUMINITE_GEM_SELL_PRICE,
+  STONE_ORE_BUY_PRICE,
+  IRON_ORE_BUY_PRICE,
+  GOLD_ORE_BUY_PRICE,
+  SULFUR_ORE_BUY_PRICE,
+  COAL_ORE_BUY_PRICE,
+  IRON_BAR_BUY_PRICE,
+  GOLD_BAR_BUY_PRICE,
+  REINFORCED_STEEL_PRICE,
+} from "../items/AllItemsBuyPrice.js";
+
+// Multiplier applied to sell prices. Keeping at 1 for now but allows future
+// tuning of mining profits.
+const incomeMulti = 1;
 const costMulti = 1;
 const singleHitDuration = 4;
 const pickaxeTotalHits = 100;
@@ -9,62 +34,62 @@ const MiningShopSell = [
   {
     itemName: "item_ore_stone",
     label: "Stone",
-    singlePrice: Math.floor(8 * incomeMulti),
+    singlePrice: Math.floor(STONE_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_ore_sulfur",
     label: "Sulfur",
-    singlePrice: Math.floor(11 * incomeMulti),
+    singlePrice: Math.floor(SULFUR_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_ore_coal",
     label: "Coal",
-    singlePrice: Math.floor(12 * incomeMulti),
+    singlePrice: Math.floor(COAL_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_ore_iron",
     label: "Iron Ore",
-    singlePrice: Math.floor(12 * incomeMulti),
+    singlePrice: Math.floor(IRON_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_ore_gold",
     label: "Gold Ore",
-    singlePrice: Math.floor(17 * incomeMulti),
+    singlePrice: Math.floor(GOLD_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_bar_iron",
     label: "Iron Bar",
-    singlePrice: Math.floor(700 * incomeMulti),
+    singlePrice: Math.floor(IRON_BAR_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_bar_gold",
     label: "Gold Bar",
-    singlePrice: Math.floor(1000 * incomeMulti),
+    singlePrice: Math.floor(GOLD_BAR_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_bar_gildiron",
     label: "Gilded Iron Bar",
-    singlePrice: Math.floor(10000 * incomeMulti),
+    singlePrice: Math.floor(GILDED_IRON_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_bar_auriron",
     label: "Auriron Iron Bar",
-    singlePrice: Math.floor(14000 * incomeMulti),
+    singlePrice: Math.floor(AURIRON_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_gem_Amberite",
     label: "Amberite gem",
-    singlePrice: Math.floor(40000 * incomeMulti),
+    singlePrice: Math.floor(AMBERITE_GEM_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_gem_aqualith",
     label: "qualith gem",
-    singlePrice: Math.floor(40000 * incomeMulti),
+    singlePrice: Math.floor(AQUALITH_GEM_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_gem_luminite",
     label: "luminite gem",
-    singlePrice: Math.floor(40000 * incomeMulti),
+    singlePrice: Math.floor(LUMINITE_GEM_SELL_PRICE * incomeMulti),
   },
 ];
 const zones = {
@@ -417,49 +442,49 @@ export const miningJobConfig = {
     {
       itemName: "item_ore_stone",
       label: "STONE",
-      singlePrice: (22 * buyShopMultiple).toFixed(0),
+      singlePrice: (STONE_ORE_BUY_PRICE * buyShopMultiple).toFixed(0),
       isSingleBuy: false,
     },
     {
       itemName: "item_ore_iron",
       label: "IRON ORE",
-      singlePrice: (37 * buyShopMultiple).toFixed(0),
+      singlePrice: (IRON_ORE_BUY_PRICE * buyShopMultiple).toFixed(0),
       isSingleBuy: false,
     },
     {
       itemName: "item_ore_gold",
       label: "GOLD ORE",
-      singlePrice: (45 * buyShopMultiple).toFixed(0),
+      singlePrice: (GOLD_ORE_BUY_PRICE * buyShopMultiple).toFixed(0),
       isSingleBuy: false,
     },
     {
       itemName: "item_ore_sulfur",
       label: "SULFUR",
-      singlePrice: (30 * buyShopMultiple).toFixed(0),
+      singlePrice: (SULFUR_ORE_BUY_PRICE * buyShopMultiple).toFixed(0),
       isSingleBuy: false,
     },
     {
       itemName: "item_ore_coal",
       label: "COAL",
-      singlePrice: (35 * buyShopMultiple).toFixed(0),
+      singlePrice: (COAL_ORE_BUY_PRICE * buyShopMultiple).toFixed(0),
       isSingleBuy: false,
     },
     {
       itemName: "item_bar_iron",
       label: "IRON BAR",
-      singlePrice: (2100 * buyShopMultiple).toFixed(0),
+      singlePrice: (IRON_BAR_BUY_PRICE * buyShopMultiple).toFixed(0),
       isSingleBuy: false,
     },
     {
       itemName: "item_bar_gold",
       label: "GOLD BAR",
-      singlePrice: (3300 * buyShopMultiple).toFixed(0),
+      singlePrice: (GOLD_BAR_BUY_PRICE * buyShopMultiple).toFixed(0),
       isSingleBuy: false,
     },
     {
       itemName: "item_reinforced_steel",
       label: "REINFORCED STEEL",
-      singlePrice: (5900 * buyShopMultiple).toFixed(0),
+      singlePrice: (REINFORCED_STEEL_PRICE * buyShopMultiple).toFixed(0),
       isSingleBuy: false,
     },
     {

@@ -23,7 +23,7 @@ import {
 
 // Multiplier applied to sell prices. Keeping at 1 for now but allows future
 // tuning of mining profits.
-const incomeMulti = 1;
+const incomeMulti = 1.2;
 const costMulti = 1;
 const singleHitDuration = 4;
 const pickaxeTotalHits = 100;
@@ -188,7 +188,7 @@ export const miningJobConfig = {
         { itemName: "item_ore_iron", count: 50, label: "IRON ORE" },
       ],
       itemType: "UNCOMMON",
-      craftTimeMinutes: 60,
+      craftTimeMinutes: 5,
     },
     {
       label: "PICK AXE LVL 2",
@@ -202,15 +202,15 @@ export const miningJobConfig = {
         },
       ],
       itemType: "RARE",
-      craftTimeMinutes: 360,
+      craftTimeMinutes: 15,
     },
     {
       label: "PICK AXE LVL 3",
       itemName: "item_pickaxe_lvl_3",
       materials: [
-        { itemName: "item_bar_gold", count: 25, label: "GOLD BAR" },
+        { itemName: "item_bar_gold", count: 20, label: "GOLD BAR" },
         { itemName: "item_bar_iron", count: 25, label: "IRON BAR" },
-        { itemName: "item_bar_gildiron", count: 17, label: "GILD IRON" },
+        { itemName: "item_bar_gildiron", count: 13, label: "GILD IRON" },
         {
           itemName: "item_reinforced_steel",
           count: 15,
@@ -218,7 +218,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "EPIC",
-      craftTimeMinutes: 720,
+      craftTimeMinutes: 120,
     },
     {
       label: "PICK AXE LVL 4",
@@ -226,8 +226,8 @@ export const miningJobConfig = {
       materials: [
         { itemName: "item_bar_gold", count: 50, label: "GOLD BAR" },
         { itemName: "item_bar_iron", count: 40, label: "IRON BAR" },
-        { itemName: "item_bar_gildiron", count: 40, label: "GILDED IRON" },
-        { itemName: "item_bar_auriron", count: 20, label: "AUR IRON" },
+        { itemName: "item_bar_gildiron", count: 30, label: "GILDED IRON" },
+        { itemName: "item_bar_auriron", count: 17, label: "AUR IRON" },
         {
           itemName: "item_reinforced_steel",
           count: 25,
@@ -235,7 +235,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "LEGENDARY",
-      craftTimeMinutes: 3440,
+      craftTimeMinutes: 180,
     },
     {
       label: "ANTI SHARPEN KIT", // craft cost 20,600      30000
@@ -265,7 +265,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "UNCOMMON",
-      craftTimeMinutes: 320,
+      craftTimeMinutes: 60,
     },
     {
       label: "RADIO ACTIVE KIT", // craft const 83 k    price 110k
@@ -282,7 +282,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "EPIC",
-      craftTimeMinutes: 300,
+      craftTimeMinutes: 90,
     },
   ],
   refinery: [

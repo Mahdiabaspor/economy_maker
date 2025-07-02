@@ -8,6 +8,10 @@
 // ===== BASIC CONSTANTS =====
 export const COIN_VALUE = 750; // The value of one coin in game currency
 
+// Multiplier used when calculating sell prices. Kept at 1 to preserve
+// current pricing but allows tweaking later without touching every value.
+export const SELL_PRICE_MULTIPLIER = 1;
+
 // ===== GENERAL ITEMS =====
 // Supermarket Items
 export const WALKIE_TALKIE_PRICE = 4350;
@@ -68,25 +72,25 @@ export const ADVANCED_CIRCUIT_PRICE = 7650;
 // ===== MINING ITEMS =====
 // Raw Materials
 export const STONE_ORE_BUY_PRICE = 22;
-export const STONE_ORE_SELL_PRICE = 14; // Pre-calculated: 8 * 1.8 = 14.4, rounded to 14
+export const STONE_ORE_SELL_PRICE = Math.floor(14 * SELL_PRICE_MULTIPLIER); // Base 14
 export const IRON_ORE_BUY_PRICE = 37;
-export const IRON_ORE_SELL_PRICE = 22; // Pre-calculated: 12 * 1.8 = 21.6, rounded to 22
+export const IRON_ORE_SELL_PRICE = Math.floor(22 * SELL_PRICE_MULTIPLIER); // Base 22
 export const GOLD_ORE_BUY_PRICE = 45;
-export const GOLD_ORE_SELL_PRICE = 31; // Pre-calculated: 17 * 1.8 = 30.6, rounded to 31
+export const GOLD_ORE_SELL_PRICE = Math.floor(31 * SELL_PRICE_MULTIPLIER); // Base 31
 export const SULFUR_ORE_BUY_PRICE = 30;
-export const SULFUR_ORE_SELL_PRICE = 20; // Pre-calculated: 11 * 1.8 = 19.8, rounded to 20
+export const SULFUR_ORE_SELL_PRICE = Math.floor(20 * SELL_PRICE_MULTIPLIER); // Base 20
 export const COAL_ORE_BUY_PRICE = 35;
-export const COAL_ORE_SELL_PRICE = 22; // Pre-calculated: 12 * 1.8 = 21.6, rounded to 22
+export const COAL_ORE_SELL_PRICE = Math.floor(22 * SELL_PRICE_MULTIPLIER); // Base 22
 
 // Refined Materials
 export const IRON_BAR_BUY_PRICE = 2100;
-export const IRON_BAR_SELL_PRICE = 1260; // Pre-calculated: 700 * 1.8 = 1260
+export const IRON_BAR_SELL_PRICE = Math.floor(1260 * SELL_PRICE_MULTIPLIER); // Base 1260
 export const GOLD_BAR_BUY_PRICE = 3300;
-export const GOLD_BAR_SELL_PRICE = 1800; // Pre-calculated: 1000 * 1.8 = 1800
+export const GOLD_BAR_SELL_PRICE = Math.floor(1800 * SELL_PRICE_MULTIPLIER); // Base 1800
 export const REINFORCED_STEEL_PRICE = 5900; // Shop price (actual craft cost: IRON_BAR_BUY_PRICE * 10 + GOLD_BAR_BUY_PRICE * 4 = 34200)
 // Calculated from materials: 10 iron bars (21000) + 4 gold bars (13200) = 34200, but set to 5900 in shop
-export const GILDED_IRON_SELL_PRICE = 18000; // Pre-calculated: 10000 * 1.8 = 18000
-export const AURIRON_SELL_PRICE = 25200; // Pre-calculated: 14000 * 1.8 = 25200
+export const GILDED_IRON_SELL_PRICE = Math.floor(18000 * SELL_PRICE_MULTIPLIER); // Base 18000
+export const AURIRON_SELL_PRICE = Math.floor(25200 * SELL_PRICE_MULTIPLIER); // Base 25200
 
 // Special Items
 export const PICKAXE_LVL1_PRICE = STONE_ORE_BUY_PRICE * 200 + IRON_ORE_BUY_PRICE * 50; // Calculated from materials: 200 stone ore + 50 iron ore
@@ -100,9 +104,9 @@ export const GAS_KIT_PRICE = SULFUR_ORE_BUY_PRICE * 320 + IRON_BAR_BUY_PRICE * 5
 export const RADIOACTIVE_KIT_PRICE = SULFUR_ORE_BUY_PRICE * 300 + COAL_ORE_BUY_PRICE * 200 + IRON_BAR_BUY_PRICE * 15 + GOLD_BAR_BUY_PRICE * 10 + REINFORCED_STEEL_PRICE * 10; // Calculated from all materials
 
 // Gems
-export const AMBERITE_GEM_SELL_PRICE = 72000; // Pre-calculated: 40000 * 1.8 = 72000
-export const AQUALITH_GEM_SELL_PRICE = 72000; // Pre-calculated: 40000 * 1.8 = 72000
-export const LUMINITE_GEM_SELL_PRICE = 72000; // Pre-calculated: 40000 * 1.8 = 72000
+export const AMBERITE_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
+export const AQUALITH_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
+export const LUMINITE_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
 
 // Weapon Crafting Components
 export const WEAPON_STOCK_PRICE = IRON_BAR_BUY_PRICE * 3; // Calculated from materials: 3 iron bars

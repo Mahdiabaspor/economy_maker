@@ -21,7 +21,9 @@ import {
   REINFORCED_STEEL_PRICE,
 } from "../items/AllItemsBuyPrice.js";
 
-const incomeMulti = 1.8;
+// Multiplier applied to sell prices. Keeping at 1 for now but allows future
+// tuning of mining profits.
+const incomeMulti = 1;
 const costMulti = 1;
 const singleHitDuration = 4;
 const pickaxeTotalHits = 100;
@@ -32,62 +34,62 @@ const MiningShopSell = [
   {
     itemName: "item_ore_stone",
     label: "Stone",
-    singlePrice: STONE_ORE_SELL_PRICE,
+    singlePrice: Math.floor(STONE_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_ore_sulfur",
     label: "Sulfur",
-    singlePrice: SULFUR_ORE_SELL_PRICE,
+    singlePrice: Math.floor(SULFUR_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_ore_coal",
     label: "Coal",
-    singlePrice: COAL_ORE_SELL_PRICE,
+    singlePrice: Math.floor(COAL_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_ore_iron",
     label: "Iron Ore",
-    singlePrice: IRON_ORE_SELL_PRICE,
+    singlePrice: Math.floor(IRON_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_ore_gold",
     label: "Gold Ore",
-    singlePrice: GOLD_ORE_SELL_PRICE,
+    singlePrice: Math.floor(GOLD_ORE_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_bar_iron",
     label: "Iron Bar",
-    singlePrice: IRON_BAR_SELL_PRICE,
+    singlePrice: Math.floor(IRON_BAR_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_bar_gold",
     label: "Gold Bar",
-    singlePrice: GOLD_BAR_SELL_PRICE,
+    singlePrice: Math.floor(GOLD_BAR_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_bar_gildiron",
     label: "Gilded Iron Bar",
-    singlePrice: GILDED_IRON_SELL_PRICE,
+    singlePrice: Math.floor(GILDED_IRON_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_bar_auriron",
     label: "Auriron Iron Bar",
-    singlePrice: AURIRON_SELL_PRICE,
+    singlePrice: Math.floor(AURIRON_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_gem_Amberite",
     label: "Amberite gem",
-    singlePrice: AMBERITE_GEM_SELL_PRICE,
+    singlePrice: Math.floor(AMBERITE_GEM_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_gem_aqualith",
     label: "qualith gem",
-    singlePrice: AQUALITH_GEM_SELL_PRICE,
+    singlePrice: Math.floor(AQUALITH_GEM_SELL_PRICE * incomeMulti),
   },
   {
     itemName: "item_gem_luminite",
     label: "luminite gem",
-    singlePrice: LUMINITE_GEM_SELL_PRICE,
+    singlePrice: Math.floor(LUMINITE_GEM_SELL_PRICE * incomeMulti),
   },
 ];
 const zones = {

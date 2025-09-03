@@ -156,7 +156,7 @@ const pickaxes = {
   item_pickaxe_lvl_4: {
     hits: 100,
     reward: [1, 2, 3, 4],
-    chance: [0.2, 0.5, 0.2, 0.1],
+    chance: [0.3, 0.4, 0.2, 0.1],
     repairCostPerHP: Math.floor(4 * costMulti),
   },
 };
@@ -528,7 +528,7 @@ export const miningJobConfig = {
       {
         itemName: "item_pickaxe_lvl_3",
         label: "PICK AXE LVL 3",
-        price: 3.76 * 100, //350 t
+        price: 4.76 * 100, //350 t
         description: `
         ${pickaxes.item_pickaxe_lvl_3.chance[0] * 100} % chance to mine   ${
           pickaxes.item_pickaxe_lvl_3.reward[0]

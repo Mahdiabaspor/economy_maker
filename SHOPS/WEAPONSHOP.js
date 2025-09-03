@@ -1,40 +1,47 @@
 const weaponPriceMMultiplier = 1;
 
 export const weaponShopConfig = [
+    {
+    label: "Vest",
+    itemName: "item_vest_7",
+    category: "Vest",
+    ammoType: null,
+    singlePrice: Math.floor(6000 * weaponPriceMMultiplier),
+  },
   {
     label: "Knife",
     itemName: "item_melee_knife",
     category: "Rifle",
     ammoType: null,
-    singlePrice: Math.floor(14000 * weaponPriceMMultiplier),
+    singlePrice: Math.floor(11200 * weaponPriceMMultiplier),
   },
   {
     label: "Combat Pistol",
     itemName: "item_weapon_combat_pistol",
     category: "Pistol",
     ammoType: "9mm",
-    singlePrice: Math.floor(22000 * weaponPriceMMultiplier),
+    singlePrice: Math.floor(17600 * weaponPriceMMultiplier),
   },
   {
     label: "Smg",
     itemName: "item_weapon_smg",
     category: "Sub MachinGun",
     ammoType: "9mm",
-    singlePrice: Math.floor(35000 * weaponPriceMMultiplier),
+    singlePrice: Math.floor(28000 * weaponPriceMMultiplier),
   },
   {
     label: "Pump Shotgun",
     itemName: "item_weapon_pump_shotgun",
     category: "ShotGun",
     ammoType: "buckshot",
-    singlePrice: Math.floor(40000 * weaponPriceMMultiplier),
+    singlePrice: Math.floor(32000 * weaponPriceMMultiplier),
   },
   {
     label: "Advanced Rifle",
     itemName: "item_weapon_advanced_rifle",
     category: "Rifle",
     ammoType: "5.56mm",
-    singlePrice: Math.floor(55000 * weaponPriceMMultiplier),
+    singlePrice: Math.floor(44000 * weaponPriceMMultiplier),
   },
 
   {
@@ -42,21 +49,21 @@ export const weaponShopConfig = [
     itemName: "item_bullet_5_56_mm",
     category: "Ammo",
     ammoType: null,
-    singlePrice: Math.floor(60 * weaponPriceMMultiplier),
+    singlePrice: Math.floor(40 * weaponPriceMMultiplier),
   },
-  {
-    label: "Bullet 7.62 Mm",
-    itemName: "item_bullet_7_62_mm",
-    category: "Ammo",
-    ammoType: null,
-    singlePrice: Math.floor(300 * weaponPriceMMultiplier),
-  },
+  // {
+  //   label: "Bullet 7.62 Mm",
+  //   itemName: "item_bullet_7_62_mm",
+  //   category: "Ammo",
+  //   ammoType: null,
+  //   singlePrice: Math.floor(300 * weaponPriceMMultiplier),
+  // },
   {
     label: "Bullet 9 Mm",
     itemName: "item_bullet_9_mm",
     category: "Ammo",
     ammoType: null,
-    singlePrice: Math.floor(50 * weaponPriceMMultiplier),
+    singlePrice: Math.floor(30 * weaponPriceMMultiplier),
   },
   {
     label: "Bullet Shoutgun",

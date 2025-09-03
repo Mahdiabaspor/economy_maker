@@ -1,16 +1,16 @@
-const electricSalaryMultiplier = 1.3
+const electricSalaryMultiplier = 1.1
 
 // level 1   36 task per hour
 // for 9000 per hour 
-const Lvl1SingleSalary = Math.floor(250 * electricSalaryMultiplier)
+const Lvl1SingleSalary = Math.floor(572 * (electricSalaryMultiplier + 0.1) )
 
 // level 2   18 task per hour
 // for 13000 per hour for level 2
-const Lvl2SingleSalary = Math.floor( 725 * electricSalaryMultiplier)
+const Lvl2SingleSalary = Math.floor( 942 * electricSalaryMultiplier)
 
 // level 3  24 task per hour
 // for 17000 per hour for level 2
-const Lvl3SingleSalary = Math.floor(710 * electricSalaryMultiplier)
+const Lvl3SingleSalary = Math.floor(953 * electricSalaryMultiplier)
 
 
 // each level 70 exp 
@@ -20,16 +20,16 @@ const Lvl3SingleSalary = Math.floor(710 * electricSalaryMultiplier)
 
 
 const levelRewards = [
-    { id: 1, reward: 2000 },
-    { id: 2, reward: 5000 },
-    { id: 3, reward: 7000 },
-    { id: 4, reward: 8000 },
-    { id: 5, reward: 10000 },
-    { id: 6, reward: 12000 },
-    { id: 7, reward: 14000 },
-    { id: 8, reward: 15000 },
-    { id: 9, reward: 16000 },
-    { id: 10, reward: 17000 }
+    { id: 1, reward: 10000 },
+    { id: 2, reward: 12000 },
+    { id: 3, reward: 14000 },
+    { id: 4, reward: 16000 },
+    { id: 5, reward: 18000 },
+    { id: 6, reward: 20000 },
+    { id: 7, reward: 22000 },
+    { id: 8, reward: 24000 },
+    { id: 9, reward: 26000 },
+    { id: 10, reward: 30000 }
 ]
 
 

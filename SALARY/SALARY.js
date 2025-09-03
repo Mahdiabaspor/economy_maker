@@ -2,14 +2,14 @@ const baseSalary = 14000; // Base income per hour
 
 export const governmentSalary = {
   police: {
-    Cadet: Math.floor((baseSalary * 0.4) / 4),
-    "Police Officer 1": Math.floor((baseSalary * 1.0) / 4),
-    "Police Officer 2": Math.floor((baseSalary * 1.2) / 4),
-    "Police Officer 3": Math.floor((baseSalary * 1.4) / 4),
-    Sergeant: Math.floor((baseSalary * 1.5) / 4),
-    Lieutenant: Math.floor((baseSalary * 1.6) / 4),
-    Deputy: Math.floor((baseSalary * 1.7) / 4),
-    Chief: Math.floor((baseSalary * 1.8) / 4), // کمتر شد
+    Cadet: Math.floor((baseSalary * 0.8) / 4),
+    "Police Officer 1": Math.floor((baseSalary * 1.4) / 4),
+    "Police Officer 2": Math.floor((baseSalary * 1.6) / 4),
+    "Police Officer 3": Math.floor((baseSalary * 1.8) / 4),
+    Sergeant: Math.floor((baseSalary * 1.9) / 4),
+    Lieutenant: Math.floor((baseSalary * 2.0) / 4),
+    Deputy: Math.floor((baseSalary * 2.1) / 4),
+    Chief: Math.floor((baseSalary * 2.2) / 4), // کمتر شد
   },
 
   fbi: {

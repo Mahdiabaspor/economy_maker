@@ -1,4 +1,4 @@
-const drugLabBuyMulti = 1;
+const drugLabBuyMulti = 1.15;
 const drugLabSellMulti = 1;
 const SellToDrugLab = [
   // Raw materials (lowest value)

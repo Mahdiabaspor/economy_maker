@@ -131,10 +131,10 @@ export const SMG_PRICE = 35000; // Shop price
 export const ADVANCED_RIFLE_PRICE = 55000; // Shop price
 
 // Ammo
-export const AMMO_556_PRICE = 60;
+export const AMMO_556_PRICE = 20;
 export const AMMO_762_PRICE = 300; // Updated from WEAPONSHOP.js
-export const AMMO_9MM_PRICE = 50; // Updated from WEAPONSHOP.js
-export const AMMO_BUCKSHOT_PRICE = 80; // Updated from WEAPONSHOP.js (item_bullet_shotgun)
+export const AMMO_9MM_PRICE = 10; // Updated from WEAPONSHOP.js
+export const AMMO_BUCKSHOT_PRICE = 30; // Updated from WEAPONSHOP.js (item_bullet_shotgun)
 
 // ===== ITEM MAP =====
 // This object allows you to look up prices by item name

@@ -1,4 +1,4 @@
-const multi = 1.25
+const multi = 0.7
 
 const Tattoos = [
     {
@@ -9,7 +9,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Airraces_Tattoo_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13205 * multi,
+        Price:Math.floor( 13205 * multi),
     },
     {
         collection: 'mpairraces_overlays',
@@ -19,7 +19,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Airraces_Tattoo_001_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18105 * multi,
+        Price:Math.floor( 18105 * multi),
     },
     {
         collection: 'mpairraces_overlays',
@@ -29,7 +29,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Airraces_Tattoo_002_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16485 * multi,
+        Price:Math.floor( 16485 * multi),
     },
     {
         collection: 'mpairraces_overlays',
@@ -39,7 +39,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Airraces_Tattoo_003_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 11985 * multi,
+        Price:Math.floor( 11985 * multi),
     },
     {
         collection: 'mpairraces_overlays',
@@ -49,7 +49,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Airraces_Tattoo_004_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10390 * multi,
+        Price:Math.floor( 10390 * multi),
     },
     {
         collection: 'mpairraces_overlays',
@@ -59,7 +59,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Airraces_Tattoo_005_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 15270 * multi,
+        Price:Math.floor( 15270 * multi),
     },
     {
         collection: 'mpairraces_overlays',
@@ -69,7 +69,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Airraces_Tattoo_006_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12520 * multi,
+        Price:Math.floor( 12520 * multi),
     },
     {
         collection: 'mpairraces_overlays',
@@ -79,7 +79,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Airraces_Tattoo_007_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13925 * multi,
+        Price:Math.floor( 13925 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -89,7 +89,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7250 * multi,
+        Price:Math.floor( 7250 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -99,7 +99,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5800 * multi,
+        Price:Math.floor( 5800 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -109,7 +109,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5900 * multi,
+        Price:Math.floor( 5900 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -119,7 +119,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 12000 * multi,
+        Price:Math.floor( 12000 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -129,7 +129,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 1450 * multi,
+        Price:Math.floor( 1450 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -139,7 +139,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 1850 * multi,
+        Price:Math.floor( 1850 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -149,7 +149,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 4450 * multi,
+        Price:Math.floor( 4450 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -159,7 +159,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 6500 * multi,
+        Price:Math.floor( 6500 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -169,7 +169,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 6200 * multi,
+        Price:Math.floor( 6200 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -179,7 +179,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 4800 * multi,
+        Price:Math.floor( 4800 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -189,7 +189,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 6600 * multi,
+        Price:Math.floor( 6600 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -199,7 +199,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 1650 * multi,
+        Price:Math.floor( 1650 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -209,7 +209,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 2250 * multi,
+        Price:Math.floor( 2250 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -219,7 +219,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 7000 * multi,
+        Price:Math.floor( 7000 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -229,7 +229,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 3100 * multi,
+        Price:Math.floor( 3100 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -239,7 +239,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5500 * multi,
+        Price:Math.floor( 5500 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -249,7 +249,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Back_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5500 * multi,
+        Price:Math.floor( 5500 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -259,7 +259,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Back_001',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6900 * multi,
+        Price:Math.floor( 6900 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -269,7 +269,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Back_002',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2500 * multi,
+        Price:Math.floor( 2500 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -279,7 +279,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Chest_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2500 * multi,
+        Price:Math.floor( 2500 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -289,7 +289,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Chest_001',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2500 * multi,
+        Price:Math.floor( 2500 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -299,7 +299,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Chest_002',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8500 * multi,
+        Price:Math.floor( 8500 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -309,7 +309,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_RSide_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6850 * multi,
+        Price:Math.floor( 6850 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -319,7 +319,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_RLeg_000',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 2950 * multi,
+        Price:Math.floor( 2950 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -329,7 +329,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_RArm_001',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 3700 * multi,
+        Price:Math.floor( 3700 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -339,7 +339,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Neck_000',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 1700 * multi,
+        Price:Math.floor( 1700 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -349,7 +349,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Should_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5100 * multi,
+        Price:Math.floor( 5100 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -359,7 +359,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Should_001',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5250 * multi,
+        Price:Math.floor( 5250 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -369,7 +369,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Stom_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2100 * multi,
+        Price:Math.floor( 2100 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -379,7 +379,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Stom_001',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2650 * multi,
+        Price:Math.floor( 2650 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -389,7 +389,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_Stom_002',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1900 * multi,
+        Price:Math.floor( 1900 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -399,7 +399,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_LArm_000',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 3500 * multi,
+        Price:Math.floor( 3500 * multi),
     },
     {
         collection: 'mpbeach_overlays',
@@ -409,7 +409,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Bea_F_LArm_001',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 5250 * multi,
+        Price:Math.floor( 5250 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -419,7 +419,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6720 * multi,
+        Price:Math.floor( 6720 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -429,7 +429,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_001_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10800 * multi,
+        Price:Math.floor( 10800 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -439,7 +439,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_002_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 16820 * multi,
+        Price:Math.floor( 16820 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -449,7 +449,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_003_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10850 * multi,
+        Price:Math.floor( 10850 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -459,7 +459,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_004_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 17950 * multi,
+        Price:Math.floor( 17950 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -469,7 +469,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_005_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9230 * multi,
+        Price:Math.floor( 9230 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -479,7 +479,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_006_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10400 * multi,
+        Price:Math.floor( 10400 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -489,7 +489,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_007_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 5100 * multi,
+        Price:Math.floor( 5100 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -499,7 +499,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_008_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8785 * multi,
+        Price:Math.floor( 8785 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -509,7 +509,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_009_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 6350 * multi,
+        Price:Math.floor( 6350 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -519,7 +519,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_010_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11350 * multi,
+        Price:Math.floor( 11350 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -529,7 +529,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_011_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12350 * multi,
+        Price:Math.floor( 12350 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -539,7 +539,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_012_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 4985 * multi,
+        Price:Math.floor( 4985 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -549,7 +549,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_013_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11140 * multi,
+        Price:Math.floor( 11140 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -559,7 +559,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_014_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 8300 * multi,
+        Price:Math.floor( 8300 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -569,7 +569,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_015_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 8975 * multi,
+        Price:Math.floor( 8975 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -579,7 +579,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_016_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 9000 * multi,
+        Price:Math.floor( 9000 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -589,7 +589,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_017_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 15650 * multi,
+        Price:Math.floor( 15650 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -599,7 +599,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_018_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7650 * multi,
+        Price:Math.floor( 7650 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -609,7 +609,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_019_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9900 * multi,
+        Price:Math.floor( 9900 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -619,7 +619,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_020_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 9745 * multi,
+        Price:Math.floor( 9745 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -629,7 +629,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_021_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13700 * multi,
+        Price:Math.floor( 13700 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -639,7 +639,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_022_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 9385 * multi,
+        Price:Math.floor( 9385 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -649,7 +649,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_023_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -659,7 +659,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_024_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 15320 * multi,
+        Price:Math.floor( 15320 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -669,7 +669,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_025_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 12950 * multi,
+        Price:Math.floor( 12950 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -679,7 +679,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_026_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11000 * multi,
+        Price:Math.floor( 11000 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -689,7 +689,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_027_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 6960 * multi,
+        Price:Math.floor( 6960 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -699,7 +699,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_028_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 14520 * multi,
+        Price:Math.floor( 14520 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -709,7 +709,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_029_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9630 * multi,
+        Price:Math.floor( 9630 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -719,7 +719,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_030_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9810 * multi,
+        Price:Math.floor( 9810 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -729,7 +729,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_031_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8600 * multi,
+        Price:Math.floor( 8600 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -739,7 +739,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_032_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7655 * multi,
+        Price:Math.floor( 7655 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -749,7 +749,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_033_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4385 * multi,
+        Price:Math.floor( 4385 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -759,7 +759,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_034_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9975 * multi,
+        Price:Math.floor( 9975 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -769,7 +769,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_035_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 5780 * multi,
+        Price:Math.floor( 5780 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -779,7 +779,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_036_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 9300 * multi,
+        Price:Math.floor( 9300 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -789,7 +789,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_037_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 12495 * multi,
+        Price:Math.floor( 12495 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -799,7 +799,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_038_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 3900 * multi,
+        Price:Math.floor( 3900 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -809,7 +809,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_039_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10950 * multi,
+        Price:Math.floor( 10950 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -819,7 +819,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_040_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 13620 * multi,
+        Price:Math.floor( 13620 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -829,7 +829,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_041_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8320 * multi,
+        Price:Math.floor( 8320 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -839,7 +839,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_042_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 7865 * multi,
+        Price:Math.floor( 7865 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -849,7 +849,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_043_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6850 * multi,
+        Price:Math.floor( 6850 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -859,7 +859,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_044_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 11900 * multi,
+        Price:Math.floor( 11900 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -869,7 +869,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_045_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 6320 * multi,
+        Price:Math.floor( 6320 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -879,7 +879,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_046_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4985 * multi,
+        Price:Math.floor( 4985 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -889,7 +889,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_047_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 13500 * multi,
+        Price:Math.floor( 13500 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -899,7 +899,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_048_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 8930 * multi,
+        Price:Math.floor( 8930 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -909,7 +909,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_049_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 8790 * multi,
+        Price:Math.floor( 8790 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -919,7 +919,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_050_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8720 * multi,
+        Price:Math.floor( 8720 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -929,7 +929,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_051_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 4125 * multi,
+        Price:Math.floor( 4125 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -939,7 +939,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_052_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9135 * multi,
+        Price:Math.floor( 9135 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -949,7 +949,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_053_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 8400 * multi,
+        Price:Math.floor( 8400 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -959,7 +959,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_054_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 10450 * multi,
+        Price:Math.floor( 10450 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -969,7 +969,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_055_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 10995 * multi,
+        Price:Math.floor( 10995 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -979,7 +979,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_056_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 14960 * multi,
+        Price:Math.floor( 14960 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -989,7 +989,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_057_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 13865 * multi,
+        Price:Math.floor( 13865 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -999,7 +999,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_058_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7985 * multi,
+        Price:Math.floor( 7985 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -1009,7 +1009,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_059_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6395 * multi,
+        Price:Math.floor( 6395 * multi),
     },
     {
         collection: 'mpbiker_overlays',
@@ -1019,7 +1019,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Biker_Tat_060_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7105 * multi,
+        Price:Math.floor( 7105 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1029,7 +1029,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 5000 * multi,
+        Price:Math.floor( 5000 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1039,7 +1039,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 1600 * multi,
+        Price:Math.floor( 1600 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1049,7 +1049,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 1750 * multi,
+        Price:Math.floor( 1750 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1059,7 +1059,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 6900 * multi,
+        Price:Math.floor( 6900 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1069,7 +1069,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 3500 * multi,
+        Price:Math.floor( 3500 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1079,7 +1079,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 7300 * multi,
+        Price:Math.floor( 7300 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1089,7 +1089,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4800 * multi,
+        Price:Math.floor( 4800 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1099,7 +1099,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 1500 * multi,
+        Price:Math.floor( 1500 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1109,7 +1109,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6400 * multi,
+        Price:Math.floor( 6400 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1119,7 +1119,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 3250 * multi,
+        Price:Math.floor( 3250 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1129,7 +1129,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 3500 * multi,
+        Price:Math.floor( 3500 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1139,7 +1139,7 @@ const Tattoos = [
         HashNameFemale: '',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5500 * multi,
+        Price:Math.floor( 5500 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1149,7 +1149,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Chest_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7000 * multi,
+        Price:Math.floor( 7000 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1159,7 +1159,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Chest_001',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7200 * multi,
+        Price:Math.floor( 7200 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1169,7 +1169,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Chest_002',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1600 * multi,
+        Price:Math.floor( 1600 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1179,7 +1179,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Stom_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6800 * multi,
+        Price:Math.floor( 6800 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1189,7 +1189,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Stom_001',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1800 * multi,
+        Price:Math.floor( 1800 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1199,7 +1199,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Stom_002',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1500 * multi,
+        Price:Math.floor( 1500 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1209,7 +1209,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Back_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 4200 * multi,
+        Price:Math.floor( 4200 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1219,7 +1219,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Back_001',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 4000 * multi,
+        Price:Math.floor( 4000 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1229,7 +1229,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Neck_000',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 1900 * multi,
+        Price:Math.floor( 1900 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1239,7 +1239,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_Neck_001',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 2500 * multi,
+        Price:Math.floor( 2500 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1249,7 +1249,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_RArm_000',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4900 * multi,
+        Price:Math.floor( 4900 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1259,7 +1259,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_LArm_000',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 5500 * multi,
+        Price:Math.floor( 5500 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1269,7 +1269,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_LLeg_000',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 4850 * multi,
+        Price:Math.floor( 4850 * multi),
     },
     {
         collection: 'mpbusiness_overlays',
@@ -1279,7 +1279,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Buis_F_RLeg_000',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 4500 * multi,
+        Price:Math.floor( 4500 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1289,7 +1289,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_000',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 5950 * multi,
+        Price:Math.floor( 5950 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1299,7 +1299,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_001',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 4650 * multi,
+        Price:Math.floor( 4650 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1309,7 +1309,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_002',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 6350 * multi,
+        Price:Math.floor( 6350 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1319,7 +1319,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_003',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 8450 * multi,
+        Price:Math.floor( 8450 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1329,7 +1329,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_004',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 13250 * multi,
+        Price:Math.floor( 13250 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1339,7 +1339,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_005',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8750 * multi,
+        Price:Math.floor( 8750 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1349,7 +1349,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_006',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 14500 * multi,
+        Price:Math.floor( 14500 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1359,7 +1359,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_007',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 3950 * multi,
+        Price:Math.floor( 3950 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1369,7 +1369,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_008',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4300 * multi,
+        Price:Math.floor( 4300 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1379,7 +1379,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_009',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7800 * multi,
+        Price:Math.floor( 7800 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1389,7 +1389,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_010',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 6200 * multi,
+        Price:Math.floor( 6200 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1399,7 +1399,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_011',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6850 * multi,
+        Price:Math.floor( 6850 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1409,7 +1409,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_012',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 8250 * multi,
+        Price:Math.floor( 8250 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1419,7 +1419,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_013',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7900 * multi,
+        Price:Math.floor( 7900 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1429,7 +1429,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_014',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 10500 * multi,
+        Price:Math.floor( 10500 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1439,7 +1439,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_015',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11000 * multi,
+        Price:Math.floor( 11000 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1449,7 +1449,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_016',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 3150 * multi,
+        Price:Math.floor( 3150 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1459,7 +1459,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_017',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6350 * multi,
+        Price:Math.floor( 6350 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1469,7 +1469,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_018',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 4300 * multi,
+        Price:Math.floor( 4300 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1479,7 +1479,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_019',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7500 * multi,
+        Price:Math.floor( 7500 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1489,7 +1489,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_020',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 2500 * multi,
+        Price:Math.floor( 2500 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1499,7 +1499,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_021',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 3750 * multi,
+        Price:Math.floor( 3750 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1509,7 +1509,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_022',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 3800 * multi,
+        Price:Math.floor( 3800 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1519,7 +1519,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_023',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 5100 * multi,
+        Price:Math.floor( 5100 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1529,7 +1529,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_024',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 2100 * multi,
+        Price:Math.floor( 2100 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1539,7 +1539,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_025',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 4600 * multi,
+        Price:Math.floor( 4600 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1549,7 +1549,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_026',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 1300 * multi,
+        Price:Math.floor( 1300 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1559,7 +1559,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_027',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 2200 * multi,
+        Price:Math.floor( 2200 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1569,7 +1569,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_028',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5700 * multi,
+        Price:Math.floor( 5700 * multi),
     },
     {
         collection: 'mpchristmas2_overlays',
@@ -1579,7 +1579,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Xmas2_F_Tat_029',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 3150 * multi,
+        Price:Math.floor( 3150 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1589,7 +1589,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_000_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 27600 * multi,
+        Price:Math.floor( 27600 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1599,7 +1599,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_001_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 29500 * multi,
+        Price:Math.floor( 29500 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1609,7 +1609,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_002_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 24100 * multi,
+        Price:Math.floor( 24100 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1619,7 +1619,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_003_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 28500 * multi,
+        Price:Math.floor( 28500 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1629,7 +1629,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_004_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 29100 * multi,
+        Price:Math.floor( 29100 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1639,7 +1639,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_005_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 31200 * multi,
+        Price:Math.floor( 31200 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1649,7 +1649,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_006_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 44800 * multi,
+        Price:Math.floor( 44800 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1659,7 +1659,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_007_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 52000 * multi,
+        Price:Math.floor( 52000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1669,7 +1669,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_008_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 31100 * multi,
+        Price:Math.floor( 31100 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1679,7 +1679,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_009_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 32400 * multi,
+        Price:Math.floor( 32400 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1689,7 +1689,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_010_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 27750 * multi,
+        Price:Math.floor( 27750 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1699,7 +1699,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_011_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 16500 * multi,
+        Price:Math.floor( 16500 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1709,7 +1709,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_012_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 24500 * multi,
+        Price:Math.floor( 24500 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1719,7 +1719,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_013_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 7000 * multi,
+        Price:Math.floor( 7000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1729,7 +1729,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_014_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 62250 * multi,
+        Price:Math.floor( 62250 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1739,7 +1739,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_015_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 42600 * multi,
+        Price:Math.floor( 42600 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1749,7 +1749,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_016_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 39600 * multi,
+        Price:Math.floor( 39600 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1759,7 +1759,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_017_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 41000 * multi,
+        Price:Math.floor( 41000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1769,7 +1769,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_018_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 38000 * multi,
+        Price:Math.floor( 38000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1779,7 +1779,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_019_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 44450 * multi,
+        Price:Math.floor( 44450 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1789,7 +1789,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_020_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 14450 * multi,
+        Price:Math.floor( 14450 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1799,7 +1799,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_021_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 42950 * multi,
+        Price:Math.floor( 42950 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1809,7 +1809,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_022_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 32900 * multi,
+        Price:Math.floor( 32900 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1819,7 +1819,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_023_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 49950 * multi,
+        Price:Math.floor( 49950 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1829,7 +1829,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_024_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 27900 * multi,
+        Price:Math.floor( 27900 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1839,7 +1839,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_025_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 64900 * multi,
+        Price:Math.floor( 64900 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1849,7 +1849,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_026_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 29150 * multi,
+        Price:Math.floor( 29150 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1859,7 +1859,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_027_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 23300 * multi,
+        Price:Math.floor( 23300 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1869,7 +1869,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_028_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 14500 * multi,
+        Price:Math.floor( 14500 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1879,7 +1879,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_029_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 19850 * multi,
+        Price:Math.floor( 19850 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1889,7 +1889,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_030_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 26550 * multi,
+        Price:Math.floor( 26550 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1899,7 +1899,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_031_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 24200 * multi,
+        Price:Math.floor( 24200 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1909,7 +1909,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_032_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 27800 * multi,
+        Price:Math.floor( 27800 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1919,7 +1919,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_033_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 27950 * multi,
+        Price:Math.floor( 27950 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1929,7 +1929,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_034_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 32450 * multi,
+        Price:Math.floor( 32450 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1939,7 +1939,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_035_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 31650 * multi,
+        Price:Math.floor( 31650 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1949,7 +1949,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_036_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 34400 * multi,
+        Price:Math.floor( 34400 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1959,7 +1959,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_037_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 17500 * multi,
+        Price:Math.floor( 17500 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1969,7 +1969,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_038_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 19950 * multi,
+        Price:Math.floor( 19950 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1979,7 +1979,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_039_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 29900 * multi,
+        Price:Math.floor( 29900 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1989,7 +1989,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_040_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -1999,7 +1999,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_041_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2009,7 +2009,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_042_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2019,7 +2019,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_043_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2029,7 +2029,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_044_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2039,7 +2039,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_045_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 0 * multi,
+        Price:Math.floor( 0 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2049,7 +2049,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_046_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2059,7 +2059,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_047_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2069,7 +2069,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_048_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2079,7 +2079,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_049_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2089,7 +2089,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_050_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas3_overlays',
@@ -2099,7 +2099,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas3_Tat_051_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2109,7 +2109,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13500 * multi,
+        Price:Math.floor( 13500 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2119,7 +2119,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_001_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 17260 * multi,
+        Price:Math.floor( 17260 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2129,7 +2129,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_002_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18360 * multi,
+        Price:Math.floor( 18360 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2139,7 +2139,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_003_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 17780 * multi,
+        Price:Math.floor( 17780 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2149,7 +2149,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_004_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 20400 * multi,
+        Price:Math.floor( 20400 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2159,7 +2159,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_005_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 52660 * multi,
+        Price:Math.floor( 52660 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2169,7 +2169,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_006_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 22030 * multi,
+        Price:Math.floor( 22030 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2179,7 +2179,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_007_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 19670 * multi,
+        Price:Math.floor( 19670 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2189,7 +2189,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_008_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 36800 * multi,
+        Price:Math.floor( 36800 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2199,7 +2199,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_009_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 23870 * multi,
+        Price:Math.floor( 23870 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2209,7 +2209,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_010_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 49540 * multi,
+        Price:Math.floor( 49540 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2219,7 +2219,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_011_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 53950 * multi,
+        Price:Math.floor( 53950 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2229,7 +2229,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_012_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 21190 * multi,
+        Price:Math.floor( 21190 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2239,7 +2239,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_013_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 22930 * multi,
+        Price:Math.floor( 22930 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2249,7 +2249,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_014_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 11860 * multi,
+        Price:Math.floor( 11860 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2259,7 +2259,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_015_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 50460 * multi,
+        Price:Math.floor( 50460 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2269,7 +2269,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_016_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 51500 * multi,
+        Price:Math.floor( 51500 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2279,7 +2279,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_017_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 32080 * multi,
+        Price:Math.floor( 32080 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2289,7 +2289,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_018_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 34410 * multi,
+        Price:Math.floor( 34410 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2299,7 +2299,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_019_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16780 * multi,
+        Price:Math.floor( 16780 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2309,7 +2309,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_020_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 46890 * multi,
+        Price:Math.floor( 46890 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2319,7 +2319,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_021_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 24870 * multi,
+        Price:Math.floor( 24870 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2329,7 +2329,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_022_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 29970 * multi,
+        Price:Math.floor( 29970 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2339,7 +2339,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_023_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 39240 * multi,
+        Price:Math.floor( 39240 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2349,7 +2349,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_024_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 41740 * multi,
+        Price:Math.floor( 41740 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2359,7 +2359,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_025_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 27560 * multi,
+        Price:Math.floor( 27560 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2369,7 +2369,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_026_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18980 * multi,
+        Price:Math.floor( 18980 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2379,7 +2379,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_027_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 44280 * multi,
+        Price:Math.floor( 44280 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2389,7 +2389,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_028_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 15150 * multi,
+        Price:Math.floor( 15150 * multi),
     },
     {
         collection: 'mpchristmas2017_overlays',
@@ -2399,7 +2399,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2017_Tattoo_029_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 25920 * multi,
+        Price:Math.floor( 25920 * multi),
     },
     {
         collection: 'mpchristmas2018_overlays',
@@ -2409,7 +2409,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Christmas2018_Tat_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 100 * multi,
+        Price:Math.floor( 100 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2419,7 +2419,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16985 * multi,
+        Price:Math.floor( 16985 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2429,7 +2429,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_001_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 19355 * multi,
+        Price:Math.floor( 19355 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2439,7 +2439,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_002_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 14650 * multi,
+        Price:Math.floor( 14650 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2449,7 +2449,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_003_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 8750 * multi,
+        Price:Math.floor( 8750 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2459,7 +2459,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_004_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 11285 * multi,
+        Price:Math.floor( 11285 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2469,7 +2469,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_005_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 9120 * multi,
+        Price:Math.floor( 9120 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2479,7 +2479,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_006_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 10670 * multi,
+        Price:Math.floor( 10670 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2489,7 +2489,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_007_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 9660 * multi,
+        Price:Math.floor( 9660 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2499,7 +2499,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_008_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 13445 * multi,
+        Price:Math.floor( 13445 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2509,7 +2509,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_009_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 14650 * multi,
+        Price:Math.floor( 14650 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2519,7 +2519,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_010_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 19050 * multi,
+        Price:Math.floor( 19050 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2529,7 +2529,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_011_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 9785 * multi,
+        Price:Math.floor( 9785 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2539,7 +2539,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_012_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 15060 * multi,
+        Price:Math.floor( 15060 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2549,7 +2549,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_013_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16115 * multi,
+        Price:Math.floor( 16115 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2559,7 +2559,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_014_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 17200 * multi,
+        Price:Math.floor( 17200 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2569,7 +2569,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_015_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 10425 * multi,
+        Price:Math.floor( 10425 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2579,7 +2579,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_016_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 10360 * multi,
+        Price:Math.floor( 10360 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2589,7 +2589,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_017_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8980 * multi,
+        Price:Math.floor( 8980 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2599,7 +2599,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_018_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 17755 * multi,
+        Price:Math.floor( 17755 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2609,7 +2609,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_019_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18025 * multi,
+        Price:Math.floor( 18025 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2619,7 +2619,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_020_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 19875 * multi,
+        Price:Math.floor( 19875 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2629,7 +2629,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_021_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 9460 * multi,
+        Price:Math.floor( 9460 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2639,7 +2639,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_022_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10825 * multi,
+        Price:Math.floor( 10825 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2649,7 +2649,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_023_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 8880 * multi,
+        Price:Math.floor( 8880 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2659,7 +2659,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_024_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 10340 * multi,
+        Price:Math.floor( 10340 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2669,7 +2669,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_025_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 12150 * multi,
+        Price:Math.floor( 12150 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2679,7 +2679,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_026_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 11510 * multi,
+        Price:Math.floor( 11510 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2689,7 +2689,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_027_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 8420 * multi,
+        Price:Math.floor( 8420 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2699,7 +2699,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_028_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9960 * multi,
+        Price:Math.floor( 9960 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2709,7 +2709,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_029_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 14090 * multi,
+        Price:Math.floor( 14090 * multi),
     },
     {
         collection: 'mpgunrunning_overlays',
@@ -2719,7 +2719,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Gunrunning_Tattoo_030_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 11050 * multi,
+        Price:Math.floor( 11050 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2729,7 +2729,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_000_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 20750 * multi,
+        Price:Math.floor( 20750 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2739,7 +2739,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_001_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 15725 * multi,
+        Price:Math.floor( 15725 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2749,7 +2749,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_002_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 17200 * multi,
+        Price:Math.floor( 17200 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2759,7 +2759,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_003_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 16650 * multi,
+        Price:Math.floor( 16650 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2769,7 +2769,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_004_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 18100 * multi,
+        Price:Math.floor( 18100 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2779,7 +2779,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_005_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 14500 * multi,
+        Price:Math.floor( 14500 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2789,7 +2789,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_006_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 16950 * multi,
+        Price:Math.floor( 16950 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2799,7 +2799,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_007_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 24800 * multi,
+        Price:Math.floor( 24800 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2809,7 +2809,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_008_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 21350 * multi,
+        Price:Math.floor( 21350 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2819,7 +2819,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_009_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 18850 * multi,
+        Price:Math.floor( 18850 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2829,7 +2829,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_010_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 14950 * multi,
+        Price:Math.floor( 14950 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2839,7 +2839,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_011_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 23900 * multi,
+        Price:Math.floor( 23900 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2849,7 +2849,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_012_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 22850 * multi,
+        Price:Math.floor( 22850 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2859,7 +2859,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_013_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 11200 * multi,
+        Price:Math.floor( 11200 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2869,7 +2869,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_014_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 11500 * multi,
+        Price:Math.floor( 11500 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2879,7 +2879,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_015_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 15850 * multi,
+        Price:Math.floor( 15850 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2889,7 +2889,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_016_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 13900 * multi,
+        Price:Math.floor( 13900 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2899,7 +2899,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_017_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 16050 * multi,
+        Price:Math.floor( 16050 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2909,7 +2909,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_018_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 24600 * multi,
+        Price:Math.floor( 24600 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2919,7 +2919,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_019_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 20050 * multi,
+        Price:Math.floor( 20050 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2929,7 +2929,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_020_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 21200 * multi,
+        Price:Math.floor( 21200 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2939,7 +2939,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_021_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 23700 * multi,
+        Price:Math.floor( 23700 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2949,7 +2949,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_022_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 20900 * multi,
+        Price:Math.floor( 20900 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2959,7 +2959,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_023_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 40500 * multi,
+        Price:Math.floor( 40500 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2969,7 +2969,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_024_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 75000 * multi,
+        Price:Math.floor( 75000 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2979,7 +2979,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_025_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 32500 * multi,
+        Price:Math.floor( 32500 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2989,7 +2989,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_026_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30300 * multi,
+        Price:Math.floor( 30300 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -2999,7 +2999,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_027_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 64800 * multi,
+        Price:Math.floor( 64800 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3009,7 +3009,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_028_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 52000 * multi,
+        Price:Math.floor( 52000 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3019,7 +3019,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_029_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 33900 * multi,
+        Price:Math.floor( 33900 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3029,7 +3029,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_030_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 36000 * multi,
+        Price:Math.floor( 36000 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3039,7 +3039,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_031_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 39250 * multi,
+        Price:Math.floor( 39250 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3049,7 +3049,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_032_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 42600 * multi,
+        Price:Math.floor( 42600 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3059,7 +3059,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_033_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 28200 * multi,
+        Price:Math.floor( 28200 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3069,7 +3069,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_034_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 15150 * multi,
+        Price:Math.floor( 15150 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3079,7 +3079,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_035_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 23900 * multi,
+        Price:Math.floor( 23900 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3089,7 +3089,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_036_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30400 * multi,
+        Price:Math.floor( 30400 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3099,7 +3099,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_037_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 24100 * multi,
+        Price:Math.floor( 24100 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3109,7 +3109,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_038_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 52400 * multi,
+        Price:Math.floor( 52400 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3119,7 +3119,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_039_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 49700 * multi,
+        Price:Math.floor( 49700 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3129,7 +3129,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_040_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 22600 * multi,
+        Price:Math.floor( 22600 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3139,7 +3139,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_041_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 37600 * multi,
+        Price:Math.floor( 37600 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3149,7 +3149,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_042_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 14400 * multi,
+        Price:Math.floor( 14400 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3159,7 +3159,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_043_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 14300 * multi,
+        Price:Math.floor( 14300 * multi),
     },
     {
         collection: 'mpheist3_overlays',
@@ -3169,7 +3169,7 @@ const Tattoos = [
         HashNameFemale: 'mpHeist3_Tat_044_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 14200 * multi,
+        Price:Math.floor( 14200 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3179,7 +3179,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_000_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 26400 * multi,
+        Price:Math.floor( 26400 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3189,7 +3189,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_001_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 38550 * multi,
+        Price:Math.floor( 38550 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3199,7 +3199,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_002_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 28500 * multi,
+        Price:Math.floor( 28500 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3209,7 +3209,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_003_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 34650 * multi,
+        Price:Math.floor( 34650 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3219,7 +3219,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_004_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 39150 * multi,
+        Price:Math.floor( 39150 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3229,7 +3229,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_005_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 27000 * multi,
+        Price:Math.floor( 27000 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3239,7 +3239,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_006_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 27000 * multi,
+        Price:Math.floor( 27000 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3249,7 +3249,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_007_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 22450 * multi,
+        Price:Math.floor( 22450 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3259,7 +3259,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_008_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 18550 * multi,
+        Price:Math.floor( 18550 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3269,7 +3269,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_009_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 25650 * multi,
+        Price:Math.floor( 25650 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3279,7 +3279,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_010_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 26550 * multi,
+        Price:Math.floor( 26550 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3289,7 +3289,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_011_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 27000 * multi,
+        Price:Math.floor( 27000 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3299,7 +3299,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_012_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 27000 * multi,
+        Price:Math.floor( 27000 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3309,7 +3309,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_013_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 40100 * multi,
+        Price:Math.floor( 40100 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3319,7 +3319,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_014_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 42300 * multi,
+        Price:Math.floor( 42300 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3329,7 +3329,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_015_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 61100 * multi,
+        Price:Math.floor( 61100 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3339,7 +3339,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_016_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 48850 * multi,
+        Price:Math.floor( 48850 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3349,7 +3349,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_017_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 57750 * multi,
+        Price:Math.floor( 57750 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3359,7 +3359,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_018_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 49900 * multi,
+        Price:Math.floor( 49900 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3369,7 +3369,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_019_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 31500 * multi,
+        Price:Math.floor( 31500 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3379,7 +3379,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_020_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 40500 * multi,
+        Price:Math.floor( 40500 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3389,7 +3389,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_021_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 64350 * multi,
+        Price:Math.floor( 64350 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3399,7 +3399,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_022_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 46770 * multi,
+        Price:Math.floor( 46770 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3409,7 +3409,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_023_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30450 * multi,
+        Price:Math.floor( 30450 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3419,7 +3419,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_024_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 27800 * multi,
+        Price:Math.floor( 27800 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3429,7 +3429,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_025_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 26700 * multi,
+        Price:Math.floor( 26700 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3439,7 +3439,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_026_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 37000 * multi,
+        Price:Math.floor( 37000 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3449,7 +3449,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_027_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 24350 * multi,
+        Price:Math.floor( 24350 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3459,7 +3459,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_028_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 28950 * multi,
+        Price:Math.floor( 28950 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3469,7 +3469,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_029_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 17850 * multi,
+        Price:Math.floor( 17850 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3479,7 +3479,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_030_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 37950 * multi,
+        Price:Math.floor( 37950 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3489,7 +3489,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_031_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 31600 * multi,
+        Price:Math.floor( 31600 * multi),
     },
     {
         collection: 'mpheist4_overlays',
@@ -3499,7 +3499,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Heist4_Tat_032_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 27000 * multi,
+        Price:Math.floor( 27000 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3509,7 +3509,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_000',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6750 * multi,
+        Price:Math.floor( 6750 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3519,7 +3519,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_001',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 2000 * multi,
+        Price:Math.floor( 2000 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3529,7 +3529,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_002',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2900 * multi,
+        Price:Math.floor( 2900 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3539,7 +3539,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_003',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 2100 * multi,
+        Price:Math.floor( 2100 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3549,7 +3549,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_004',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 2900 * multi,
+        Price:Math.floor( 2900 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3559,7 +3559,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_005',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 7450 * multi,
+        Price:Math.floor( 7450 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3569,7 +3569,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_006',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 4550 * multi,
+        Price:Math.floor( 4550 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3579,7 +3579,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_007',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 6000 * multi,
+        Price:Math.floor( 6000 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3589,7 +3589,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_008',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4850 * multi,
+        Price:Math.floor( 4850 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3599,7 +3599,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_009',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 4000 * multi,
+        Price:Math.floor( 4000 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3609,7 +3609,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_010',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 3150 * multi,
+        Price:Math.floor( 3150 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3619,7 +3619,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_011',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 3000 * multi,
+        Price:Math.floor( 3000 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3629,7 +3629,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_012',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6500 * multi,
+        Price:Math.floor( 6500 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3639,7 +3639,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_013',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6950 * multi,
+        Price:Math.floor( 6950 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3649,7 +3649,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_014',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4300 * multi,
+        Price:Math.floor( 4300 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3659,7 +3659,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_015',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 3400 * multi,
+        Price:Math.floor( 3400 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3669,7 +3669,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_016',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 3700 * multi,
+        Price:Math.floor( 3700 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3679,7 +3679,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_017',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 2650 * multi,
+        Price:Math.floor( 2650 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3689,7 +3689,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_018',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 1800 * multi,
+        Price:Math.floor( 1800 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3699,7 +3699,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_019',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 3400 * multi,
+        Price:Math.floor( 3400 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3709,7 +3709,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_020',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 7350 * multi,
+        Price:Math.floor( 7350 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3719,7 +3719,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_021',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 7850 * multi,
+        Price:Math.floor( 7850 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3729,7 +3729,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_022',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 2250 * multi,
+        Price:Math.floor( 2250 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3739,7 +3739,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_023',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 7000 * multi,
+        Price:Math.floor( 7000 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3749,7 +3749,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_024',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2950 * multi,
+        Price:Math.floor( 2950 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3759,7 +3759,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_025',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 3500 * multi,
+        Price:Math.floor( 3500 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3769,7 +3769,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_026',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 2400 * multi,
+        Price:Math.floor( 2400 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3779,7 +3779,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_027',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 5750 * multi,
+        Price:Math.floor( 5750 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3789,7 +3789,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_028',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 4800 * multi,
+        Price:Math.floor( 4800 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3799,7 +3799,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_029',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1850 * multi,
+        Price:Math.floor( 1850 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3809,7 +3809,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_030',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2250 * multi,
+        Price:Math.floor( 2250 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3819,7 +3819,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_031',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 4950 * multi,
+        Price:Math.floor( 4950 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3829,7 +3829,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_032',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 4350 * multi,
+        Price:Math.floor( 4350 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3839,7 +3839,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_033',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6950 * multi,
+        Price:Math.floor( 6950 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3849,7 +3849,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_034',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 9500 * multi,
+        Price:Math.floor( 9500 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3859,7 +3859,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_035',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7500 * multi,
+        Price:Math.floor( 7500 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3869,7 +3869,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_036',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 5150 * multi,
+        Price:Math.floor( 5150 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3879,7 +3879,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_037',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 3750 * multi,
+        Price:Math.floor( 3750 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3889,7 +3889,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_038',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 3500 * multi,
+        Price:Math.floor( 3500 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3899,7 +3899,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_039',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3909,7 +3909,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_040',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 2950 * multi,
+        Price:Math.floor( 2950 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3919,7 +3919,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_041',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2575 * multi,
+        Price:Math.floor( 2575 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3929,7 +3929,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_042',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 4300 * multi,
+        Price:Math.floor( 4300 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3939,7 +3939,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_043',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 5500 * multi,
+        Price:Math.floor( 5500 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3949,7 +3949,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_044',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 5500 * multi,
+        Price:Math.floor( 5500 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3959,7 +3959,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_045',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4000 * multi,
+        Price:Math.floor( 4000 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3969,7 +3969,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_046',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 3750 * multi,
+        Price:Math.floor( 3750 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3979,7 +3979,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_047',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1900 * multi,
+        Price:Math.floor( 1900 * multi),
     },
     {
         collection: 'mphipster_overlays',
@@ -3989,7 +3989,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Hip_F_Tat_048',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 7850 * multi,
+        Price:Math.floor( 7850 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -3999,7 +3999,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13780 * multi,
+        Price:Math.floor( 13780 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4009,7 +4009,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_001_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12900 * multi,
+        Price:Math.floor( 12900 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4019,7 +4019,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_002_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12120 * multi,
+        Price:Math.floor( 12120 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4029,7 +4029,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_003_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 17200 * multi,
+        Price:Math.floor( 17200 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4039,7 +4039,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_004_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 16350 * multi,
+        Price:Math.floor( 16350 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4049,7 +4049,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_005_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 18615 * multi,
+        Price:Math.floor( 18615 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4059,7 +4059,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_006_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 15720 * multi,
+        Price:Math.floor( 15720 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4069,7 +4069,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_007_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 16685 * multi,
+        Price:Math.floor( 16685 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4079,7 +4079,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_008_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 19900 * multi,
+        Price:Math.floor( 19900 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4089,7 +4089,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_009_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16500 * multi,
+        Price:Math.floor( 16500 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4099,7 +4099,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_010_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 14235 * multi,
+        Price:Math.floor( 14235 * multi),
     },
     {
         collection: 'mpimportexport_overlays',
@@ -4109,7 +4109,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_ImportExport_Tat_011_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 15985 * multi,
+        Price:Math.floor( 15985 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4119,7 +4119,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_001_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6100 * multi,
+        Price:Math.floor( 6100 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4129,7 +4129,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_002_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10250 * multi,
+        Price:Math.floor( 10250 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4139,7 +4139,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_004_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 3500 * multi,
+        Price:Math.floor( 3500 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4149,7 +4149,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_005_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 5900 * multi,
+        Price:Math.floor( 5900 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4159,7 +4159,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_007_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 5500 * multi,
+        Price:Math.floor( 5500 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4169,7 +4169,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_009_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9500 * multi,
+        Price:Math.floor( 9500 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4179,7 +4179,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_010_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16500 * multi,
+        Price:Math.floor( 16500 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4189,7 +4189,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_013_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8300 * multi,
+        Price:Math.floor( 8300 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4199,7 +4199,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_014_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 17750 * multi,
+        Price:Math.floor( 17750 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4209,7 +4209,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_015_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 6150 * multi,
+        Price:Math.floor( 6150 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4219,7 +4219,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_017_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 7700 * multi,
+        Price:Math.floor( 7700 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4229,7 +4229,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_020_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 6850 * multi,
+        Price:Math.floor( 6850 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4239,7 +4239,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_021_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 15000 * multi,
+        Price:Math.floor( 15000 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4249,7 +4249,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_023_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 6500 * multi,
+        Price:Math.floor( 6500 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4259,7 +4259,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_026_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7400 * multi,
+        Price:Math.floor( 7400 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4269,7 +4269,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_027_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 7800 * multi,
+        Price:Math.floor( 7800 * multi),
     },
     {
         collection: 'mplowrider_overlays',
@@ -4279,7 +4279,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_033_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4289,7 +4289,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 19000 * multi,
+        Price:Math.floor( 19000 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4299,7 +4299,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_003_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 5950 * multi,
+        Price:Math.floor( 5950 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4309,7 +4309,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_006_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 7450 * multi,
+        Price:Math.floor( 7450 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4319,7 +4319,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_008_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18750 * multi,
+        Price:Math.floor( 18750 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4329,7 +4329,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_011_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8000 * multi,
+        Price:Math.floor( 8000 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4339,7 +4339,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_012_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7650 * multi,
+        Price:Math.floor( 7650 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4349,7 +4349,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_016_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6400 * multi,
+        Price:Math.floor( 6400 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4359,7 +4359,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_018_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 11000 * multi,
+        Price:Math.floor( 11000 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4369,7 +4369,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_019_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9750 * multi,
+        Price:Math.floor( 9750 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4379,7 +4379,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_022_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 7350 * multi,
+        Price:Math.floor( 7350 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4389,7 +4389,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_028_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 8800 * multi,
+        Price:Math.floor( 8800 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4399,7 +4399,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_029_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 6250 * multi,
+        Price:Math.floor( 6250 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4409,7 +4409,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_030_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 8150 * multi,
+        Price:Math.floor( 8150 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4419,7 +4419,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_031_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16500 * multi,
+        Price:Math.floor( 16500 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4429,7 +4429,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_032_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18500 * multi,
+        Price:Math.floor( 18500 * multi),
     },
     {
         collection: 'mplowrider2_overlays',
@@ -4439,7 +4439,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LR_Tat_035_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 8250 * multi,
+        Price:Math.floor( 8250 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4449,7 +4449,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_000_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 11900 * multi,
+        Price:Math.floor( 11900 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4459,7 +4459,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_001_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 14350 * multi,
+        Price:Math.floor( 14350 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4469,7 +4469,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_003_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8350 * multi,
+        Price:Math.floor( 8350 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4479,7 +4479,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_004_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 12200 * multi,
+        Price:Math.floor( 12200 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4489,7 +4489,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_006_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 25000 * multi,
+        Price:Math.floor( 25000 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4499,7 +4499,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_007_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12450 * multi,
+        Price:Math.floor( 12450 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4509,7 +4509,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_008_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18000 * multi,
+        Price:Math.floor( 18000 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4519,7 +4519,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_009_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 19150 * multi,
+        Price:Math.floor( 19150 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4529,7 +4529,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_013_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 16900 * multi,
+        Price:Math.floor( 16900 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4539,7 +4539,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_014_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18200 * multi,
+        Price:Math.floor( 18200 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4549,7 +4549,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_015_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16250 * multi,
+        Price:Math.floor( 16250 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4559,7 +4559,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_019_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 16850 * multi,
+        Price:Math.floor( 16850 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4569,7 +4569,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_020_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 22500 * multi,
+        Price:Math.floor( 22500 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4579,7 +4579,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_021_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 12850 * multi,
+        Price:Math.floor( 12850 * multi),
     },
     {
         collection: 'mpluxe_overlays',
@@ -4589,7 +4589,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_024_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 27250 * multi,
+        Price:Math.floor( 27250 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4599,7 +4599,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_002_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11000 * multi,
+        Price:Math.floor( 11000 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4609,7 +4609,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_005_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 10250 * multi,
+        Price:Math.floor( 10250 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4619,7 +4619,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_010_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 14650 * multi,
+        Price:Math.floor( 14650 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4629,7 +4629,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_011_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 13250 * multi,
+        Price:Math.floor( 13250 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4639,7 +4639,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_012_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 26500 * multi,
+        Price:Math.floor( 26500 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4649,7 +4649,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_016_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 18600 * multi,
+        Price:Math.floor( 18600 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4659,7 +4659,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_017_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 21550 * multi,
+        Price:Math.floor( 21550 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4669,7 +4669,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_018_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 23400 * multi,
+        Price:Math.floor( 23400 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4679,7 +4679,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_022_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 28500 * multi,
+        Price:Math.floor( 28500 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4689,7 +4689,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_023_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 15600 * multi,
+        Price:Math.floor( 15600 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4699,7 +4699,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_025_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11500 * multi,
+        Price:Math.floor( 11500 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4709,7 +4709,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_026_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 14700 * multi,
+        Price:Math.floor( 14700 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4719,7 +4719,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_027_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12750 * multi,
+        Price:Math.floor( 12750 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4729,7 +4729,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_028_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 11300 * multi,
+        Price:Math.floor( 11300 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4739,7 +4739,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_029_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30000 * multi,
+        Price:Math.floor( 30000 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4749,7 +4749,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_030_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 45000 * multi,
+        Price:Math.floor( 45000 * multi),
     },
     {
         collection: 'mpluxe2_overlays',
@@ -4759,7 +4759,7 @@ const Tattoos = [
         HashNameFemale: 'MP_LUXE_TAT_031_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 43000 * multi,
+        Price:Math.floor( 43000 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4769,7 +4769,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_000_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 23050 * multi,
+        Price:Math.floor( 23050 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4779,7 +4779,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_001_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 21250 * multi,
+        Price:Math.floor( 21250 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4789,7 +4789,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_002_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 23500 * multi,
+        Price:Math.floor( 23500 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4799,7 +4799,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_003_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 16400 * multi,
+        Price:Math.floor( 16400 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4809,7 +4809,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_004_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 57700 * multi,
+        Price:Math.floor( 57700 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4819,7 +4819,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_005_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 35000 * multi,
+        Price:Math.floor( 35000 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4829,7 +4829,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_006_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 16600 * multi,
+        Price:Math.floor( 16600 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4839,7 +4839,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_007_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 21100 * multi,
+        Price:Math.floor( 21100 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4849,7 +4849,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_008_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13700 * multi,
+        Price:Math.floor( 13700 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4859,7 +4859,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_009_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 28800 * multi,
+        Price:Math.floor( 28800 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4869,7 +4869,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_010_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 17000 * multi,
+        Price:Math.floor( 17000 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4879,7 +4879,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_011_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 16700 * multi,
+        Price:Math.floor( 16700 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4889,7 +4889,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_012_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 19500 * multi,
+        Price:Math.floor( 19500 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4899,7 +4899,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_013_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 51200 * multi,
+        Price:Math.floor( 51200 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4909,7 +4909,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_014_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 54400 * multi,
+        Price:Math.floor( 54400 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4919,7 +4919,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_015_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 43200 * multi,
+        Price:Math.floor( 43200 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4929,7 +4929,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_016_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 41800 * multi,
+        Price:Math.floor( 41800 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4939,7 +4939,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_017_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 32300 * multi,
+        Price:Math.floor( 32300 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4949,7 +4949,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_018_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 39800 * multi,
+        Price:Math.floor( 39800 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4959,7 +4959,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_019_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 17800 * multi,
+        Price:Math.floor( 17800 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4969,7 +4969,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_020_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 10200 * multi,
+        Price:Math.floor( 10200 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4979,7 +4979,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_021_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 29600 * multi,
+        Price:Math.floor( 29600 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4989,7 +4989,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_022_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 16100 * multi,
+        Price:Math.floor( 16100 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -4999,7 +4999,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_023_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 24300 * multi,
+        Price:Math.floor( 24300 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -5009,7 +5009,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_024_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 31600 * multi,
+        Price:Math.floor( 31600 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -5019,7 +5019,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_025_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 20400 * multi,
+        Price:Math.floor( 20400 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -5029,7 +5029,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_026_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 27400 * multi,
+        Price:Math.floor( 27400 * multi),
     },
     {
         collection: 'mpsecurity_overlays',
@@ -5039,7 +5039,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Security_Tat_027_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 24800 * multi,
+        Price:Math.floor( 24800 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5049,7 +5049,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11270 * multi,
+        Price:Math.floor( 11270 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5059,7 +5059,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_001_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 10825 * multi,
+        Price:Math.floor( 10825 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5069,7 +5069,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_002_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12430 * multi,
+        Price:Math.floor( 12430 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5079,7 +5079,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_003_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13090 * multi,
+        Price:Math.floor( 13090 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5089,7 +5089,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_004_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 8150 * multi,
+        Price:Math.floor( 8150 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5099,7 +5099,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_005_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 7920 * multi,
+        Price:Math.floor( 7920 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5109,7 +5109,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_006_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9475 * multi,
+        Price:Math.floor( 9475 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5119,7 +5119,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_007_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8525 * multi,
+        Price:Math.floor( 8525 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5129,7 +5129,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_008_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 11045 * multi,
+        Price:Math.floor( 11045 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5139,7 +5139,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_009_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16625 * multi,
+        Price:Math.floor( 16625 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5149,7 +5149,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_010_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12815 * multi,
+        Price:Math.floor( 12815 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5159,7 +5159,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_011_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 8110 * multi,
+        Price:Math.floor( 8110 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5169,7 +5169,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_012_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 10720 * multi,
+        Price:Math.floor( 10720 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5179,7 +5179,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_013_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10540 * multi,
+        Price:Math.floor( 10540 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5189,7 +5189,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_014_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 8825 * multi,
+        Price:Math.floor( 8825 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5199,7 +5199,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_015_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9765 * multi,
+        Price:Math.floor( 9765 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5209,7 +5209,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_016_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13790 * multi,
+        Price:Math.floor( 13790 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5219,7 +5219,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_017_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18850 * multi,
+        Price:Math.floor( 18850 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5229,7 +5229,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_018_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16990 * multi,
+        Price:Math.floor( 16990 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5239,7 +5239,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_019_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11105 * multi,
+        Price:Math.floor( 11105 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5249,7 +5249,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_020_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 9155 * multi,
+        Price:Math.floor( 9155 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5259,7 +5259,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_021_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 14860 * multi,
+        Price:Math.floor( 14860 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5269,7 +5269,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_022_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 16710 * multi,
+        Price:Math.floor( 16710 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5279,7 +5279,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_023_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 14400 * multi,
+        Price:Math.floor( 14400 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5289,7 +5289,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_024_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18210 * multi,
+        Price:Math.floor( 18210 * multi),
     },
     {
         collection: 'mpsmuggler_overlays',
@@ -5299,7 +5299,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Smuggler_Tattoo_025_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 17450 * multi,
+        Price:Math.floor( 17450 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5309,7 +5309,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_Tat_000_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 4850 * multi,
+        Price:Math.floor( 4850 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5319,7 +5319,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_001_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 11600 * multi,
+        Price:Math.floor( 11600 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5329,7 +5329,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_002_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 8850 * multi,
+        Price:Math.floor( 8850 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5339,7 +5339,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_003_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 4300 * multi,
+        Price:Math.floor( 4300 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5349,7 +5349,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_004_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 6350 * multi,
+        Price:Math.floor( 6350 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5359,7 +5359,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_005_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 8850 * multi,
+        Price:Math.floor( 8850 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5369,7 +5369,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_006_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 5900 * multi,
+        Price:Math.floor( 5900 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5379,7 +5379,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_007_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 8150 * multi,
+        Price:Math.floor( 8150 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5389,7 +5389,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_008_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 14750 * multi,
+        Price:Math.floor( 14750 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5399,7 +5399,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_009_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 10800 * multi,
+        Price:Math.floor( 10800 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5409,7 +5409,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_010_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 11000 * multi,
+        Price:Math.floor( 11000 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5419,7 +5419,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_011_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10750 * multi,
+        Price:Math.floor( 10750 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5429,7 +5429,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_012_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11950 * multi,
+        Price:Math.floor( 11950 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5439,7 +5439,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_013_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 15500 * multi,
+        Price:Math.floor( 15500 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5449,7 +5449,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_014_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8300 * multi,
+        Price:Math.floor( 8300 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5459,7 +5459,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_015_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 13400 * multi,
+        Price:Math.floor( 13400 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5469,7 +5469,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_016_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 12950 * multi,
+        Price:Math.floor( 12950 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5479,7 +5479,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_017_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 3800 * multi,
+        Price:Math.floor( 3800 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5489,7 +5489,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_018_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5400 * multi,
+        Price:Math.floor( 5400 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5499,7 +5499,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_019_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8900 * multi,
+        Price:Math.floor( 8900 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5509,7 +5509,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_020_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 6950 * multi,
+        Price:Math.floor( 6950 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5519,7 +5519,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_021_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 21200 * multi,
+        Price:Math.floor( 21200 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5529,7 +5529,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_022_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 16850 * multi,
+        Price:Math.floor( 16850 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5539,7 +5539,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_023_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 18500 * multi,
+        Price:Math.floor( 18500 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5549,7 +5549,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_024_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8650 * multi,
+        Price:Math.floor( 8650 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5559,7 +5559,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_025_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 7200 * multi,
+        Price:Math.floor( 7200 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5569,7 +5569,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_026_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12300 * multi,
+        Price:Math.floor( 12300 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5579,7 +5579,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_027_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8950 * multi,
+        Price:Math.floor( 8950 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5589,7 +5589,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_028_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 9850 * multi,
+        Price:Math.floor( 9850 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5599,7 +5599,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_029_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 17350 * multi,
+        Price:Math.floor( 17350 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5609,7 +5609,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_030_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 8150 * multi,
+        Price:Math.floor( 8150 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5619,7 +5619,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_031_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 11000 * multi,
+        Price:Math.floor( 11000 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5629,7 +5629,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_032_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 10350 * multi,
+        Price:Math.floor( 10350 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5639,7 +5639,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_033_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10400 * multi,
+        Price:Math.floor( 10400 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5649,7 +5649,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_034_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 9900 * multi,
+        Price:Math.floor( 9900 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5659,7 +5659,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_035_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 12700 * multi,
+        Price:Math.floor( 12700 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5669,7 +5669,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_036_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 2350 * multi,
+        Price:Math.floor( 2350 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5679,7 +5679,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_037_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 6850 * multi,
+        Price:Math.floor( 6850 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5689,7 +5689,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_038_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 5750 * multi,
+        Price:Math.floor( 5750 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5699,7 +5699,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_039_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 9350 * multi,
+        Price:Math.floor( 9350 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5709,7 +5709,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_040_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 15950 * multi,
+        Price:Math.floor( 15950 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5719,7 +5719,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_041_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10100 * multi,
+        Price:Math.floor( 10100 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5729,7 +5729,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_042_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 4150 * multi,
+        Price:Math.floor( 4150 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5739,7 +5739,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_043_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 10300 * multi,
+        Price:Math.floor( 10300 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5749,7 +5749,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_044_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13900 * multi,
+        Price:Math.floor( 13900 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5759,7 +5759,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_045_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 19650 * multi,
+        Price:Math.floor( 19650 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5769,7 +5769,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_046_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12750 * multi,
+        Price:Math.floor( 12750 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5779,7 +5779,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_047_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 9200 * multi,
+        Price:Math.floor( 9200 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5789,7 +5789,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_048_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11300 * multi,
+        Price:Math.floor( 11300 * multi),
     },
     {
         collection: 'mpstunt_overlays',
@@ -5799,7 +5799,7 @@ const Tattoos = [
         HashNameFemale: 'MP_MP_Stunt_tat_049_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 23000 * multi,
+        Price:Math.floor( 23000 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5809,7 +5809,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_000_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 41400 * multi,
+        Price:Math.floor( 41400 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5819,7 +5819,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_001_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 55200 * multi,
+        Price:Math.floor( 55200 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5829,7 +5829,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_002_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 21500 * multi,
+        Price:Math.floor( 21500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5839,7 +5839,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_003_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30800 * multi,
+        Price:Math.floor( 30800 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5849,7 +5849,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_004_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18600 * multi,
+        Price:Math.floor( 18600 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5859,7 +5859,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_005_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 19250 * multi,
+        Price:Math.floor( 19250 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5869,7 +5869,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_006_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 35500 * multi,
+        Price:Math.floor( 35500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5879,7 +5879,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_007_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 52500 * multi,
+        Price:Math.floor( 52500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5889,7 +5889,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_008_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 30200 * multi,
+        Price:Math.floor( 30200 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5899,7 +5899,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_009_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 23800 * multi,
+        Price:Math.floor( 23800 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5909,7 +5909,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_010_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 28950 * multi,
+        Price:Math.floor( 28950 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5919,7 +5919,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_011_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 28950 * multi,
+        Price:Math.floor( 28950 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5929,7 +5929,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_012_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 22050 * multi,
+        Price:Math.floor( 22050 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5939,7 +5939,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_013_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 33250 * multi,
+        Price:Math.floor( 33250 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5949,7 +5949,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_014_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 15550 * multi,
+        Price:Math.floor( 15550 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5959,7 +5959,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_015_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 18200 * multi,
+        Price:Math.floor( 18200 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5969,7 +5969,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_016_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 20150 * multi,
+        Price:Math.floor( 20150 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5979,7 +5979,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_017_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 27850 * multi,
+        Price:Math.floor( 27850 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5989,7 +5989,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_018_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 61500 * multi,
+        Price:Math.floor( 61500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -5999,7 +5999,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_019_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 58000 * multi,
+        Price:Math.floor( 58000 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6009,7 +6009,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_020_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 68500 * multi,
+        Price:Math.floor( 68500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6019,7 +6019,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_021_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 42250 * multi,
+        Price:Math.floor( 42250 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6029,7 +6029,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_022_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 48750 * multi,
+        Price:Math.floor( 48750 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6039,7 +6039,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_023_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 18950 * multi,
+        Price:Math.floor( 18950 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6049,7 +6049,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_024_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 61500 * multi,
+        Price:Math.floor( 61500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6059,7 +6059,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_025_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 20500 * multi,
+        Price:Math.floor( 20500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6069,7 +6069,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_026_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 28250 * multi,
+        Price:Math.floor( 28250 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6079,7 +6079,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_027_F',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 25650 * multi,
+        Price:Math.floor( 25650 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6089,7 +6089,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_028_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 17500 * multi,
+        Price:Math.floor( 17500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6099,7 +6099,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_029_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 19950 * multi,
+        Price:Math.floor( 19950 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6109,7 +6109,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_030_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 18650 * multi,
+        Price:Math.floor( 18650 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6119,7 +6119,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_031_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 21000 * multi,
+        Price:Math.floor( 21000 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6129,7 +6129,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_032_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 24600 * multi,
+        Price:Math.floor( 24600 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6139,7 +6139,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_033_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 34000 * multi,
+        Price:Math.floor( 34000 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6149,7 +6149,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_034_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 42250 * multi,
+        Price:Math.floor( 42250 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6159,7 +6159,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_035_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 68500 * multi,
+        Price:Math.floor( 68500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6169,7 +6169,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_036_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 48600 * multi,
+        Price:Math.floor( 48600 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6179,7 +6179,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_037_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 72250 * multi,
+        Price:Math.floor( 72250 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6189,7 +6189,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_038_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 52150 * multi,
+        Price:Math.floor( 52150 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6199,7 +6199,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_039_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 42750 * multi,
+        Price:Math.floor( 42750 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6209,7 +6209,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_040_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 27800 * multi,
+        Price:Math.floor( 27800 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6219,7 +6219,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_041_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 44200 * multi,
+        Price:Math.floor( 44200 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6229,7 +6229,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_042_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 46450 * multi,
+        Price:Math.floor( 46450 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6239,7 +6239,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_043_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 27400 * multi,
+        Price:Math.floor( 27400 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6249,7 +6249,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_044_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 56500 * multi,
+        Price:Math.floor( 56500 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6259,7 +6259,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_045_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 30600 * multi,
+        Price:Math.floor( 30600 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6269,7 +6269,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_046_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 29950 * multi,
+        Price:Math.floor( 29950 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6279,7 +6279,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_047_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 17750 * multi,
+        Price:Math.floor( 17750 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6289,7 +6289,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_048_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 19950 * multi,
+        Price:Math.floor( 19950 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6299,7 +6299,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_049_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 42700 * multi,
+        Price:Math.floor( 42700 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6309,7 +6309,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_050_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 21900 * multi,
+        Price:Math.floor( 21900 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6319,7 +6319,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_051_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 41850 * multi,
+        Price:Math.floor( 41850 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6329,7 +6329,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_052_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 30100 * multi,
+        Price:Math.floor( 30100 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6339,7 +6339,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_053_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 19350 * multi,
+        Price:Math.floor( 19350 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6349,7 +6349,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_054_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 20200 * multi,
+        Price:Math.floor( 20200 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6359,7 +6359,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_055_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 16650 * multi,
+        Price:Math.floor( 16650 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6369,7 +6369,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_056_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 16900 * multi,
+        Price:Math.floor( 16900 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6379,7 +6379,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_057_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 54450 * multi,
+        Price:Math.floor( 54450 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6389,7 +6389,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_058_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 41750 * multi,
+        Price:Math.floor( 41750 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6399,7 +6399,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_059_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 21400 * multi,
+        Price:Math.floor( 21400 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6409,7 +6409,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_060_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 35200 * multi,
+        Price:Math.floor( 35200 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6419,7 +6419,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_061_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 32150 * multi,
+        Price:Math.floor( 32150 * multi),
     },
     {
         collection: 'mpsum2_overlays',
@@ -6429,7 +6429,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Sum2_Tat_062_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 37200 * multi,
+        Price:Math.floor( 37200 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6439,7 +6439,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_000_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 21115 * multi,
+        Price:Math.floor( 21115 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6449,7 +6449,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_001_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 20475 * multi,
+        Price:Math.floor( 20475 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6459,7 +6459,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_002_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 19745 * multi,
+        Price:Math.floor( 19745 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6469,7 +6469,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_003_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 18865 * multi,
+        Price:Math.floor( 18865 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6479,7 +6479,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_004_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 19505 * multi,
+        Price:Math.floor( 19505 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6489,7 +6489,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_005_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 16680 * multi,
+        Price:Math.floor( 16680 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6499,7 +6499,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_006_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 31100 * multi,
+        Price:Math.floor( 31100 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6509,7 +6509,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_007_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13460 * multi,
+        Price:Math.floor( 13460 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6519,7 +6519,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_008_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 31520 * multi,
+        Price:Math.floor( 31520 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6529,7 +6529,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_009_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 28970 * multi,
+        Price:Math.floor( 28970 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6539,7 +6539,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_010_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 27860 * multi,
+        Price:Math.floor( 27860 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6549,7 +6549,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_011_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 29825 * multi,
+        Price:Math.floor( 29825 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6559,7 +6559,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_012_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 32115 * multi,
+        Price:Math.floor( 32115 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6569,7 +6569,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_013_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 11505 * multi,
+        Price:Math.floor( 11505 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6579,7 +6579,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_014_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 19215 * multi,
+        Price:Math.floor( 19215 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6589,7 +6589,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_015_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30840 * multi,
+        Price:Math.floor( 30840 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6599,7 +6599,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_016_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 24425 * multi,
+        Price:Math.floor( 24425 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6609,7 +6609,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_017_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 33765 * multi,
+        Price:Math.floor( 33765 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6619,7 +6619,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_018_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 21095 * multi,
+        Price:Math.floor( 21095 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6629,7 +6629,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_019_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 15665 * multi,
+        Price:Math.floor( 15665 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6639,7 +6639,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_020_F',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 14805 * multi,
+        Price:Math.floor( 14805 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6649,7 +6649,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_021_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 40250 * multi,
+        Price:Math.floor( 40250 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6659,7 +6659,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_022_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12100 * multi,
+        Price:Math.floor( 12100 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6669,7 +6669,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_023_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 13000 * multi,
+        Price:Math.floor( 13000 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6679,7 +6679,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_024_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 19990 * multi,
+        Price:Math.floor( 19990 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6689,7 +6689,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_025_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 20110 * multi,
+        Price:Math.floor( 20110 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6699,7 +6699,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_026_F',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 25305 * multi,
+        Price:Math.floor( 25305 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6709,7 +6709,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_027_F',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 24550 * multi,
+        Price:Math.floor( 24550 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6719,7 +6719,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_028_F',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 18850 * multi,
+        Price:Math.floor( 18850 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6729,7 +6729,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_029_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 36650 * multi,
+        Price:Math.floor( 36650 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6739,7 +6739,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_030_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 17000 * multi,
+        Price:Math.floor( 17000 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6749,7 +6749,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_031_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 30220 * multi,
+        Price:Math.floor( 30220 * multi),
     },
     {
         collection: 'mpvinewood_overlays',
@@ -6759,7 +6759,7 @@ const Tattoos = [
         HashNameFemale: 'MP_Vinewood_Tat_032_F',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 42885 * multi,
+        Price:Math.floor( 42885 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6769,7 +6769,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_000',
         Zone: 'ZONE_HEAD',
         ZoneID: 1,
-        Price: 20000 * multi,
+        Price:Math.floor( 20000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6779,7 +6779,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_001',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 1400 * multi,
+        Price:Math.floor( 1400 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6789,7 +6789,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_002',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 9750 * multi,
+        Price:Math.floor( 9750 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6799,7 +6799,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_003',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2150 * multi,
+        Price:Math.floor( 2150 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6809,7 +6809,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_004',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6819,7 +6819,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_005',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12400 * multi,
+        Price:Math.floor( 12400 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6829,7 +6829,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_006',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 3500 * multi,
+        Price:Math.floor( 3500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6839,7 +6839,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_007',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 4950 * multi,
+        Price:Math.floor( 4950 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6849,7 +6849,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_008',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1350 * multi,
+        Price:Math.floor( 1350 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6859,7 +6859,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_009',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 1450 * multi,
+        Price:Math.floor( 1450 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6869,7 +6869,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_010',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 2700 * multi,
+        Price:Math.floor( 2700 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6879,7 +6879,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_011',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1200 * multi,
+        Price:Math.floor( 1200 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6889,7 +6889,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_012',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1500 * multi,
+        Price:Math.floor( 1500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6899,7 +6899,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_013',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2650 * multi,
+        Price:Math.floor( 2650 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6909,7 +6909,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_014',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1900 * multi,
+        Price:Math.floor( 1900 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6919,7 +6919,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_015',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 4950 * multi,
+        Price:Math.floor( 4950 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6929,7 +6929,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_016',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2400 * multi,
+        Price:Math.floor( 2400 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6939,7 +6939,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_017',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5100 * multi,
+        Price:Math.floor( 5100 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6949,7 +6949,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_018',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7400 * multi,
+        Price:Math.floor( 7400 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6959,7 +6959,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_Award_F_019',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6969,7 +6969,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_000',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6979,7 +6979,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_001',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 12500 * multi,
+        Price:Math.floor( 12500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6989,7 +6989,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_002',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 3750 * multi,
+        Price:Math.floor( 3750 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -6999,7 +6999,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_003',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7009,7 +7009,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_004',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7019,7 +7019,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_005',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 2400 * multi,
+        Price:Math.floor( 2400 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7029,7 +7029,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_006',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 5100 * multi,
+        Price:Math.floor( 5100 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7039,7 +7039,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_007',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 3750 * multi,
+        Price:Math.floor( 3750 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7049,7 +7049,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_008',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 4800 * multi,
+        Price:Math.floor( 4800 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7059,7 +7059,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_009',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12350 * multi,
+        Price:Math.floor( 12350 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7069,7 +7069,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_010',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2500 * multi,
+        Price:Math.floor( 2500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7079,7 +7079,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_011',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1900 * multi,
+        Price:Math.floor( 1900 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7089,7 +7089,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_012',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7099,7 +7099,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_013',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 4500 * multi,
+        Price:Math.floor( 4500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7109,7 +7109,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_014',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 5000 * multi,
+        Price:Math.floor( 5000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7119,7 +7119,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_015',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 3600 * multi,
+        Price:Math.floor( 3600 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7129,7 +7129,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_016',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12250 * multi,
+        Price:Math.floor( 12250 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7139,7 +7139,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_017',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 3500 * multi,
+        Price:Math.floor( 3500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7149,7 +7149,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_018',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 7500 * multi,
+        Price:Math.floor( 7500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7159,7 +7159,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_019',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 12300 * multi,
+        Price:Math.floor( 12300 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7169,7 +7169,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_020',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7500 * multi,
+        Price:Math.floor( 7500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7179,7 +7179,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_021',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 5000 * multi,
+        Price:Math.floor( 5000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7189,7 +7189,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_022',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 7300 * multi,
+        Price:Math.floor( 7300 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7199,7 +7199,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_023',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 7250 * multi,
+        Price:Math.floor( 7250 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7209,7 +7209,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_024',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 11900 * multi,
+        Price:Math.floor( 11900 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7219,7 +7219,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_025',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2750 * multi,
+        Price:Math.floor( 2750 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7229,7 +7229,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_026',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 1750 * multi,
+        Price:Math.floor( 1750 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7239,7 +7239,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_027',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 7300 * multi,
+        Price:Math.floor( 7300 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7249,7 +7249,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_028',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 3250 * multi,
+        Price:Math.floor( 3250 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7259,7 +7259,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_029',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 1000 * multi,
+        Price:Math.floor( 1000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7269,7 +7269,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_030',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5000 * multi,
+        Price:Math.floor( 5000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7279,7 +7279,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_031',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 7500 * multi,
+        Price:Math.floor( 7500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7289,7 +7289,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_032',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 5100 * multi,
+        Price:Math.floor( 5100 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7299,7 +7299,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_033',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 5050 * multi,
+        Price:Math.floor( 5050 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7309,7 +7309,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_034',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 2450 * multi,
+        Price:Math.floor( 2450 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7319,7 +7319,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_035',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 4950 * multi,
+        Price:Math.floor( 4950 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7329,7 +7329,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_036',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 5100 * multi,
+        Price:Math.floor( 5100 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7339,7 +7339,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_037',
         Zone: 'ZONE_LEFT_LEG',
         ZoneID: 4,
-        Price: 12250 * multi,
+        Price:Math.floor( 12250 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7349,7 +7349,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_038',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 1150 * multi,
+        Price:Math.floor( 1150 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7359,7 +7359,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_039',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 7500 * multi,
+        Price:Math.floor( 7500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7369,7 +7369,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_040',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 7600 * multi,
+        Price:Math.floor( 7600 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7379,7 +7379,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_041',
         Zone: 'ZONE_LEFT_ARM',
         ZoneID: 2,
-        Price: 2600 * multi,
+        Price:Math.floor( 2600 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7389,7 +7389,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_042',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 2500 * multi,
+        Price:Math.floor( 2500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7399,7 +7399,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_043',
         Zone: 'ZONE_RIGHT_LEG',
         ZoneID: 5,
-        Price: 7450 * multi,
+        Price:Math.floor( 7450 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7409,7 +7409,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_044',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 7500 * multi,
+        Price:Math.floor( 7500 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7419,7 +7419,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_045',
         Zone: 'ZONE_TORSO',
         ZoneID: 0,
-        Price: 10000 * multi,
+        Price:Math.floor( 10000 * multi),
     },
     {
         collection: 'multiplayer_overlays',
@@ -7429,7 +7429,7 @@ const Tattoos = [
         HashNameFemale: 'FM_Tat_F_047',
         Zone: 'ZONE_RIGHT_ARM',
         ZoneID: 3,
-        Price: 2500 * multi,
+        Price:Math.floor( 2500 * multi),
     },
 ];
 

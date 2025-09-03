@@ -1,6 +1,6 @@
 export const GANG = {
 
-    boostPrice: 150,
+    boostPrice: 40,
     requireBoosting: {
         1: 0,
         2: 10,

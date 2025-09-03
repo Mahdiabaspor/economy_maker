@@ -31,6 +31,9 @@ import { WeaponDealer } from "./SHOPS/WeaponDealer.js";
 import { femaleClothP } from "./SHOPS/ClothShopPermium/Female.js";
 import { maleClothP } from "./SHOPS/ClothShopPermium/Male.js";
 import * as priceConstants from "./items/AllItemsBuyPrice.js";
+import { BurgerShotBenches } from "./JOBS/FoodJobs.js";
+import { FoodSupplierConfig } from "./SHOPS/FoodSuplier.js";
+import { junkItems } from "./JOBS/Junk.js";
 
 
 const economyConfig = {
@@ -45,7 +48,7 @@ const economyConfig = {
       buyConfig:emsShopConfig,
       sellConfig:emsShopSellConfig,
     },
-    
+    FoodSupplierConfig,
     superMarketConfig,
     tunningConfig,
     dealershipCars: carV3,
@@ -76,6 +79,11 @@ const economyConfig = {
     miningJobConfig,
     electricJobConfig,
     busJobConfig,
+    foodJobs:{
+      burgerShot:BurgerShotBenches
+    }
+    ,
+    junk:junkItems
   },
   factionConfigs: {
     EmsConfig,

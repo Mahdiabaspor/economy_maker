@@ -66,7 +66,7 @@ const SellToWeaponDealer = [
   {
     itemName: "item_weapon_combat_pistol",
     label: "COMBAT PISTOL",
-    singlePrice: Math.floor(11000 * weaponDealerBuyMulti), // Weapon shop sells for 22000, dealer buys at 50% (11000) to prevent economy exploit
+    singlePrice: Math.floor(9000 * weaponDealerBuyMulti), // Weapon shop sells for 22000, dealer buys at 50% (11000) to prevent economy exploit
   },
   {
     itemName: "item_weapon_double_action_revolver",
@@ -86,7 +86,7 @@ const SellToWeaponDealer = [
   {
     itemName: "item_weapon_smg",
     label: "SMG",
-    singlePrice: Math.floor(17500 * weaponDealerBuyMulti), // Weapon shop sells for 35000, dealer buys at 50% (17500) to prevent economy exploit
+    singlePrice: Math.floor(15500 * weaponDealerBuyMulti), // Weapon shop sells for 35000, dealer buys at 50% (17500) to prevent economy exploit
   },
   {
     itemName: "item_weapon_sawnoff_shotgun",
@@ -157,11 +157,11 @@ const SellToWeaponDealer = [
     label: "5.56MM BULLETS",
     singlePrice: Math.floor((AMMO_556_PRICE / 2) * weaponDealerBuyMulti),
   },
-  {
-    itemName: "item_bullet_7_62_mm",
-    label: "7.62MM BULLETS",
-    singlePrice: Math.floor((AMMO_762_PRICE / 2) * weaponDealerBuyMulti),
-  },
+  // {
+  //   itemName: "item_bullet_7_62_mm",
+  //   label: "7.62MM BULLETS",
+  //   singlePrice: Math.floor((AMMO_762_PRICE / 2) * weaponDealerBuyMulti),
+  // },
 ];
 
 

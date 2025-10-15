@@ -44,6 +44,54 @@ const ItemAccessKey = {
 };
 
 const rawFood = {
+  item_drink_vodka: {
+    name: "item_drink_vodka",
+    label: "Vodka",
+    accessKey: ItemAccessKey.NONE,
+    canDelete: true,
+    isIllegal: false,
+    category: ItemCategory.DRINK,
+    canUSE: true,
+    canDrop: false,
+    canUnStack: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 5,
+    canTrade: true,
+  },
+    item_drink_tequila: {
+    name: "item_drink_tequila",
+    label: "Tequila",
+    accessKey: ItemAccessKey.NONE,
+    canDelete: true,
+    isIllegal: false,
+    category: ItemCategory.DRINK,
+    canUSE: true,
+    canDrop: false,
+    canUnStack: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 5,
+    canTrade: true,
+  },
+    item_drink_beer: {
+    name: "item_drink_beer",
+    label: "Beer",
+    accessKey: ItemAccessKey.NONE,
+    canDelete: true,
+    isIllegal: false,
+    category: ItemCategory.DRINK,
+    canUSE: true,
+    canDrop: false,
+    canUnStack: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 5,
+    canTrade: true,
+  },
+
+
+
   item_cooked_food_fires: {
     name: "item_cooked_food_fires",
     label: "Cooked Fries",

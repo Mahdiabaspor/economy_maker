@@ -22,7 +22,7 @@ const SellToDrugLab = [
   {
     itemName: "item_saffarole_oil",
     label: "SAFFAROLE OIL",
-    singlePrice: Math.floor(800 * drugLabBuyMulti), 
+    singlePrice: Math.floor(750 * drugLabBuyMulti), 
   },
   {
     itemName: "item_methylamine_crystal",
@@ -32,7 +32,7 @@ const SellToDrugLab = [
   {
     itemName: "item_cocain_powder",
     label: "COCAINE POWDER",
-    singlePrice: Math.floor(4400 * drugLabBuyMulti), 
+    singlePrice: Math.floor(4200 * drugLabBuyMulti), 
   },
   {
     itemName: "item_mdp2p",
@@ -44,7 +44,7 @@ const SellToDrugLab = [
   {
     itemName: "item_cocain_pack",
     label: "COCAINE PACK",
-    singlePrice: Math.floor(5200 * drugLabBuyMulti), 
+    singlePrice: Math.floor(5000 * drugLabBuyMulti), 
   },
   {
     itemName: "item_mdma_powder",

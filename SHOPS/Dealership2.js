@@ -10,7 +10,80 @@ const calcPrice = (hourToGain) => {
   return Math.floor(roundedPrice );
 };
 
+const planes = [
+  { Model: "microlight", Name: "Ultralight", Class: "PLANE", moneyPrice: calcPrice(170), Brand: "Nagasaki" },
+  // { Model: "mogul", Name: "Mogul", Class: "PLANE", moneyPrice: calcPrice(187.5), Brand: "Mammoth" },
+  // { Model: "molotok", Name: "V-65 Molotok", Class: "PLANE", moneyPrice: calcPrice(300.0), Brand: "Mammoth" },
+  { Model: "duster", Name: "Duster", Class: "PLANE", moneyPrice: calcPrice(250), Brand: "Western Company" },
+  { Model: "cuban800", Name: "Cuban 800", Class: "PLANE", moneyPrice: calcPrice(350), Brand: "Western Company" },
+  { Model: "stunt", Name: "Mallard", Class: "PLANE", moneyPrice: calcPrice(450), Brand: "Western Company" },
+  { Model: "mammatus", Name: "Mammatus", Class: "PLANE", moneyPrice: calcPrice(550.0), Brand: "JoBuilt" },
+  { Model: "dodo", Name: "Dodo", Class: "PLANE", moneyPrice: calcPrice(650.0), Brand: "Mammoth" },
+  { Model: "velum", Name: "Velum", Class: "PLANE", moneyPrice: calcPrice(785.0), Brand: "JoBuilt" },
+  { Model: "vestra", Name: "Vestra", Class: "PLANE", moneyPrice: calcPrice(860), Brand: "Buckingham" },
+  { Model: "seabreeze", Name: "Seabreeze", Class: "PLANE", moneyPrice: calcPrice(960), Brand: "Western Company" },
+  { Model: "alphaz1", Name: "Alpha-Z1", Class: "PLANE", moneyPrice: calcPrice(1020), Brand: "Buckingham" },
+  // { Model: "nokota", Name: "P-45 Nokota", Class: "PLANE", moneyPrice: calcPrice(1150), Brand: "P-45" },
+  { Model: "howard", Name: "Howard NX-25", Class: "PLANE", moneyPrice: calcPrice(1250), Brand: "Buckingham" },
+  { Model: "velum2", Name: "Velum 5-Seater", Class: "PLANE", moneyPrice: calcPrice(1359), Brand: "JoBuilt" },
+  { Model: "rogue", Name: "Rogue", Class: "PLANE", moneyPrice: calcPrice(1459), Brand: "Western Company" },
+  // { Model: "pyro", Name: "Pyro", Class: "PLANE", moneyPrice: calcPrice(1500), Brand: "Buckingham" },
+  { Model: "shamal", Name: "Shamal", Class: "PLANE", moneyPrice: calcPrice(1900), Brand: "Buckingham" },
+  { Model: "luxor", Name: "Luxor", Class: "PLANE", moneyPrice: calcPrice(1920), Brand: "Buckingham" },
+  { Model: "miljet", Name: "Miljet", Class: "PLANE", moneyPrice: calcPrice(1940.0), Brand: "Buckingham" },
+  { Model: "nimbus", Name: "Nimbus", Class: "PLANE", moneyPrice: calcPrice(1975.0), Brand: "Buckingham" },
+  { Model: "luxor2", Name: "Luxor Deluxe", Class: "PLANE", moneyPrice: calcPrice(2000.0), Brand: "Buckingham" },
+
+];
+
+// 🚁 Helicopters
+const helicopters = [
+  { Model: "maverick", Name: "Maverick", Class: "HELICOPTER", moneyPrice: calcPrice(500.0), Brand: "Buckingham" },
+  { Model: "buzzard2", Name: "Buzzard Attack Chopper", Class: "HELICOPTER", moneyPrice: calcPrice(550.0), Brand: "Nagasaki" },
+  { Model: "havok", Name: "Havok", Class: "HELICOPTER", moneyPrice: calcPrice(570.0), Brand: "Nagasaki" },
+  { Model: "seasparrow", Name: "Sea Sparrow", Class: "HELICOPTER", moneyPrice: calcPrice(600), Brand: "Nagasaki" },
+  { Model: "conada", Name: "Conada", Class: "HELICOPTER", moneyPrice: calcPrice(650.0), Brand: "Buckingham" },
+  { Model: "supervolito2", Name: "SuperVolito Carbon", Class: "HELICOPTER", moneyPrice: calcPrice(700.00), Brand: "Buckingham" },
+  { Model: "swift", Name: "Swift", Class: "HELICOPTER", moneyPrice: calcPrice(750.0), Brand: "Buckingham" },
+  // { Model: "seasparrow3", Name: "Sea Sparrow Mk III", Class: "HELICOPTER", moneyPrice: calcPrice(800.00), Brand: "Nagasaki" },
+  { Model: "seasparrow2", Name: "Sea Sparrow Mk II", Class: "HELICOPTER", moneyPrice: calcPrice(850.00), Brand: "Nagasaki" },
+  { Model: "volatus", Name: "Volatus", Class: "HELICOPTER", moneyPrice: calcPrice(900.000), Brand: "Buckingham" },
+  { Model: "supervolito", Name: "SuperVolito", Class: "HELICOPTER", moneyPrice: calcPrice(950.00), Brand: "Buckingham" },
+  { Model: "swift2", Name: "Swift Deluxe", Class: "HELICOPTER", moneyPrice: calcPrice(1000.00), Brand: "Buckingham" },
+];
+
+// 🚤 Boats
+const boats = [
+
+  // { Model: "dinghy5", Name: "Weaponized Dinghy", Class: "BOAT", moneyPrice: calcPrice(18.75), Brand: "Nagasaki" },
+  // { Model: "seashark2", Name: "Seashark (Lifeguard)", Class: "BOAT", moneyPrice: calcPrice(16.0), Brand: "Speedophile" },
+  
+  { Model: "seashark3", Name: "Seashark (Yacht)", Class: "BOAT", moneyPrice: calcPrice(40), Brand: "Speedophile" },
+  { Model: "seashark", Name: "Seashark", Class: "BOAT", moneyPrice: calcPrice(50), Brand: "Speedophile" },
+  { Model: "dinghy2", Name: "Dinghy (2-Seater)", Class: "BOAT", moneyPrice: calcPrice(60), Brand: "Nagasaki" },
+  { Model: "dinghy3", Name: "Dinghy (Heist)", Class: "BOAT", moneyPrice: calcPrice(70), Brand: "Nagasaki" },
+  { Model: "dinghy4", Name: "Dinghy (Yacht)", Class: "BOAT", moneyPrice: calcPrice(80), Brand: "Nagasaki" },
+  { Model: "tropic", Name: "Tropic", Class: "BOAT", moneyPrice: calcPrice(90), Brand: "Shitzu" },
+  { Model: "tropic2", Name: "Tropic (Yacht)", Class: "BOAT", moneyPrice: calcPrice(100), Brand: "Shitzu" },
+  { Model: "suntrap", Name: "Suntrap", Class: "BOAT", moneyPrice: calcPrice(110), Brand: "Shitzu" },
+  { Model: "squalo", Name: "Squalo", Class: "BOAT", moneyPrice: calcPrice(120), Brand: "Shitzu" },
+  { Model: "jetmax", Name: "Jetmax", Class: "BOAT", moneyPrice: calcPrice(130), Brand: "Shitzu" },
+  { Model: "speeder", Name: "Speeder", Class: "BOAT", moneyPrice: calcPrice(140), Brand: "Pegassi" },
+  { Model: "speeder2", Name: "Speeder (Yacht)", Class: "BOAT", moneyPrice: calcPrice(150), Brand: "Pegassi" },
+  { Model: "marquis", Name: "Marquis", Class: "BOAT", moneyPrice: calcPrice(160), Brand: "Dinka" },
+  { Model: "toro2", Name: "Toro", Class: "BOAT", moneyPrice: calcPrice(170), Brand: "Lampadati" }, /////////low speed
+  { Model: "longfin", Name: "Longfin", Class: "BOAT", moneyPrice: calcPrice(190), Brand: "Shitzu" },
+
+];
+
+
+
+
+
 export const carV3 = [
+  ...planes,
+  ...helicopters,
+  ...boats,
   {
     Model: "panto",
     Name: "Panto",

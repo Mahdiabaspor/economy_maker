@@ -34,6 +34,7 @@ import * as priceConstants from "./items/AllItemsBuyPrice.js";
 import { BurgerShotBenches } from "./JOBS/FoodJobs.js";
 import { FoodSupplierConfig } from "./SHOPS/FoodSuplier.js";
 import { junkItems } from "./JOBS/Junk.js";
+import { boozeShopConfig } from "./SHOPS/BooozeShop.js";
 
 
 const economyConfig = {
@@ -70,6 +71,7 @@ const economyConfig = {
     Insurance,
     DrugDealer:DrugDealer,
     WeaponDealer:WeaponDealer,
+    boozeShopConfig,
   },
   crafting: {
     CraftEmsConfig,

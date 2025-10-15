@@ -110,53 +110,53 @@ const SellToWeaponDealer = [
   },
   
   // Police Drop Weapons - Higher Tier (priced reasonably for risk/reward)
-  {
-    itemName: "item_weapon_stun_gun",
-    label: "STUN GUN",
-    singlePrice: Math.floor(7500 * weaponDealerBuyMulti), // Police drop item - moderate risk, lower value weapon
-  },
-  {
-    itemName: "item_weapon_combat_pwd",
-    label: "COMBAT PWD",
-    singlePrice: Math.floor(15000 * weaponDealerBuyMulti), // Police drop item - high risk, medium value weapon
-  },
-  {
-    itemName: "item_weapon_combat_shotgun",
-    label: "COMBAT SHOTGUN",
-    singlePrice: Math.floor(18000 * weaponDealerBuyMulti), // Police drop item - high risk, medium-high value weapon
-  },
-  {
-    itemName: "item_weapon_combat_mg",
-    label: "COMBAT MG",
-    singlePrice: Math.floor(22000 * weaponDealerBuyMulti), // Police drop item - very high risk, high value weapon
-  },
-  {
-    itemName: "item_weapon_carbine_rifle",
-    label: "CARBINE RIFLE",
-    singlePrice: Math.floor(20000 * weaponDealerBuyMulti), // Police drop item - high risk, high value weapon
-  },
-  {
-    itemName: "item_weapon_sniper_rifle",
-    label: "SNIPER RIFLE",
-    singlePrice: Math.floor(25000 * weaponDealerBuyMulti), // Police drop item - very high risk, very high value weapon
-  },
+  // {
+  //   itemName: "item_weapon_stun_gun",
+  //   label: "STUN GUN",
+  //   singlePrice: Math.floor(7500 * weaponDealerBuyMulti), // Police drop item - moderate risk, lower value weapon
+  // },
+  // {
+  //   itemName: "item_weapon_combat_pwd",
+  //   label: "COMBAT PWD",
+  //   singlePrice: Math.floor(15000 * weaponDealerBuyMulti), // Police drop item - high risk, medium value weapon
+  // },
+  // {
+  //   itemName: "item_weapon_combat_shotgun",
+  //   label: "COMBAT SHOTGUN",
+  //   singlePrice: Math.floor(18000 * weaponDealerBuyMulti), // Police drop item - high risk, medium-high value weapon
+  // },
+  // {
+  //   itemName: "item_weapon_combat_mg",
+  //   label: "COMBAT MG",
+  //   singlePrice: Math.floor(22000 * weaponDealerBuyMulti), // Police drop item - very high risk, high value weapon
+  // },
+  // {
+  //   itemName: "item_weapon_carbine_rifle",
+  //   label: "CARBINE RIFLE",
+  //   singlePrice: Math.floor(20000 * weaponDealerBuyMulti), // Police drop item - high risk, high value weapon
+  // },
+  // {
+  //   itemName: "item_weapon_sniper_rifle",
+  //   label: "SNIPER RIFLE",
+  //   singlePrice: Math.floor(25000 * weaponDealerBuyMulti), // Police drop item - very high risk, very high value weapon
+  // },
   
   // Ammunition - priced at 50% of shop price
-  {
-    itemName: "item_bullet_9_mm",
-    label: "9MM BULLETS",
-    singlePrice: Math.floor((AMMO_9MM_PRICE / 2) * weaponDealerBuyMulti),
-  },
-  {
-    itemName: "item_bullet_shotgun",
-    label: "SHOTGUN SHELLS",
-    singlePrice: Math.floor((AMMO_BUCKSHOT_PRICE / 2) * weaponDealerBuyMulti),
-  },
-  {
-    itemName: "item_bullet_5_56_mm",
-    label: "5.56MM BULLETS",
-    singlePrice: Math.floor((AMMO_556_PRICE / 2) * weaponDealerBuyMulti),
-  },
+  // {
+  //   itemName: "item_bullet_9_mm",
+  //   label: "9MM BULLETS",
+  //   singlePrice: Math.floor((AMMO_9MM_PRICE / 2) * weaponDealerBuyMulti),
+  // },
+  // {
+  //   itemName: "item_bullet_shotgun",
+  //   label: "SHOTGUN SHELLS",
+  //   singlePrice: Math.floor((AMMO_BUCKSHOT_PRICE / 2) * weaponDealerBuyMulti),
+  // },
+  // {
+  //   itemName: "item_bullet_5_56_mm",
+  //   label: "5.56MM BULLETS",
+  //   singlePrice: Math.floor((AMMO_556_PRICE / 2) * weaponDealerBuyMulti),
+  // },
   // {
   //   itemName: "item_bullet_7_62_mm",
   //   label: "7.62MM BULLETS",

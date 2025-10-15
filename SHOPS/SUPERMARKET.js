@@ -28,19 +28,36 @@ export const superMarketConfig = {
     //     singlePrice:Math.floor( 570 * superMarketMultiplier * 0.80),
     // },
     {
+      itemName: "item_food_burger",
+      label: "HAMBURGER",
+      singlePrice: Math.floor(570 * superMarketMultiplier ),
+    },
+    {
+      itemName: "item_food_double_burger",
+      label: "Double Burger",
+      singlePrice: Math.floor(800 * superMarketMultiplier ),
+    },
+    {
+      itemName: "item_drink_sprunk",
+      label: "SPRUNK SODA",
+      singlePrice: Math.floor(
+        430 
+      ),
+    },
+    {
       itemName: "item_fireworks_box",
       label: "Fireworks Box",
-      singlePrice: Math.floor(50000 * superMarketMultiplier ),
+      singlePrice: Math.floor(35000 * superMarketMultiplier),
     },
     {
       itemName: "item_fireworks",
       label: "Fireworks",
-      singlePrice: Math.floor(11000 * superMarketMultiplier ),
+      singlePrice: Math.floor(7000 * superMarketMultiplier),
     },
     {
       itemName: "item_binoculars",
       label: "BINOCULARS",
-      singlePrice: Math.floor(3500 * superMarketMultiplier ),
+      singlePrice: Math.floor(3500 * superMarketMultiplier),
     },
 
     {

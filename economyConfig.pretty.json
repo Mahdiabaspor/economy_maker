@@ -8,11 +8,14 @@
       "gasUsageTime": 20
     },
     "licenseDmvConfig": {
-      "VEHICLE": 7000,
-      "CDL_A": 10000,
-      "CDL_B": 12000,
-      "HPL": 80000,
-      "PPL": 120000
+      "boat": 37500,
+      "cdl_A": 7500,
+      "cdl_B": 12000,
+      "helicopter": 180000,
+      "motorcycle": 7500,
+      "plane": 230000,
+      "vehicle": 7000,
+      "gun": 27500
     },
     "weaponShopConfig": [
       {
@@ -325,14 +328,29 @@
           "singlePrice": 240
         },
         {
+          "itemName": "item_food_burger",
+          "label": "HAMBURGER",
+          "singlePrice": 570
+        },
+        {
+          "itemName": "item_food_double_burger",
+          "label": "Double Burger",
+          "singlePrice": 800
+        },
+        {
+          "itemName": "item_drink_sprunk",
+          "label": "SPRUNK SODA",
+          "singlePrice": 430
+        },
+        {
           "itemName": "item_fireworks_box",
           "label": "Fireworks Box",
-          "singlePrice": 50000
+          "singlePrice": 35000
         },
         {
           "itemName": "item_fireworks",
           "label": "Fireworks",
-          "singlePrice": 11000
+          "singlePrice": 7000
         },
         {
           "itemName": "item_binoculars",
@@ -1810,6 +1828,314 @@
       }
     },
     "dealershipCars": [
+      {
+        "Model": "microlight",
+        "Name": "Ultralight",
+        "Class": "PLANE",
+        "moneyPrice": 1700000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "duster",
+        "Name": "Duster",
+        "Class": "PLANE",
+        "moneyPrice": 2500000,
+        "Brand": "Western Company"
+      },
+      {
+        "Model": "cuban800",
+        "Name": "Cuban 800",
+        "Class": "PLANE",
+        "moneyPrice": 3500000,
+        "Brand": "Western Company"
+      },
+      {
+        "Model": "stunt",
+        "Name": "Mallard",
+        "Class": "PLANE",
+        "moneyPrice": 4500000,
+        "Brand": "Western Company"
+      },
+      {
+        "Model": "mammatus",
+        "Name": "Mammatus",
+        "Class": "PLANE",
+        "moneyPrice": 5500000,
+        "Brand": "JoBuilt"
+      },
+      {
+        "Model": "dodo",
+        "Name": "Dodo",
+        "Class": "PLANE",
+        "moneyPrice": 6500000,
+        "Brand": "Mammoth"
+      },
+      {
+        "Model": "velum",
+        "Name": "Velum",
+        "Class": "PLANE",
+        "moneyPrice": 7850000,
+        "Brand": "JoBuilt"
+      },
+      {
+        "Model": "vestra",
+        "Name": "Vestra",
+        "Class": "PLANE",
+        "moneyPrice": 8600000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "seabreeze",
+        "Name": "Seabreeze",
+        "Class": "PLANE",
+        "moneyPrice": 9600000,
+        "Brand": "Western Company"
+      },
+      {
+        "Model": "alphaz1",
+        "Name": "Alpha-Z1",
+        "Class": "PLANE",
+        "moneyPrice": 10200000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "howard",
+        "Name": "Howard NX-25",
+        "Class": "PLANE",
+        "moneyPrice": 12500000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "velum2",
+        "Name": "Velum 5-Seater",
+        "Class": "PLANE",
+        "moneyPrice": 13590000,
+        "Brand": "JoBuilt"
+      },
+      {
+        "Model": "rogue",
+        "Name": "Rogue",
+        "Class": "PLANE",
+        "moneyPrice": 14590000,
+        "Brand": "Western Company"
+      },
+      {
+        "Model": "shamal",
+        "Name": "Shamal",
+        "Class": "PLANE",
+        "moneyPrice": 19000000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "luxor",
+        "Name": "Luxor",
+        "Class": "PLANE",
+        "moneyPrice": 19200000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "miljet",
+        "Name": "Miljet",
+        "Class": "PLANE",
+        "moneyPrice": 19400000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "nimbus",
+        "Name": "Nimbus",
+        "Class": "PLANE",
+        "moneyPrice": 19750000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "luxor2",
+        "Name": "Luxor Deluxe",
+        "Class": "PLANE",
+        "moneyPrice": 20000000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "maverick",
+        "Name": "Maverick",
+        "Class": "HELICOPTER",
+        "moneyPrice": 5000000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "buzzard2",
+        "Name": "Buzzard Attack Chopper",
+        "Class": "HELICOPTER",
+        "moneyPrice": 5500000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "havok",
+        "Name": "Havok",
+        "Class": "HELICOPTER",
+        "moneyPrice": 5700000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "seasparrow",
+        "Name": "Sea Sparrow",
+        "Class": "HELICOPTER",
+        "moneyPrice": 6000000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "conada",
+        "Name": "Conada",
+        "Class": "HELICOPTER",
+        "moneyPrice": 6500000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "supervolito2",
+        "Name": "SuperVolito Carbon",
+        "Class": "HELICOPTER",
+        "moneyPrice": 7000000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "swift",
+        "Name": "Swift",
+        "Class": "HELICOPTER",
+        "moneyPrice": 7500000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "seasparrow2",
+        "Name": "Sea Sparrow Mk II",
+        "Class": "HELICOPTER",
+        "moneyPrice": 8500000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "volatus",
+        "Name": "Volatus",
+        "Class": "HELICOPTER",
+        "moneyPrice": 9000000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "supervolito",
+        "Name": "SuperVolito",
+        "Class": "HELICOPTER",
+        "moneyPrice": 9500000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "swift2",
+        "Name": "Swift Deluxe",
+        "Class": "HELICOPTER",
+        "moneyPrice": 10000000,
+        "Brand": "Buckingham"
+      },
+      {
+        "Model": "seashark3",
+        "Name": "Seashark (Yacht)",
+        "Class": "BOAT",
+        "moneyPrice": 400000,
+        "Brand": "Speedophile"
+      },
+      {
+        "Model": "seashark",
+        "Name": "Seashark",
+        "Class": "BOAT",
+        "moneyPrice": 500000,
+        "Brand": "Speedophile"
+      },
+      {
+        "Model": "dinghy2",
+        "Name": "Dinghy (2-Seater)",
+        "Class": "BOAT",
+        "moneyPrice": 600000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "dinghy3",
+        "Name": "Dinghy (Heist)",
+        "Class": "BOAT",
+        "moneyPrice": 700000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "dinghy4",
+        "Name": "Dinghy (Yacht)",
+        "Class": "BOAT",
+        "moneyPrice": 800000,
+        "Brand": "Nagasaki"
+      },
+      {
+        "Model": "tropic",
+        "Name": "Tropic",
+        "Class": "BOAT",
+        "moneyPrice": 900000,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "tropic2",
+        "Name": "Tropic (Yacht)",
+        "Class": "BOAT",
+        "moneyPrice": 1000000,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "suntrap",
+        "Name": "Suntrap",
+        "Class": "BOAT",
+        "moneyPrice": 1100000,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "squalo",
+        "Name": "Squalo",
+        "Class": "BOAT",
+        "moneyPrice": 1200000,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "jetmax",
+        "Name": "Jetmax",
+        "Class": "BOAT",
+        "moneyPrice": 1300000,
+        "Brand": "Shitzu"
+      },
+      {
+        "Model": "speeder",
+        "Name": "Speeder",
+        "Class": "BOAT",
+        "moneyPrice": 1400000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "speeder2",
+        "Name": "Speeder (Yacht)",
+        "Class": "BOAT",
+        "moneyPrice": 1500000,
+        "Brand": "Pegassi"
+      },
+      {
+        "Model": "marquis",
+        "Name": "Marquis",
+        "Class": "BOAT",
+        "moneyPrice": 1600000,
+        "Brand": "Dinka"
+      },
+      {
+        "Model": "toro2",
+        "Name": "Toro",
+        "Class": "BOAT",
+        "moneyPrice": 1700000,
+        "Brand": "Lampadati"
+      },
+      {
+        "Model": "longfin",
+        "Name": "Longfin",
+        "Class": "BOAT",
+        "moneyPrice": 1900000,
+        "Brand": "Shitzu"
+      },
       {
         "Model": "panto",
         "Name": "Panto",
@@ -4753,11 +5079,19 @@
     ],
     "VipDealershipCars": [
       {
+        "Model": "hwboneshaker",
+        "Name": "bone shaker",
+        "Class": "MUSCLE",
+        "coinPrice": 1400,
+        "moneyPrice": 910000,
+        "isNew": true,
+        "tier": 1
+      },
+      {
         "Model": "camaro69",
         "Name": "Declasse Camaro 1969",
         "Class": "MUSCLE",
         "coinPrice": 400,
-        "moneyPrice": 260000,
         "tier": 1
       },
       {
@@ -4775,10 +5109,33 @@
         "tier": 1
       },
       {
+        "Model": "w210",
+        "Name": "Benefactor w210",
+        "Class": "SPORT_CLASSIC",
+        "coinPrice": 900,
+        "moneyPrice": 585000,
+        "tier": 1
+      },
+      {
         "Model": "16challenger",
         "Name": "Bravado Challenger 16",
         "Class": "MUSCLE",
         "coinPrice": 1000,
+        "tier": 1
+      },
+      {
+        "Model": "impreza18",
+        "Name": "Sabaru Impreza",
+        "Class": "SEDAN",
+        "coinPrice": 1350,
+        "moneyPrice": 877500,
+        "tier": 1
+      },
+      {
+        "Model": "veln",
+        "Name": "TIGORD Veln",
+        "Class": "SEDAN",
+        "coinPrice": 1400,
         "tier": 1
       },
       {
@@ -4796,7 +5153,13 @@
         "tier": 1
       },
       {
-        "DiscountPercentage": 20,
+        "Model": "vwid4",
+        "Name": "Bürgerfahrzeug ID.4",
+        "Class": "SEDAN",
+        "coinPrice": 2300,
+        "tier": 2
+      },
+      {
         "Model": "skyline",
         "Name": "Annis skyline",
         "Class": "SPORTS",
@@ -4804,7 +5167,6 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "458it",
         "Name": "Grotti 458 Italia",
         "Class": "SPORTS",
@@ -4812,7 +5174,6 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "lex570",
         "Name": "Lexos LX 570",
         "Class": "SUV",
@@ -4820,7 +5181,6 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "bmwi4",
         "Name": "Ubermacht i4",
         "Class": "SUPER",
@@ -4828,7 +5188,6 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "escalade2",
         "Name": "Albany Escalade2",
         "Class": "SUV",
@@ -4836,7 +5195,6 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "bmwix",
         "Name": "Übermacht iX",
         "Class": "SUV",
@@ -4844,16 +5202,13 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "diablo",
         "Name": "Pegassi Diablo Sv",
         "Class": "SPORT_CLASSIC",
         "coinPrice": 2500,
-        "moneyPrice": 1625000,
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "amggtr",
         "Name": "Benefactor AMG GTR",
         "Class": "SPORTS",
@@ -4861,7 +5216,22 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
+        "Model": "camry70",
+        "Name": "Karin  Camry 70",
+        "Class": "SEDAN",
+        "coinPrice": 2600,
+        "moneyPrice": 1690000,
+        "DiscountPercentage": 10,
+        "tier": 2
+      },
+      {
+        "Model": "x6m",
+        "Name": "Übermacht X6m",
+        "Class": "SUV",
+        "coinPrice": 2600,
+        "tier": 2
+      },
+      {
         "Model": "carreragt",
         "Name": "Pfister Carrera GT",
         "Class": "SUPER",
@@ -4869,25 +5239,20 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "bmwm5",
         "Name": "Übermacht M5",
         "Class": "SPORTS",
         "coinPrice": 2800,
-        "moneyPrice": 1820000,
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "cls63amg",
         "Name": "Benefactor CLS 63",
         "Class": "SEDAN",
         "coinPrice": 3000,
-        "moneyPrice": 1950000,
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "flyspur24",
         "Name": "Enus Flying Spur W12",
         "Class": "SEDAN",
@@ -4895,7 +5260,6 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 20,
         "Model": "artura",
         "Name": "Progen Artura",
         "Class": "SUPER",
@@ -4903,16 +5267,20 @@
         "tier": 2
       },
       {
-        "DiscountPercentage": 15,
+        "Model": "gls63",
+        "Name": "Benefactor gls63",
+        "Class": "SUV",
+        "coinPrice": 3400,
+        "tier": 2
+      },
+      {
         "Model": "eb110",
         "Name": "Truffade EB 110",
         "Class": "SUPER",
         "coinPrice": 3400,
-        "moneyPrice": 2210000,
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "19raptor",
         "Name": "vapid raptor",
         "Class": "SUV",
@@ -4920,7 +5288,6 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "a80",
         "Name": "Karin Supra - 4th Gen (A80)",
         "Class": "SPORTS",
@@ -4928,7 +5295,13 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
+        "Model": "g63amg6x6",
+        "Name": "Benefactor  AMG G63",
+        "Class": "OFF_ROAD",
+        "coinPrice": 3450,
+        "tier": 3
+      },
+      {
         "Model": "cayenne19",
         "Name": "Pfister Cayenne 2019",
         "Class": "SUV",
@@ -4936,7 +5309,13 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
+        "Model": "x7m",
+        "Name": "Übermacht X7M",
+        "Class": "SUV",
+        "coinPrice": 3525,
+        "tier": 3
+      },
+      {
         "Model": "g63amg",
         "Name": "Benefactor G63 AMG",
         "Class": "SUV",
@@ -4944,7 +5323,13 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
+        "Model": "m5g90",
+        "Name": "Übermacht M5 G90",
+        "Class": "SPORTS",
+        "coinPrice": 3550,
+        "tier": 3
+      },
+      {
         "Model": "cybertruck",
         "Name": "CyberTrunk",
         "Class": "SUV",
@@ -4952,7 +5337,13 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
+        "Model": "macanev",
+        "Name": "Pfister Macan Electric",
+        "Class": "SUV",
+        "coinPrice": 3600,
+        "tier": 3
+      },
+      {
         "Model": "bmwm7",
         "Name": "Übermacht M7",
         "Class": "SEDAN",
@@ -4960,7 +5351,6 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "v4r",
         "Name": "Docati Panigale V4",
         "Class": "MOTORCYCLE",
@@ -4968,7 +5358,6 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "eqs",
         "Name": "Benefactor EQS 4MATIC",
         "Class": "SEDAN",
@@ -4976,7 +5365,6 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "720s",
         "Name": "Progen 720s",
         "Class": "SUPER",
@@ -4984,7 +5372,6 @@
         "coinPrice": 3800
       },
       {
-        "DiscountPercentage": 15,
         "Model": "bacalar",
         "Name": "Enus Bacalar",
         "Class": "SPORTS",
@@ -4992,7 +5379,6 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "amggt2",
         "Name": "Benefactor AMG GT2",
         "Class": "SPORTS",
@@ -5000,7 +5386,6 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "yzfr1",
         "Name": "Yamoha YZF-R1",
         "Class": "MOTORCYCLE",
@@ -5008,7 +5393,6 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "daytonasp3",
         "Name": "Grotti Daytona SP3 ",
         "Class": "SPORTS",
@@ -5016,7 +5400,6 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
         "Model": "gtr",
         "Name": "Annis gtr",
         "Class": "SPORTS",
@@ -5024,7 +5407,13 @@
         "tier": 3
       },
       {
-        "DiscountPercentage": 15,
+        "Model": "por911gt3rs",
+        "Name": "Pfister 911 Gt3 rs",
+        "Class": "SUPER",
+        "coinPrice": 4200,
+        "tier": 4
+      },
+      {
         "Model": "batur",
         "Name": "Enus Batur",
         "Class": "SPORTS",
@@ -5032,7 +5421,6 @@
         "tier": 4
       },
       {
-        "DiscountPercentage": 15,
         "Model": "atlantic15",
         "Name": "Truffade Atlantic",
         "Class": "SPORTS",
@@ -5040,7 +5428,6 @@
         "tier": 4
       },
       {
-        "DiscountPercentage": 15,
         "Model": "develsix",
         "Name": "Devel Sixteen",
         "Class": "SUPER",
@@ -5048,7 +5435,13 @@
         "tier": 4
       },
       {
-        "DiscountPercentage": 15,
+        "Model": "veneno",
+        "Name": "Pegassi  Veneno",
+        "Class": "SUPER",
+        "coinPrice": 4800,
+        "tier": 4
+      },
+      {
         "Model": "divo18",
         "Name": "Truffade divo ",
         "Class": "SUPER",
@@ -5056,7 +5449,6 @@
         "coinPrice": 4900
       },
       {
-        "DiscountPercentage": 15,
         "Model": "v4sf",
         "Name": "Docati Panigale V4 street fighter",
         "Class": "MOTORCYCLE",
@@ -5064,7 +5456,6 @@
         "tier": 4
       },
       {
-        "DiscountPercentage": 15,
         "Model": "huracanst2",
         "Name": "Pegassi ST Evo 2",
         "Class": "SUPER",
@@ -5072,7 +5463,20 @@
         "tier": 4
       },
       {
-        "DiscountPercentage": 15,
+        "Model": "humev22",
+        "Name": "2025 GMC HAMMER EV ",
+        "Class": "OFF_ROAD",
+        "coinPrice": 5600,
+        "tier": 4
+      },
+      {
+        "Model": "veyron16",
+        "Name": "Truffade  veyron 16",
+        "Class": "SUPER",
+        "coinPrice": 5700,
+        "tier": 4
+      },
+      {
         "Model": "exp100",
         "Name": "Enus EXP 100 GT",
         "Class": "COUPE",
@@ -5080,7 +5484,6 @@
         "tier": 4
       },
       {
-        "DiscountPercentage": 15,
         "Model": "regera",
         "Name": "OverFlod regera",
         "Class": "SPORTS",
@@ -5088,7 +5491,6 @@
         "tier": 4
       },
       {
-        "DiscountPercentage": 15,
         "Model": "apollo",
         "Name": "Intensa Emozione",
         "Class": "SUPER",
@@ -5117,10 +5519,17 @@
         "tier": 5
       },
       {
+        "Model": "terzo",
+        "Name": "pegassi terzo",
+        "Class": "SUPER",
+        "coinPrice": 8000,
+        "tier": 5
+      },
+      {
         "Model": "avtr",
         "Name": "Benefactor avtr ",
         "Class": "SUPER",
-        "coinPrice": 8000,
+        "coinPrice": 8500,
         "tier": 5
       }
     ],
@@ -73329,7 +73738,7 @@
         {
           "itemName": "item_saffarole_oil",
           "label": "SAFFAROLE OIL",
-          "singlePrice": 919
+          "singlePrice": 862
         },
         {
           "itemName": "item_methylamine_crystal",
@@ -73339,7 +73748,7 @@
         {
           "itemName": "item_cocain_powder",
           "label": "COCAINE POWDER",
-          "singlePrice": 5060
+          "singlePrice": 4830
         },
         {
           "itemName": "item_mdp2p",
@@ -73349,7 +73758,7 @@
         {
           "itemName": "item_cocain_pack",
           "label": "COCAINE PACK",
-          "singlePrice": 5979
+          "singlePrice": 5750
         },
         {
           "itemName": "item_mdma_powder",
@@ -73511,51 +73920,25 @@
           "itemName": "item_weapon_advanced_rifle",
           "label": "ADVANCED RIFLE",
           "singlePrice": 27500
+        }
+      ]
+    },
+    "boozeShopConfig": {
+      "regular": [
+        {
+          "itemName": "item_drink_vodka",
+          "label": "VODKA",
+          "singlePrice": 1080
         },
         {
-          "itemName": "item_weapon_stun_gun",
-          "label": "STUN GUN",
-          "singlePrice": 7500
+          "itemName": "item_drink_tequila",
+          "label": "TEQUILA",
+          "singlePrice": 960
         },
         {
-          "itemName": "item_weapon_combat_pwd",
-          "label": "COMBAT PWD",
-          "singlePrice": 15000
-        },
-        {
-          "itemName": "item_weapon_combat_shotgun",
-          "label": "COMBAT SHOTGUN",
-          "singlePrice": 18000
-        },
-        {
-          "itemName": "item_weapon_combat_mg",
-          "label": "COMBAT MG",
-          "singlePrice": 22000
-        },
-        {
-          "itemName": "item_weapon_carbine_rifle",
-          "label": "CARBINE RIFLE",
-          "singlePrice": 20000
-        },
-        {
-          "itemName": "item_weapon_sniper_rifle",
-          "label": "SNIPER RIFLE",
-          "singlePrice": 25000
-        },
-        {
-          "itemName": "item_bullet_9_mm",
-          "label": "9MM BULLETS",
-          "singlePrice": 5
-        },
-        {
-          "itemName": "item_bullet_shotgun",
-          "label": "SHOTGUN SHELLS",
-          "singlePrice": 15
-        },
-        {
-          "itemName": "item_bullet_5_56_mm",
-          "label": "5.56MM BULLETS",
-          "singlePrice": 10
+          "itemName": "item_drink_beer",
+          "label": "BEER",
+          "singlePrice": 480
         }
       ]
     }
@@ -74686,7 +75069,7 @@
         {
           "itemName": "item_ore_gold",
           "label": "GOLD ORE",
-          "singlePrice": "45",
+          "singlePrice": "53",
           "isSingleBuy": false
         },
         {
@@ -75298,46 +75681,119 @@
   },
   "governmentSalary": {
     "police": {
-      "Cadet": 2800,
-      "Police Officer 1": 4900,
-      "Police Officer 2": 5600,
-      "Police Officer 3": 6300,
-      "Sergeant": 6650,
-      "Lieutenant": 7000,
-      "Deputy": 7350,
-      "Chief": 7700
+      "0": 2800,
+      "1": 3080,
+      "2": 3360,
+      "3": 3640,
+      "4": 3920,
+      "5": 4200,
+      "6": 4480,
+      "7": 4760,
+      "8": 4900,
+      "9": 5180,
+      "10": 5460,
+      "11": 5600,
+      "12": 5880,
+      "13": 6160,
+      "14": 6300,
+      "15": 6650,
+      "16": 7000,
+      "17": 7174,
+      "18": 7350,
+      "19": 7525,
+      "20": 7700
     },
     "fbi": {
-      "Trainee": 1400,
-      "Agent": 2100,
-      "Field Agent": 3500,
-      "Special Agent": 4550,
-      "Director": 6300
+      "0": 1400,
+      "1": 1645,
+      "2": 1890,
+      "3": 2100,
+      "4": 2345,
+      "5": 2590,
+      "6": 2835,
+      "7": 3080,
+      "8": 3325,
+      "9": 3500,
+      "10": 3745,
+      "11": 3989,
+      "12": 4235,
+      "13": 4480,
+      "14": 4550,
+      "15": 4900,
+      "16": 5250,
+      "17": 5600,
+      "18": 5950,
+      "19": 6125,
+      "20": 6300
     },
     "army": {
-      "Private": 1050,
-      "Corporal": 1750,
-      "Sergeant": 2450,
-      "Sergeant Major": 3150,
-      "Lieutenant": 3850,
-      "Captain": 4550,
-      "General": 5250,
-      "Warrant Officer": 5950,
-      "Chief Warrant Officer": 6650
+      "0": 1050,
+      "1": 1330,
+      "2": 1610,
+      "3": 1750,
+      "4": 2029,
+      "5": 2310,
+      "6": 2450,
+      "7": 2730,
+      "8": 3010,
+      "9": 3150,
+      "10": 3430,
+      "11": 3710,
+      "12": 3850,
+      "13": 4130,
+      "14": 4410,
+      "15": 4550,
+      "16": 4900,
+      "17": 5250,
+      "18": 5600,
+      "19": 5950,
+      "20": 6650
     },
     "sheriff": {
-      "Cadet": 1400,
-      "Deputy": 2100,
-      "Corporal": 3500,
-      "Sergeant": 4200,
-      "Lieutenant": 5250,
-      "Sheriff": 6650
+      "0": 1400,
+      "1": 1662,
+      "2": 1925,
+      "3": 2100,
+      "4": 2450,
+      "5": 2800,
+      "6": 3150,
+      "7": 3325,
+      "8": 3500,
+      "9": 3762,
+      "10": 4024,
+      "11": 4200,
+      "12": 4550,
+      "13": 4900,
+      "14": 5162,
+      "15": 5250,
+      "16": 5600,
+      "17": 5950,
+      "18": 6300,
+      "19": 6475,
+      "20": 6650
     },
     "ems": {
-      "Intern": 3500,
-      "Nurse": 4550,
-      "Doctor": 5600,
-      "Chief": 6300
+      "0": 3500,
+      "1": 3640,
+      "2": 3780,
+      "3": 3920,
+      "4": 4059,
+      "5": 4200,
+      "6": 4340,
+      "7": 4480,
+      "8": 4550,
+      "9": 4690,
+      "10": 4830,
+      "11": 4970,
+      "12": 5110,
+      "13": 5250,
+      "14": 5390,
+      "15": 5530,
+      "16": 5600,
+      "17": 5810,
+      "18": 6020,
+      "19": 6160,
+      "20": 6300
     }
   },
   "itemsProperties": {
@@ -76349,6 +76805,51 @@
       "canDelete": true,
       "isIllegal": false,
       "category": "food",
+      "canUSE": true,
+      "canDrop": false,
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 5,
+      "canTrade": true
+    },
+    "item_drink_vodka": {
+      "name": "item_drink_vodka",
+      "label": "Vodka",
+      "accessKey": "none",
+      "canDelete": true,
+      "isIllegal": false,
+      "category": "drink",
+      "canUSE": true,
+      "canDrop": false,
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 5,
+      "canTrade": true
+    },
+    "item_drink_tequila": {
+      "name": "item_drink_tequila",
+      "label": "Tequila",
+      "accessKey": "none",
+      "canDelete": true,
+      "isIllegal": false,
+      "category": "drink",
+      "canUSE": true,
+      "canDrop": false,
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 5,
+      "canTrade": true
+    },
+    "item_drink_beer": {
+      "name": "item_drink_beer",
+      "label": "Beer",
+      "accessKey": "none",
+      "canDelete": true,
+      "isIllegal": false,
+      "category": "drink",
       "canUSE": true,
       "canDrop": false,
       "canUnStack": true,

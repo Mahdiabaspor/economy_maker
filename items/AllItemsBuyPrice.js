@@ -1,143 +1,148 @@
 /**
  * AllItemsBuyPrice.js - Central Item Price Repository
  * 
+ * ⚠️ THIS FILE IS CURRENTLY DISABLED/COMMENTED OUT
+ * All prices have been moved directly to the files that use them.
+ * This file is kept for reference purposes only.
+ * 
  * This file serves as the central repository for all item prices in the economy system.
  * It can be imported into other configuration files to ensure price consistency.
  */
 
 // ===== BASIC CONSTANTS =====
-export const COIN_VALUE = 750; // The value of one coin in game currency
+// // export const COIN_VALUE = 750; // The value of one coin in game currency
 
 // Multiplier used when calculating sell prices. Kept at 1 to preserve
 // current pricing but allows tweaking later without touching every value.
-export const SELL_PRICE_MULTIPLIER = 1;
+// export const SELL_PRICE_MULTIPLIER = 1;
 
 // ===== GENERAL ITEMS =====
 // Supermarket Items
-export const WALKIE_TALKIE_PRICE = 4350;
-export const MINERAL_WATER_PRICE = 250;
-export const SPRUNK_SODA_PRICE = 400;
-export const CHOCOLATE_BAR_PRICE = 250;
-export const HAMBURGER_PRICE = 400;
-export const REPAIR_KIT_PRICE = 4000;
-export const FABRIC_PRICE = 200;
+// export const WALKIE_TALKIE_PRICE = 4350;
+// export const MINERAL_WATER_PRICE = 250;
+// export const SPRUNK_SODA_PRICE = 400;
+// export const CHOCOLATE_BAR_PRICE = 250;
+// export const HAMBURGER_PRICE = 400;
+// export const REPAIR_KIT_PRICE = 4000;
+// export const FABRIC_PRICE = 200;
 
 // ===== EMS MEDICAL ITEMS =====
 // Raw Materials
-export const ETHANOL_PRICE = 800;
-export const MEDICINE_STABILIZER_PRICE = 250;
-export const EMPTY_PILL_CAPSULE_PRICE = 250;
-export const CAPSAICIN_POWDER_PRICE = 1000;
+// export const ETHANOL_PRICE = 800;
+// export const MEDICINE_STABILIZER_PRICE = 250;
+// export const EMPTY_PILL_CAPSULE_PRICE = 250;
+// export const CAPSAICIN_POWDER_PRICE = 1000;
 
 // Crafted Medical Items
-export const MEDICAL_BANDAGE_PRICE = (ETHANOL_PRICE * 3 + FABRIC_PRICE * 5) / 5; // Calculated from materials divided by output
-export const PAIN_KILLER_POWDER_PRICE = (MEDICINE_STABILIZER_PRICE * 4 + CAPSAICIN_POWDER_PRICE * 4) / 5; // Calculated from materials divided by output
-export const PAIN_KILLER_PILL_PRICE = (EMPTY_PILL_CAPSULE_PRICE * 5 + PAIN_KILLER_POWDER_PRICE * 5) / 5; // Calculated from materials divided by output
+// export const MEDICAL_BANDAGE_PRICE = (ETHANOL_PRICE * 3 + FABRIC_PRICE * 5) / 5; // Calculated from materials divided by output
+// export const PAIN_KILLER_POWDER_PRICE = (MEDICINE_STABILIZER_PRICE * 4 + CAPSAICIN_POWDER_PRICE * 4) / 5; // Calculated from materials divided by output
+// export const PAIN_KILLER_PILL_PRICE = (EMPTY_PILL_CAPSULE_PRICE * 5 + PAIN_KILLER_POWDER_PRICE * 5) / 5; // Calculated from materials divided by output
 
 // ===== FUEL =====
-export const FUEL_PRICE_PER_LITER = 3;
+// export const FUEL_PRICE_PER_LITER = 3;
 
 // ===== DRUGS =====
 // Raw Materials
-export const WEED_RAW_PRICE = 500;
-export const COCA_LEAVES_PRICE = 550;
-export const SAFFAROLE_LEAVE_PRICE = 600;
-export const BATTERY_PRICE = 500; // Estimated price for battery used in sulfuric acid
-export const PAINT_COLOR_PRICE = 600; // Estimated price for paint color used in acetone
-export const HOUSE_CLEANER_PRICE = 600; // Estimated price for house cleaner used in ammonia
-export const METHANOL_PRICE = 600; // Estimated price for methanol
-export const EMPTY_PLASTIC_PACK_PRICE = 433; // Estimated price from crafting formula
+// export const WEED_RAW_PRICE = 500;
+// export const COCA_LEAVES_PRICE = 550;
+// export const SAFFAROLE_LEAVE_PRICE = 600;
+// export const BATTERY_PRICE = 500; // Estimated price for battery used in sulfuric acid
+// export const PAINT_COLOR_PRICE = 600; // Estimated price for paint color used in acetone
+// export const HOUSE_CLEANER_PRICE = 600; // Estimated price for house cleaner used in ammonia
+// export const METHANOL_PRICE = 600; // Estimated price for methanol
+// export const EMPTY_PLASTIC_PACK_PRICE = 433; // Estimated price from crafting formula
 
 // Intermediate Drug Products
-export const SULFURIC_ACID_PRICE = BATTERY_PRICE * 4 / 2; // Calculated from materials: 4 batteries produces 2 outputs
-export const ACETONE_PRICE = PAINT_COLOR_PRICE * 2 / 2; // Calculated from materials: 2 paint color produces 2 outputs
-export const AMMONIA_PRICE = HOUSE_CLEANER_PRICE * 4 / 2; // Calculated from materials: 4 house cleaners produces 2 outputs
-export const SAFFAROLE_OIL_PRICE = SAFFAROLE_LEAVE_PRICE * 2 / 2; // Calculated from materials: 2 saffarole leaves produces 2 outputs
-export const METHYLAMINE_CRYSTAL_PRICE = METHANOL_PRICE * 3 + AMMONIA_PRICE * 2; // Calculated from materials: 3 methanol + 2 ammonia
-export const MDP2P_PRICE = ACETONE_PRICE * 1 + SAFFAROLE_OIL_PRICE * 1 + AMMONIA_PRICE * 1; // Calculated from materials
-export const SODIUM_BICARBONATE_PRICE = 400; // Estimated price from crafting formula
-export const COCAIN_POWDER_PRICE = (ACETONE_PRICE * 3 + COCA_LEAVES_PRICE * 3 + SULFURIC_ACID_PRICE * 2 + SODIUM_BICARBONATE_PRICE * 2) / 3; // Calculated from materials and output count
-export const MDMA_POWDER_PRICE = (MDP2P_PRICE * 2 + METHYLAMINE_CRYSTAL_PRICE * 2) / 3; // Calculated from materials and output count
+// export const SULFURIC_ACID_PRICE = BATTERY_PRICE * 4 / 2; // Calculated from materials: 4 batteries produces 2 outputs
+// export const ACETONE_PRICE = PAINT_COLOR_PRICE * 2 / 2; // Calculated from materials: 2 paint color produces 2 outputs
+// export const AMMONIA_PRICE = HOUSE_CLEANER_PRICE * 4 / 2; // Calculated from materials: 4 house cleaners produces 2 outputs
+// export const SAFFAROLE_OIL_PRICE = SAFFAROLE_LEAVE_PRICE * 2 / 2; // Calculated from materials: 2 saffarole leaves produces 2 outputs
+// export const METHYLAMINE_CRYSTAL_PRICE = METHANOL_PRICE * 3 + AMMONIA_PRICE * 2; // Calculated from materials: 3 methanol + 2 ammonia
+// export const MDP2P_PRICE = ACETONE_PRICE * 1 + SAFFAROLE_OIL_PRICE * 1 + AMMONIA_PRICE * 1; // Calculated from materials
+// export const SODIUM_BICARBONATE_PRICE = 400; // Estimated price from crafting formula
+// export const COCAIN_POWDER_PRICE = (ACETONE_PRICE * 3 + COCA_LEAVES_PRICE * 3 + SULFURIC_ACID_PRICE * 2 + SODIUM_BICARBONATE_PRICE * 2) / 3; // Calculated from materials and output count
+// export const MDMA_POWDER_PRICE = (MDP2P_PRICE * 2 + METHYLAMINE_CRYSTAL_PRICE * 2) / 3; // Calculated from materials and output count
 
 // Final Drug Products
-export const COCAIN_PACK_PRICE = COCAIN_POWDER_PRICE * 3 + EMPTY_PLASTIC_PACK_PRICE * 3; // Calculated from materials: 3 cocaine powder + 3 plastic packs
-export const MDMA_PILL_PRICE = MDMA_POWDER_PRICE * 1 + EMPTY_PILL_CAPSULE_PRICE * 1; // Calculated from materials: 1 MDMA powder + 1 pill capsule
+// export const COCAIN_PACK_PRICE = COCAIN_POWDER_PRICE * 3 + EMPTY_PLASTIC_PACK_PRICE * 3; // Calculated from materials: 3 cocaine powder + 3 plastic packs
+// export const MDMA_PILL_PRICE = MDMA_POWDER_PRICE * 1 + EMPTY_PILL_CAPSULE_PRICE * 1; // Calculated from materials: 1 MDMA powder + 1 pill capsule
 
 // ===== ELECTRIC JOB ITEMS =====
-export const MULTI_METER_PRICE = 2500;
-export const HAND_PLIERS_PRICE = 2000;
-export const MEDIUM_CIRCUIT_PRICE = 5500;
-export const ADVANCED_CIRCUIT_PRICE = 7650;
+// export const MULTI_METER_PRICE = 2500;
+// export const HAND_PLIERS_PRICE = 2000;
+// export const MEDIUM_CIRCUIT_PRICE = 5500;
+// export const ADVANCED_CIRCUIT_PRICE = 7650;
 
 // ===== MINING ITEMS =====
 // Raw Materials
-export const STONE_ORE_BUY_PRICE = 22;
-export const STONE_ORE_SELL_PRICE = Math.floor(14 * SELL_PRICE_MULTIPLIER); // Base 14
-export const IRON_ORE_BUY_PRICE = 37;
-export const IRON_ORE_SELL_PRICE = Math.floor(22 * SELL_PRICE_MULTIPLIER); // Base 22
-export const GOLD_ORE_BUY_PRICE = 53;
-export const GOLD_ORE_SELL_PRICE = Math.floor(31 * SELL_PRICE_MULTIPLIER); // Base 31
-export const SULFUR_ORE_BUY_PRICE = 30;
-export const SULFUR_ORE_SELL_PRICE = Math.floor(20 * SELL_PRICE_MULTIPLIER); // Base 20
-export const COAL_ORE_BUY_PRICE = 35;
-export const COAL_ORE_SELL_PRICE = Math.floor(22 * SELL_PRICE_MULTIPLIER); // Base 22
+// export const STONE_ORE_BUY_PRICE = 22;
+// export const STONE_ORE_SELL_PRICE = Math.floor(14 * SELL_PRICE_MULTIPLIER); // Base 14
+// export const IRON_ORE_BUY_PRICE = 37;
+// export const IRON_ORE_SELL_PRICE = Math.floor(22 * SELL_PRICE_MULTIPLIER); // Base 22
+// export const GOLD_ORE_BUY_PRICE = 53;
+// export const GOLD_ORE_SELL_PRICE = Math.floor(31 * SELL_PRICE_MULTIPLIER); // Base 31
+// export const SULFUR_ORE_BUY_PRICE = 30;
+// export const SULFUR_ORE_SELL_PRICE = Math.floor(20 * SELL_PRICE_MULTIPLIER); // Base 20
+// export const COAL_ORE_BUY_PRICE = 35;
+// export const COAL_ORE_SELL_PRICE = Math.floor(22 * SELL_PRICE_MULTIPLIER); // Base 22
 
 // Refined Materials
-export const IRON_BAR_BUY_PRICE = 2100;
-export const IRON_BAR_SELL_PRICE = Math.floor(1260 * SELL_PRICE_MULTIPLIER); // Base 1260
-export const GOLD_BAR_BUY_PRICE = 3300;
-export const GOLD_BAR_SELL_PRICE = Math.floor(1800 * SELL_PRICE_MULTIPLIER); // Base 1800
-export const REINFORCED_STEEL_PRICE = 5900; // Shop price (actual craft cost: IRON_BAR_BUY_PRICE * 10 + GOLD_BAR_BUY_PRICE * 4 = 34200)
+// export const IRON_BAR_BUY_PRICE = 2100;
+// export const IRON_BAR_SELL_PRICE = Math.floor(1260 * SELL_PRICE_MULTIPLIER); // Base 1260
+// export const GOLD_BAR_BUY_PRICE = 3300;
+// export const GOLD_BAR_SELL_PRICE = Math.floor(1800 * SELL_PRICE_MULTIPLIER); // Base 1800
+// export const REINFORCED_STEEL_PRICE = 5900; // Shop price (actual craft cost: IRON_BAR_BUY_PRICE * 10 + GOLD_BAR_BUY_PRICE * 4 = 34200)
 // Calculated from materials: 10 iron bars (21000) + 4 gold bars (13200) = 34200, but set to 5900 in shop
-export const GILDED_IRON_SELL_PRICE = Math.floor(18000 * SELL_PRICE_MULTIPLIER); // Base 18000
-export const AURIRON_SELL_PRICE = Math.floor(25200 * SELL_PRICE_MULTIPLIER); // Base 25200
+// export const GILDED_IRON_SELL_PRICE = Math.floor(18000 * SELL_PRICE_MULTIPLIER); // Base 18000
+// export const AURIRON_SELL_PRICE = Math.floor(25200 * SELL_PRICE_MULTIPLIER); // Base 25200
 
 // Special Items
-export const PICKAXE_LVL1_PRICE = STONE_ORE_BUY_PRICE * 200 + IRON_ORE_BUY_PRICE * 50; // Calculated from materials: 200 stone ore + 50 iron ore
-export const PICKAXE_LVL2_PRICE = IRON_BAR_BUY_PRICE * 5 + REINFORCED_STEEL_PRICE * 5; // Calculated from materials: 5 iron bars + 5 reinforced steel
-export const PICKAXE_LVL3_PRICE = GOLD_BAR_BUY_PRICE * 25 + IRON_BAR_BUY_PRICE * 25 + GILDED_IRON_SELL_PRICE * 17 + REINFORCED_STEEL_PRICE * 15; // Calculated from all materials
-export const PICKAXE_LVL4_PRICE = GOLD_BAR_BUY_PRICE * 50 + IRON_BAR_BUY_PRICE * 40 + GILDED_IRON_SELL_PRICE * 40 + AURIRON_SELL_PRICE * 20 + REINFORCED_STEEL_PRICE * 25; // Calculated from all materials
+// export const PICKAXE_LVL1_PRICE = STONE_ORE_BUY_PRICE * 200 + IRON_ORE_BUY_PRICE * 50; // Calculated from materials: 200 stone ore + 50 iron ore
+// export const PICKAXE_LVL2_PRICE = IRON_BAR_BUY_PRICE * 5 + REINFORCED_STEEL_PRICE * 5; // Calculated from materials: 5 iron bars + 5 reinforced steel
+// export const PICKAXE_LVL3_PRICE = GOLD_BAR_BUY_PRICE * 25 + IRON_BAR_BUY_PRICE * 25 + GILDED_IRON_SELL_PRICE * 17 + REINFORCED_STEEL_PRICE * 15; // Calculated from all materials
+// export const PICKAXE_LVL4_PRICE = GOLD_BAR_BUY_PRICE * 50 + IRON_BAR_BUY_PRICE * 40 + GILDED_IRON_SELL_PRICE * 40 + AURIRON_SELL_PRICE * 20 + REINFORCED_STEEL_PRICE * 25; // Calculated from all materials
 
 // Kits from Mining
-export const ANTI_SHARP_KIT_PRICE = IRON_BAR_BUY_PRICE * 10 + REINFORCED_STEEL_PRICE * 3; // Calculated from materials: 10 iron bars + 3 reinforced steel
-export const GAS_KIT_PRICE = SULFUR_ORE_BUY_PRICE * 320 + IRON_BAR_BUY_PRICE * 5 + GOLD_BAR_BUY_PRICE * 5 + REINFORCED_STEEL_PRICE * 8; // Calculated from materials
-export const RADIOACTIVE_KIT_PRICE = SULFUR_ORE_BUY_PRICE * 300 + COAL_ORE_BUY_PRICE * 200 + IRON_BAR_BUY_PRICE * 15 + GOLD_BAR_BUY_PRICE * 10 + REINFORCED_STEEL_PRICE * 10; // Calculated from all materials
+// export const ANTI_SHARP_KIT_PRICE = IRON_BAR_BUY_PRICE * 10 + REINFORCED_STEEL_PRICE * 3; // Calculated from materials: 10 iron bars + 3 reinforced steel
+// export const GAS_KIT_PRICE = SULFUR_ORE_BUY_PRICE * 320 + IRON_BAR_BUY_PRICE * 5 + GOLD_BAR_BUY_PRICE * 5 + REINFORCED_STEEL_PRICE * 8; // Calculated from materials
+// export const RADIOACTIVE_KIT_PRICE = SULFUR_ORE_BUY_PRICE * 300 + COAL_ORE_BUY_PRICE * 200 + IRON_BAR_BUY_PRICE * 15 + GOLD_BAR_BUY_PRICE * 10 + REINFORCED_STEEL_PRICE * 10; // Calculated from all materials
 
 // Gems
-export const AMBERITE_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
-export const AQUALITH_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
-export const LUMINITE_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
+// export const AMBERITE_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
+// export const AQUALITH_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
+// export const LUMINITE_GEM_SELL_PRICE = Math.floor(72000 * SELL_PRICE_MULTIPLIER); // Base 72000
 
 // Weapon Crafting Components
-export const WEAPON_STOCK_PRICE = IRON_BAR_BUY_PRICE * 3; // Calculated from materials: 3 iron bars
-export const NORMAL_BARREL_PRICE = REINFORCED_STEEL_PRICE * 1; // Based on 1 reinforced steel
-export const REINFORCED_BARREL_PRICE = REINFORCED_STEEL_PRICE * 1 + GOLD_BAR_BUY_PRICE * 1; // Based on materials
-export const WEAPON_GRIP_PRICE = IRON_BAR_BUY_PRICE * 3; // Based on materials: 3 iron bars
-export const WEAPON_SCOPE_PRICE = GOLD_BAR_BUY_PRICE * 2 + REINFORCED_STEEL_PRICE * 2; // Based on materials
-export const NORMAL_TRIGGER_PRICE = IRON_BAR_BUY_PRICE * 2 + GOLD_BAR_BUY_PRICE * 1; // Based on materials
-export const ADVANCED_TRIGGER_PRICE = GOLD_BAR_BUY_PRICE * 1 + REINFORCED_STEEL_PRICE * 1; // Based on materials
+// export const WEAPON_STOCK_PRICE = IRON_BAR_BUY_PRICE * 3; // Calculated from materials: 3 iron bars
+// export const NORMAL_BARREL_PRICE = REINFORCED_STEEL_PRICE * 1; // Based on 1 reinforced steel
+// export const REINFORCED_BARREL_PRICE = REINFORCED_STEEL_PRICE * 1 + GOLD_BAR_BUY_PRICE * 1; // Based on materials
+// export const WEAPON_GRIP_PRICE = IRON_BAR_BUY_PRICE * 3; // Based on materials: 3 iron bars
+// export const WEAPON_SCOPE_PRICE = GOLD_BAR_BUY_PRICE * 2 + REINFORCED_STEEL_PRICE * 2; // Based on materials
+// export const NORMAL_TRIGGER_PRICE = IRON_BAR_BUY_PRICE * 2 + GOLD_BAR_BUY_PRICE * 1; // Based on materials
+// export const ADVANCED_TRIGGER_PRICE = GOLD_BAR_BUY_PRICE * 1 + REINFORCED_STEEL_PRICE * 1; // Based on materials
 
 // ===== WEAPONS =====
 // Weapons
-export const KNIFE_PRICE = IRON_BAR_BUY_PRICE * 5; // Calculated from materials: 5 iron bars
-export const MACHETE_PRICE = REINFORCED_STEEL_PRICE * 4; // Calculated from materials: 4 reinforced steel
-export const COMBAT_PISTOL_PRICE = NORMAL_BARREL_PRICE * 1 + NORMAL_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1; // Calculated from weapon components
-export const DOUBLE_ACTION_REVOLVER_PRICE = ADVANCED_TRIGGER_PRICE * 1 + NORMAL_BARREL_PRICE * 2 + WEAPON_GRIP_PRICE * 1; // Calculated from weapon components
-export const DB_SHOTGUN_PRICE = REINFORCED_BARREL_PRICE * 1 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
-export const MICRO_SMG_PRICE = REINFORCED_BARREL_PRICE * 2 + NORMAL_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + WEAPON_STOCK_PRICE * 1; // Calculated from weapon components
-export const PUMP_SHOTGUN_PRICE = REINFORCED_BARREL_PRICE * 2 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
-export const COMPACT_RIFLE_PRICE = REINFORCED_BARREL_PRICE * 1 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + WEAPON_STOCK_PRICE * 2 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
-export const SMG_PRICE = 35000; // Shop price
-export const ADVANCED_RIFLE_PRICE = 55000; // Shop price
+// export const KNIFE_PRICE = IRON_BAR_BUY_PRICE * 5; // Calculated from materials: 5 iron bars
+// export const MACHETE_PRICE = REINFORCED_STEEL_PRICE * 4; // Calculated from materials: 4 reinforced steel
+// export const COMBAT_PISTOL_PRICE = NORMAL_BARREL_PRICE * 1 + NORMAL_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1; // Calculated from weapon components
+// export const DOUBLE_ACTION_REVOLVER_PRICE = ADVANCED_TRIGGER_PRICE * 1 + NORMAL_BARREL_PRICE * 2 + WEAPON_GRIP_PRICE * 1; // Calculated from weapon components
+// export const DB_SHOTGUN_PRICE = REINFORCED_BARREL_PRICE * 1 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
+// export const MICRO_SMG_PRICE = REINFORCED_BARREL_PRICE * 2 + NORMAL_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + WEAPON_STOCK_PRICE * 1; // Calculated from weapon components
+// export const PUMP_SHOTGUN_PRICE = REINFORCED_BARREL_PRICE * 2 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
+// export const COMPACT_RIFLE_PRICE = REINFORCED_BARREL_PRICE * 1 + ADVANCED_TRIGGER_PRICE * 1 + WEAPON_GRIP_PRICE * 1 + WEAPON_STOCK_PRICE * 2 + REINFORCED_STEEL_PRICE * 2; // Calculated from weapon components
+// export const SMG_PRICE = 35000; // Shop price
+// export const ADVANCED_RIFLE_PRICE = 55000; // Shop price
 
 // Ammo
-export const AMMO_556_PRICE = 20;
-export const AMMO_762_PRICE = 300; // Updated from WEAPONSHOP.js
-export const AMMO_9MM_PRICE = 10; // Updated from WEAPONSHOP.js
-export const AMMO_BUCKSHOT_PRICE = 30; // Updated from WEAPONSHOP.js (item_bullet_shotgun)
+// export const AMMO_556_PRICE = 20;
+// export const AMMO_762_PRICE = 300; // Updated from WEAPONSHOP.js
+// export const AMMO_9MM_PRICE = 10; // Updated from WEAPONSHOP.js
+// // export const AMMO_BUCKSHOT_PRICE = 30; // Updated from WEAPONSHOP.js (item_bullet_shotgun)
 
 // ===== ITEM MAP =====
 // This object allows you to look up prices by item name
+/*
 export const ITEM_PRICES = {
   // Basic items
   'item_walkie_talkie': WALKIE_TALKIE_PRICE,
@@ -241,14 +246,17 @@ export const ITEM_PRICES = {
   'item_gem_aqualith': AQUALITH_GEM_SELL_PRICE,
   'item_gem_luminite': LUMINITE_GEM_SELL_PRICE,
 };
+*/
 
 // ===== HELPER FUNCTIONS =====
+// All helper functions commented out - not in use
 
+/*
 /**
  * Get the buy price for any item by name
  * @param {string} itemName - Name of the item
  * @returns {number} The buy price or 0 if not found
- */
+ *\/
 export function getItemPrice(itemName) {
   return ITEM_PRICES[itemName] || 0;
 }
@@ -257,7 +265,7 @@ export function getItemPrice(itemName) {
  * Get the sell price for mining materials
  * @param {string} itemName - Name of the item
  * @returns {number} The sell price or 0 if not found
- */
+ *\/
 export function getMiningItemSellPrice(itemName) {
   const sellPriceMap = {
     'item_ore_stone': STONE_ORE_SELL_PRICE,
@@ -281,7 +289,7 @@ export function getMiningItemSellPrice(itemName) {
  * Calculate crafting cost for an item based on its materials
  * @param {Array} materials - Array of materials with itemName and count properties
  * @returns {number} The total crafting cost
- */
+ *\/
 export function calculateCraftingCost(materials) {
   let totalCost = 0;
   
@@ -298,7 +306,7 @@ export function calculateCraftingCost(materials) {
  * @param {Array} materials - Array of materials with itemName and count properties
  * @param {number} outputCount - Number of items produced from the crafting recipe
  * @returns {Object} Detailed crafting cost breakdown
- */
+ *\/
 export function getDetailedCraftingCost(materials, outputCount = 1) {
   let materialCosts = [];
   let totalCost = 0;
@@ -334,7 +342,7 @@ export function getDetailedCraftingCost(materials, outputCount = 1) {
  * @param {string} outputItemName - Name of the output item
  * @param {number} outputCount - Number of items produced from the crafting recipe
  * @returns {Object} Profit calculation including costs, revenue and margin
- */
+ *\/
 export function calculateCraftingProfit(materials, outputItemName, outputCount = 1) {
   const craftingCost = calculateCraftingCost(materials);
   const outputPrice = getItemPrice(outputItemName);
@@ -351,3 +359,4 @@ export function calculateCraftingProfit(materials, outputItemName, outputCount =
     profitMargin: parseFloat(profitMargin.toFixed(2))
   };
 }
+*/

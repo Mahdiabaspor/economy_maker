@@ -1,9 +1,8 @@
-import {
-  AMMO_9MM_PRICE,
-  AMMO_BUCKSHOT_PRICE,
-  AMMO_556_PRICE,
-  AMMO_762_PRICE,
-} from "../items/AllItemsBuyPrice.js";
+// Ammo price constants (previously imported from AllItemsBuyPrice.js - now commented out as prices are not used)
+// const AMMO_9MM_PRICE = 10;
+// const AMMO_BUCKSHOT_PRICE = 30;
+// const AMMO_556_PRICE = 20;
+// const AMMO_762_PRICE = 300;
 
 const weaponDealerBuyMulti = 1;
 

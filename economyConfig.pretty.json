@@ -6036,6 +6036,14 @@
         "tier": 3
       },
       {
+        "Model": "gle63amg",
+        "Name": "Benz AMG GLE 63",
+        "Class": "SUV",
+        "coinPrice": 3750,
+        "tier": 3,
+        "isNew": true
+      },
+      {
         "Model": "720s",
         "Name": "Progen 720s",
         "Class": "SUPER",
@@ -6090,6 +6098,14 @@
         "Class": "SPORTS",
         "coinPrice": 4200,
         "tier": 4
+      },
+      {
+        "Model": "sc20",
+        "Name": "Lamborghini SC20",
+        "Class": "SUPER",
+        "coinPrice": 4450,
+        "tier": 4,
+        "isNew": true
       },
       {
         "Model": "atlantic15",
@@ -6153,6 +6169,14 @@
         "Class": "COUPE",
         "coinPrice": 5800,
         "tier": 4
+      },
+      {
+        "Model": "rrghost",
+        "Name": "Rolls-Royce Ghost",
+        "Class": "SEDAN",
+        "coinPrice": 5900,
+        "tier": 4,
+        "isNew": true
       },
       {
         "Model": "regera",

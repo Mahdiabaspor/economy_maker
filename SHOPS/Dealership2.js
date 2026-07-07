@@ -3312,4 +3312,4 @@ export const carV3 = [
   // { Model: "formula2", Name: "R88", Class: "openwheel", moneyPrice: calcPrice(100000) , Brand: "Ocelot" }
 ];
 
-console.log(carV3.filter((car) => car.Class === "SEDAN").length);
+console.log(carV3.length);

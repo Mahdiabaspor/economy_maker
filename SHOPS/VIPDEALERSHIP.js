@@ -3,7 +3,7 @@ const advancedCoinCalcuter1 = (totalScore) => {
   const max = 8000;
   const ReverseMultiplayer = 21;
   const final = Math.floor(
-    min + ((totalScore - 30) / ReverseMultiplayer) * (max - min)
+    min + ((totalScore - 30) / ReverseMultiplayer) * (max - min),
   );
 
   return final;
@@ -15,7 +15,6 @@ const advancedCoinCalcuter = (coins) => {
   return final;
 };
 export const VipDealershipCars = [
-
   // this car was for halloween event
   // {
   //   Model: "hwboneshaker",
@@ -348,7 +347,14 @@ export const VipDealershipCars = [
     coinPrice: advancedCoinCalcuter(3700),
     tier: 3,
   },
-
+  {
+    Model: "gle63amg",
+    Name: "Benz AMG GLE 63",
+    Class: "SUV",
+    coinPrice: advancedCoinCalcuter(3750),
+    tier: 3,
+    isNew: true,
+  },
   {
     Model: "720s",
     Name: "Progen 720s",
@@ -412,7 +418,14 @@ export const VipDealershipCars = [
     coinPrice: advancedCoinCalcuter(4200),
     tier: 4,
   },
-
+  {
+    Model: "sc20",
+    Name: "Lamborghini SC20",
+    Class: "SUPER",
+    coinPrice: advancedCoinCalcuter(4450),
+    tier: 4,
+    isNew: true,
+  },
   {
     Model: "atlantic15",
     Name: "Truffade Atlantic",
@@ -481,7 +494,14 @@ export const VipDealershipCars = [
     coinPrice: advancedCoinCalcuter(5800),
     tier: 4,
   },
-
+  {
+    Model: "rrghost",
+    Name: "Rolls-Royce Ghost",
+    Class: "SEDAN",
+    coinPrice: advancedCoinCalcuter(5900),
+    tier: 4,
+    isNew: true,
+  },
   {
     Model: "regera",
     Name: "OverFlod regera",
@@ -551,4 +571,4 @@ export const VipDealershipCars = [
   // },
 ];
 
-console.log(advancedCoinCalcuter1(33));
+console.log(VipDealershipCars.length);

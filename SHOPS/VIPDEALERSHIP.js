@@ -15,15 +15,17 @@ const advancedCoinCalcuter = (coins) => {
   return final;
 };
 export const VipDealershipCars = [
-  {
-    Model: "hwboneshaker",
-    Name: "bone shaker",
-    Class: "MUSCLE",
-    coinPrice: advancedCoinCalcuter(1400),
-    moneyPrice: advancedCoinCalcuter(1400) * 650,
-    isNew: true,
-    tier: 1,
-  },
+
+  // this car was for halloween event
+  // {
+  //   Model: "hwboneshaker",
+  //   Name: "bone shaker",
+  //   Class: "MUSCLE",
+  //   coinPrice: advancedCoinCalcuter(1400),
+  //   moneyPrice: advancedCoinCalcuter(1400) * 650,
+  //   isNew: true,
+  //   tier: 1,
+  // },
   {
     Model: "camaro69",
     Name: "Declasse Camaro 1969",

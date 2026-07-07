@@ -1,10 +1,10 @@
-const fs = require('fs');
+import fs from "fs";
 
 // Read the existing JSON file
-const jsonData = fs.readFileSync('economyConfig.json', 'utf8');
+const jsonData = fs.readFileSync("economyConfig.json", "utf8");
 const parsedData = JSON.parse(jsonData);
 
 // Write minified version (no whitespace)
-fs.writeFileSync('economyConfig.min.json', JSON.stringify(parsedData));
+fs.writeFileSync("economyConfig.min.json", JSON.stringify(parsedData));
 
-console.log('JSON minified successfully');
+console.log("JSON minified successfully");

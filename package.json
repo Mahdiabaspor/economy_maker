@@ -1,0 +1,10 @@
+{
+  "name": "economy-config-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate_economy_config.js",
+    "minify": "node minify_json.js"
+  }
+}

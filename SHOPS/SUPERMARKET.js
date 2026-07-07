@@ -9,7 +9,7 @@ export const superMarketConfig = {
     {
       itemName: "item_drink_water",
       label: "MINERAL WATER",
-      singlePrice: Math.floor(300 * superMarketMultiplier * 0.8),
+      singlePrice: Math.floor(150 * superMarketMultiplier ),
     },
     // {
     //     itemName: 'item_drink_sprunk',
@@ -20,7 +20,7 @@ export const superMarketConfig = {
     {
       itemName: "item_food_chocolate",
       label: "CHOCOLATE BAR",
-      singlePrice: Math.floor(300 * superMarketMultiplier * 0.8),
+      singlePrice: Math.floor(150 * superMarketMultiplier),
     },
     // {
     //     itemName: 'item_food_hamburger',
@@ -30,18 +30,18 @@ export const superMarketConfig = {
     {
       itemName: "item_food_burger",
       label: "HAMBURGER",
-      singlePrice: Math.floor(570 * superMarketMultiplier ),
+      singlePrice: Math.floor(230 * superMarketMultiplier ),
     },
     {
       itemName: "item_food_double_burger",
       label: "Double Burger",
-      singlePrice: Math.floor(800 * superMarketMultiplier ),
+      singlePrice: Math.floor(420 * superMarketMultiplier ),
     },
     {
       itemName: "item_drink_sprunk",
       label: "SPRUNK SODA",
       singlePrice: Math.floor(
-        430 
+        215 * superMarketMultiplier
       ),
     },
     {

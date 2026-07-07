@@ -35,6 +35,7 @@ import { BurgerShotBenches } from "./JOBS/FoodJobs.js";
 import { FoodSupplierConfig } from "./SHOPS/FoodSuplier.js";
 import { junkItems } from "./JOBS/Junk.js";
 import { boozeShopConfig } from "./SHOPS/BooozeShop.js";
+import { vendingMachineConfig } from "./SHOPS/VENDINGMACHINE.js";
 
 
 const economyConfig = {
@@ -51,6 +52,7 @@ const economyConfig = {
     },
     FoodSupplierConfig,
     superMarketConfig,
+    vendingMachineConfig,
     tunningConfig,
     dealershipCars: carV3,
     VipDealershipCars:VipDealershipCars,

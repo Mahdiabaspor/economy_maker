@@ -186,7 +186,8 @@
       "repairCostMultiplier": 1,
       "DriftKit": 45000,
       "nitroKit": 70000,
-      "nitroRefillCost": 4500
+      "nitroRefillCost": 4500,
+      "conditionRepairCostPerPercent": 50
     },
     "emsShopConfig": {
       "buyConfig": {
@@ -81621,6 +81622,66 @@
           "craftTimeMinutes": 3,
           "output": 1,
           "requiredGangLevel": 4
+        },
+        {
+          "label": "9MM BULLETS",
+          "itemName": "item_bullet_9_mm",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 1,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_ore_sulfur",
+              "count": 8,
+              "label": "SULFUR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 200,
+          "requiredGangLevel": 1
+        },
+        {
+          "label": "SHOTGUN SHELLS",
+          "itemName": "item_bullet_shotgun",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 1,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_ore_sulfur",
+              "count": 12,
+              "label": "SULFUR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 100,
+          "requiredGangLevel": 2
+        },
+        {
+          "label": "5.56MM BULLETS",
+          "itemName": "item_bullet_5_56_mm",
+          "materials": [
+            {
+              "itemName": "item_bar_iron",
+              "count": 1,
+              "label": "IRON BAR"
+            },
+            {
+              "itemName": "item_ore_sulfur",
+              "count": 10,
+              "label": "SULFUR"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 1,
+          "output": 200,
+          "requiredGangLevel": 3
         }
       ]
     }

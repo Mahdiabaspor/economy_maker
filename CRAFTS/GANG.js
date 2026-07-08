@@ -314,5 +314,47 @@ export const CraftingGangConfig = {
       output: 1,
       requiredGangLevel: 4,
     },
+
+    // ===== AMMUNITION (single-step crafts: 1 iron bar + sulfur, fast, bulk output) =====
+    // Per-round cost is ~20-25% of the weapon-shop price when the iron bar is
+    // gang-mined (~1260). Iron bar = casing metal, sulfur (~30/ea) = powder.
+    // Both directly obtainable, no pre-craft chain. NOTE: 200-output crafts need
+    // 2 free inventory slots to collect (output is split into stacks of 100).
+    {
+      label: "9MM BULLETS", // shop 30/ea -> ~7.5/ea mined-iron (25%)  (1260+240)/200
+      itemName: "item_bullet_9_mm",
+      materials: [
+        { itemName: "item_bar_iron", count: 1, label: "IRON BAR" },
+        { itemName: "item_ore_sulfur", count: 8, label: "SULFUR" },
+      ],
+      itemType: "RARE",
+      craftTimeMinutes: 1,
+      output: 200,
+      requiredGangLevel: 1,
+    },
+    {
+      label: "SHOTGUN SHELLS", // shop 80/ea -> ~16/ea mined-iron (20%)  (1260+360)/100
+      itemName: "item_bullet_shotgun",
+      materials: [
+        { itemName: "item_bar_iron", count: 1, label: "IRON BAR" },
+        { itemName: "item_ore_sulfur", count: 12, label: "SULFUR" },
+      ],
+      itemType: "RARE",
+      craftTimeMinutes: 1,
+      output: 100,
+      requiredGangLevel: 2,
+    },
+    {
+      label: "5.56MM BULLETS", // shop 40/ea -> ~7.8/ea mined-iron (20%)  (1260+300)/200
+      itemName: "item_bullet_5_56_mm",
+      materials: [
+        { itemName: "item_bar_iron", count: 1, label: "IRON BAR" },
+        { itemName: "item_ore_sulfur", count: 10, label: "SULFUR" },
+      ],
+      itemType: "RARE",
+      craftTimeMinutes: 1,
+      output: 200,
+      requiredGangLevel: 3,
+    },
   ],
 };

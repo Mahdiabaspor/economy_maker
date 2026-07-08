@@ -393,6 +393,16 @@
           "singlePrice": 500
         },
         {
+          "itemName": "item_engine_oil",
+          "label": "ENGINE OIL",
+          "singlePrice": 4500
+        },
+        {
+          "itemName": "item_car_battery",
+          "label": "CAR BATTERY",
+          "singlePrice": 12000
+        },
+        {
           "itemName": "item_paint_color",
           "label": "PAINT COLOR",
           "singlePrice": 600
@@ -84924,6 +84934,32 @@
       "weight": 2,
       "canStack": true,
       "maxStack": 50,
+      "canTrade": true
+    },
+    "item_engine_oil": {
+      "name": "item_engine_oil",
+      "label": "Engine Oil",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": true,
+      "category": "parts",
+      "canUnStack": true,
+      "weight": 1.5,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_car_battery": {
+      "name": "item_car_battery",
+      "label": "Car Battery",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": true,
+      "category": "parts",
+      "canUnStack": true,
+      "weight": 4,
+      "canStack": true,
+      "maxStack": 5,
       "canTrade": true
     },
     "item_empty_plastic_pack": {

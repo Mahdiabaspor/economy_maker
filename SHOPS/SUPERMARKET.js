@@ -101,6 +101,16 @@ export const superMarketConfig = {
       singlePrice: Math.floor(500 * superMarketMultiplier),
     },
     {
+      itemName: "item_engine_oil",
+      label: "ENGINE OIL",
+      singlePrice: Math.floor(4500 * superMarketMultiplier),
+    },
+    {
+      itemName: "item_car_battery",
+      label: "CAR BATTERY",
+      singlePrice: Math.floor(12000 * superMarketMultiplier),
+    },
+    {
       itemName: "item_paint_color",
       label: "PAINT COLOR",
       singlePrice: Math.floor(600 * superMarketMultiplier),

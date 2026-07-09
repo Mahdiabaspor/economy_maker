@@ -7131,7 +7131,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_001_F",
       Zone: "ZONE_LEFT_ARM",
       ZoneID: 2,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7141,7 +7141,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_002_F",
       Zone: "ZONE_LEFT_LEG",
       ZoneID: 4,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7151,7 +7151,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_003_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7161,7 +7161,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_004_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7171,7 +7171,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_005_F",
       Zone: "ZONE_LEFT_LEG",
       ZoneID: 4,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7181,7 +7181,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_006_F",
       Zone: "ZONE_RIGHT_ARM",
       ZoneID: 3,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7191,7 +7191,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_007_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7201,7 +7201,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_008_F",
       Zone: "ZONE_RIGHT_ARM",
       ZoneID: 3,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7211,7 +7211,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_009_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7221,7 +7221,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_010_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7231,7 +7231,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_011_F",
       Zone: "ZONE_RIGHT_LEG",
       ZoneID: 5,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7241,7 +7241,7 @@ export const tattoos = {
       HashNameFemale: "24summerbp_tattoo_012_F",
       Zone: "ZONE_RIGHT_LEG",
       ZoneID: 5,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7251,7 +7251,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_001_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7261,7 +7261,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_002_F",
       Zone: "ZONE_RIGHT_LEG",
       ZoneID: 5,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7271,7 +7271,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_003_F",
       Zone: "ZONE_LEFT_LEG",
       ZoneID: 4,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7281,7 +7281,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_004_F",
       Zone: "ZONE_RIGHT_ARM",
       ZoneID: 3,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7291,7 +7291,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_005_F",
       Zone: "ZONE_RIGHT_ARM",
       ZoneID: 3,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7301,7 +7301,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_006_F",
       Zone: "ZONE_HEAD",
       ZoneID: 1,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7311,7 +7311,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_007_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7321,7 +7321,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_008_F",
       Zone: "ZONE_LEFT_ARM",
       ZoneID: 2,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7331,7 +7331,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_009_F",
       Zone: "ZONE_HEAD",
       ZoneID: 1,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7341,7 +7341,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_010_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7351,7 +7351,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_011_F",
       Zone: "ZONE_LEFT_ARM",
       ZoneID: 2,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7361,7 +7361,7 @@ export const tattoos = {
       HashNameFemale: "25winterbp_tattoo_012_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7371,7 +7371,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_001_F",
       Zone: "ZONE_LEFT_ARM",
       ZoneID: 2,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7381,7 +7381,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_002_F",
       Zone: "ZONE_RIGHT_ARM",
       ZoneID: 3,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7391,7 +7391,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_003_F",
       Zone: "ZONE_RIGHT_ARM",
       ZoneID: 3,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7401,7 +7401,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_004_F",
       Zone: "ZONE_HEAD",
       ZoneID: 1,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7411,7 +7411,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_005_F",
       Zone: "ZONE_HEAD",
       ZoneID: 1,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7421,7 +7421,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_006_F",
       Zone: "ZONE_LEFT_LEG",
       ZoneID: 4,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7431,7 +7431,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_007_F",
       Zone: "ZONE_LEFT_LEG",
       ZoneID: 4,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7441,7 +7441,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_008_F",
       Zone: "ZONE_RIGHT_LEG",
       ZoneID: 5,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7451,7 +7451,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_009_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7461,7 +7461,7 @@ export const tattoos = {
       HashNameFemale: "25springbp_tattoo_010_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7471,7 +7471,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_001_F",
       Zone: "ZONE_RIGHT_ARM",
       ZoneID: 3,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7481,7 +7481,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_002_F",
       Zone: "ZONE_LEFT_ARM",
       ZoneID: 2,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7491,7 +7491,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_003_F",
       Zone: "ZONE_LEFT_LEG",
       ZoneID: 4,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7501,7 +7501,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_004_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7511,7 +7511,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_005_F",
       Zone: "ZONE_HEAD",
       ZoneID: 1,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7521,7 +7521,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_006_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7531,7 +7531,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_007_F",
       Zone: "ZONE_HEAD",
       ZoneID: 1,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7541,7 +7541,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_008_F",
       Zone: "ZONE_RIGHT_LEG",
       ZoneID: 5,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7551,7 +7551,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_009_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7561,7 +7561,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_010_F",
       Zone: "ZONE_RIGHT_ARM",
       ZoneID: 3,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7571,7 +7571,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_011_F",
       Zone: "ZONE_TORSO",
       ZoneID: 0,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
     {
@@ -7581,7 +7581,7 @@ export const tattoos = {
       HashNameFemale: "25summerbp_tattoo_012_F",
       Zone: "ZONE_HEAD",
       ZoneID: 1,
-      Price: 5000,
+      Price: 50000,
       Unique: true,
     },
   ],

@@ -1787,7 +1787,7 @@ export const itemsProperties = {
     canUnStack: true,
     weight: 0.5,
     canStack: true,
-    maxStack: 10,
+    maxStack: 5,
     canTrade: true,
   },
 

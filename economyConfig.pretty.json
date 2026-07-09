@@ -198,6 +198,11 @@
             "singlePrice": 1500
           },
           {
+            "itemName": "item_medical_first_aid",
+            "label": "FIRST AID KIT",
+            "singlePrice": 10000
+          },
+          {
             "itemName": "item_capsaicin_powder",
             "label": "capsaicin POWDER",
             "singlePrice": 1000
@@ -82918,7 +82923,8 @@
   "factionConfigs": {
     "EmsConfig": {
       "healingCost": 1500,
-      "RespawnHospital": 3000
+      "RespawnHospital": 3000,
+      "woundedTime": 180
     },
     "gangConfig": {
       "boostPrice": 40,
@@ -84033,7 +84039,7 @@
       "canUnStack": true,
       "weight": 0.5,
       "canStack": true,
-      "maxStack": 10,
+      "maxStack": 5,
       "canTrade": true
     },
     "item_fuel_can": {

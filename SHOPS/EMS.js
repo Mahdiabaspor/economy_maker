@@ -8,6 +8,11 @@ export const emsShopConfig = {
       singlePrice: Math.floor(1500 * shopEmsMultiplier),
     },
     {
+      itemName: "item_medical_first_aid",
+      label: "FIRST AID KIT",
+      singlePrice: Math.floor(10000 * shopEmsMultiplier),
+    },
+    {
       itemName: "item_capsaicin_powder",
       label: "capsaicin POWDER",
       singlePrice: Math.floor(1000 * shopEmsMultiplier),

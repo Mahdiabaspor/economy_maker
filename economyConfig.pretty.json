@@ -5,7 +5,14 @@
     },
     "gasStationConfig": {
       "normalFuelPerLitter": 4,
-      "gasUsageTime": 20
+      "gasUsageTime": 20,
+      "pricePerLitter": {
+        "regular": 4,
+        "premium": 8,
+        "diesel": 5
+      },
+      "electricPricePerKwh": 3,
+      "wrongFuelDamage": 15
     },
     "licenseDmvConfig": {
       "boat": 37500,

@@ -84,5 +84,19 @@ export const emsShopSellConfig = {
         perTime: 15,
       },
     },
+
+    {
+      // crafted by EMS (CRAFTS/EMS.js): self-crafted cost ≈ 4910/kit → ~1590 profit.
+      // This is the guaranteed floor — the real profit is selling to players
+      // between this and the 10000 shop buy price. Kept below the 7300/kit cost
+      // of crafting from shop-bought materials, so buy→craft→sell-back loses money.
+      itemName: "item_medical_first_aid",
+      label: "FIRST AID KIT",
+      singlePrice: Math.floor(6500 * shopEmsMultiplier),
+      limitation: {
+        count: 4,
+        perTime: 15,
+      },
+    },
   ],
 };

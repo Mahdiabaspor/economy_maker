@@ -264,6 +264,15 @@
               "count": 5,
               "perTime": 15
             }
+          },
+          {
+            "itemName": "item_medical_first_aid",
+            "label": "FIRST AID KIT",
+            "singlePrice": 6500,
+            "limitation": {
+              "count": 4,
+              "perTime": 15
+            }
           }
         ]
       }
@@ -81208,6 +81217,35 @@
         "itemType": "RARE",
         "craftTimeMinutes": 3,
         "output": 5
+      },
+      {
+        "label": "FIRST AID KIT",
+        "itemName": "item_medical_first_aid",
+        "materials": [
+          {
+            "itemName": "item_medical_bandage",
+            "count": 4,
+            "label": "MEDICAL BANDAGE"
+          },
+          {
+            "itemName": "item_pain_killer_pill",
+            "count": 2,
+            "label": "PAIN KILLER PILL"
+          },
+          {
+            "itemName": "item_ethanol",
+            "count": 2,
+            "label": "Ethanol"
+          },
+          {
+            "itemName": "item_fabric",
+            "count": 15,
+            "label": "Fabric"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 5,
+        "output": 2
       }
     ],
     "CraftingGangConfig": {

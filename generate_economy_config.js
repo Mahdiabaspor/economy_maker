@@ -1,5 +1,5 @@
 import fs from "fs";
-import { garageConfig } from "./SHOPS/GARAGE.js";
+import { garageConfig, phoneGarageConfig } from "./SHOPS/GARAGE.js";
 import { gasStationConfig } from "./SHOPS/GASSTATION.js";
 import { weaponShopConfig } from "./SHOPS/WEAPONSHOP.js";
 import { carRentalsConfig } from "./SHOPS/RENT_CARS.js";
@@ -41,6 +41,7 @@ import { vendingMachineConfig } from "./SHOPS/VENDINGMACHINE.js";
 const economyConfig = {
   shops: {
     garageConfig,
+    phoneGarageConfig,
     gasStationConfig,
     licenseDmvConfig,
     weaponShopConfig,

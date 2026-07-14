@@ -3,6 +3,10 @@
     "garageConfig": {
       "returnVehiclePrice": 1000
     },
+    "phoneGarageConfig": {
+      "summonPrice": 5000,
+      "returnPrice": 5000
+    },
     "gasStationConfig": {
       "normalFuelPerLitter": 4,
       "gasUsageTime": 20,

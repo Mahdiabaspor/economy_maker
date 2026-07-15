@@ -307,6 +307,21 @@ export const miningJobConfig = {
       craftTimeMinutes: 3,
       numberOfOutput: 4,
     },
+    // Moved here from the Black Smith when that shop was removed. Same materials,
+    // same time, same output as the old blacksmith recipe — only the menu changed.
+    // coalCost 0 keeps the cost identical to the blacksmith's; raise it if the
+    // refinery should charge coal for steel too.
+    {
+      label: "REINFORCED STEEL",
+      itemName: "item_reinforced_steel",
+      materials: [
+        { count: 10, item: "item_bar_iron" },
+        { count: 4, item: "item_bar_gold" },
+      ],
+      coalCost: 0,
+      craftTimeMinutes: 3,
+      numberOfOutput: 4,
+    },
     {
       label: "GILDED IRON",
       itemName: "item_bar_gildiron",
@@ -337,104 +352,118 @@ export const miningJobConfig = {
       numberOfOutput: 10,
     },
   ],
+  // BLACK SMITH — REMOVED (July 2026).
+  //
+  // The shop, its NPC, its blip and its `/BlackSmithCrafting` menu are gone: gang
+  // weapons are built from `item_military_component` (Weapon Shop Robbery) now, so
+  // the weapon-part items below (stock/barrel/grip/scope/trigger) no longer exist
+  // in itemProperties.ts and cannot be crafted or used.
+  //
+  // REINFORCED STEEL was the one recipe here that was NOT a weapon part — mining
+  // craftTools and the gilded/aur-iron refines still need it — so it moved up into
+  // `refinery` above, unchanged. Everything else is kept commented purely as a
+  // record of the old prices.
+  //
+  // Keep this array empty rather than deleting the key: `MiningJobConfig.blackSmith`
+  // in high-ui's Economy.Types.ts is a required field.
   blackSmith: [
-    {
-      label: "REINFORCED STEEL", //3815
-      itemName: "item_reinforced_steel",
-      materials: [
-        { itemName: "item_bar_iron", count: 10, label: "IRON BAR" },
-        { itemName: "item_bar_gold", count: 4, label: "GOLD BAR" },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 3,
-      output: 4,
-    },
-    {
-      label: "WEAPON STOCK", //2,775
-      itemName: "item_stock_weapon",
-      materials: [{ itemName: "item_bar_iron", count: 3, label: "IRON BAR" }],
-      itemType: "RARE",
-      craftTimeMinutes: 3,
-      output: 1,
-    },
-    {
-      label: "NORMAL WEAPON BARREL", //3815
-      itemName: "item_normal_barrel",
-      materials: [
-        {
-          itemName: "item_reinforced_steel",
-          count: 1,
-          label: "REINFORCED STEEL",
-        },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 3,
-      output: 1,
-    },
-    {
-      label: "REINFORCED WEAPON BARREL", //5315
-      itemName: "item_reinforced_barrel",
-      materials: [
-        {
-          itemName: "item_reinforced_steel",
-          count: 1,
-          label: "REINFORCED STEEL",
-        },
-        { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 3,
-      output: 1,
-    },
-    {
-      label: "WEAPON GRIP", //2,775
-      itemName: "item_grip_weapon",
-      materials: [{ itemName: "item_bar_iron", count: 3, label: "IRON BAR" }],
-      itemType: "RARE",
-      craftTimeMinutes: 3,
-      output: 1,
-    },
-    {
-      label: "WEAPON SCOPE", //10630
-      itemName: "item_scope_weapon",
-      materials: [
-        { itemName: "item_bar_gold", count: 2, label: "GOLD BAR" },
-        {
-          itemName: "item_reinforced_steel",
-          count: 2,
-          label: "REINFORCED STEEL",
-        },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 3,
-      output: 1,
-    },
-    {
-      label: "NORMAL WEAPON TRIGGER", //3,350
-      itemName: "item_normal_trigger",
-      materials: [
-        { itemName: "item_bar_iron", count: 2, label: "IRON BAR" },
-        { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 3,
-      output: 1,
-    },
-    {
-      label: "ADVANCED WEAPON TRIGGER", //5,315
-      itemName: "item_advanced_trigger",
-      materials: [
-        { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
-        {
-          itemName: "item_reinforced_steel",
-          count: 1,
-          label: "REINFORCED STEEL",
-        },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 3,
-      output: 1,
-    },
+    // {
+    //   label: "REINFORCED STEEL", //3815
+    //   itemName: "item_reinforced_steel",
+    //   materials: [
+    //     { itemName: "item_bar_iron", count: 10, label: "IRON BAR" },
+    //     { itemName: "item_bar_gold", count: 4, label: "GOLD BAR" },
+    //   ],
+    //   itemType: "RARE",
+    //   craftTimeMinutes: 3,
+    //   output: 4,
+    // },
+    // {
+    //   label: "WEAPON STOCK", //2,775
+    //   itemName: "item_stock_weapon",
+    //   materials: [{ itemName: "item_bar_iron", count: 3, label: "IRON BAR" }],
+    //   itemType: "RARE",
+    //   craftTimeMinutes: 3,
+    //   output: 1,
+    // },
+    // {
+    //   label: "NORMAL WEAPON BARREL", //3815
+    //   itemName: "item_normal_barrel",
+    //   materials: [
+    //     {
+    //       itemName: "item_reinforced_steel",
+    //       count: 1,
+    //       label: "REINFORCED STEEL",
+    //     },
+    //   ],
+    //   itemType: "RARE",
+    //   craftTimeMinutes: 3,
+    //   output: 1,
+    // },
+    // {
+    //   label: "REINFORCED WEAPON BARREL", //5315
+    //   itemName: "item_reinforced_barrel",
+    //   materials: [
+    //     {
+    //       itemName: "item_reinforced_steel",
+    //       count: 1,
+    //       label: "REINFORCED STEEL",
+    //     },
+    //     { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
+    //   ],
+    //   itemType: "RARE",
+    //   craftTimeMinutes: 3,
+    //   output: 1,
+    // },
+    // {
+    //   label: "WEAPON GRIP", //2,775
+    //   itemName: "item_grip_weapon",
+    //   materials: [{ itemName: "item_bar_iron", count: 3, label: "IRON BAR" }],
+    //   itemType: "RARE",
+    //   craftTimeMinutes: 3,
+    //   output: 1,
+    // },
+    // {
+    //   label: "WEAPON SCOPE", //10630
+    //   itemName: "item_scope_weapon",
+    //   materials: [
+    //     { itemName: "item_bar_gold", count: 2, label: "GOLD BAR" },
+    //     {
+    //       itemName: "item_reinforced_steel",
+    //       count: 2,
+    //       label: "REINFORCED STEEL",
+    //     },
+    //   ],
+    //   itemType: "RARE",
+    //   craftTimeMinutes: 3,
+    //   output: 1,
+    // },
+    // {
+    //   label: "NORMAL WEAPON TRIGGER", //3,350
+    //   itemName: "item_normal_trigger",
+    //   materials: [
+    //     { itemName: "item_bar_iron", count: 2, label: "IRON BAR" },
+    //     { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
+    //   ],
+    //   itemType: "RARE",
+    //   craftTimeMinutes: 3,
+    //   output: 1,
+    // },
+    // {
+    //   label: "ADVANCED WEAPON TRIGGER", //5,315
+    //   itemName: "item_advanced_trigger",
+    //   materials: [
+    //     { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
+    //     {
+    //       itemName: "item_reinforced_steel",
+    //       count: 1,
+    //       label: "REINFORCED STEEL",
+    //     },
+    //   ],
+    //   itemType: "RARE",
+    //   craftTimeMinutes: 3,
+    //   output: 1,
+    // },
   ],
   MiningShopSell: MiningShopSell,
   MiningShopBuy: [

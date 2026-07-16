@@ -250,7 +250,7 @@
           {
             "itemName": "item_medical_bandage",
             "label": "MEDICAL BANDAGE",
-            "singlePrice": 900,
+            "singlePrice": 550,
             "limitation": {
               "count": 8,
               "perTime": 15
@@ -259,7 +259,7 @@
           {
             "itemName": "item_pain_killer_pill",
             "label": "pain killer PILL",
-            "singlePrice": 1550,
+            "singlePrice": 1000,
             "limitation": {
               "count": 5,
               "perTime": 15
@@ -268,7 +268,7 @@
           {
             "itemName": "item_medical_first_aid",
             "label": "FIRST AID KIT",
-            "singlePrice": 6500,
+            "singlePrice": 4400,
             "limitation": {
               "count": 4,
               "perTime": 15
@@ -81011,81 +81011,46 @@
         {
           "itemName": "item_methylamine_crystal",
           "label": "METHYLAMINE CRYSTAL",
-          "singlePrice": 6554
+          "singlePrice": 3999
         },
         {
           "itemName": "item_cocain_powder",
           "label": "COCAINE POWDER",
-          "singlePrice": 4830
+          "singlePrice": 3799
         },
         {
           "itemName": "item_mdp2p",
           "label": "MDP2P",
-          "singlePrice": 5979
+          "singlePrice": 3499
         },
         {
           "itemName": "item_cocain_pack",
           "label": "COCAINE PACK",
-          "singlePrice": 5000
+          "singlePrice": 4600
         },
         {
           "itemName": "item_mdma_powder",
           "label": "MDMA POWDER",
-          "singlePrice": 4485
+          "singlePrice": 5499
         },
         {
           "itemName": "item_mdma_pill",
           "label": "MDMA PILL",
-          "singlePrice": 10925
+          "singlePrice": 6199
         }
       ]
     },
     "WeaponDealer": {
       "sell": [
         {
-          "itemName": "item_normal_barrel",
-          "label": "NORMAL BARREL",
-          "singlePrice": 4005
-        },
-        {
-          "itemName": "item_reinforced_barrel",
-          "label": "REINFORCED BARREL",
-          "singlePrice": 5318
-        },
-        {
-          "itemName": "item_grip_weapon",
-          "label": "WEAPON GRIP",
-          "singlePrice": 2913
-        },
-        {
-          "itemName": "item_stock_weapon",
-          "label": "WEAPON STOCK",
-          "singlePrice": 2913
-        },
-        {
-          "itemName": "item_normal_trigger",
-          "label": "NORMAL TRIGGER",
-          "singlePrice": 3255
-        },
-        {
-          "itemName": "item_advanced_trigger",
-          "label": "ADVANCED TRIGGER",
-          "singlePrice": 5318
-        },
-        {
-          "itemName": "item_scope_weapon",
-          "label": "WEAPON SCOPE",
-          "singlePrice": 10636
-        },
-        {
           "itemName": "item_melee_knife",
           "label": "KNIFE",
-          "singlePrice": 7000
+          "singlePrice": 4500
         },
         {
           "itemName": "item_melee_machete",
           "label": "MACHETE",
-          "singlePrice": 16023
+          "singlePrice": 6500
         },
         {
           "itemName": "item_weapon_nightstick",
@@ -81177,7 +81142,7 @@
           }
         ],
         "itemType": "RARE",
-        "craftTimeMinutes": 4,
+        "craftTimeMinutes": 0,
         "output": 5
       },
       {
@@ -81196,7 +81161,7 @@
           }
         ],
         "itemType": "RARE",
-        "craftTimeMinutes": 3,
+        "craftTimeMinutes": 0,
         "output": 5
       },
       {
@@ -81215,7 +81180,7 @@
           }
         ],
         "itemType": "RARE",
-        "craftTimeMinutes": 3,
+        "craftTimeMinutes": 0,
         "output": 5
       },
       {
@@ -81244,7 +81209,7 @@
           }
         ],
         "itemType": "RARE",
-        "craftTimeMinutes": 5,
+        "craftTimeMinutes": 0,
         "output": 2
       }
     ],
@@ -81261,7 +81226,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 2,
           "requiredGangLevel": 1
         },
@@ -81281,7 +81246,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 2,
+          "craftTimeMinutes": 0,
           "output": 3,
           "requiredGangLevel": 1
         },
@@ -81296,7 +81261,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 2,
           "requiredGangLevel": 1
         },
@@ -81316,7 +81281,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 0,
           "output": 1,
           "requiredGangLevel": 1
         },
@@ -81331,7 +81296,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 2,
           "requiredGangLevel": 1
         },
@@ -81351,7 +81316,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
           "requiredGangLevel": 3
         },
@@ -81366,7 +81331,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 2,
           "requiredGangLevel": 1
         },
@@ -81396,7 +81361,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 3,
           "requiredGangLevel": 3
         },
@@ -81421,7 +81386,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
           "requiredGangLevel": 4
         },
@@ -81441,7 +81406,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 3,
           "requiredGangLevel": 4
         }
@@ -81452,290 +81417,325 @@
           "itemName": "item_lock_pick",
           "materials": [
             {
-              "itemName": "item_bar_iron",
-              "count": 1,
-              "label": "IRON BAR"
-            },
-            {
-              "itemName": "item_broken_lock_pick",
-              "count": 2,
-              "label": "BROKEN LOCK PICK"
-            },
-            {
-              "itemName": "item_fabric",
-              "count": 1,
-              "label": "FABRIC"
+              "itemName": "item_military_component",
+              "count": 15,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 1
+          "requiredGangLevel": 1,
+          "group": "OTHER"
         },
         {
-          "label": " KNIFE",
+          "label": "KNIFE",
           "itemName": "item_melee_knife",
           "materials": [
             {
-              "itemName": "item_bar_iron",
-              "count": 5,
-              "label": "IRON BAR"
+              "itemName": "item_military_component",
+              "count": 15,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 1
+          "requiredGangLevel": 1,
+          "group": "MELEE",
+          "stats": {
+            "damage": 25,
+            "fireRate": 40,
+            "accuracy": 50,
+            "range": 5
+          }
         },
         {
           "label": "COMBAT PISTOL",
           "itemName": "item_weapon_combat_pistol",
           "materials": [
             {
-              "itemName": "item_normal_barrel",
-              "count": 1,
-              "label": "NORMAL BARREL"
-            },
-            {
-              "itemName": "item_normal_trigger",
-              "count": 1,
-              "label": "TRIGGER"
-            },
-            {
-              "itemName": "item_grip_weapon",
-              "count": 1,
-              "label": "GRIP"
+              "itemName": "item_military_component",
+              "count": 30,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 1
+          "requiredGangLevel": 1,
+          "group": "PISTOLS",
+          "stats": {
+            "damage": 27,
+            "fireRate": 55,
+            "accuracy": 45,
+            "range": 40
+          }
         },
         {
           "label": "MACHETE",
           "itemName": "item_melee_machete",
           "materials": [
             {
-              "itemName": "item_reinforced_steel",
-              "count": 4,
-              "label": "REINFORCED STEEL"
+              "itemName": "item_military_component",
+              "count": 20,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 2
+          "requiredGangLevel": 2,
+          "group": "MELEE",
+          "stats": {
+            "damage": 35,
+            "fireRate": 30,
+            "accuracy": 50,
+            "range": 6
+          }
         },
         {
           "label": "DOUBLE ACTION REVOLVER",
           "itemName": "item_weapon_double_action_revolver",
           "materials": [
             {
-              "itemName": "item_advanced_trigger",
-              "count": 1,
-              "label": "ADVANCED TRIGGER"
-            },
-            {
-              "itemName": "item_normal_barrel",
-              "count": 2,
-              "label": "NORMAL BARREL"
-            },
-            {
-              "itemName": "item_grip_weapon",
-              "count": 1,
-              "label": "GRIP"
+              "itemName": "item_military_component",
+              "count": 45,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 2
+          "requiredGangLevel": 2,
+          "group": "PISTOLS",
+          "stats": {
+            "damage": 65,
+            "fireRate": 25,
+            "accuracy": 55,
+            "range": 45
+          }
         },
         {
           "label": "DB SHOTGUN",
           "itemName": "item_weapon_db_shotgun",
           "materials": [
             {
-              "itemName": "item_reinforced_barrel",
-              "count": 1,
-              "label": "REINFORCED BARREL"
-            },
-            {
-              "itemName": "item_advanced_trigger",
-              "count": 1,
-              "label": "ADVANCED TRIGGER"
-            },
-            {
-              "itemName": "item_grip_weapon",
-              "count": 1,
-              "label": "GRIP"
-            },
-            {
-              "itemName": "item_reinforced_steel",
-              "count": 2,
-              "label": "REINFORCED STEEL"
+              "itemName": "item_military_component",
+              "count": 60,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 3
+          "requiredGangLevel": 3,
+          "group": "SHOTGUNS",
+          "stats": {
+            "damage": 80,
+            "fireRate": 20,
+            "accuracy": 30,
+            "range": 25
+          }
         },
         {
           "label": "MICRO SMG",
           "itemName": "item_weapon_micro_smg",
           "materials": [
             {
-              "itemName": "item_reinforced_barrel",
-              "count": 2,
-              "label": "REINFORCED BARREL"
-            },
-            {
-              "itemName": "item_normal_trigger",
-              "count": 1,
-              "label": "TRIGGER"
-            },
-            {
-              "itemName": "item_grip_weapon",
-              "count": 1,
-              "label": "GRIP"
-            },
-            {
-              "itemName": "item_stock_weapon",
-              "count": 1,
-              "label": "STOCK"
+              "itemName": "item_military_component",
+              "count": 65,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 3
+          "requiredGangLevel": 3,
+          "group": "SMGS",
+          "stats": {
+            "damage": 30,
+            "fireRate": 80,
+            "accuracy": 35,
+            "range": 35
+          }
         },
         {
           "label": "SAWNOFF SHOTGUN",
           "itemName": "item_weapon_sawnoff_shotgun",
           "materials": [
             {
-              "itemName": "item_advanced_trigger",
-              "count": 1,
-              "label": "ADVANCED TRIGGER"
-            },
-            {
-              "itemName": "item_reinforced_barrel",
-              "count": 2,
-              "label": "REINFORCED BARREL"
-            },
-            {
-              "itemName": "item_grip_weapon",
-              "count": 1,
-              "label": "GRIP"
-            },
-            {
-              "itemName": "item_reinforced_steel",
-              "count": 2,
-              "label": "REINFORCED STEEL"
+              "itemName": "item_military_component",
+              "count": 70,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 4
+          "requiredGangLevel": 4,
+          "group": "SHOTGUNS",
+          "stats": {
+            "damage": 78,
+            "fireRate": 25,
+            "accuracy": 25,
+            "range": 20
+          }
         },
         {
           "label": "compact rifle",
           "itemName": "item_weapon_compact_rifle",
           "materials": [
             {
-              "itemName": "item_reinforced_barrel",
-              "count": 1,
-              "label": "REINFORCED BARREL"
-            },
-            {
-              "itemName": "item_advanced_trigger",
-              "count": 1,
-              "label": "ADVANCED TRIGGER"
-            },
-            {
-              "itemName": "item_grip_weapon",
-              "count": 1,
-              "label": "GRIP"
-            },
-            {
-              "itemName": "item_stock_weapon",
-              "count": 2,
-              "label": "STOCK"
-            },
-            {
-              "itemName": "item_reinforced_steel",
-              "count": 2,
-              "label": "REINFORCED STEEL"
+              "itemName": "item_military_component",
+              "count": 90,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "output": 1,
-          "requiredGangLevel": 4
+          "requiredGangLevel": 4,
+          "group": "RIFLES",
+          "stats": {
+            "damage": 55,
+            "fireRate": 65,
+            "accuracy": 50,
+            "range": 55
+          }
         },
         {
           "label": "9MM BULLETS",
           "itemName": "item_bullet_9_mm",
           "materials": [
             {
-              "itemName": "item_bar_iron",
-              "count": 1,
-              "label": "IRON BAR"
-            },
-            {
-              "itemName": "item_ore_sulfur",
-              "count": 8,
-              "label": "SULFUR"
+              "itemName": "item_military_component",
+              "count": 25,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 0,
           "output": 200,
-          "requiredGangLevel": 1
+          "requiredGangLevel": 1,
+          "group": "AMMO"
         },
         {
           "label": "SHOTGUN SHELLS",
           "itemName": "item_bullet_shotgun",
           "materials": [
             {
-              "itemName": "item_bar_iron",
-              "count": 1,
-              "label": "IRON BAR"
-            },
-            {
-              "itemName": "item_ore_sulfur",
-              "count": 12,
-              "label": "SULFUR"
+              "itemName": "item_military_component",
+              "count": 20,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 0,
           "output": 100,
-          "requiredGangLevel": 2
+          "requiredGangLevel": 2,
+          "group": "AMMO"
         },
         {
           "label": "5.56MM BULLETS",
           "itemName": "item_bullet_5_56_mm",
           "materials": [
             {
-              "itemName": "item_bar_iron",
-              "count": 1,
-              "label": "IRON BAR"
-            },
-            {
-              "itemName": "item_ore_sulfur",
-              "count": 10,
-              "label": "SULFUR"
+              "itemName": "item_military_component",
+              "count": 30,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 1,
+          "craftTimeMinutes": 0,
           "output": 200,
-          "requiredGangLevel": 3
+          "requiredGangLevel": 3,
+          "group": "AMMO"
+        },
+        {
+          "label": "VEST",
+          "itemName": "item_vest_0",
+          "materials": [
+            {
+              "itemName": "item_military_component",
+              "count": 5,
+              "label": "MILITARY COMPONENT"
+            }
+          ],
+          "itemType": "COMMON",
+          "craftTimeMinutes": 0,
+          "output": 1,
+          "requiredGangLevel": 1,
+          "group": "OTHER",
+          "faction": "families"
+        },
+        {
+          "label": "VEST",
+          "itemName": "item_vest_1",
+          "materials": [
+            {
+              "itemName": "item_military_component",
+              "count": 5,
+              "label": "MILITARY COMPONENT"
+            }
+          ],
+          "itemType": "COMMON",
+          "craftTimeMinutes": 0,
+          "output": 1,
+          "requiredGangLevel": 1,
+          "group": "OTHER",
+          "faction": "ballas"
+        },
+        {
+          "label": "VEST",
+          "itemName": "item_vest_2",
+          "materials": [
+            {
+              "itemName": "item_military_component",
+              "count": 5,
+              "label": "MILITARY COMPONENT"
+            }
+          ],
+          "itemType": "COMMON",
+          "craftTimeMinutes": 0,
+          "output": 1,
+          "requiredGangLevel": 1,
+          "group": "OTHER",
+          "faction": "vagos"
+        },
+        {
+          "label": "VEST",
+          "itemName": "item_vest_3",
+          "materials": [
+            {
+              "itemName": "item_military_component",
+              "count": 5,
+              "label": "MILITARY COMPONENT"
+            }
+          ],
+          "itemType": "COMMON",
+          "craftTimeMinutes": 0,
+          "output": 1,
+          "requiredGangLevel": 1,
+          "group": "OTHER",
+          "faction": "bloods"
+        },
+        {
+          "label": "VEST",
+          "itemName": "item_vest_11",
+          "materials": [
+            {
+              "itemName": "item_military_component",
+              "count": 5,
+              "label": "MILITARY COMPONENT"
+            }
+          ],
+          "itemType": "COMMON",
+          "craftTimeMinutes": 0,
+          "output": 1,
+          "requiredGangLevel": 1,
+          "group": "OTHER",
+          "faction": "marabunta"
         }
       ]
     }
@@ -81926,7 +81926,7 @@
             }
           ],
           "itemType": "UNCOMMON",
-          "craftTimeMinutes": 5
+          "craftTimeMinutes": 0
         },
         {
           "label": "PICK AXE LVL 2",
@@ -81944,7 +81944,7 @@
             }
           ],
           "itemType": "RARE",
-          "craftTimeMinutes": 15
+          "craftTimeMinutes": 0
         },
         {
           "label": "PICK AXE LVL 3",
@@ -81972,7 +81972,7 @@
             }
           ],
           "itemType": "EPIC",
-          "craftTimeMinutes": 120
+          "craftTimeMinutes": 0
         },
         {
           "label": "PICK AXE LVL 4",
@@ -82005,7 +82005,7 @@
             }
           ],
           "itemType": "LEGENDARY",
-          "craftTimeMinutes": 180
+          "craftTimeMinutes": 0
         },
         {
           "label": "ANTI SHARPEN KIT",
@@ -82023,7 +82023,7 @@
             }
           ],
           "itemType": "COMMON",
-          "craftTimeMinutes": 35
+          "craftTimeMinutes": 0
         },
         {
           "label": "GAS KIT",
@@ -82051,7 +82051,7 @@
             }
           ],
           "itemType": "UNCOMMON",
-          "craftTimeMinutes": 60
+          "craftTimeMinutes": 0
         },
         {
           "label": "RADIO ACTIVE KIT",
@@ -82084,7 +82084,7 @@
             }
           ],
           "itemType": "EPIC",
-          "craftTimeMinutes": 90
+          "craftTimeMinutes": 0
         }
       ],
       "refinery": [
@@ -82098,7 +82098,7 @@
             }
           ],
           "coalCost": 10,
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "numberOfOutput": 4
         },
         {
@@ -82115,7 +82115,24 @@
             }
           ],
           "coalCost": 10,
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
+          "numberOfOutput": 4
+        },
+        {
+          "label": "REINFORCED STEEL",
+          "itemName": "item_reinforced_steel",
+          "materials": [
+            {
+              "count": 10,
+              "item": "item_bar_iron"
+            },
+            {
+              "count": 4,
+              "item": "item_bar_gold"
+            }
+          ],
+          "coalCost": 0,
+          "craftTimeMinutes": 0,
           "numberOfOutput": 4
         },
         {
@@ -82132,7 +82149,7 @@
             }
           ],
           "coalCost": 90,
-          "craftTimeMinutes": 20,
+          "craftTimeMinutes": 0,
           "numberOfOutput": 10
         },
         {
@@ -82153,149 +82170,11 @@
             }
           ],
           "coalCost": 90,
-          "craftTimeMinutes": 3,
+          "craftTimeMinutes": 0,
           "numberOfOutput": 10
         }
       ],
-      "blackSmith": [
-        {
-          "label": "REINFORCED STEEL",
-          "itemName": "item_reinforced_steel",
-          "materials": [
-            {
-              "itemName": "item_bar_iron",
-              "count": 10,
-              "label": "IRON BAR"
-            },
-            {
-              "itemName": "item_bar_gold",
-              "count": 4,
-              "label": "GOLD BAR"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 3,
-          "output": 4
-        },
-        {
-          "label": "WEAPON STOCK",
-          "itemName": "item_stock_weapon",
-          "materials": [
-            {
-              "itemName": "item_bar_iron",
-              "count": 3,
-              "label": "IRON BAR"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 3,
-          "output": 1
-        },
-        {
-          "label": "NORMAL WEAPON BARREL",
-          "itemName": "item_normal_barrel",
-          "materials": [
-            {
-              "itemName": "item_reinforced_steel",
-              "count": 1,
-              "label": "REINFORCED STEEL"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 3,
-          "output": 1
-        },
-        {
-          "label": "REINFORCED WEAPON BARREL",
-          "itemName": "item_reinforced_barrel",
-          "materials": [
-            {
-              "itemName": "item_reinforced_steel",
-              "count": 1,
-              "label": "REINFORCED STEEL"
-            },
-            {
-              "itemName": "item_bar_gold",
-              "count": 1,
-              "label": "GOLD BAR"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 3,
-          "output": 1
-        },
-        {
-          "label": "WEAPON GRIP",
-          "itemName": "item_grip_weapon",
-          "materials": [
-            {
-              "itemName": "item_bar_iron",
-              "count": 3,
-              "label": "IRON BAR"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 3,
-          "output": 1
-        },
-        {
-          "label": "WEAPON SCOPE",
-          "itemName": "item_scope_weapon",
-          "materials": [
-            {
-              "itemName": "item_bar_gold",
-              "count": 2,
-              "label": "GOLD BAR"
-            },
-            {
-              "itemName": "item_reinforced_steel",
-              "count": 2,
-              "label": "REINFORCED STEEL"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 3,
-          "output": 1
-        },
-        {
-          "label": "NORMAL WEAPON TRIGGER",
-          "itemName": "item_normal_trigger",
-          "materials": [
-            {
-              "itemName": "item_bar_iron",
-              "count": 2,
-              "label": "IRON BAR"
-            },
-            {
-              "itemName": "item_bar_gold",
-              "count": 1,
-              "label": "GOLD BAR"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 3,
-          "output": 1
-        },
-        {
-          "label": "ADVANCED WEAPON TRIGGER",
-          "itemName": "item_advanced_trigger",
-          "materials": [
-            {
-              "itemName": "item_bar_gold",
-              "count": 1,
-              "label": "GOLD BAR"
-            },
-            {
-              "itemName": "item_reinforced_steel",
-              "count": 1,
-              "label": "REINFORCED STEEL"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 3,
-          "output": 1
-        }
-      ],
+      "blackSmith": [],
       "MiningShopSell": [
         {
           "itemName": "item_ore_stone",
@@ -82368,13 +82247,13 @@
         {
           "itemName": "item_ore_iron",
           "label": "IRON ORE",
-          "singlePrice": "37",
+          "singlePrice": "65",
           "isSingleBuy": false
         },
         {
           "itemName": "item_ore_gold",
           "label": "GOLD ORE",
-          "singlePrice": "53",
+          "singlePrice": "85",
           "isSingleBuy": false
         },
         {
@@ -84775,96 +84654,20 @@
       "canTrade": true,
       "durability": 100
     },
-    "item_reinforced_barrel": {
-      "name": "item_reinforced_barrel",
-      "label": "reinforced barrel",
+    "item_military_component": {
+      "name": "item_military_component",
+      "label": "Military Component",
       "accessKey": "none",
       "canUSE": false,
       "canDrop": false,
-      "category": "parts",
-      "canUnStack": false,
-      "weight": 2,
-      "canStack": false,
-      "maxStack": 1,
-      "canTrade": true
-    },
-    "item_normal_barrel": {
-      "name": "item_normal_barrel",
-      "label": "normal barrel",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "parts",
-      "canUnStack": false,
-      "weight": 2,
-      "canStack": false,
-      "maxStack": 1,
-      "canTrade": true
-    },
-    "item_normal_trigger": {
-      "name": "item_normal_trigger",
-      "label": "normal trigger",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "parts",
-      "canUnStack": false,
-      "weight": 2,
-      "canStack": false,
-      "maxStack": 1,
-      "canTrade": true
-    },
-    "item_advanced_trigger": {
-      "name": "item_advanced_trigger",
-      "label": "advanced trigger",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "parts",
-      "canUnStack": false,
-      "weight": 2,
-      "canStack": false,
-      "maxStack": 1,
-      "canTrade": true
-    },
-    "item_stock_weapon": {
-      "name": "item_stock_weapon",
-      "label": "stock weapon",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "parts",
-      "canUnStack": false,
-      "weight": 2,
-      "canStack": false,
-      "maxStack": 1,
-      "canTrade": true
-    },
-    "item_grip_weapon": {
-      "name": "item_grip_weapon",
-      "label": "grip weapon",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "parts",
-      "canUnStack": false,
-      "weight": 2,
-      "canStack": false,
-      "maxStack": 1,
-      "canTrade": true
-    },
-    "item_scope_weapon": {
-      "name": "item_scope_weapon",
-      "label": "scope weapon",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "parts",
-      "canUnStack": false,
-      "weight": 2,
-      "canStack": false,
-      "maxStack": 1,
-      "canTrade": true
+      "canDelete": false,
+      "category": "materials",
+      "canUnStack": true,
+      "canStack": true,
+      "maxStack": 500,
+      "weight": 0.1,
+      "canTrade": true,
+      "isIllegal": true
     },
     "item_reinforced_steel": {
       "name": "item_reinforced_steel",

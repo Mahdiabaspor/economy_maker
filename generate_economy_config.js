@@ -36,6 +36,7 @@ import { FoodSupplierConfig } from "./SHOPS/FoodSuplier.js";
 import { junkItems } from "./JOBS/Junk.js";
 import { boozeShopConfig } from "./SHOPS/BooozeShop.js";
 import { vendingMachineConfig } from "./SHOPS/VENDINGMACHINE.js";
+import { checkEconomyCircles } from "./checkEconomyCircles.js";
 
 
 const economyConfig = {
@@ -103,6 +104,10 @@ const economyConfig = {
   }
 
 };
+
+// Guard: fail the build if any "buy from NPC -> craft -> sell to NPC" loop is
+// profitable (crafting is instant and uncapped, so such a loop = infinite money).
+checkEconomyCircles(economyConfig);
 
 // Write to JSON file without pretty-formatting (no whitespace)
 fs.writeFileSync("economyConfig.json", JSON.stringify(economyConfig));

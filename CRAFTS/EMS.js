@@ -11,7 +11,7 @@ export const CraftEmsConfig = [
             { itemName: 'item_fabric', count: 5, label: 'Fabric' }, // 1000
         ],
         itemType: 'RARE',
-        craftTimeMinutes: 4,
+        craftTimeMinutes: 0,
         output: 5,
     },
     {
@@ -23,7 +23,7 @@ export const CraftEmsConfig = [
         ],
 
         itemType: 'RARE',
-        craftTimeMinutes: 3,
+        craftTimeMinutes: 0,
         output: 5,
     },
     {
@@ -34,7 +34,7 @@ export const CraftEmsConfig = [
             { itemName: 'item_pain_killer_powder', count: 5, label: 'PAIN KILLER POWDER' }, // 250 * 4
         ],
         itemType: 'RARE',
-        craftTimeMinutes: 3,
+        craftTimeMinutes: 0,
         output: 5,
     },
     {
@@ -47,7 +47,7 @@ export const CraftEmsConfig = [
             { itemName: 'item_fabric', count: 15, label: 'Fabric' }, // 200 * 15 = 3000
         ],
         itemType: 'RARE',
-        craftTimeMinutes: 5,
+        craftTimeMinutes: 0,
         output: 2,
     },
 

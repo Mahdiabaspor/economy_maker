@@ -1,3 +1,14 @@
+// EMS SHOP.
+//
+// July 2026 rebalance — the medic business model:
+//   craft cost < player price < shop BUY price, and the shop's SELL-BACK price
+//   is BELOW the craft cost. So selling to the NPC always loses money and the
+//   medic's real income is selling to players (no cooldown system exists or is
+//   wanted). Craft costs per unit (from this shop's own buy prices + supermarket
+//   fabric 200): bandage 680, painkiller pill 1250, first-aid kit 4910.
+// NOTE: the `limitation` fields below are legacy data kept only because the
+// high-ui config type still declares them — no server code reads them.
+
 const shopEmsMultiplier = 1;
 
 export const emsShopConfig = {
@@ -44,31 +55,13 @@ export const emsShopConfig = {
     },
   ],
 };
-const BuyLimitation = [
-  // itemName: the itemName
-  // buyLimitation: Limitation for every 30 min    
-  { itemName: "item_fabric", buyCountLimiting: 15,limitCycleTime:30 },
-  // more items
-];
-const sellLimitation = [
-  // itemName: the itemName
-  // sellPerTimeLimitation:Limitation  for every 30 min,
-  // reducePricePerPercentage: reduce the price by this percentage after cross limits
-  {
-    itemName: "item_fabric",
-    sellCountLimiting: 15,
-    reducePricePercentage: 20,
-    limitCycleTime:30
-  },
-  // more items
-];
 
 export const emsShopSellConfig = {
   regular: [
     {
       itemName: "item_medical_bandage",
       label: "MEDICAL BANDAGE",
-      singlePrice: Math.floor(900 * shopEmsMultiplier),
+      singlePrice: Math.floor(550 * shopEmsMultiplier), // craft cost 680 -> -19% (NPC circle loses; sell to players for 700-1400)
       limitation: {
         count: 8,
         perTime: 15,
@@ -78,7 +71,7 @@ export const emsShopSellConfig = {
     {
       itemName: "item_pain_killer_pill",
       label: "pain killer PILL",
-      singlePrice: Math.floor(1550 * shopEmsMultiplier),
+      singlePrice: Math.floor(1000 * shopEmsMultiplier), // craft cost 1250 -> -20% (sell to players for 1300-1900)
       limitation: {
         count: 5,
         perTime: 15,
@@ -86,13 +79,9 @@ export const emsShopSellConfig = {
     },
 
     {
-      // crafted by EMS (CRAFTS/EMS.js): self-crafted cost ≈ 4910/kit → ~1590 profit.
-      // This is the guaranteed floor — the real profit is selling to players
-      // between this and the 10000 shop buy price. Kept below the 7300/kit cost
-      // of crafting from shop-bought materials, so buy→craft→sell-back loses money.
       itemName: "item_medical_first_aid",
       label: "FIRST AID KIT",
-      singlePrice: Math.floor(6500 * shopEmsMultiplier),
+      singlePrice: Math.floor(4400 * shopEmsMultiplier), // self-crafted cost 4910 -> -10% (sell to players for 6000-9000, below the 10000 shop price)
       limitation: {
         count: 4,
         perTime: 15,

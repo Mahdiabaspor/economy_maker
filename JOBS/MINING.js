@@ -12,8 +12,13 @@ const AMBERITE_GEM_SELL_PRICE = 72000;
 const AQUALITH_GEM_SELL_PRICE = 72000;
 const LUMINITE_GEM_SELL_PRICE = 72000;
 const STONE_ORE_BUY_PRICE = 22;
-const IRON_ORE_BUY_PRICE = 37;
-const GOLD_ORE_BUY_PRICE = 53;
+// Iron/gold ore buy prices are set so that BUYING ore and refining it into bars
+// always loses money vs the bar sell price (crafting is instant, so this is the
+// only guard): 100 iron ore (6500) + 10 coal (350) = 6850 > 4 bars x 1512 = 6048
+// (-12%); gold: 40 iron (2600) + 100 gold (8500) + 10 coal (350) = 11450 > 4 bars
+// x 2160 = 8640 (-25%). MINED ore is free, so miners keep full refining profit.
+const IRON_ORE_BUY_PRICE = 65;
+const GOLD_ORE_BUY_PRICE = 85;
 const SULFUR_ORE_BUY_PRICE = 30;
 const COAL_ORE_BUY_PRICE = 35;
 const IRON_BAR_BUY_PRICE = 2100;
@@ -187,7 +192,7 @@ export const miningJobConfig = {
         { itemName: "item_ore_iron", count: 50, label: "IRON ORE" },
       ],
       itemType: "UNCOMMON",
-      craftTimeMinutes: 5,
+      craftTimeMinutes: 0,
     },
     {
       label: "PICK AXE LVL 2",
@@ -201,7 +206,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "RARE",
-      craftTimeMinutes: 15,
+      craftTimeMinutes: 0,
     },
     {
       label: "PICK AXE LVL 3",
@@ -217,7 +222,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "EPIC",
-      craftTimeMinutes: 120,
+      craftTimeMinutes: 0,
     },
     {
       label: "PICK AXE LVL 4",
@@ -234,7 +239,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "LEGENDARY",
-      craftTimeMinutes: 180,
+      craftTimeMinutes: 0,
     },
     {
       label: "ANTI SHARPEN KIT", // craft cost 20,600      30000
@@ -248,7 +253,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "COMMON",
-      craftTimeMinutes: 35,
+      craftTimeMinutes: 0,
     },
     {
       label: "GAS KIT",
@@ -264,7 +269,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "UNCOMMON",
-      craftTimeMinutes: 60,
+      craftTimeMinutes: 0,
     },
     {
       label: "RADIO ACTIVE KIT", // craft const 83 k    price 110k
@@ -281,7 +286,7 @@ export const miningJobConfig = {
         },
       ],
       itemType: "EPIC",
-      craftTimeMinutes: 90,
+      craftTimeMinutes: 0,
     },
   ],
   refinery: [
@@ -293,7 +298,7 @@ export const miningJobConfig = {
         // { count: 10, item: 'item_ore_gold' }
       ],
       coalCost: 10,
-      craftTimeMinutes: 3,
+      craftTimeMinutes: 0,
       numberOfOutput: 4,
     },
     {
@@ -304,7 +309,7 @@ export const miningJobConfig = {
         { count: 100, item: "item_ore_gold" },
       ],
       coalCost: 10,
-      craftTimeMinutes: 3,
+      craftTimeMinutes: 0,
       numberOfOutput: 4,
     },
     // Moved here from the Black Smith when that shop was removed. Same materials,
@@ -319,7 +324,7 @@ export const miningJobConfig = {
         { count: 4, item: "item_bar_gold" },
       ],
       coalCost: 0,
-      craftTimeMinutes: 3,
+      craftTimeMinutes: 0,
       numberOfOutput: 4,
     },
     {
@@ -333,7 +338,7 @@ export const miningJobConfig = {
         { count: 2, item: "item_gem_aqualith" },
       ],
       coalCost: 90,
-      craftTimeMinutes: 20,
+      craftTimeMinutes: 0,
       numberOfOutput: 10,
     },
     {
@@ -348,7 +353,7 @@ export const miningJobConfig = {
         { count: 2, item: "item_gem_luminite" },
       ],
       coalCost: 90,
-      craftTimeMinutes: 3,
+      craftTimeMinutes: 0,
       numberOfOutput: 10,
     },
   ],
@@ -375,7 +380,7 @@ export const miningJobConfig = {
     //     { itemName: "item_bar_gold", count: 4, label: "GOLD BAR" },
     //   ],
     //   itemType: "RARE",
-    //   craftTimeMinutes: 3,
+    //   craftTimeMinutes: 0,
     //   output: 4,
     // },
     // {
@@ -383,7 +388,7 @@ export const miningJobConfig = {
     //   itemName: "item_stock_weapon",
     //   materials: [{ itemName: "item_bar_iron", count: 3, label: "IRON BAR" }],
     //   itemType: "RARE",
-    //   craftTimeMinutes: 3,
+    //   craftTimeMinutes: 0,
     //   output: 1,
     // },
     // {
@@ -397,7 +402,7 @@ export const miningJobConfig = {
     //     },
     //   ],
     //   itemType: "RARE",
-    //   craftTimeMinutes: 3,
+    //   craftTimeMinutes: 0,
     //   output: 1,
     // },
     // {
@@ -412,7 +417,7 @@ export const miningJobConfig = {
     //     { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
     //   ],
     //   itemType: "RARE",
-    //   craftTimeMinutes: 3,
+    //   craftTimeMinutes: 0,
     //   output: 1,
     // },
     // {
@@ -420,7 +425,7 @@ export const miningJobConfig = {
     //   itemName: "item_grip_weapon",
     //   materials: [{ itemName: "item_bar_iron", count: 3, label: "IRON BAR" }],
     //   itemType: "RARE",
-    //   craftTimeMinutes: 3,
+    //   craftTimeMinutes: 0,
     //   output: 1,
     // },
     // {
@@ -435,7 +440,7 @@ export const miningJobConfig = {
     //     },
     //   ],
     //   itemType: "RARE",
-    //   craftTimeMinutes: 3,
+    //   craftTimeMinutes: 0,
     //   output: 1,
     // },
     // {
@@ -446,7 +451,7 @@ export const miningJobConfig = {
     //     { itemName: "item_bar_gold", count: 1, label: "GOLD BAR" },
     //   ],
     //   itemType: "RARE",
-    //   craftTimeMinutes: 3,
+    //   craftTimeMinutes: 0,
     //   output: 1,
     // },
     // {
@@ -461,7 +466,7 @@ export const miningJobConfig = {
     //     },
     //   ],
     //   itemType: "RARE",
-    //   craftTimeMinutes: 3,
+    //   craftTimeMinutes: 0,
     //   output: 1,
     // },
   ],

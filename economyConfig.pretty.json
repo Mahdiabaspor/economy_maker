@@ -51,6 +51,13 @@
         "singlePrice": 17600
       },
       {
+        "label": "AP Pistol",
+        "itemName": "item_weapon_appistol",
+        "category": "Pistol",
+        "ammoType": "9mm",
+        "singlePrice": 24000
+      },
+      {
         "label": "Smg",
         "itemName": "item_weapon_smg",
         "category": "Sub MachinGun",
@@ -81473,6 +81480,28 @@
           }
         },
         {
+          "label": "AP PISTOL",
+          "itemName": "item_weapon_appistol",
+          "materials": [
+            {
+              "itemName": "item_military_component",
+              "count": 40,
+              "label": "MILITARY COMPONENT"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 0,
+          "output": 1,
+          "requiredGangLevel": 2,
+          "group": "PISTOLS",
+          "stats": {
+            "damage": 30,
+            "fireRate": 85,
+            "accuracy": 38,
+            "range": 38
+          }
+        },
+        {
           "label": "MACHETE",
           "itemName": "item_melee_machete",
           "materials": [
@@ -83759,6 +83788,22 @@
       "canDelete": false,
       "isIllegal": true,
       "category": "weapon",
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_weapon_appistol": {
+      "name": "item_weapon_appistol",
+      "label": "AP Pistol",
+      "accessKey": "SECONDARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": true,
+      "category": "weapon",
+      "durability": 100,
       "canUSE": false,
       "canDrop": false,
       "canUnStack": false,

@@ -196,6 +196,19 @@ export const CraftingGangConfig = {
       stats: { damage: 27, fireRate: 55, accuracy: 45, range: 40 },
     },
     {
+      label: "AP PISTOL", // no NPC buyback — full-auto pistol, player-market only
+      itemName: "item_weapon_appistol",
+      materials: [
+        { itemName: "item_military_component", count: 40, label: "MILITARY COMPONENT" },
+      ],
+      itemType: "RARE",
+      craftTimeMinutes: 0,
+      output: 1,
+      requiredGangLevel: 2,
+      group: "PISTOLS",
+      stats: { damage: 30, fireRate: 85, accuracy: 38, range: 38 },
+    },
+    {
       label: "MACHETE", // dealer pays 6500 (325/comp)
       itemName: "item_melee_machete",
       materials: [

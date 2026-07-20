@@ -23,6 +23,13 @@ export const weaponShopConfig = [
     singlePrice: Math.floor(17600 * weaponPriceMMultiplier),
   },
   {
+    label: "AP Pistol",
+    itemName: "item_weapon_appistol",
+    category: "Pistol",
+    ammoType: "9mm",
+    singlePrice: Math.floor(24000 * weaponPriceMMultiplier),
+  },
+  {
     label: "Smg",
     itemName: "item_weapon_smg",
     category: "Sub MachinGun",

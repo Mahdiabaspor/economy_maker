@@ -81003,7 +81003,7 @@
         {
           "itemName": "item_coca_leaves",
           "label": "COCA LEAVES",
-          "singlePrice": 356
+          "singlePrice": 320
         },
         {
           "itemName": "item_saffarole_leave",
@@ -81023,7 +81023,7 @@
         {
           "itemName": "item_cocain_powder",
           "label": "COCAINE POWDER",
-          "singlePrice": 3799
+          "singlePrice": 3419
         },
         {
           "itemName": "item_mdp2p",
@@ -81033,7 +81033,7 @@
         {
           "itemName": "item_cocain_pack",
           "label": "COCAINE PACK",
-          "singlePrice": 4600
+          "singlePrice": 4140
         },
         {
           "itemName": "item_mdma_powder",
@@ -83882,7 +83882,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_drink_sprunk": {
@@ -83895,7 +83895,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_walkie_talkie": {
@@ -83921,7 +83921,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_hamburger": {
@@ -83934,7 +83934,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_repairkit": {
@@ -83983,10 +83983,10 @@
       "canUSE": true,
       "canDrop": false,
       "category": "drink",
-      "canUnStack": false,
+      "canUnStack": true,
       "weight": 0.3,
-      "canStack": false,
-      "maxStack": 1,
+      "canStack": true,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_medical_bandage": {
@@ -84040,7 +84040,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_drink_vodka": {
@@ -84055,7 +84055,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_drink_tequila": {
@@ -84070,7 +84070,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_drink_beer": {
@@ -84085,7 +84085,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_cooked_food_fires": {
@@ -84100,7 +84100,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_cooked_food_burger_meat": {
@@ -84115,7 +84115,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_cooked_food_burger_meat_vegan": {
@@ -84130,7 +84130,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_cooked_food_chicken": {
@@ -84145,7 +84145,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_burger_bun": {
@@ -84160,7 +84160,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_ketchup": {
@@ -84175,7 +84175,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_sliced_cheese": {
@@ -84190,7 +84190,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_burger_meat": {
@@ -84205,7 +84205,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_burger_meat_vegan": {
@@ -84220,7 +84220,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_chicken": {
@@ -84235,7 +84235,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_lettuce": {
@@ -84250,7 +84250,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_onion": {
@@ -84265,7 +84265,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_pickle": {
@@ -84280,7 +84280,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_potato": {
@@ -84295,7 +84295,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_sliced_lettuce": {
@@ -84310,7 +84310,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_sliced_onion": {
@@ -84325,7 +84325,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_sliced_pickle": {
@@ -84340,7 +84340,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_sliced_potato": {
@@ -84355,7 +84355,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_sliced_tomato": {
@@ -84370,7 +84370,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_raw_food_tomato": {
@@ -84385,7 +84385,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 20,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_cheese_burger": {
@@ -84400,7 +84400,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_chicken_burger": {
@@ -84415,7 +84415,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_double_burger": {
@@ -84430,7 +84430,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_double_cheese_burger": {
@@ -84445,7 +84445,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_fries": {
@@ -84460,7 +84460,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_food_vegan_burger": {
@@ -84475,7 +84475,7 @@
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 5,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_vest_1": {

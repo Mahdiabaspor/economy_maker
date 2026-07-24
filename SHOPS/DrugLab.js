@@ -22,7 +22,7 @@ const SellToDrugLab = [
   {
     itemName: "item_coca_leaves",
     label: "COCA LEAVES",
-    singlePrice: Math.floor(310 * drugLabSellMulti), // 356
+    singlePrice: Math.floor(310 * drugLabSellMulti * 0.9), // 320 — cocaine line -10%
   },
   {
     itemName: "item_saffarole_leave",
@@ -44,7 +44,7 @@ const SellToDrugLab = [
   {
     itemName: "item_cocain_powder",
     label: "COCAINE POWDER",
-    singlePrice: Math.floor(3304 * drugLabSellMulti), // 3799 — profit pays for the grown coca leaves
+    singlePrice: Math.floor(3304 * drugLabSellMulti * 0.9), // 3419 — cocaine line -10% (was 3799)
   },
   {
     itemName: "item_mdp2p",
@@ -56,7 +56,7 @@ const SellToDrugLab = [
   {
     itemName: "item_cocain_pack",
     label: "COCAINE PACK",
-    singlePrice: Math.floor(4600), // parts: powder 3799 + plastic 433 = 4232 (+8.7%)
+    singlePrice: Math.floor(4600 * 0.9), // 4140 — cocaine line -10% (was 4600)
   },
   {
     itemName: "item_mdma_powder",

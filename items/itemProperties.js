@@ -56,7 +56,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
     item_drink_tequila: {
@@ -71,7 +71,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
     item_drink_beer: {
@@ -86,7 +86,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
 
@@ -104,7 +104,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_cooked_food_burger_meat: {
@@ -119,7 +119,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_cooked_food_burger_meat_vegan: {
@@ -134,7 +134,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
 
@@ -150,7 +150,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
 
@@ -166,7 +166,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
 
@@ -182,7 +182,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
 
@@ -198,7 +198,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_burger_meat: {
@@ -213,7 +213,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_burger_meat_vegan: {
@@ -228,7 +228,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_chicken: {
@@ -243,7 +243,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_lettuce: {
@@ -258,7 +258,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_onion: {
@@ -273,7 +273,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_pickle: {
@@ -288,7 +288,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_potato: {
@@ -303,7 +303,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_sliced_lettuce: {
@@ -318,7 +318,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_sliced_onion: {
@@ -333,7 +333,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_sliced_pickle: {
@@ -348,7 +348,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_sliced_potato: {
@@ -363,7 +363,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_sliced_tomato: {
@@ -378,7 +378,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_raw_food_tomato: {
@@ -393,7 +393,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 20,
+    maxStack: 50,
     canTrade: true,
   },
   item_food_burger: {
@@ -408,7 +408,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
   item_food_cheese_burger: {
@@ -423,7 +423,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
   item_food_chicken_burger: {
@@ -438,7 +438,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
   item_food_double_burger: {
@@ -453,7 +453,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
   item_food_double_cheese_burger: {
@@ -468,7 +468,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
   item_food_fries: {
@@ -483,7 +483,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
   item_food_vegan_burger: {
@@ -498,7 +498,7 @@ const rawFood = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
 };
@@ -1651,7 +1651,7 @@ export const itemsProperties = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
 
@@ -1665,7 +1665,7 @@ export const itemsProperties = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
   item_walkie_talkie: {
@@ -1691,7 +1691,7 @@ export const itemsProperties = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
 
@@ -1705,7 +1705,7 @@ export const itemsProperties = {
     canUnStack: true,
     weight: 1,
     canStack: true,
-    maxStack: 5,
+    maxStack: 50,
     canTrade: true,
   },
   kit_antiSharp: {
@@ -1772,10 +1772,10 @@ export const itemsProperties = {
     canUSE: true,
     canDrop: false,
     category: ItemCategory.DRINK,
-    canUnStack: false,
+    canUnStack: true,
     weight: 0.3,
-    canStack: false,
-    maxStack: 1,
+    canStack: true,
+    maxStack: 50,
     canTrade: true,
   },
 
@@ -1828,10 +1828,10 @@ export const itemsProperties = {
     canUSE: true,
     canDrop: false,
     category: ItemCategory.FOOD,
-    canUnStack: false,
+    canUnStack: true,
     weight: 0.5,
-    canStack: false,
-    maxStack: 1,
+    canStack: true,
+    maxStack: 50,
     canTrade: true,
   },
   ...MiningItems,

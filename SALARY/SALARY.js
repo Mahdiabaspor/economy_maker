@@ -1,123 +1,58 @@
 const baseSalary = 14000; // Base income per hour
 
+/**
+ * Build a faction pay ladder.
+ *
+ * Ranks are 1-based and match the tablet's rank tables exactly
+ * (high-roleplay-v1/src/src/shared/tabletTypes/tabletInterface.ts). Rank 0 does
+ * not exist — the old tables had a `0:` entry that the payout code never read,
+ * so every faction was silently one tier short at the bottom.
+ *
+ * `from` / `to` are multipliers of baseSalary; everything between is a straight
+ * line, so resizing a rank ladder can never desync the pay curve again.
+ * The `/ 4` keeps the historical "quarter of the hourly rate per payout".
+ *
+ * @param {number} from  multiplier at rank 1
+ * @param {number} to    multiplier at the top rank
+ * @param {number} ranks how many ranks the faction has
+ */
+const ladder = (from, to, ranks) => {
+  const table = {};
+
+  for (let rank = 1; rank <= ranks; rank++) {
+    const t = ranks === 1 ? 1 : (rank - 1) / (ranks - 1);
+    table[rank] = Math.floor((baseSalary * (from + (to - from) * t)) / 4);
+  }
+
+  return table;
+};
+
+// Law enforcement share one pay scale — LSPD, BCSD, FIB and the National Guard
+// are peer agencies on the same 15-rank ladder, so they are paid identically.
+// Change LEO_FLOOR / LEO_CEILING to move all four at once.
+const LEO_FLOOR = 0.8; // rank 1  — Intern
+const LEO_CEILING = 2.2; // rank 15 — Chief / Sheriff / General
+
 export const governmentSalary = {
-  police: {
-    0: Math.floor((baseSalary * 0.8) / 4),    // Cadet
-    1: Math.floor((baseSalary * 0.88) / 4),
-    2: Math.floor((baseSalary * 0.96) / 4),
-    3: Math.floor((baseSalary * 1.04) / 4),
-    4: Math.floor((baseSalary * 1.12) / 4),
-    5: Math.floor((baseSalary * 1.2) / 4),
-    6: Math.floor((baseSalary * 1.28) / 4),
-    7: Math.floor((baseSalary * 1.36) / 4),
-    8: Math.floor((baseSalary * 1.4) / 4),    // Police Officer 1
-    9: Math.floor((baseSalary * 1.48) / 4),
-    10: Math.floor((baseSalary * 1.56) / 4),
-    11: Math.floor((baseSalary * 1.6) / 4),   // Police Officer 2
-    12: Math.floor((baseSalary * 1.68) / 4),
-    13: Math.floor((baseSalary * 1.76) / 4),
-    14: Math.floor((baseSalary * 1.8) / 4),   // Police Officer 3
-    15: Math.floor((baseSalary * 1.9) / 4),   // Sergeant
-    16: Math.floor((baseSalary * 2.0) / 4),   // Lieutenant
-    17: Math.floor((baseSalary * 2.05) / 4),
-    18: Math.floor((baseSalary * 2.1) / 4),   // Deputy
-    19: Math.floor((baseSalary * 2.15) / 4),
-    20: Math.floor((baseSalary * 2.2) / 4),   // Chief
-  },
+  // LSPD — 15 ranks: Intern .. Chief
+  police: ladder(LEO_FLOOR, LEO_CEILING, 15),
 
-  fbi: {
-    0: Math.floor((baseSalary * 0.4) / 4),    // Trainee
-    1: Math.floor((baseSalary * 0.47) / 4),
-    2: Math.floor((baseSalary * 0.54) / 4),
-    3: Math.floor((baseSalary * 0.6) / 4),    // Agent
-    4: Math.floor((baseSalary * 0.67) / 4),
-    5: Math.floor((baseSalary * 0.74) / 4),
-    6: Math.floor((baseSalary * 0.81) / 4),
-    7: Math.floor((baseSalary * 0.88) / 4),
-    8: Math.floor((baseSalary * 0.95) / 4),
-    9: Math.floor((baseSalary * 1.0) / 4),    // Field Agent
-    10: Math.floor((baseSalary * 1.07) / 4),
-    11: Math.floor((baseSalary * 1.14) / 4),
-    12: Math.floor((baseSalary * 1.21) / 4),
-    13: Math.floor((baseSalary * 1.28) / 4),
-    14: Math.floor((baseSalary * 1.3) / 4),   // Special Agent
-    15: Math.floor((baseSalary * 1.4) / 4),
-    16: Math.floor((baseSalary * 1.5) / 4),
-    17: Math.floor((baseSalary * 1.6) / 4),
-    18: Math.floor((baseSalary * 1.7) / 4),
-    19: Math.floor((baseSalary * 1.75) / 4),
-    20: Math.floor((baseSalary * 1.8) / 4),   // Director
-  },
+  // BCSD — 15 ranks: Intern .. Sheriff
+  sheriff: ladder(LEO_FLOOR, LEO_CEILING, 15),
 
-  army: {
-    0: Math.floor((baseSalary * 0.3) / 4),    // Private
-    1: Math.floor((baseSalary * 0.38) / 4),
-    2: Math.floor((baseSalary * 0.46) / 4),
-    3: Math.floor((baseSalary * 0.5) / 4),    // Corporal
-    4: Math.floor((baseSalary * 0.58) / 4),
-    5: Math.floor((baseSalary * 0.66) / 4),
-    6: Math.floor((baseSalary * 0.7) / 4),    // Sergeant
-    7: Math.floor((baseSalary * 0.78) / 4),
-    8: Math.floor((baseSalary * 0.86) / 4),
-    9: Math.floor((baseSalary * 0.9) / 4),    // Sergeant Major
-    10: Math.floor((baseSalary * 0.98) / 4),
-    11: Math.floor((baseSalary * 1.06) / 4),
-    12: Math.floor((baseSalary * 1.1) / 4),   // Lieutenant
-    13: Math.floor((baseSalary * 1.18) / 4),
-    14: Math.floor((baseSalary * 1.26) / 4),
-    15: Math.floor((baseSalary * 1.3) / 4),   // Captain
-    16: Math.floor((baseSalary * 1.4) / 4),
-    17: Math.floor((baseSalary * 1.5) / 4),   // General
-    18: Math.floor((baseSalary * 1.6) / 4),
-    19: Math.floor((baseSalary * 1.7) / 4),   // Warrant Officer
-    20: Math.floor((baseSalary * 1.9) / 4),   // Chief Warrant Officer
-  },
+  // FIB — 15 ranks: Intern .. Chief
+  fbi: ladder(LEO_FLOOR, LEO_CEILING, 15),
 
-  sheriff: {
-    0: Math.floor((baseSalary * 0.4) / 4),    // Cadet
-    1: Math.floor((baseSalary * 0.475) / 4),
-    2: Math.floor((baseSalary * 0.55) / 4),
-    3: Math.floor((baseSalary * 0.6) / 4),    // Deputy
-    4: Math.floor((baseSalary * 0.7) / 4),
-    5: Math.floor((baseSalary * 0.8) / 4),
-    6: Math.floor((baseSalary * 0.9) / 4),
-    7: Math.floor((baseSalary * 0.95) / 4),
-    8: Math.floor((baseSalary * 1.0) / 4),    // Corporal
-    9: Math.floor((baseSalary * 1.075) / 4),
-    10: Math.floor((baseSalary * 1.15) / 4),
-    11: Math.floor((baseSalary * 1.2) / 4),   // Sergeant
-    12: Math.floor((baseSalary * 1.3) / 4),
-    13: Math.floor((baseSalary * 1.4) / 4),
-    14: Math.floor((baseSalary * 1.475) / 4),
-    15: Math.floor((baseSalary * 1.5) / 4),   // Lieutenant
-    16: Math.floor((baseSalary * 1.6) / 4),
-    17: Math.floor((baseSalary * 1.7) / 4),
-    18: Math.floor((baseSalary * 1.8) / 4),
-    19: Math.floor((baseSalary * 1.85) / 4),
-    20: Math.floor((baseSalary * 1.9) / 4),   // Sheriff
-  },
+  // National Guard — 15 ranks: Intern .. General
+  army: ladder(LEO_FLOOR, LEO_CEILING, 15),
 
-  ems: {
-    0: Math.floor((baseSalary * 1.0) / 4),    // Intern
-    1: Math.floor((baseSalary * 1.04) / 4),
-    2: Math.floor((baseSalary * 1.08) / 4),
-    3: Math.floor((baseSalary * 1.12) / 4),
-    4: Math.floor((baseSalary * 1.16) / 4),
-    5: Math.floor((baseSalary * 1.2) / 4),
-    6: Math.floor((baseSalary * 1.24) / 4),
-    7: Math.floor((baseSalary * 1.28) / 4),
-    8: Math.floor((baseSalary * 1.3) / 4),    // Nurse
-    9: Math.floor((baseSalary * 1.34) / 4),
-    10: Math.floor((baseSalary * 1.38) / 4),
-    11: Math.floor((baseSalary * 1.42) / 4),
-    12: Math.floor((baseSalary * 1.46) / 4),
-    13: Math.floor((baseSalary * 1.5) / 4),
-    14: Math.floor((baseSalary * 1.54) / 4),
-    15: Math.floor((baseSalary * 1.58) / 4),
-    16: Math.floor((baseSalary * 1.6) / 4),   // Doctor
-    17: Math.floor((baseSalary * 1.66) / 4),
-    18: Math.floor((baseSalary * 1.72) / 4),
-    19: Math.floor((baseSalary * 1.76) / 4),
-    20: Math.floor((baseSalary * 1.8) / 4),   // Chief
-  },
+  // EMS — 15 ranks: Intern .. Chief Physician. Keeps its own curve: a higher
+  // floor (medics are useful from day one) and a lower ceiling than police.
+  ems: ladder(1.0, 1.8, 15),
+
+  // Government — 20 ranks: Intern .. Mayor
+  government: ladder(LEO_FLOOR, LEO_CEILING, 20),
+
+  // LifeInvader — 20 ranks: Intern .. Director
+  lifeinvader: ladder(LEO_FLOOR, LEO_CEILING, 20),
 };

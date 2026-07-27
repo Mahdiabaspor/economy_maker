@@ -8,7 +8,10 @@ import { superMarketConfig } from "./SHOPS/SUPERMARKET.js";
 import { emsShopConfig, emsShopSellConfig } from "./SHOPS/EMS.js";
 import { CraftEmsConfig } from "./CRAFTS/EMS.js";
 import { CraftingGangConfig } from "./CRAFTS/GANG.js";
-import { CraftPoliceConfig } from "./CRAFTS/POLICE.js";
+import { STATE_SHARED_EQUIPMENT } from "./CRAFTS/STATE_SHARED.js";
+import { POLICE_EQUIPMENT } from "./CRAFTS/POLICE.js";
+import { SHERIFF_EQUIPMENT } from "./CRAFTS/SHERIFF.js";
+import { FIB_EQUIPMENT } from "./CRAFTS/FIB.js";
 import { governmentSalary } from "./SALARY/SALARY.js";
 import { miningJobConfig } from "./JOBS/MINING.js";
 import { electricJobConfig } from "./JOBS/ELECTRIC.js";
@@ -39,6 +42,18 @@ import { boozeShopConfig } from "./SHOPS/BooozeShop.js";
 import { vendingMachineConfig } from "./SHOPS/VENDINGMACHINE.js";
 import { checkEconomyCircles } from "./checkEconomyCircles.js";
 
+
+// State equipment bench — ONE bench in game, one source file per department.
+// Shared rows first, then each department's own locked blueprints. Adding a
+// department later (ARMY.js / GOVERNMENT.js) means one import + one spread here
+// and nothing else: the game still reads a single `CraftPoliceConfig` array,
+// and each row's `faction` field is what keeps the lists apart at runtime.
+const CraftPoliceConfig = [
+  ...STATE_SHARED_EQUIPMENT,
+  ...POLICE_EQUIPMENT,
+  ...SHERIFF_EQUIPMENT,
+  ...FIB_EQUIPMENT,
+];
 
 const economyConfig = {
   shops: {

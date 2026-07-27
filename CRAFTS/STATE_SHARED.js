@@ -171,19 +171,11 @@ export const STATE_SHARED_EQUIPMENT = [
   },
 
   // ---- BODY ARMOR -------------------------------------------------------
-  // The entry-level vest carries no department markings, so every state
-  // faction makes it. The MARKED plate carriers are department-locked and live
-  // in POLICE.js / SHERIFF.js / FIB.js — never add one here.
-  // Same 5-component price as the gang vests.
-  {
-    label: "CADET VEST",
-    itemName: "item_vest_6",
-    materials: COMPONENT(5),
-    itemType: "COMMON",
-    craftTimeMinutes: 0,
-    output: 1,
-    group: "OTHER",
-  },
+  // NONE. Every vest belongs to exactly one department and lives in that
+  // department's file — POLICE.js (CADET VEST + the seven marked carriers),
+  // SHERIFF.js (SHERIFF VEST), FIB.js (FIB VEST). Never add a vest here: a row
+  // in this file shows up on every state bench, which is what put LSPD's vests
+  // in the sheriff's list in the first place.
 
   // ---- SURVEILLANCE DEVICES --------------------------------------------
   // Battery-bearing gear: both come out of the bench at 100% charge and are

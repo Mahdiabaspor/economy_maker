@@ -18,6 +18,17 @@ import { COMPONENT, only } from "./STATE_SHARED.js";
 
 export const POLICE_EQUIPMENT = only("police", [
   {
+    // Entry-level unmarked carrier. LSPD's — the sheriff's bench has exactly
+    // one vest (SHERIFF VEST) and this is not it.
+    label: "CADET VEST",
+    itemName: "item_vest_6",
+    materials: COMPONENT(5),
+    itemType: "COMMON",
+    craftTimeMinutes: 0,
+    output: 1,
+    group: "OTHER",
+  },
+  {
     label: "POLICE VEST",
     itemName: "item_vest_17",
     materials: COMPONENT(5),

@@ -43,17 +43,18 @@ import { vendingMachineConfig } from "./SHOPS/VENDINGMACHINE.js";
 import { checkEconomyCircles } from "./checkEconomyCircles.js";
 
 
-// State equipment bench — ONE bench in game, one source file per department.
-// Shared rows first, then each department's own locked blueprints. Adding a
-// department later (ARMY.js / GOVERNMENT.js) means one import + one spread here
-// and nothing else: the game still reads a single `CraftPoliceConfig` array,
-// and each row's `faction` field is what keeps the lists apart at runtime.
-const CraftPoliceConfig = [
-  ...STATE_SHARED_EQUIPMENT,
-  ...POLICE_EQUIPMENT,
-  ...SHERIFF_EQUIPMENT,
-  ...FIB_EQUIPMENT,
-];
+// State equipment bench — one config key per department, mirroring the source
+// files in CRAFTS/. A department's bench shows CraftStateSharedConfig plus its
+// OWN key and nothing else, so LSPD's vests are not in the sheriff's list and
+// the sheriff's vest is not in LSPD's. The concat happens where the bench is
+// read (high-ui craftBenchConfigs.tsx, server craftItem.ts).
+//
+// National Guard and Government have no exclusive blueprints yet, so their
+// benches are the shared list alone — give them a key here the day they do.
+const CraftStateSharedConfig = STATE_SHARED_EQUIPMENT;
+const CraftPoliceConfig = POLICE_EQUIPMENT;
+const CraftSheriffConfig = SHERIFF_EQUIPMENT;
+const CraftFibConfig = FIB_EQUIPMENT;
 
 const economyConfig = {
   shops: {
@@ -96,7 +97,11 @@ const economyConfig = {
   crafting: {
     CraftEmsConfig,
     CraftingGangConfig,
+    // state equipment bench — shared gear + one key per department
+    CraftStateSharedConfig,
     CraftPoliceConfig,
+    CraftSheriffConfig,
+    CraftFibConfig,
   },
   jobs: {
     miningJobConfig,

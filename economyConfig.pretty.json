@@ -81751,7 +81751,7 @@
         }
       ]
     },
-    "CraftPoliceConfig": [
+    "CraftStateSharedConfig": [
       {
         "label": "9MM BULLETS",
         "itemName": "item_bullet_9_mm",
@@ -81954,21 +81954,6 @@
         }
       },
       {
-        "label": "CADET VEST",
-        "itemName": "item_vest_6",
-        "materials": [
-          {
-            "itemName": "item_military_component",
-            "count": 5,
-            "label": "MILITARY COMPONENT"
-          }
-        ],
-        "itemType": "COMMON",
-        "craftTimeMinutes": 0,
-        "output": 1,
-        "group": "OTHER"
-      },
-      {
         "label": "BODY CAM",
         "itemName": "item_body_cam",
         "materials": [
@@ -81997,6 +81982,24 @@
         "craftTimeMinutes": 0,
         "output": 1,
         "group": "OTHER"
+      }
+    ],
+    "CraftPoliceConfig": [
+      {
+        "label": "CADET VEST",
+        "itemName": "item_vest_6",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER",
+        "faction": "police"
       },
       {
         "label": "POLICE VEST",
@@ -82109,7 +82112,9 @@
         "output": 1,
         "group": "OTHER",
         "faction": "police"
-      },
+      }
+    ],
+    "CraftSheriffConfig": [
       {
         "label": "SHERIFF VEST",
         "itemName": "item_vest_25",
@@ -82125,7 +82130,9 @@
         "output": 1,
         "group": "OTHER",
         "faction": "sheriff"
-      },
+      }
+    ],
+    "CraftFibConfig": [
       {
         "label": "FIB VEST",
         "itemName": "item_vest_24",

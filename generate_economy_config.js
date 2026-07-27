@@ -8,6 +8,7 @@ import { superMarketConfig } from "./SHOPS/SUPERMARKET.js";
 import { emsShopConfig, emsShopSellConfig } from "./SHOPS/EMS.js";
 import { CraftEmsConfig } from "./CRAFTS/EMS.js";
 import { CraftingGangConfig } from "./CRAFTS/GANG.js";
+import { CraftPoliceConfig } from "./CRAFTS/POLICE.js";
 import { governmentSalary } from "./SALARY/SALARY.js";
 import { miningJobConfig } from "./JOBS/MINING.js";
 import { electricJobConfig } from "./JOBS/ELECTRIC.js";
@@ -80,6 +81,7 @@ const economyConfig = {
   crafting: {
     CraftEmsConfig,
     CraftingGangConfig,
+    CraftPoliceConfig,
   },
   jobs: {
     miningJobConfig,

@@ -81734,23 +81734,6 @@
         },
         {
           "label": "VEST",
-          "itemName": "item_vest_3",
-          "materials": [
-            {
-              "itemName": "item_military_component",
-              "count": 5,
-              "label": "MILITARY COMPONENT"
-            }
-          ],
-          "itemType": "COMMON",
-          "craftTimeMinutes": 0,
-          "output": 1,
-          "requiredGangLevel": 1,
-          "group": "OTHER",
-          "faction": "bloods"
-        },
-        {
-          "label": "VEST",
           "itemName": "item_vest_11",
           "materials": [
             {
@@ -81767,7 +81750,330 @@
           "faction": "marabunta"
         }
       ]
-    }
+    },
+    "CraftPoliceConfig": [
+      {
+        "label": "9MM BULLETS",
+        "itemName": "item_bullet_9_mm",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 25,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 200,
+        "group": "AMMO"
+      },
+      {
+        "label": "SHOTGUN SHELLS",
+        "itemName": "item_bullet_shotgun",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 20,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 100,
+        "group": "AMMO"
+      },
+      {
+        "label": "5.56MM BULLETS",
+        "itemName": "item_bullet_5_56_mm",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 30,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 200,
+        "group": "AMMO"
+      },
+      {
+        "label": "7.62MM BULLETS",
+        "itemName": "item_bullet_7_62_mm",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 35,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 200,
+        "group": "AMMO"
+      },
+      {
+        "label": "NIGHTSTICK",
+        "itemName": "item_weapon_nightstick",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 15,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "MELEE",
+        "stats": {
+          "damage": 20,
+          "fireRate": 45,
+          "accuracy": 50,
+          "range": 5
+        }
+      },
+      {
+        "label": "STUN GUN",
+        "itemName": "item_weapon_stun_gun",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 25,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "PISTOLS",
+        "stats": {
+          "damage": 5,
+          "fireRate": 15,
+          "accuracy": 60,
+          "range": 12
+        }
+      },
+      {
+        "label": "FLASHLIGHT",
+        "itemName": "item_weapon_flashlight",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 10,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "COMBAT PISTOL",
+        "itemName": "item_weapon_combat_pistol",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 30,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "PISTOLS",
+        "stats": {
+          "damage": 27,
+          "fireRate": 55,
+          "accuracy": 45,
+          "range": 40
+        }
+      },
+      {
+        "label": "SMG",
+        "itemName": "item_weapon_smg",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 75,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "SMGS",
+        "stats": {
+          "damage": 28,
+          "fireRate": 82,
+          "accuracy": 45,
+          "range": 40
+        }
+      },
+      {
+        "label": "PUMP SHOTGUN",
+        "itemName": "item_weapon_pump_shotgun",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 80,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "SHOTGUNS",
+        "stats": {
+          "damage": 79,
+          "fireRate": 30,
+          "accuracy": 40,
+          "range": 30
+        }
+      },
+      {
+        "label": "CARBINE RIFLE",
+        "itemName": "item_weapon_carbine_rifle",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 110,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "RIFLES",
+        "stats": {
+          "damage": 62,
+          "fireRate": 70,
+          "accuracy": 62,
+          "range": 70
+        }
+      },
+      {
+        "label": "CADET VEST",
+        "itemName": "item_vest_6",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "POLICE VEST",
+        "itemName": "item_vest_17",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "POLICE VEST II",
+        "itemName": "item_vest_18",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "POLICE VEST III",
+        "itemName": "item_vest_19",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "POLICE VEST IV",
+        "itemName": "item_vest_20",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "POLICE VEST V",
+        "itemName": "item_vest_21",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "POLICE VEST VI",
+        "itemName": "item_vest_22",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "POLICE VEST VII",
+        "itemName": "item_vest_23",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      }
+    ]
   },
   "jobs": {
     "miningJobConfig": {

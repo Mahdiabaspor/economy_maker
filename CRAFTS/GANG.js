@@ -368,19 +368,6 @@ export const CraftingGangConfig = {
     },
     {
       label: "VEST",
-      itemName: "item_vest_3",
-      materials: [
-        { itemName: "item_military_component", count: 5, label: "MILITARY COMPONENT" },
-      ],
-      itemType: "COMMON",
-      craftTimeMinutes: 0,
-      output: 1,
-      requiredGangLevel: 1,
-      group: "OTHER",
-      faction: "bloods",
-    },
-    {
-      label: "VEST",
       itemName: "item_vest_11",
       materials: [
         { itemName: "item_military_component", count: 5, label: "MILITARY COMPONENT" },

@@ -1,4 +1,4 @@
-// LSPD EQUIPMENT BENCH
+// STATE EQUIPMENT BENCH
 //
 // The state side of the military-component economy. Police never farm
 // components — the Зброяр-style extraction chain is criminal-only — they take
@@ -11,7 +11,7 @@
 // everywhere else, `craftTimeMinutes` is kept only because the UI types require
 // it, it is always 0 and no server code reads it.
 //
-// The bench spends the LSPD's SHARED faction storage, not the officer's
+// The bench spends the department's SHARED faction storage, not the officer's
 // pockets: `police_crafting` in server/high-roleplay/craft/craftItem.ts. Every
 // recipe must therefore be priced in exactly ONE material
 // (item_military_component) — a multi-material row is rejected server-side.
@@ -20,12 +20,27 @@
 // high-ui Components/Armory/config/amroyConfig.ts; the difference between them
 // is cosmetic (clothes slot only, all 100 durability), so the labels are free
 // to rename.
+//
+// PER-DEPARTMENT LISTS
+// Every state faction (police / sheriff / fbi / army / government) runs this
+// one bench, so the recipes are grouped by who may craft them and the exported
+// array is the concatenation. A row carrying `faction` is craftable ONLY by
+// that faction — high-ui hides it from everyone else (`forFaction` in
+// Components/Craft/craftBenchConfigs.tsx) and craftItem.ts rejects it
+// server-side, so the lock holds even against a hand-crafted client call.
+// A row with no `faction` is shared by every department.
 
 const COMPONENT = (count) => [
   { itemName: "item_military_component", count, label: "MILITARY COMPONENT" },
 ];
 
-export const CraftPoliceConfig = [
+/** stamp a whole list with the faction that owns those blueprints */
+const only = (faction, recipes) => recipes.map((r) => ({ ...r, faction }));
+
+// ===========================================================================
+// SHARED — every state faction crafts these
+// ===========================================================================
+const SHARED_EQUIPMENT = [
   // ---- AMMUNITION -------------------------------------------------------
   {
     label: "9MM BULLETS",
@@ -147,6 +162,8 @@ export const CraftPoliceConfig = [
   },
 
   // ---- BODY ARMOR -------------------------------------------------------
+  // The entry-level vest carries no department markings, so every state
+  // faction makes it. The marked plate carriers are department-locked below.
   // Same 5-component price as the gang vests.
   {
     label: "CADET VEST",
@@ -157,6 +174,36 @@ export const CraftPoliceConfig = [
     output: 1,
     group: "OTHER",
   },
+
+  // ---- SURVEILLANCE DEVICES --------------------------------------------
+  // Battery-bearing gear: both come out of the bench at 100% charge and are
+  // topped up afterwards with item_battery (see inventory/deviceBattery.ts).
+  // Every department that has this bench gets them — LSPD, LSSD and the rest
+  // share these two rows, each spending its own storage pool.
+  {
+    label: "BODY CAM",
+    itemName: "item_body_cam",
+    materials: COMPONENT(15),
+    itemType: "UNCOMMON",
+    craftTimeMinutes: 0,
+    output: 1,
+    group: "OTHER",
+  },
+  {
+    label: "SURVEILLANCE DRONE",
+    itemName: "item_drone",
+    materials: COMPONENT(60),
+    itemType: "RARE",
+    craftTimeMinutes: 0,
+    output: 1,
+    group: "OTHER",
+  },
+];
+
+// ===========================================================================
+// LSPD only — the seven marked police plate carriers
+// ===========================================================================
+const POLICE_EQUIPMENT = only("police", [
   {
     label: "POLICE VEST",
     itemName: "item_vest_17",
@@ -220,4 +267,43 @@ export const CraftPoliceConfig = [
     output: 1,
     group: "OTHER",
   },
+]);
+
+// ===========================================================================
+// LSSD only — olive SHERIFF plate carrier
+// (male drawable 85 / female 80, armorManager.ts item_vest_25)
+// ===========================================================================
+const SHERIFF_EQUIPMENT = only("sheriff", [
+  {
+    label: "SHERIFF VEST",
+    itemName: "item_vest_25",
+    materials: COMPONENT(5),
+    itemType: "COMMON",
+    craftTimeMinutes: 0,
+    output: 1,
+    group: "OTHER",
+  },
+]);
+
+// ===========================================================================
+// FIB only — black FIB plate carrier
+// (male drawable 84 / female 79, armorManager.ts item_vest_24)
+// ===========================================================================
+const FIB_EQUIPMENT = only("fbi", [
+  {
+    label: "FIB VEST",
+    itemName: "item_vest_24",
+    materials: COMPONENT(5),
+    itemType: "COMMON",
+    craftTimeMinutes: 0,
+    output: 1,
+    group: "OTHER",
+  },
+]);
+
+export const CraftPoliceConfig = [
+  ...SHARED_EQUIPMENT,
+  ...POLICE_EQUIPMENT,
+  ...SHERIFF_EQUIPMENT,
+  ...FIB_EQUIPMENT,
 ];

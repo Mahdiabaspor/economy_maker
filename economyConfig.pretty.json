@@ -81969,6 +81969,36 @@
         "group": "OTHER"
       },
       {
+        "label": "BODY CAM",
+        "itemName": "item_body_cam",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 15,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "UNCOMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
+        "label": "SURVEILLANCE DRONE",
+        "itemName": "item_drone",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 60,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER"
+      },
+      {
         "label": "POLICE VEST",
         "itemName": "item_vest_17",
         "materials": [
@@ -81981,7 +82011,8 @@
         "itemType": "COMMON",
         "craftTimeMinutes": 0,
         "output": 1,
-        "group": "OTHER"
+        "group": "OTHER",
+        "faction": "police"
       },
       {
         "label": "POLICE VEST II",
@@ -81996,7 +82027,8 @@
         "itemType": "COMMON",
         "craftTimeMinutes": 0,
         "output": 1,
-        "group": "OTHER"
+        "group": "OTHER",
+        "faction": "police"
       },
       {
         "label": "POLICE VEST III",
@@ -82011,7 +82043,8 @@
         "itemType": "COMMON",
         "craftTimeMinutes": 0,
         "output": 1,
-        "group": "OTHER"
+        "group": "OTHER",
+        "faction": "police"
       },
       {
         "label": "POLICE VEST IV",
@@ -82026,7 +82059,8 @@
         "itemType": "COMMON",
         "craftTimeMinutes": 0,
         "output": 1,
-        "group": "OTHER"
+        "group": "OTHER",
+        "faction": "police"
       },
       {
         "label": "POLICE VEST V",
@@ -82041,7 +82075,8 @@
         "itemType": "COMMON",
         "craftTimeMinutes": 0,
         "output": 1,
-        "group": "OTHER"
+        "group": "OTHER",
+        "faction": "police"
       },
       {
         "label": "POLICE VEST VI",
@@ -82056,7 +82091,8 @@
         "itemType": "COMMON",
         "craftTimeMinutes": 0,
         "output": 1,
-        "group": "OTHER"
+        "group": "OTHER",
+        "faction": "police"
       },
       {
         "label": "POLICE VEST VII",
@@ -82071,7 +82107,40 @@
         "itemType": "COMMON",
         "craftTimeMinutes": 0,
         "output": 1,
-        "group": "OTHER"
+        "group": "OTHER",
+        "faction": "police"
+      },
+      {
+        "label": "SHERIFF VEST",
+        "itemName": "item_vest_25",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER",
+        "faction": "sheriff"
+      },
+      {
+        "label": "FIB VEST",
+        "itemName": "item_vest_24",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 5,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "COMMON",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "OTHER",
+        "faction": "fbi"
       }
     ]
   },

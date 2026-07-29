@@ -356,6 +356,11 @@
           "singlePrice": 150
         },
         {
+          "itemName": "item_screwdriver",
+          "label": "SCREWDRIVER",
+          "singlePrice": 1200
+        },
+        {
           "itemName": "item_food_chocolate",
           "label": "CHOCOLATE BAR",
           "singlePrice": 150
@@ -81420,6 +81425,32 @@
       ],
       "gang_weapon_crafting": [
         {
+          "label": "ATM HACKING CHIP",
+          "itemName": "item_atm_hack_chip",
+          "materials": [
+            {
+              "itemName": "item_junk_broken_phone",
+              "count": 1,
+              "label": "BROKEN PHONE"
+            },
+            {
+              "itemName": "item_junk_circuit_board",
+              "count": 2,
+              "label": "OLD CIRCUIT BOARD"
+            },
+            {
+              "itemName": "item_junk_rusty_usb",
+              "count": 2,
+              "label": "RUSTY USB DRIVE"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 0,
+          "output": 1,
+          "requiredGangLevel": 1,
+          "group": "OTHER"
+        },
+        {
           "label": "Lock Pick",
           "itemName": "item_lock_pick",
           "materials": [
@@ -85406,6 +85437,33 @@
     "item_lock_pick": {
       "name": "item_lock_pick",
       "label": "Lock Pick",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": true,
+      "isIllegal": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_screwdriver": {
+      "name": "item_screwdriver",
+      "label": "Screwdriver",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 5,
+      "canTrade": true
+    },
+    "item_atm_hack_chip": {
+      "name": "item_atm_hack_chip",
+      "label": "Hacking Chip",
       "accessKey": "none",
       "canUSE": false,
       "canDrop": false,

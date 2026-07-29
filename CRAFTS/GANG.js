@@ -157,6 +157,38 @@ export const CraftingGangConfig = {
   // Dealer liquidation target: ~300-400 per component, flat across items, guns
   // highest (see SHOPS/WeaponDealer.js). Ported 1:1 from the live server config.
   gang_weapon_crafting: [
+    // ATM HACKING CHIP — the gated half of the ATM-robbery kit.
+    //
+    // Deliberately the one recipe on this bench built from JUNK rather than
+    // military components, and the reason is economic: anyone may rob an ATM,
+    // but only gangs can make the chip, so gangs become the SUPPLIER and
+    // everyone else is their customer (the chip trades on the dark market).
+    // That is what makes ATM robbery a gang economy without locking non-gang
+    // players out of the activity.
+    //
+    // Cost check — the junk buyer would have paid for these inputs:
+    //   2 x circuit board  2 x 650  = 1300
+    //   2 x rusty USB      2 x 150  =  300
+    //   1 x broken phone            = 3100
+    //                        total  = 4700 of forgone junk income per chip
+    // against a 30,000-40,000 payout. Roughly 15% of a bad haul, which keeps
+    // the robbery clearly worth doing while giving the junk job a real sink.
+    // Retune here and in PAYOUT_MIN/MAX (shared/robbery/atmRobbery.config.ts)
+    // together — neither number means anything on its own.
+    {
+      label: "ATM HACKING CHIP",
+      itemName: "item_atm_hack_chip",
+      materials: [
+        { itemName: "item_junk_broken_phone", count: 1, label: "BROKEN PHONE" },
+        { itemName: "item_junk_circuit_board", count: 2, label: "OLD CIRCUIT BOARD" },
+        { itemName: "item_junk_rusty_usb", count: 2, label: "RUSTY USB DRIVE" },
+      ],
+      itemType: "RARE",
+      craftTimeMinutes: 0,
+      output: 1,
+      requiredGangLevel: 1,
+      group: "OTHER",
+    },
     {
       label: "Lock Pick",
       itemName: "item_lock_pick",

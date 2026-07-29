@@ -2170,6 +2170,39 @@ export const itemsProperties = {
     canTrade: true,
   },
 
+  // --- ATM robbery kit (features/atm-robbery) ---------------------------
+  // The screwdriver opens the faceplate and is NEVER consumed; the chip does
+  // the hack and is consumed the moment stage 2 completes.
+
+  item_screwdriver: {
+    name: "item_screwdriver",
+    label: "Screwdriver",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: false,
+    category: ItemCategory.TOOLS,
+    canUnStack: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 5,
+    canTrade: true,
+  },
+
+  item_atm_hack_chip: {
+    name: "item_atm_hack_chip",
+    label: "Hacking Chip",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: false,
+    category: ItemCategory.TOOLS,
+    canUnStack: true,
+    isIllegal: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 10,
+    canTrade: true,
+  },
+
   item_sodium_bicarbonate: {
     name: "item_sodium_bicarbonate",
     label: "sodium bicarbonate",

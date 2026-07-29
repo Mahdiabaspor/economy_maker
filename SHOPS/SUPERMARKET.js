@@ -11,6 +11,13 @@ export const superMarketConfig = {
       label: "MINERAL WATER",
       singlePrice: Math.floor(150 * superMarketMultiplier ),
     },
+    // Legal hardware. It is also half the ATM-robbery kit, but on its own it
+    // opens nothing — the hacking chip is the gated half (CRAFTS/GANG.js).
+    {
+      itemName: "item_screwdriver",
+      label: "SCREWDRIVER",
+      singlePrice: Math.floor(1200 * superMarketMultiplier),
+    },
     // {
     //     itemName: 'item_drink_sprunk',
     //     label: 'SPRUNK SODA',

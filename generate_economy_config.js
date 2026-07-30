@@ -20,23 +20,13 @@ import { licenseDmvConfig } from "./SHOPS/LICENSEDMV.js";
 import { tunningConfig } from "./SHOPS/TUNNING.js";
 
 import { EmsConfig } from "./Factions/Ems.js";
-import { carV3 } from "./SHOPS/Dealership2.js";
-import { femaleCloth } from "./SHOPS/ClothShop/Female.js";
-import { maleCloth } from "./SHOPS/ClothShop/Male.js";
-import { FemaleTattooPackage, MaleTattooPackage } from "./SHOPS/Tattoo.js";
-import { VipDealershipCars } from "./SHOPS/VIPDEALERSHIP.js";
 import { GANG } from "./Factions/GANGS.js";
-import { beautySalon } from "./SHOPS/BEAUTYSALON.js";
 import { plateShop } from "./SHOPS/PLATESHOP.js";
-import { Insurance } from "./SHOPS/INSURANCE.js";
 import { itemsProperties, medicalItems, MiningItems, weaponsItem } from "./items/itemProperties.js";
 import { DrugDealer } from "./SHOPS/DrugLab.js";
 import { WeaponDealer } from "./SHOPS/WeaponDealer.js";
-import { femaleClothP } from "./SHOPS/ClothShopPermium/Female.js";
-import { maleClothP } from "./SHOPS/ClothShopPermium/Male.js";
 import * as priceConstants from "./items/AllItemsBuyPrice.js";
 import { BurgerShotBenches } from "./JOBS/FoodJobs.js";
-import { FoodSupplierConfig } from "./SHOPS/FoodSuplier.js";
 import { junkItems } from "./JOBS/Junk.js";
 import { boozeShopConfig } from "./SHOPS/BooozeShop.js";
 import { vendingMachineConfig } from "./SHOPS/VENDINGMACHINE.js";
@@ -69,27 +59,53 @@ const economyConfig = {
       buyConfig:emsShopConfig,
       sellConfig:emsShopSellConfig,
     },
-    FoodSupplierConfig,
     superMarketConfig,
     vendingMachineConfig,
     tunningConfig,
-    dealershipCars: carV3,
-    VipDealershipCars:VipDealershipCars,
+    // dealershipCars / VipDealershipCars MOVED OUT on 2026-07-30. These were
+    // never really display data: licenseGuard.sv.ts builds its model -> required
+    // license table from `Class`, and trunkSlots.ts keys off it, so the server
+    // has to own them. They now live in the gamemode as typed TS modules:
+    //   high-roleplay-v1/src/src/shared/shops/dealership/  (canonical)
+    //   high-ui/src/Components/DealerShip/Data/            (CEF copy)
+    // Run tools/sync-shop-catalogs.mjs after editing. Prices stayed as
+    // calcPrice(hoursToGain) rather than being frozen to integers, so the
+    // economy is still retunable from one constant. Do not re-add them here.
+    // Insurance and FoodSupplierConfig DELETED on 2026-07-30 — both features are
+    // gone from the server. Insurance went when City Hall was gutted (2026-07-29,
+    // replaced by the Weapon License) and had no readers left in either project.
+    // The raw-food supplier shop's only opener, Browser.toggleUI('buyRawFood'),
+    // was already commented out in client jobMenus.ts, so the route was
+    // unreachable. Neither was migrated anywhere; they were just deleted.
     plateShop,
-    clothShop: {
-      male: maleCloth,
-      female: femaleCloth,
-    },
-    clothShopPremium: {
-      male: maleClothP,
-      female: femaleClothP,
-    },
-    tattooShop: {
-      male: MaleTattooPackage,
-      female: FemaleTattooPackage,
-    },
-    beautySalon: beautySalon,
-    Insurance,
+    // clothShop / clothShopPremium MOVED OUT on 2026-07-30 — 277 KB, the single
+    // biggest thing in this file, for 3752 items one CEF component read. They
+    // are now ONE catalog in the gamemode, because the split was misleading:
+    // "premium" is a shop tab, not a currency (71 of the bags are premium-tab
+    // and cash-priced), and no category ever held the same drawable in both
+    // shops. Merging gave the server one lookup for "what does this cost, in
+    // what currency" — which buy:clothes had never had.
+    //   high-roleplay-v1/src/src/shared/shops/clothes/  (canonical)
+    //   high-ui/src/Components/ClothShop/Data/          (CEF copy)
+    // The `multi = 0.5` halving survived as cash() in the catalog. Run
+    // tools/sync-shop-catalogs.mjs after editing. Do not re-add them here.
+    // tattooShop MOVED OUT on 2026-07-30. The generator emitted the same 828
+    // designs twice — once per gender, pre-split into 12 zone buckets — which
+    // was 344 KB of this 792 KB file, on a payload deflated and synced to every
+    // player at join. It is now a flat 177 KB array owned by the gamemode:
+    //   high-roleplay-v1/src/src/shared/shops/tattoo/tattooCatalog.json (canonical)
+    //   high-ui/src/Components/TattoSalon/data/tattooCatalog.json      (CEF copy)
+    // Edit prices there and run tools/sync-shop-catalogs.mjs. Do not re-add it
+    // here.
+    // beautySalon MOVED OUT on 2026-07-30. Two things were wrong with it here.
+    // The eight flat prices (Blemishes 1650 ... SunDamage 750) were dead — every
+    // CEF page hardcoded 800, so none of them had ever taken effect — and
+    // barber.sv.ts imported no config at all, charging whatever AllPrice the
+    // client sent. Hair goes to 111,000. Now:
+    //   high-roleplay-v1/src/src/shared/shops/beautySalon/  (canonical)
+    //   high-ui/src/Components/BeautySalon/Data/            (CEF copy)
+    // multi = 0.5 survived as cash(); the eight are one OVERLAY_PRICE that is
+    // actually read. Run tools/sync-shop-catalogs.mjs. Do not re-add it here.
     DrugDealer:DrugDealer,
     WeaponDealer:WeaponDealer,
     boozeShopConfig,

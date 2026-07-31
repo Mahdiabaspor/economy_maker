@@ -1,4 +1,4 @@
-// LSPD ONLY — the seven marked police plate carriers
+// LSPD ONLY — the seven marked police plate carriers + AP pistol
 //
 // This file holds ONLY what the Los Santos Police Department may craft. The
 // rows every state faction shares (ammo, duty tools, service weapons, the
@@ -90,5 +90,17 @@ export const POLICE_EQUIPMENT = only("police", [
     craftTimeMinutes: 0,
     output: 1,
     group: "OTHER",
+  },
+  {
+    // Same item the gang bench crafts (CRAFTS/GANG.js), so it costs the same
+    // 40 components — the shared-bench pricing rule in STATE_SHARED.js.
+    label: "AP PISTOL",
+    itemName: "item_weapon_appistol",
+    materials: COMPONENT(40),
+    itemType: "RARE",
+    craftTimeMinutes: 0,
+    output: 1,
+    group: "PISTOLS",
+    stats: { damage: 30, fireRate: 85, accuracy: 38, range: 38 },
   },
 ]);

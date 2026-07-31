@@ -3681,6 +3681,28 @@
         "output": 1,
         "group": "OTHER",
         "faction": "police"
+      },
+      {
+        "label": "AP PISTOL",
+        "itemName": "item_weapon_appistol",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 40,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "PISTOLS",
+        "stats": {
+          "damage": 30,
+          "fireRate": 85,
+          "accuracy": 38,
+          "range": 38
+        },
+        "faction": "police"
       }
     ],
     "CraftSheriffConfig": [
@@ -3698,6 +3720,28 @@
         "craftTimeMinutes": 0,
         "output": 1,
         "group": "OTHER",
+        "faction": "sheriff"
+      },
+      {
+        "label": "AP PISTOL",
+        "itemName": "item_weapon_appistol",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 40,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 1,
+        "group": "PISTOLS",
+        "stats": {
+          "damage": 30,
+          "fireRate": 85,
+          "accuracy": 38,
+          "range": 38
+        },
         "faction": "sheriff"
       }
     ],

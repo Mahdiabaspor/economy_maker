@@ -98,13 +98,6 @@
         "category": "Ammo",
         "ammoType": null,
         "singlePrice": 80
-      },
-      {
-        "label": "Musket",
-        "itemName": "item_weapon_musket",
-        "category": "Rifle",
-        "ammoType": "buckshot",
-        "singlePrice": 16000
       }
     ],
     "carRentalsConfig": [
@@ -307,51 +300,6 @@
           "itemName": "item_screwdriver",
           "label": "SCREWDRIVER",
           "singlePrice": 1200
-        },
-        {
-          "itemName": "item_shovel",
-          "label": "SHOVEL",
-          "singlePrice": 1800
-        },
-        {
-          "itemName": "item_axe_common",
-          "label": "COMMON AXE",
-          "singlePrice": 2000
-        },
-        {
-          "itemName": "item_pickaxe_stone_1",
-          "label": "ORDINARY PICKAXE",
-          "singlePrice": 7650
-        },
-        {
-          "itemName": "item_pickaxe_stone_2",
-          "label": "IMPROVED PICKAXE",
-          "singlePrice": 15300
-        },
-        {
-          "itemName": "item_pickaxe_stone_3",
-          "label": "BEST PICKAXE",
-          "singlePrice": 22950
-        },
-        {
-          "itemName": "item_fishing_rod",
-          "label": "FISHING ROD",
-          "singlePrice": 2500
-        },
-        {
-          "itemName": "item_fish_bait",
-          "label": "FISH BAIT",
-          "singlePrice": 3
-        },
-        {
-          "itemName": "item_fish_bait_improved",
-          "label": "IMPROVED FISH BAIT",
-          "singlePrice": 9
-        },
-        {
-          "itemName": "item_fish_bait_extra",
-          "label": "EXTRA FISH BAIT",
-          "singlePrice": 18
         },
         {
           "itemName": "item_food_chocolate",

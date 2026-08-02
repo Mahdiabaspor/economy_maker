@@ -82,18 +82,29 @@ export const weaponShopConfig = [
     singlePrice: Math.floor(80 * weaponPriceMMultiplier),
   },
 
+  // ── hunter — COMMENTED OUT WHILE THE JOB IS SWITCHED OFF ────────────────
+  // The Hunter is `false` in
+  //     high-roleplay-v1/src/src/shared/jobs/jobToggles.shared.ts
+  // and this row is its last visible trace: the musket is the job's tool, and
+  // with no animals spawning it is a rifle that shoots nothing worth shooting.
+  //
+  // TO BRING IT BACK: flip `hunter` in jobToggles.shared.ts, un-comment this
+  // block, then `npm run generate` and copy economyConfig.json into BOTH
+  // high-ui/ and high-roleplay-v1/src/src/shared/. The MUSKET_BUY_PRICE import
+  // at the top of this file is left in place so this is a one-step edit.
+  //
   // Hunter's tool. Prices are imported from JOBS/HUNTER.js, never retyped —
   // that file is the source of truth for both of them.
-  {
-    label: "Musket",
-    itemName: "item_weapon_musket",
-    category: "Rifle",
-    // Standard buckshot — the musket shares the SHOTGUN_AMMO pool with every
-    // other shotgun, so a hunter buys the same shells they already stock. There
-    // is deliberately no dedicated musket-ball item.
-    ammoType: "buckshot",
-    singlePrice: Math.floor(MUSKET_BUY_PRICE * weaponPriceMMultiplier),
-  },
+  // {
+  //   label: "Musket",
+  //   itemName: "item_weapon_musket",
+  //   category: "Rifle",
+  //   // Standard buckshot — the musket shares the SHOTGUN_AMMO pool with every
+  //   // other shotgun, so a hunter buys the same shells they already stock. There
+  //   // is deliberately no dedicated musket-ball item.
+  //   ammoType: "buckshot",
+  //   singlePrice: Math.floor(MUSKET_BUY_PRICE * weaponPriceMMultiplier),
+  // },
 
   // { label: "Assault Shotgun", itemName: "item_weapon_assault_shotgun" },
   // { label: "Bs Gas", itemName: "item_weapon_bs_gas" },

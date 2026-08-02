@@ -1,4 +1,10 @@
 import { AXE_COMMON_BUY_PRICE } from "../JOBS/LUMBER.js";
+import {
+  FISHING_ROD_BUY_PRICE,
+  FISH_BAIT_BUY_PRICE,
+  FISH_BAIT_IMPROVED_BUY_PRICE,
+  FISH_BAIT_EXTRA_BUY_PRICE,
+} from "../JOBS/FISHING.js";
 
 const superMarketMultiplier = 1;
 export const superMarketConfig = {
@@ -55,6 +61,35 @@ export const superMarketConfig = {
       itemName: "item_pickaxe_stone_3",
       label: "BEST PICKAXE",
       singlePrice: Math.floor(22950 * superMarketMultiplier),
+    },
+    // The Fisherman's rod and its three baits. Exactly like the shovel and the
+    // axe above, THESE FOUR ROWS ARE the job's "get hired" step — there is no
+    // NPC and no employment screen, so without them the job cannot be started at
+    // all. Prices imported from JOBS/FISHING.js so the shop and the job's own
+    // config cannot disagree.
+    {
+      itemName: "item_fishing_rod",
+      label: "FISHING ROD",
+      singlePrice: Math.floor(FISHING_ROD_BUY_PRICE * superMarketMultiplier),
+    },
+    {
+      itemName: "item_fish_bait",
+      label: "FISH BAIT",
+      singlePrice: Math.floor(FISH_BAIT_BUY_PRICE * superMarketMultiplier),
+    },
+    // The two upper bait tiers are level-gated server-side by
+    // jobs/fishing/fishing.sv.ts (`fishing:bait:canbuy`) and again at the cast;
+    // the catalogue only paints the lock — the same split the stonemason
+    // pickaxes use.
+    {
+      itemName: "item_fish_bait_improved",
+      label: "IMPROVED FISH BAIT",
+      singlePrice: Math.floor(FISH_BAIT_IMPROVED_BUY_PRICE * superMarketMultiplier),
+    },
+    {
+      itemName: "item_fish_bait_extra",
+      label: "EXTRA FISH BAIT",
+      singlePrice: Math.floor(FISH_BAIT_EXTRA_BUY_PRICE * superMarketMultiplier),
     },
     // {
     //     itemName: 'item_drink_sprunk',

@@ -61,9 +61,11 @@ export const hunterJobConfig = {
     buyPrice: MUSKET_BUY_PRICE,
     repairPrice: MUSKET_REPAIR_PRICE,
   },
+  // The musket loads STANDARD SHOTGUN SHELLS from the shared SHOTGUN_AMMO pool
+  // — there is no dedicated ball item. Kept as a pointer so the job config and
+  // the gun shop cannot drift apart.
   ball: {
-    itemName: "item_bullet_musket",
-    label: "Musket ball",
-    buyPrice: MUSKET_BALL_BUY_PRICE,
+    itemName: "item_bullet_shotgun",
+    label: "Shotgun Shell",
   },
 };

@@ -103,15 +103,8 @@
         "label": "Musket",
         "itemName": "item_weapon_musket",
         "category": "Rifle",
-        "ammoType": "musketball",
+        "ammoType": "buckshot",
         "singlePrice": 16000
-      },
-      {
-        "label": "Musket Ball",
-        "itemName": "item_bullet_musket",
-        "category": "Ammo",
-        "ammoType": null,
-        "singlePrice": 12
       }
     ],
     "carRentalsConfig": [
@@ -339,6 +332,26 @@
           "itemName": "item_pickaxe_stone_3",
           "label": "BEST PICKAXE",
           "singlePrice": 22950
+        },
+        {
+          "itemName": "item_fishing_rod",
+          "label": "FISHING ROD",
+          "singlePrice": 2500
+        },
+        {
+          "itemName": "item_fish_bait",
+          "label": "FISH BAIT",
+          "singlePrice": 3
+        },
+        {
+          "itemName": "item_fish_bait_improved",
+          "label": "IMPROVED FISH BAIT",
+          "singlePrice": 9
+        },
+        {
+          "itemName": "item_fish_bait_extra",
+          "label": "EXTRA FISH BAIT",
+          "singlePrice": 18
         },
         {
           "itemName": "item_food_chocolate",
@@ -4460,6 +4473,45 @@
         "item_hand_pilers": 2000,
         "mediumCircuit": 5500,
         "advancedCircuit": 7650
+      },
+      "nodeBase": {
+        "basic": 150,
+        "normal": 162,
+        "hard": 170
+      },
+      "arrival": {
+        "perMeter": 0.14,
+        "minGapM": 400,
+        "maxDistanceM": 8000
+      },
+      "rentalVehicles": [
+        {
+          "id": "sadler",
+          "model": "sadler",
+          "name": "Vapid Sadler 4x4",
+          "pricePerHour": 500,
+          "topSpeedKmh": 158,
+          "payMultiplier": 1,
+          "minSkillLevel": 3
+        },
+        {
+          "id": "f450m",
+          "model": "f450m",
+          "name": "Utility Service Truck",
+          "pricePerHour": 750,
+          "topSpeedKmh": 170,
+          "payMultiplier": 1.08,
+          "minSkillLevel": 4
+        }
+      ],
+      "tools": {
+        "pliersDurability": 200,
+        "pliersRepairPrice": 700
+      },
+      "salvage": {
+        "item_electro_diode": 90,
+        "item_electro_transistor": 180,
+        "item_electro_microchip": 650
       }
     },
     "busJobConfig": {
@@ -5677,10 +5729,463 @@
         "repairPrice": 1200
       },
       "ball": {
-        "itemName": "item_bullet_musket",
-        "label": "Musket ball",
-        "buyPrice": 12
+        "itemName": "item_bullet_shotgun",
+        "label": "Shotgun Shell"
       }
+    },
+    "garbageJobConfig": {
+      "baseBagPay": 190,
+      "payPerMeter": 0.022,
+      "maxLegPayM": 7000,
+      "unloadPct": 25,
+      "brigadeBonusPctPerMate": 10,
+      "brigadeBonusPctCap": 30,
+      "levelBonus": [
+        {
+          "level": 1,
+          "points": 0,
+          "bins": 15,
+          "payBonusPct": 0,
+          "maxBrigade": 2
+        },
+        {
+          "level": 2,
+          "points": 200,
+          "bins": 17,
+          "payBonusPct": 4,
+          "maxBrigade": 2
+        },
+        {
+          "level": 3,
+          "points": 600,
+          "bins": 19,
+          "payBonusPct": 8,
+          "maxBrigade": 3
+        },
+        {
+          "level": 4,
+          "points": 2000,
+          "bins": 22,
+          "payBonusPct": 14,
+          "maxBrigade": 3
+        },
+        {
+          "level": 5,
+          "points": 5000,
+          "bins": 25,
+          "payBonusPct": 20,
+          "maxBrigade": 4
+        }
+      ],
+      "rentals": [
+        {
+          "id": "trashmaster",
+          "pricePerHour": 200,
+          "minSkillLevel": 1,
+          "binBonus": 0
+        },
+        {
+          "id": "brute_refuser",
+          "pricePerHour": 300,
+          "minSkillLevel": 3,
+          "binBonus": 4
+        }
+      ],
+      "binsPerMate": 15,
+      "jitterPct": 1
+    },
+    "collectorJobConfig": {
+      "baseFee": 120,
+      "payPerMeter": 0.14,
+      "roadFactor": 1.35,
+      "maxPayDistanceM": 5000,
+      "completionBonus": 3000,
+      "levelBonus": [
+        {
+          "level": 1,
+          "points": 0,
+          "bonus": 0,
+          "maxCrew": 2
+        },
+        {
+          "level": 2,
+          "points": 200,
+          "bonus": 125,
+          "maxCrew": 2
+        },
+        {
+          "level": 3,
+          "points": 600,
+          "bonus": 175,
+          "maxCrew": 3
+        },
+        {
+          "level": 4,
+          "points": 2000,
+          "bonus": 225,
+          "maxCrew": 4
+        },
+        {
+          "level": 5,
+          "points": 8000,
+          "bonus": 275,
+          "maxCrew": 4
+        }
+      ],
+      "rentals": [
+        {
+          "id": "stockade",
+          "pricePerHour": 500,
+          "minSkillLevel": 1,
+          "payMultiplier": 1
+        },
+        {
+          "id": "oschadbank",
+          "pricePerHour": 1000,
+          "minSkillLevel": 3,
+          "payMultiplier": 1.05
+        },
+        {
+          "id": "privatbank",
+          "pricePerHour": 1500,
+          "minSkillLevel": 4,
+          "payMultiplier": 1.1
+        }
+      ],
+      "leftover": {
+        "chance": 0.05,
+        "minAmount": 600,
+        "maxAmount": 1200,
+        "perShiftCap": 3
+      },
+      "vehicleRecallFee": 1000,
+      "stopsPerRoute": 25,
+      "pointsPerAtm": 1,
+      "pointsPerDeposit": 2,
+      "crewBonusPctPerMember": 10,
+      "crewBonusPctCap": 30
+    },
+    "aquanaut": {
+      "baseFee": 900,
+      "payPerCrate": 280,
+      "payPerMeter": 0.7,
+      "maxPayDistanceM": 5000,
+      "jitterPct": 6,
+      "minPay": 2200,
+      "maxPay": 8400,
+      "payRoundTo": 10,
+      "minCrates": 6,
+      "maxCrates": 9,
+      "orderSeconds": 1800,
+      "refillSeconds": 20,
+      "leashSeconds": 300,
+      "minCharacterLevel": 7,
+      "rentals": [
+        {
+          "id": "submersible",
+          "pricePerHour": 1000,
+          "payMultiplier": 1,
+          "minSkillLevel": 1
+        },
+        {
+          "id": "kraken",
+          "pricePerHour": 2000,
+          "payMultiplier": 1.12,
+          "minSkillLevel": 4
+        }
+      ],
+      "levelRewards": [
+        {
+          "id": 1,
+          "points": 0,
+          "airSeconds": 1800,
+          "payBonusPct": 0,
+          "sonarRadius": 45
+        },
+        {
+          "id": 2,
+          "points": 25,
+          "airSeconds": 2400,
+          "payBonusPct": 3,
+          "sonarRadius": 40
+        },
+        {
+          "id": 3,
+          "points": 80,
+          "airSeconds": 3000,
+          "payBonusPct": 6,
+          "sonarRadius": 36
+        },
+        {
+          "id": 4,
+          "points": 200,
+          "airSeconds": 3600,
+          "payBonusPct": 8,
+          "sonarRadius": 30
+        },
+        {
+          "id": 5,
+          "points": 420,
+          "airSeconds": 4200,
+          "payBonusPct": 12,
+          "sonarRadius": 24
+        }
+      ],
+      "finds": [
+        {
+          "itemName": "item_sea_rapan",
+          "label": "Rapan Shell",
+          "price": 180,
+          "chance": 0.08
+        },
+        {
+          "itemName": "item_sea_starfish",
+          "label": "Starfish",
+          "price": 260,
+          "chance": 0.04
+        },
+        {
+          "itemName": "item_sea_pearl",
+          "label": "Pearl",
+          "price": 1200,
+          "chance": 0.01
+        }
+      ]
+    },
+    "fishing": {
+      "fish": [
+        {
+          "itemName": "item_fish_herring",
+          "label": "Herring",
+          "price": 34,
+          "tier": 1,
+          "level": 1
+        },
+        {
+          "itemName": "item_fish_mullet",
+          "label": "Mullet",
+          "price": 48,
+          "tier": 1,
+          "level": 1
+        },
+        {
+          "itemName": "item_fish_mackerel",
+          "label": "Mackerel",
+          "price": 62,
+          "tier": 1,
+          "level": 1
+        },
+        {
+          "itemName": "item_fish_perch",
+          "label": "Perch",
+          "price": 76,
+          "tier": 1,
+          "level": 1
+        },
+        {
+          "itemName": "item_fish_cod",
+          "label": "Cod",
+          "price": 95,
+          "tier": 2,
+          "level": 2
+        },
+        {
+          "itemName": "item_fish_pink_salmon",
+          "label": "Pink Salmon",
+          "price": 108,
+          "tier": 2,
+          "level": 2
+        },
+        {
+          "itemName": "item_fish_sea_bass",
+          "label": "Sea Bass",
+          "price": 135,
+          "tier": 3,
+          "level": 3
+        },
+        {
+          "itemName": "item_fish_tuna",
+          "label": "Tuna",
+          "price": 148,
+          "tier": 3,
+          "level": 3
+        },
+        {
+          "itemName": "item_fish_dorado",
+          "label": "Dorado",
+          "price": 162,
+          "tier": 3,
+          "level": 3
+        },
+        {
+          "itemName": "item_fish_flounder",
+          "label": "Flounder",
+          "price": 200,
+          "tier": 4,
+          "level": 4
+        },
+        {
+          "itemName": "item_fish_trout",
+          "label": "Trout",
+          "price": 222,
+          "tier": 4,
+          "level": 4
+        },
+        {
+          "itemName": "item_fish_pufferfish",
+          "label": "Pufferfish",
+          "price": 275,
+          "tier": 5,
+          "level": 5
+        },
+        {
+          "itemName": "item_fish_shark",
+          "label": "Shark",
+          "price": 305,
+          "tier": 5,
+          "level": 5
+        },
+        {
+          "itemName": "item_fish_stingray",
+          "label": "Stingray",
+          "price": 340,
+          "tier": 5,
+          "level": 5
+        }
+      ],
+      "rod": {
+        "itemName": "item_fishing_rod",
+        "label": "Fishing Rod",
+        "buyPrice": 2500,
+        "repairPrice": 500,
+        "durability": 200
+      },
+      "bait": [
+        {
+          "itemName": "item_fish_bait",
+          "label": "Fish Bait",
+          "buyPrice": 3,
+          "weightBonusPct": 0,
+          "unlockLevel": 1
+        },
+        {
+          "itemName": "item_fish_bait_improved",
+          "label": "Improved Fish Bait",
+          "buyPrice": 9,
+          "weightBonusPct": 10,
+          "unlockLevel": 2
+        },
+        {
+          "itemName": "item_fish_bait_extra",
+          "label": "Extra Fish Bait",
+          "buyPrice": 18,
+          "weightBonusPct": 15,
+          "unlockLevel": 3
+        }
+      ]
+    },
+    "mechanicJobConfig": {
+      "mechanicSharePct": 50,
+      "npcBaseFee": 350,
+      "npcPerMeter": 0.18,
+      "npcMaxFee": 2200,
+      "services": {
+        "refuel": {
+          "unlockLevel": 1,
+          "itemName": null,
+          "itemCost": 0,
+          "floor": 150,
+          "ceiling": 1200,
+          "capPerUnit": 12
+        },
+        "repair": {
+          "unlockLevel": 1,
+          "itemName": null,
+          "itemCost": 0,
+          "floor": 300,
+          "ceiling": 2500,
+          "capPerUnit": 30
+        },
+        "sellCanister": {
+          "unlockLevel": 3,
+          "itemName": "item_fuel_can",
+          "itemCost": 900,
+          "floor": 1500,
+          "ceiling": 4000,
+          "capPerUnit": 0
+        },
+        "sellRepairKit": {
+          "unlockLevel": 3,
+          "itemName": "item_repairkit",
+          "itemCost": 4000,
+          "floor": 5000,
+          "ceiling": 12000,
+          "capPerUnit": 0
+        },
+        "oil": {
+          "unlockLevel": 5,
+          "itemName": "item_engine_oil",
+          "itemCost": 4500,
+          "floor": 5500,
+          "ceiling": 12000,
+          "capPerUnit": 0
+        },
+        "battery": {
+          "unlockLevel": 5,
+          "itemName": "item_car_battery",
+          "itemCost": 12000,
+          "floor": 14000,
+          "ceiling": 30000,
+          "capPerUnit": 0
+        }
+      },
+      "rentals": [
+        {
+          "id": "contender",
+          "pricePerHour": 200,
+          "payMultiplier": 1,
+          "minSkillLevel": 1
+        },
+        {
+          "id": "flatbed",
+          "pricePerHour": 300,
+          "payMultiplier": 1.06,
+          "minSkillLevel": 2
+        },
+        {
+          "id": "utillitruck3",
+          "pricePerHour": 600,
+          "payMultiplier": 1.15,
+          "minSkillLevel": 3
+        }
+      ],
+      "levelRewards": [
+        {
+          "id": 1,
+          "points": 0,
+          "payBonusPct": 0
+        },
+        {
+          "id": 2,
+          "points": 60,
+          "payBonusPct": 0
+        },
+        {
+          "id": 3,
+          "points": 180,
+          "payBonusPct": 3
+        },
+        {
+          "id": 4,
+          "points": 450,
+          "payBonusPct": 6
+        },
+        {
+          "id": 5,
+          "points": 1050,
+          "payBonusPct": 12
+        }
+      ]
     }
   },
   "factionConfigs": {
@@ -6777,10 +7282,11 @@
       "canUSE": false,
       "canDrop": false,
       "category": "tools",
-      "canUnStack": true,
+      "canUnStack": false,
+      "durability": 200,
       "weight": 1,
-      "canStack": true,
-      "maxStack": 80,
+      "canStack": false,
+      "maxStack": 1,
       "canTrade": true
     },
     "item_multi_metter": {
@@ -8708,19 +9214,317 @@
       "maxStack": 1,
       "canTrade": true
     },
-    "item_bullet_musket": {
-      "name": "item_bullet_musket",
-      "label": "Musket ball",
-      "accessKey": "MUSKET_AMMO",
-      "canDelete": false,
-      "isIllegal": false,
+    "item_electro_diode": {
+      "name": "item_electro_diode",
+      "label": "Diode",
+      "accessKey": "none",
       "canUSE": false,
-      "category": "ammo",
+      "canDrop": true,
+      "category": "tools",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 40,
+      "canTrade": true
+    },
+    "item_electro_transistor": {
+      "name": "item_electro_transistor",
+      "label": "Transistor",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "tools",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 40,
+      "canTrade": true
+    },
+    "item_electro_microchip": {
+      "name": "item_electro_microchip",
+      "label": "Microcircuit",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "tools",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_sea_rapan": {
+      "name": "item_sea_rapan",
+      "label": "Rapan Shell",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.2,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_sea_starfish": {
+      "name": "item_sea_starfish",
+      "label": "Starfish",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.2,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_sea_pearl": {
+      "name": "item_sea_pearl",
+      "label": "Pearl",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.05,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_fishing_rod": {
+      "name": "item_fishing_rod",
+      "label": "Fishing Rod",
+      "accessKey": "TOOL",
+      "canUSE": false,
       "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 200,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_fish_bait": {
+      "name": "item_fish_bait",
+      "label": "Fish Bait",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
       "canUnStack": true,
       "weight": 0.05,
       "canStack": true,
       "maxStack": 500,
+      "canTrade": true
+    },
+    "item_fish_bait_improved": {
+      "name": "item_fish_bait_improved",
+      "label": "Improved Fish Bait",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.05,
+      "canStack": true,
+      "maxStack": 500,
+      "canTrade": true
+    },
+    "item_fish_bait_extra": {
+      "name": "item_fish_bait_extra",
+      "label": "Extra Fish Bait",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.05,
+      "canStack": true,
+      "maxStack": 500,
+      "canTrade": true
+    },
+    "item_fish_herring": {
+      "name": "item_fish_herring",
+      "label": "Herring",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_mullet": {
+      "name": "item_fish_mullet",
+      "label": "Mullet",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_mackerel": {
+      "name": "item_fish_mackerel",
+      "label": "Mackerel",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_perch": {
+      "name": "item_fish_perch",
+      "label": "Perch",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_cod": {
+      "name": "item_fish_cod",
+      "label": "Cod",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_pink_salmon": {
+      "name": "item_fish_pink_salmon",
+      "label": "Pink Salmon",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_sea_bass": {
+      "name": "item_fish_sea_bass",
+      "label": "Sea Bass",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_tuna": {
+      "name": "item_fish_tuna",
+      "label": "Tuna",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_dorado": {
+      "name": "item_fish_dorado",
+      "label": "Dorado",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_flounder": {
+      "name": "item_fish_flounder",
+      "label": "Flounder",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_trout": {
+      "name": "item_fish_trout",
+      "label": "Trout",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_pufferfish": {
+      "name": "item_fish_pufferfish",
+      "label": "Pufferfish",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_shark": {
+      "name": "item_fish_shark",
+      "label": "Shark",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_fish_stingray": {
+      "name": "item_fish_stingray",
+      "label": "Stingray",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.001,
+      "canStack": true,
+      "maxStack": 50000,
       "canTrade": true
     }
   }

@@ -1,4 +1,4 @@
-import { MUSKET_BALL_BUY_PRICE, MUSKET_BUY_PRICE } from "../JOBS/HUNTER.js";
+import { MUSKET_BUY_PRICE } from "../JOBS/HUNTER.js";
 
 const weaponPriceMMultiplier = 1;
 
@@ -88,18 +88,11 @@ export const weaponShopConfig = [
     label: "Musket",
     itemName: "item_weapon_musket",
     category: "Rifle",
-    // NOT "buckshot" — that is what the $32,000 Pump Shotgun uses (:43) and
-    // sharing it would let a $12 musket ball load it. Existing ammoType values
-    // are CALIBRES ("9mm", "buckshot", "5.56mm"), so use a calibre-shaped name.
-    ammoType: "musketball",
+    // Standard buckshot — the musket shares the SHOTGUN_AMMO pool with every
+    // other shotgun, so a hunter buys the same shells they already stock. There
+    // is deliberately no dedicated musket-ball item.
+    ammoType: "buckshot",
     singlePrice: Math.floor(MUSKET_BUY_PRICE * weaponPriceMMultiplier),
-  },
-  {
-    label: "Musket Ball",
-    itemName: "item_bullet_musket",
-    category: "Ammo",
-    ammoType: null,
-    singlePrice: Math.floor(MUSKET_BALL_BUY_PRICE * weaponPriceMMultiplier),
   },
 
   // { label: "Assault Shotgun", itemName: "item_weapon_assault_shotgun" },

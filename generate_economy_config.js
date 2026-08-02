@@ -27,6 +27,14 @@ import { lumberJobConfig } from "./JOBS/LUMBER.js";
 import { mushroomItems, mushroomToolConfig } from "./JOBS/MUSHROOM.js";
 import { stonemasonJobConfig } from "./JOBS/STONEMASON.js";
 import { hunterJobConfig } from "./JOBS/HUNTER.js";
+// JOB_SPECS pack 2 — six more earning jobs (JOB_SPECS/_integration/*.md
+// `## economy`). Electrician reuses the existing JOBS/ELECTRIC.js row, EXTENDED
+// rather than renamed: rewards.ts reads its `levelRewards` for eight jobs.
+import { garbageJobConfig } from "./JOBS/GARBAGE.js";
+import { collectorJobConfig } from "./JOBS/COLLECTOR.js";
+import { aquanautJobConfig } from "./JOBS/AQUANAUT.js";
+import { fishingJobConfig } from "./JOBS/FISHING.js";
+import { mechanicJobConfig } from "./JOBS/MECHANIC.js";
 import { licenseDmvConfig } from "./SHOPS/LICENSEDMV.js";
 import { tunningConfig } from "./SHOPS/TUNNING.js";
 
@@ -149,7 +157,14 @@ const economyConfig = {
     stonemasonJobConfig,
     lumberjack: lumberJobConfig,
     mushroom: { items: mushroomItems, config: mushroomToolConfig },
-    hunter: hunterJobConfig
+    hunter: hunterJobConfig,
+    // JOB_SPECS pack 2. Key names follow each job's integration manifest.
+    // Electrician has no key of its own here — it EXTENDS electricJobConfig above.
+    garbageJobConfig,
+    collectorJobConfig,
+    aquanaut: aquanautJobConfig,
+    fishing: fishingJobConfig,
+    mechanicJobConfig
   },
   factionConfigs: {
     EmsConfig,

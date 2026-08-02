@@ -27,13 +27,11 @@ const ItemAccessKey = {
   PISTOL_AMMO: "PISTOL_AMMO",
   RIFLE_AMMO: "RIFLE_AMMO",
   SHOTGUN_AMMO: "SHOTGUN_AMMO",
-  SNIPER_AMMO: "SNIPER_AMMO",
-  // The musket's engine ammo type is AMMO_SHOTGUN, but it gets its OWN
-  // inventory key: sharing SHOTGUN_AMMO would let a $12 musket ball load the
-  // $32,000 Pump Shotgun. Mirrored in the gamemode's ItemAccessKey enum
+  // The Hunter's musket uses SHOTGUN_AMMO — it has no dedicated key and no
+  // dedicated ball item. Mirrored in the gamemode's ItemAccessKey enum
   // (server/high-roleplay/inventory/itemProperties.ts) and in AmmoAccessKey
-  // (shared/weapon.shared.ts) — all three need the member.
-  MUSKET_AMMO: "MUSKET_AMMO",
+  // (shared/weapon.shared.ts); none of the three carries MUSKET_AMMO.
+  SNIPER_AMMO: "SNIPER_AMMO",
 
   // Tools and equipment
   TOOL: "TOOL",
@@ -1789,6 +1787,11 @@ export const itemsProperties = {
     canTrade: true,
   },
 
+  // §13.3 — the pliers are required for every electrician repair but had no
+  // `durability`, so they were a one-time $2,000 purchase that lasted forever.
+  // `maxStack: 80` on a durable tool is also wrong: a stack of 80 shares one
+  // durability value. Mirrored in the gamemode's inventory/itemProperties.ts and
+  // in JOBS/ELECTRIC.js `tools.pliersDurability` — all three must agree.
   item_hand_pilers: {
     name: "item_hand_pilers",
     label: "Tools Pliers",
@@ -1796,10 +1799,11 @@ export const itemsProperties = {
     canUSE: false,
     canDrop: false,
     category: ItemCategory.TOOLS,
-    canUnStack: true,
+    canUnStack: false, // <- was true
+    durability: 200, // <- NEW. 200 repairs ~= 3.8 h
     weight: 1,
-    canStack: true,
-    maxStack: 80,
+    canStack: false, // <- was true
+    maxStack: 1, // <- was 80
     canTrade: true,
   },
 
@@ -2599,20 +2603,183 @@ export const itemsProperties = {
     maxStack: 1,
     canTrade: true,
   },
-  item_bullet_musket: {
-    name: "item_bullet_musket",
-    label: "Musket ball",
-    accessKey: ItemAccessKey.MUSKET_AMMO,
-    canDelete: false,
-    isIllegal: false,
+  // NOTE: no `item_bullet_musket`. The musket loads standard
+  // `item_bullet_shotgun` from the shared SHOTGUN_AMMO pool.
+  // ═══════════════════════════════════════════════════════════════════════
+  // JOB SPECS PACK 2 (JOB_SPECS/_integration/) — Electrician, Aquanaut,
+  // Fisherman. Garbage Collector, Collector and Mechanic add NO item.
+  // Same rule as the block above: every entry here is mirrored BY HAND in
+  // server/high-roleplay/inventory/itemProperties.ts, which is the catalog
+  // itemManager.newItem() validates against — an item present only here throws
+  // on the first grant, silently (§13.1).
+  // ═══════════════════════════════════════════════════════════════════════
+
+  // ── Electrician (JOB_SPECS/10-Electrician.md) ────────────────────────────
+  // Salvaged parts. Sell prices live in JOBS/ELECTRIC.js `salvage`.
+  item_electro_diode: {
+    name: "item_electro_diode",
+    label: "Diode",
+    accessKey: ItemAccessKey.NONE,
     canUSE: false,
-    category: ItemCategory.AMMO,
+    canDrop: true,
+    category: ItemCategory.TOOLS,
+    canUnStack: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 40,
+    canTrade: true,
+  },
+  item_electro_transistor: {
+    name: "item_electro_transistor",
+    label: "Transistor",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: true,
+    category: ItemCategory.TOOLS,
+    canUnStack: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 40,
+    canTrade: true,
+  },
+  item_electro_microchip: {
+    name: "item_electro_microchip",
+    label: "Microcircuit",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: true,
+    category: ItemCategory.TOOLS,
+    canUnStack: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 20,
+    canTrade: true,
+  },
+
+  // ── Aquanaut (JOB_SPECS/13-Aquanaut.md) ──────────────────────────────────
+  // Bonus finds from the crates. Sell prices live in JOBS/AQUANAUT.js `finds`.
+  item_sea_rapan: {
+    name: "item_sea_rapan",
+    label: "Rapan Shell",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: true,
+    category: ItemCategory.MATERIALS,
+    canUnStack: true,
+    weight: 0.2,
+    canStack: true,
+    maxStack: 100,
+    canTrade: true,
+  },
+  item_sea_starfish: {
+    name: "item_sea_starfish",
+    label: "Starfish",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: true,
+    category: ItemCategory.MATERIALS,
+    canUnStack: true,
+    weight: 0.2,
+    canStack: true,
+    maxStack: 100,
+    canTrade: true,
+  },
+  item_sea_pearl: {
+    name: "item_sea_pearl",
+    label: "Pearl",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: true,
+    category: ItemCategory.MATERIALS,
+    canUnStack: true,
+    weight: 0.05,
+    canStack: true,
+    maxStack: 50,
+    canTrade: true,
+  },
+
+  // ── Fisherman (JOB_SPECS/14-Fisherman.md) ────────────────────────────────
+  // The rod. TOOLS/TOOL with `durability`, exactly like item_axe_common and the
+  // pickaxes above: 200 catches per rod. Buyable in SHOPS/SUPERMARKET.js — that
+  // row IS the job's hire step, there is no NPC (§13.3).
+  item_fishing_rod: {
+    name: "item_fishing_rod",
+    label: "Fishing Rod",
+    accessKey: ItemAccessKey.TOOL,
+    canUSE: false,
     canDrop: false,
+    category: ItemCategory.TOOLS,
+    canUnStack: false,
+    durability: 200, // [MANUAL] Description.txt L38 — 200 catches
+    weight: 2,
+    canStack: false,
+    maxStack: 1,
+    canTrade: true,
+  },
+
+  // Bait. accessKey NONE and canUSE false is what MECHANICALLY enforces
+  // [MANUAL] Description.txt L34 — "the bait does not appear in quick access and
+  // is only stored in the inventory". Do NOT give it an accessKey.
+  item_fish_bait: {
+    name: "item_fish_bait",
+    label: "Fish Bait",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: true,
+    category: ItemCategory.MATERIALS,
     canUnStack: true,
     weight: 0.05,
     canStack: true,
     maxStack: 500,
     canTrade: true,
   },
+  item_fish_bait_improved: {
+    name: "item_fish_bait_improved",
+    label: "Improved Fish Bait",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: true,
+    category: ItemCategory.MATERIALS,
+    canUnStack: true,
+    weight: 0.05,
+    canStack: true,
+    maxStack: 500,
+    canTrade: true,
+  },
+  item_fish_bait_extra: {
+    name: "item_fish_bait_extra",
+    label: "Extra Fish Bait",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: true,
+    category: ItemCategory.MATERIALS,
+    canUnStack: true,
+    weight: 0.05,
+    canStack: true,
+    maxStack: 500,
+    canTrade: true,
+  },
+
+  // FISH ARE STORED IN GRAMS. One stack per species; `stack` IS the gram count.
+  // maxStack 50000 = 50 kg per slot and is LOAD-BEARING, not a typo: the
+  // server's hasRoomForCatch() refuses a cast when no unlocked species has room
+  // for its tier's maximum weight, so a small maxStack makes the job refuse to
+  // cast. weight 0.001 makes one gram of fish weigh one gram.
+  // All fourteen are the same shape — only `name` and `label` change.
+  item_fish_herring:     { name: "item_fish_herring",     label: "Herring",     accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_mullet:      { name: "item_fish_mullet",      label: "Mullet",      accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_mackerel:    { name: "item_fish_mackerel",    label: "Mackerel",    accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_perch:       { name: "item_fish_perch",       label: "Perch",       accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_cod:         { name: "item_fish_cod",         label: "Cod",         accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_pink_salmon: { name: "item_fish_pink_salmon", label: "Pink Salmon", accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_sea_bass:    { name: "item_fish_sea_bass",    label: "Sea Bass",    accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_tuna:        { name: "item_fish_tuna",        label: "Tuna",        accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_dorado:      { name: "item_fish_dorado",      label: "Dorado",      accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_flounder:    { name: "item_fish_flounder",    label: "Flounder",    accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_trout:       { name: "item_fish_trout",       label: "Trout",       accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_pufferfish:  { name: "item_fish_pufferfish",  label: "Pufferfish",  accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_shark:       { name: "item_fish_shark",       label: "Shark",       accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+  item_fish_stingray:    { name: "item_fish_stingray",    label: "Stingray",    accessKey: ItemAccessKey.NONE, canUSE: false, canDrop: true, category: ItemCategory.MATERIALS, canUnStack: true, weight: 0.001, canStack: true, maxStack: 50000, canTrade: true },
+
   // ...add more items here
 };

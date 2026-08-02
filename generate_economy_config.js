@@ -16,6 +16,17 @@ import { governmentSalary } from "./SALARY/SALARY.js";
 import { miningJobConfig } from "./JOBS/MINING.js";
 import { electricJobConfig } from "./JOBS/ELECTRIC.js";
 import { busJobConfig } from "./JOBS/BUS.js";
+// JOB_SPECS pack — eight earning jobs, one source file each. See
+// JOB_SPECS/00-CONVENTIONS.md §9: these are the source of truth for their
+// prices, and each one is mirrored by hand in the job's shared/jobs/*.shared.ts.
+import { postmanJobConfig } from "./JOBS/POSTMAN.js";
+import { taxiJobConfig } from "./JOBS/TAXI.js";
+import { forkliftJobConfig } from "./JOBS/FORKLIFT.js";
+import { lawnmowerJobConfig } from "./JOBS/LAWNMOWER.js";
+import { lumberJobConfig } from "./JOBS/LUMBER.js";
+import { mushroomItems, mushroomToolConfig } from "./JOBS/MUSHROOM.js";
+import { stonemasonJobConfig } from "./JOBS/STONEMASON.js";
+import { hunterJobConfig } from "./JOBS/HUNTER.js";
 import { licenseDmvConfig } from "./SHOPS/LICENSEDMV.js";
 import { tunningConfig } from "./SHOPS/TUNNING.js";
 
@@ -127,7 +138,18 @@ const economyConfig = {
       burgerShot:BurgerShotBenches
     }
     ,
-    junk:junkItems
+    junk:junkItems,
+    // JOB_SPECS pack. Key names follow each job's integration manifest
+    // (JOB_SPECS/_integration/*.md `## economy`) — the two Economy.Types.ts
+    // files are maintained separately and must carry the same names.
+    postmanJobConfig,
+    taxiJobConfig,
+    forkliftJobConfig,
+    lawnmowerJobConfig,
+    stonemasonJobConfig,
+    lumberjack: lumberJobConfig,
+    mushroom: { items: mushroomItems, config: mushroomToolConfig },
+    hunter: hunterJobConfig
   },
   factionConfigs: {
     EmsConfig,

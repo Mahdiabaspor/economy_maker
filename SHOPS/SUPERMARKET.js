@@ -1,3 +1,5 @@
+import { AXE_COMMON_BUY_PRICE } from "../JOBS/LUMBER.js";
+
 const superMarketMultiplier = 1;
 export const superMarketConfig = {
   regular: [
@@ -17,6 +19,42 @@ export const superMarketConfig = {
       itemName: "item_screwdriver",
       label: "SCREWDRIVER",
       singlePrice: Math.floor(1200 * superMarketMultiplier),
+    },
+    // The Mushroom Picker's only piece of equipment. 200 uses, $9 a pick.
+    // This IS the "get hired" step for that job — there is no NPC and no
+    // employment screen, so without this row the job cannot be started.
+    {
+      itemName: "item_shovel",
+      label: "SHOVEL",
+      singlePrice: Math.floor(1800 * superMarketMultiplier),
+    },
+    // The Lumberjack's only piece of equipment, and — exactly like the shovel
+    // above — the job's real "get hired" step: there is no NPC and no
+    // employment screen, so without this row the job cannot be started at all.
+    // Price imported from JOBS/LUMBER.js so the shop and the job's own config
+    // can never disagree.
+    {
+      itemName: "item_axe_common",
+      label: "COMMON AXE",
+      singlePrice: Math.floor(AXE_COMMON_BUY_PRICE * superMarketMultiplier),
+    },
+    // Stonemason pickaxes. The tier gate is enforced server-side by
+    // jobs/stonemason/pickaxeShop.sv.ts (canBuy) and again at the rock; the
+    // catalogue only paints the lock.
+    {
+      itemName: "item_pickaxe_stone_1",
+      label: "ORDINARY PICKAXE",
+      singlePrice: Math.floor(7650 * superMarketMultiplier),
+    },
+    {
+      itemName: "item_pickaxe_stone_2",
+      label: "IMPROVED PICKAXE",
+      singlePrice: Math.floor(15300 * superMarketMultiplier),
+    },
+    {
+      itemName: "item_pickaxe_stone_3",
+      label: "BEST PICKAXE",
+      singlePrice: Math.floor(22950 * superMarketMultiplier),
     },
     // {
     //     itemName: 'item_drink_sprunk',

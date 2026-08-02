@@ -98,6 +98,20 @@
         "category": "Ammo",
         "ammoType": null,
         "singlePrice": 80
+      },
+      {
+        "label": "Musket",
+        "itemName": "item_weapon_musket",
+        "category": "Rifle",
+        "ammoType": "musketball",
+        "singlePrice": 16000
+      },
+      {
+        "label": "Musket Ball",
+        "itemName": "item_bullet_musket",
+        "category": "Ammo",
+        "ammoType": null,
+        "singlePrice": 12
       }
     ],
     "carRentalsConfig": [
@@ -300,6 +314,31 @@
           "itemName": "item_screwdriver",
           "label": "SCREWDRIVER",
           "singlePrice": 1200
+        },
+        {
+          "itemName": "item_shovel",
+          "label": "SHOVEL",
+          "singlePrice": 1800
+        },
+        {
+          "itemName": "item_axe_common",
+          "label": "COMMON AXE",
+          "singlePrice": 2000
+        },
+        {
+          "itemName": "item_pickaxe_stone_1",
+          "label": "ORDINARY PICKAXE",
+          "singlePrice": 7650
+        },
+        {
+          "itemName": "item_pickaxe_stone_2",
+          "label": "IMPROVED PICKAXE",
+          "singlePrice": 15300
+        },
+        {
+          "itemName": "item_pickaxe_stone_3",
+          "label": "BEST PICKAXE",
+          "singlePrice": 22950
         },
         {
           "itemName": "item_food_chocolate",
@@ -4870,7 +4909,779 @@
         "label": "Broken Phone",
         "price": 3100
       }
-    ]
+    ],
+    "postmanJobConfig": {
+      "baseFee": 120,
+      "payPerParcel": 190,
+      "payPerMeter": 0.16,
+      "roadFactor": 1.35,
+      "maxPayDistanceM": 5000,
+      "levelBonus": [
+        {
+          "level": 1,
+          "points": 0,
+          "capacity": 5,
+          "bonus": 0
+        },
+        {
+          "level": 2,
+          "points": 300,
+          "capacity": 6,
+          "bonus": 125
+        },
+        {
+          "level": 3,
+          "points": 800,
+          "capacity": 7,
+          "bonus": 175
+        },
+        {
+          "level": 4,
+          "points": 2000,
+          "capacity": 8,
+          "bonus": 225
+        },
+        {
+          "level": 5,
+          "points": 6000,
+          "capacity": 10,
+          "bonus": 275
+        }
+      ],
+      "rentals": [
+        {
+          "id": "speedo_ukr",
+          "pricePerHour": 500,
+          "minSkillLevel": 1,
+          "trunkBonus": 0
+        },
+        {
+          "id": "speedo_nova",
+          "pricePerHour": 500,
+          "minSkillLevel": 1,
+          "trunkBonus": 0
+        },
+        {
+          "id": "sprint_nova",
+          "pricePerHour": 800,
+          "minSkillLevel": 3,
+          "trunkBonus": 2
+        }
+      ],
+      "vehicleRecallFee": 1000,
+      "housesPerRoute": 5,
+      "crewBonusPctPerMember": 10,
+      "crewBonusPctCap": 30,
+      "stampFastBonusPct": 5
+    },
+    "taxiJobConfig": {
+      "npcBaseFare": 150,
+      "npcPerMeter": 0.42,
+      "minRatePerKm": 1,
+      "maxRatePerKm": 2000,
+      "suggestedRatePerKm": 120,
+      "driverSharePct": 50,
+      "maxPlayerRideTotal": 25000,
+      "maxFareDistanceM": 12000,
+      "roadFactor": 1.35,
+      "meterTickMeters": 1000,
+      "rentals": [
+        {
+          "id": "taxi",
+          "pricePerHour": 300,
+          "payMultiplier": 1,
+          "minSkillLevel": 1
+        },
+        {
+          "id": "stanier",
+          "pricePerHour": 450,
+          "payMultiplier": 1.08,
+          "minSkillLevel": 2
+        },
+        {
+          "id": "primo2",
+          "pricePerHour": 700,
+          "payMultiplier": 1.18,
+          "minSkillLevel": 4
+        }
+      ],
+      "levelRewards": [
+        {
+          "id": 1,
+          "points": 0,
+          "payBonusPct": 0,
+          "maxHeldFares": 1
+        },
+        {
+          "id": 2,
+          "points": 40,
+          "payBonusPct": 0,
+          "maxHeldFares": 1
+        },
+        {
+          "id": 3,
+          "points": 150,
+          "payBonusPct": 3,
+          "maxHeldFares": 1
+        },
+        {
+          "id": 4,
+          "points": 400,
+          "payBonusPct": 6,
+          "maxHeldFares": 2
+        },
+        {
+          "id": 5,
+          "points": 900,
+          "payBonusPct": 12,
+          "maxHeldFares": 2
+        }
+      ]
+    },
+    "forkliftJobConfig": {
+      "baseFee": 45,
+      "payPerMetre": 0.36,
+      "maxPayDistanceM": 420,
+      "standardLegM": {
+        "min": 100,
+        "max": 260
+      },
+      "longHaulLegM": {
+        "min": 300,
+        "max": 420
+      },
+      "repositionM": {
+        "min": 60,
+        "max": 300
+      },
+      "doublePalletMultiplier": 1.75,
+      "streakMultiplier": 1.5,
+      "streakEvery": 5,
+      "rental": {
+        "pricePerHour": 10,
+        "pricePerHourLevel4": 5,
+        "pricePerHourLevel5": 0,
+        "minHours": 1,
+        "maxHours": 12
+      },
+      "fuel": {
+        "tankLitres": 30,
+        "perRunLitres": 1.5,
+        "refuelPrice": 120
+      },
+      "levelPayBonusPct": [
+        0,
+        6,
+        13,
+        20,
+        30
+      ],
+      "levelPoints": [
+        0,
+        500,
+        3000,
+        6000,
+        12000
+      ],
+      "targetHourlyLevel1": 8800,
+      "runsPerHourLevel1": 80.4,
+      "meanLegM": 180
+    },
+    "lawnmowerJobConfig": {
+      "markerLegBase": 7,
+      "markerPerMeter": 0.24,
+      "markerPayMin": 10,
+      "markerPayMax": 45,
+      "lapBonusByLevel": [
+        200,
+        240,
+        280,
+        300,
+        350
+      ],
+      "payBonusPctByLevel": [
+        0,
+        4,
+        8,
+        14,
+        22
+      ],
+      "levelPoints": [
+        0,
+        120,
+        360,
+        900,
+        2000
+      ],
+      "streakStep": 0.1,
+      "streakCapByLevel": [
+        1,
+        1,
+        1.3,
+        1.4,
+        1.4
+      ],
+      "jambChancePct": 2.5,
+      "jambMaxPerLap": 1,
+      "jambMinLevel": 3
+    },
+    "stonemasonJobConfig": {
+      "ores": {
+        "item_metal_iron": {
+          "label": "Iron",
+          "unit": "kg",
+          "basePrice": 21,
+          "minYield": 1,
+          "maxYield": 7
+        },
+        "item_metal_copper": {
+          "label": "Copper",
+          "unit": "kg",
+          "basePrice": 60,
+          "minYield": 1,
+          "maxYield": 3
+        },
+        "item_metal_silver": {
+          "label": "Silver",
+          "unit": "g",
+          "basePrice": 42,
+          "minYield": 1,
+          "maxYield": 5
+        },
+        "item_metal_gold": {
+          "label": "Gold",
+          "unit": "g",
+          "basePrice": 174,
+          "minYield": 1,
+          "maxYield": 3
+        },
+        "item_metal_diamond": {
+          "label": "Diamond",
+          "unit": "pc",
+          "basePrice": 2773,
+          "minYield": 1,
+          "maxYield": 1
+        }
+      },
+      "pickaxes": {
+        "item_pickaxe_stone_1": {
+          "tier": 1,
+          "minLevel": 1,
+          "price": 7650,
+          "durability": 200,
+          "repairCostPerHP": 15
+        },
+        "item_pickaxe_stone_2": {
+          "tier": 2,
+          "minLevel": 2,
+          "price": 15300,
+          "durability": 200,
+          "repairCostPerHP": 22
+        },
+        "item_pickaxe_stone_3": {
+          "tier": 3,
+          "minLevel": 3,
+          "price": 22950,
+          "durability": 200,
+          "repairCostPerHP": 32
+        }
+      },
+      "dropTables": {
+        "1": [
+          {
+            "ore": "item_metal_iron",
+            "weight": 78
+          },
+          {
+            "ore": "item_metal_copper",
+            "weight": 22
+          }
+        ],
+        "2": [
+          {
+            "ore": "item_metal_iron",
+            "weight": 56
+          },
+          {
+            "ore": "item_metal_copper",
+            "weight": 26
+          },
+          {
+            "ore": "item_metal_silver",
+            "weight": 18
+          }
+        ],
+        "3": [
+          {
+            "ore": "item_metal_iron",
+            "weight": 52
+          },
+          {
+            "ore": "item_metal_copper",
+            "weight": 24
+          },
+          {
+            "ore": "item_metal_silver",
+            "weight": 14
+          },
+          {
+            "ore": "item_metal_gold",
+            "weight": 8
+          },
+          {
+            "ore": "item_metal_diamond",
+            "weight": 2
+          }
+        ],
+        "4": [
+          {
+            "ore": "item_metal_iron",
+            "weight": 52
+          },
+          {
+            "ore": "item_metal_copper",
+            "weight": 24
+          },
+          {
+            "ore": "item_metal_silver",
+            "weight": 14
+          },
+          {
+            "ore": "item_metal_gold",
+            "weight": 8
+          },
+          {
+            "ore": "item_metal_diamond",
+            "weight": 2
+          }
+        ],
+        "5": [
+          {
+            "ore": "item_metal_iron",
+            "weight": 52
+          },
+          {
+            "ore": "item_metal_copper",
+            "weight": 24
+          },
+          {
+            "ore": "item_metal_silver",
+            "weight": 14
+          },
+          {
+            "ore": "item_metal_gold",
+            "weight": 8
+          },
+          {
+            "ore": "item_metal_diamond",
+            "weight": 2
+          }
+        ]
+      },
+      "salesLimitUnits": 1500,
+      "marketWindowHours": 2,
+      "incomeMulti": 1,
+      "costMulti": 1
+    },
+    "lumberjack": {
+      "logs": [
+        {
+          "itemName": "item_log_pine",
+          "label": "Pine Log",
+          "price": 70
+        },
+        {
+          "itemName": "item_log_oak",
+          "label": "Oak Log",
+          "price": 90
+        },
+        {
+          "itemName": "item_log_birch",
+          "label": "Birch Log",
+          "price": 115
+        },
+        {
+          "itemName": "item_log_maple",
+          "label": "Maple Log",
+          "price": 145
+        }
+      ],
+      "axe": {
+        "itemName": "item_axe_common",
+        "label": "Common Axe",
+        "buyPrice": 2000,
+        "repairPrice": 900,
+        "durability": 200
+      }
+    },
+    "mushroom": {
+      "items": [
+        {
+          "speciesId": "champignon",
+          "itemName": "item_mushroom_champignon",
+          "label": "Champignon",
+          "minLevel": 1,
+          "price": 57,
+          "quantPrice": 57,
+          "jitterPct": 0.25
+        },
+        {
+          "speciesId": "oyster",
+          "itemName": "item_mushroom_oyster",
+          "label": "Oyster Mushroom",
+          "minLevel": 2,
+          "price": 97,
+          "quantPrice": 97,
+          "jitterPct": 0.25
+        },
+        {
+          "speciesId": "honey",
+          "itemName": "item_mushroom_honey",
+          "label": "Honey Fungus",
+          "minLevel": 3,
+          "price": 140,
+          "quantPrice": 107,
+          "jitterPct": 0.25
+        },
+        {
+          "speciesId": "flyagaric",
+          "itemName": "item_mushroom_flyagaric",
+          "label": "Fly Agaric",
+          "minLevel": 4,
+          "price": 218,
+          "quantPrice": 218,
+          "jitterPct": 0.25
+        },
+        {
+          "speciesId": "chanterelle",
+          "itemName": "item_mushroom_chanterelle",
+          "label": "Chanterelle",
+          "minLevel": 4,
+          "price": 203,
+          "quantPrice": 203,
+          "jitterPct": 0.25
+        },
+        {
+          "speciesId": "russula",
+          "itemName": "item_mushroom_russula",
+          "label": "Green Russula",
+          "minLevel": 5,
+          "price": 303,
+          "quantPrice": 303,
+          "jitterPct": 0.25
+        },
+        {
+          "speciesId": "king",
+          "itemName": "item_mushroom_king",
+          "label": "King Mushroom",
+          "minLevel": 1,
+          "price": 5598,
+          "quantPrice": 5598,
+          "jitterPct": 0.1
+        }
+      ],
+      "config": {
+        "shovel": {
+          "itemName": "item_shovel",
+          "label": "SHOVEL",
+          "buyPrice": 1800,
+          "maxDurability": 200,
+          "repairFactor": 0.6
+        },
+        "sellLimitPerCycle": 500,
+        "kingSellLimitPerCycle": 10,
+        "priceCycleMs": 10800000
+      }
+    },
+    "hunter": {
+      "pelts": [
+        {
+          "itemName": "item_pelt_rabbit_torn",
+          "label": "Torn rabbit hide",
+          "price": 83,
+          "speciesId": "rabbit",
+          "quality": "torn"
+        },
+        {
+          "itemName": "item_pelt_rabbit_rough",
+          "label": "Rough rabbit hide",
+          "price": 128,
+          "speciesId": "rabbit",
+          "quality": "rough"
+        },
+        {
+          "itemName": "item_pelt_rabbit_whole",
+          "label": "Whole rabbit hide",
+          "price": 180,
+          "speciesId": "rabbit",
+          "quality": "whole"
+        },
+        {
+          "itemName": "item_pelt_rabbit_flawless",
+          "label": "Flawless rabbit hide",
+          "price": 315,
+          "speciesId": "rabbit",
+          "quality": "flawless"
+        },
+        {
+          "itemName": "item_pelt_deer_torn",
+          "label": "Torn deer hide",
+          "price": 129,
+          "speciesId": "deer",
+          "quality": "torn"
+        },
+        {
+          "itemName": "item_pelt_deer_rough",
+          "label": "Rough deer hide",
+          "price": 200,
+          "speciesId": "deer",
+          "quality": "rough"
+        },
+        {
+          "itemName": "item_pelt_deer_whole",
+          "label": "Whole deer hide",
+          "price": 282,
+          "speciesId": "deer",
+          "quality": "whole"
+        },
+        {
+          "itemName": "item_pelt_deer_flawless",
+          "label": "Flawless deer hide",
+          "price": 494,
+          "speciesId": "deer",
+          "quality": "flawless"
+        },
+        {
+          "itemName": "item_pelt_boar_torn",
+          "label": "Torn boar hide",
+          "price": 118,
+          "speciesId": "boar",
+          "quality": "torn"
+        },
+        {
+          "itemName": "item_pelt_boar_rough",
+          "label": "Rough boar hide",
+          "price": 183,
+          "speciesId": "boar",
+          "quality": "rough"
+        },
+        {
+          "itemName": "item_pelt_boar_whole",
+          "label": "Whole boar hide",
+          "price": 258,
+          "speciesId": "boar",
+          "quality": "whole"
+        },
+        {
+          "itemName": "item_pelt_boar_flawless",
+          "label": "Flawless boar hide",
+          "price": 452,
+          "speciesId": "boar",
+          "quality": "flawless"
+        },
+        {
+          "itemName": "item_pelt_coyote_torn",
+          "label": "Torn coyote hide",
+          "price": 127,
+          "speciesId": "coyote",
+          "quality": "torn"
+        },
+        {
+          "itemName": "item_pelt_coyote_rough",
+          "label": "Rough coyote hide",
+          "price": 196,
+          "speciesId": "coyote",
+          "quality": "rough"
+        },
+        {
+          "itemName": "item_pelt_coyote_whole",
+          "label": "Whole coyote hide",
+          "price": 276,
+          "speciesId": "coyote",
+          "quality": "whole"
+        },
+        {
+          "itemName": "item_pelt_coyote_flawless",
+          "label": "Flawless coyote hide",
+          "price": 483,
+          "speciesId": "coyote",
+          "quality": "flawless"
+        },
+        {
+          "itemName": "item_pelt_puma_torn",
+          "label": "Torn puma hide",
+          "price": 154,
+          "speciesId": "puma",
+          "quality": "torn"
+        },
+        {
+          "itemName": "item_pelt_puma_rough",
+          "label": "Rough puma hide",
+          "price": 238,
+          "speciesId": "puma",
+          "quality": "rough"
+        },
+        {
+          "itemName": "item_pelt_puma_whole",
+          "label": "Whole puma hide",
+          "price": 336,
+          "speciesId": "puma",
+          "quality": "whole"
+        },
+        {
+          "itemName": "item_pelt_puma_flawless",
+          "label": "Flawless puma hide",
+          "price": 588,
+          "speciesId": "puma",
+          "quality": "flawless"
+        },
+        {
+          "itemName": "item_pelt_panther_torn",
+          "label": "Torn panther hide",
+          "price": 176,
+          "speciesId": "panther",
+          "quality": "torn"
+        },
+        {
+          "itemName": "item_pelt_panther_rough",
+          "label": "Rough panther hide",
+          "price": 272,
+          "speciesId": "panther",
+          "quality": "rough"
+        },
+        {
+          "itemName": "item_pelt_panther_whole",
+          "label": "Whole panther hide",
+          "price": 384,
+          "speciesId": "panther",
+          "quality": "whole"
+        },
+        {
+          "itemName": "item_pelt_panther_flawless",
+          "label": "Flawless panther hide",
+          "price": 672,
+          "speciesId": "panther",
+          "quality": "flawless"
+        },
+        {
+          "itemName": "item_pelt_pig_torn",
+          "label": "Torn pig hide",
+          "price": 96,
+          "speciesId": "pig",
+          "quality": "torn"
+        },
+        {
+          "itemName": "item_pelt_pig_rough",
+          "label": "Rough pig hide",
+          "price": 149,
+          "speciesId": "pig",
+          "quality": "rough"
+        },
+        {
+          "itemName": "item_pelt_pig_whole",
+          "label": "Whole pig hide",
+          "price": 210,
+          "speciesId": "pig",
+          "quality": "whole"
+        },
+        {
+          "itemName": "item_pelt_pig_flawless",
+          "label": "Flawless pig hide",
+          "price": 368,
+          "speciesId": "pig",
+          "quality": "flawless"
+        },
+        {
+          "itemName": "item_pelt_cow_torn",
+          "label": "Torn cow hide",
+          "price": 107,
+          "speciesId": "cow",
+          "quality": "torn"
+        },
+        {
+          "itemName": "item_pelt_cow_rough",
+          "label": "Rough cow hide",
+          "price": 166,
+          "speciesId": "cow",
+          "quality": "rough"
+        },
+        {
+          "itemName": "item_pelt_cow_whole",
+          "label": "Whole cow hide",
+          "price": 234,
+          "speciesId": "cow",
+          "quality": "whole"
+        },
+        {
+          "itemName": "item_pelt_cow_flawless",
+          "label": "Flawless cow hide",
+          "price": 410,
+          "speciesId": "cow",
+          "quality": "flawless"
+        }
+      ],
+      "meats": [
+        {
+          "itemName": "item_meat_rabbit",
+          "label": "Rabbit meat",
+          "price": 22,
+          "speciesId": "rabbit"
+        },
+        {
+          "itemName": "item_meat_deer",
+          "label": "Deer meat",
+          "price": 40,
+          "speciesId": "deer"
+        },
+        {
+          "itemName": "item_meat_boar",
+          "label": "Boar meat",
+          "price": 36,
+          "speciesId": "boar"
+        },
+        {
+          "itemName": "item_meat_coyote",
+          "label": "Coyote meat",
+          "price": 24,
+          "speciesId": "coyote"
+        },
+        {
+          "itemName": "item_meat_puma",
+          "label": "Puma meat",
+          "price": 28,
+          "speciesId": "puma"
+        },
+        {
+          "itemName": "item_meat_panther",
+          "label": "Panther meat",
+          "price": 28,
+          "speciesId": "panther"
+        },
+        {
+          "itemName": "item_meat_pig",
+          "label": "Pork",
+          "price": 34,
+          "speciesId": "pig"
+        },
+        {
+          "itemName": "item_meat_cow",
+          "label": "Beef",
+          "price": 40,
+          "speciesId": "cow"
+        }
+      ],
+      "musket": {
+        "itemName": "item_weapon_musket",
+        "label": "Musket",
+        "buyPrice": 16000,
+        "repairPrice": 1200
+      },
+      "ball": {
+        "itemName": "item_bullet_musket",
+        "label": "Musket ball",
+        "buyPrice": 12
+      }
+    }
   },
   "factionConfigs": {
     "EmsConfig": {
@@ -7081,6 +7892,835 @@
       "weight": 2,
       "canStack": true,
       "maxStack": 100,
+      "canTrade": true
+    },
+    "item_log_pine": {
+      "name": "item_log_pine",
+      "label": "Pine Log",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 3,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_log_oak": {
+      "name": "item_log_oak",
+      "label": "Oak Log",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 3,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_log_birch": {
+      "name": "item_log_birch",
+      "label": "Birch Log",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 3,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_log_maple": {
+      "name": "item_log_maple",
+      "label": "Maple Log",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 3,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_axe_common": {
+      "name": "item_axe_common",
+      "label": "Common Axe",
+      "accessKey": "TOOL",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 200,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_shovel": {
+      "name": "item_shovel",
+      "label": "Shovel",
+      "accessKey": "TOOL",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 200,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_mushroom_champignon": {
+      "name": "item_mushroom_champignon",
+      "label": "Champignon",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_mushroom_oyster": {
+      "name": "item_mushroom_oyster",
+      "label": "Oyster Mushroom",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_mushroom_honey": {
+      "name": "item_mushroom_honey",
+      "label": "Honey Fungus",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_mushroom_flyagaric": {
+      "name": "item_mushroom_flyagaric",
+      "label": "Fly Agaric",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_mushroom_chanterelle": {
+      "name": "item_mushroom_chanterelle",
+      "label": "Chanterelle",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_mushroom_russula": {
+      "name": "item_mushroom_russula",
+      "label": "Green Russula",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 100,
+      "canTrade": true
+    },
+    "item_mushroom_king": {
+      "name": "item_mushroom_king",
+      "label": "King Mushroom",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.2,
+      "canStack": true,
+      "maxStack": 25,
+      "canTrade": true
+    },
+    "item_pickaxe_stone_1": {
+      "name": "item_pickaxe_stone_1",
+      "label": "Ordinary Pickaxe",
+      "accessKey": "TOOL",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 200,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_pickaxe_stone_2": {
+      "name": "item_pickaxe_stone_2",
+      "label": "Improved Pickaxe",
+      "accessKey": "TOOL",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 200,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_pickaxe_stone_3": {
+      "name": "item_pickaxe_stone_3",
+      "label": "Best Pickaxe",
+      "accessKey": "TOOL",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "durability": 200,
+      "weight": 2,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_metal_iron": {
+      "name": "item_metal_iron",
+      "label": "Iron",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 500,
+      "canTrade": true
+    },
+    "item_metal_copper": {
+      "name": "item_metal_copper",
+      "label": "Copper",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 500,
+      "canTrade": true
+    },
+    "item_metal_silver": {
+      "name": "item_metal_silver",
+      "label": "Silver",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.02,
+      "canStack": true,
+      "maxStack": 500,
+      "canTrade": true
+    },
+    "item_metal_gold": {
+      "name": "item_metal_gold",
+      "label": "Gold",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.02,
+      "canStack": true,
+      "maxStack": 500,
+      "canTrade": true
+    },
+    "item_metal_diamond": {
+      "name": "item_metal_diamond",
+      "label": "Diamond",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.05,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_pelt_rabbit_torn": {
+      "name": "item_pelt_rabbit_torn",
+      "label": "Torn rabbit hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_rabbit_rough": {
+      "name": "item_pelt_rabbit_rough",
+      "label": "Rough rabbit hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_rabbit_whole": {
+      "name": "item_pelt_rabbit_whole",
+      "label": "Whole rabbit hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_rabbit_flawless": {
+      "name": "item_pelt_rabbit_flawless",
+      "label": "Flawless rabbit hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_deer_torn": {
+      "name": "item_pelt_deer_torn",
+      "label": "Torn deer hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_deer_rough": {
+      "name": "item_pelt_deer_rough",
+      "label": "Rough deer hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_deer_whole": {
+      "name": "item_pelt_deer_whole",
+      "label": "Whole deer hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_deer_flawless": {
+      "name": "item_pelt_deer_flawless",
+      "label": "Flawless deer hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_boar_torn": {
+      "name": "item_pelt_boar_torn",
+      "label": "Torn boar hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_boar_rough": {
+      "name": "item_pelt_boar_rough",
+      "label": "Rough boar hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_boar_whole": {
+      "name": "item_pelt_boar_whole",
+      "label": "Whole boar hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_boar_flawless": {
+      "name": "item_pelt_boar_flawless",
+      "label": "Flawless boar hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_coyote_torn": {
+      "name": "item_pelt_coyote_torn",
+      "label": "Torn coyote hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_coyote_rough": {
+      "name": "item_pelt_coyote_rough",
+      "label": "Rough coyote hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_coyote_whole": {
+      "name": "item_pelt_coyote_whole",
+      "label": "Whole coyote hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_coyote_flawless": {
+      "name": "item_pelt_coyote_flawless",
+      "label": "Flawless coyote hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_puma_torn": {
+      "name": "item_pelt_puma_torn",
+      "label": "Torn puma hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_puma_rough": {
+      "name": "item_pelt_puma_rough",
+      "label": "Rough puma hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_puma_whole": {
+      "name": "item_pelt_puma_whole",
+      "label": "Whole puma hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_puma_flawless": {
+      "name": "item_pelt_puma_flawless",
+      "label": "Flawless puma hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_panther_torn": {
+      "name": "item_pelt_panther_torn",
+      "label": "Torn panther hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_panther_rough": {
+      "name": "item_pelt_panther_rough",
+      "label": "Rough panther hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_panther_whole": {
+      "name": "item_pelt_panther_whole",
+      "label": "Whole panther hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_panther_flawless": {
+      "name": "item_pelt_panther_flawless",
+      "label": "Flawless panther hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_pig_torn": {
+      "name": "item_pelt_pig_torn",
+      "label": "Torn pig hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_pig_rough": {
+      "name": "item_pelt_pig_rough",
+      "label": "Rough pig hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_pig_whole": {
+      "name": "item_pelt_pig_whole",
+      "label": "Whole pig hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_pig_flawless": {
+      "name": "item_pelt_pig_flawless",
+      "label": "Flawless pig hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_cow_torn": {
+      "name": "item_pelt_cow_torn",
+      "label": "Torn cow hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_cow_rough": {
+      "name": "item_pelt_cow_rough",
+      "label": "Rough cow hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_cow_whole": {
+      "name": "item_pelt_cow_whole",
+      "label": "Whole cow hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_pelt_cow_flawless": {
+      "name": "item_pelt_cow_flawless",
+      "label": "Flawless cow hide",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1.2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_rabbit": {
+      "name": "item_meat_rabbit",
+      "label": "Rabbit meat",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_deer": {
+      "name": "item_meat_deer",
+      "label": "Deer meat",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_boar": {
+      "name": "item_meat_boar",
+      "label": "Boar meat",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_coyote": {
+      "name": "item_meat_coyote",
+      "label": "Coyote meat",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_puma": {
+      "name": "item_meat_puma",
+      "label": "Puma meat",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_panther": {
+      "name": "item_meat_panther",
+      "label": "Panther meat",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_pig": {
+      "name": "item_meat_pig",
+      "label": "Pork",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_cow": {
+      "name": "item_meat_cow",
+      "label": "Beef",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_weapon_musket": {
+      "name": "item_weapon_musket",
+      "label": "Musket",
+      "accessKey": "PRIMARY_WEAPON",
+      "canDelete": false,
+      "isIllegal": false,
+      "category": "weapon",
+      "durability": 100,
+      "canUSE": false,
+      "canDrop": false,
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_bullet_musket": {
+      "name": "item_bullet_musket",
+      "label": "Musket ball",
+      "accessKey": "MUSKET_AMMO",
+      "canDelete": false,
+      "isIllegal": false,
+      "canUSE": false,
+      "category": "ammo",
+      "canDrop": false,
+      "canUnStack": true,
+      "weight": 0.05,
+      "canStack": true,
+      "maxStack": 500,
       "canTrade": true
     }
   }

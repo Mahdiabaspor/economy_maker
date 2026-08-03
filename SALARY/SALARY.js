@@ -1,4 +1,4 @@
-const baseSalary = 14000; // Base income per hour
+const baseSalary = 28000; // Base income per hour
 
 /**
  * Build a faction pay ladder.

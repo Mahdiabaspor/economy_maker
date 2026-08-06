@@ -2244,6 +2244,28 @@ export const itemsProperties = {
     canTrade: true,
   },
 
+  // --- SIM card (features/phone-system) ---------------------------------
+  // NOT AN INVENTORY ITEM. It is listed here only because the shop UI reads
+  // itemsProperties for a row's category, icon and stack size — buying it is
+  // intercepted in BuyService (high-roleplay-v1), which assigns the character
+  // a new 8-digit phone number instead of creating anything. It is
+  // deliberately ABSENT from the gamemode's own itemProperties.ts, so there is
+  // no way for it to end up in an inventory even if a call site slipped
+  // through.
+  item_sim_card: {
+    name: "item_sim_card",
+    label: "SIM Card",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: false,
+    canDrop: false,
+    category: ItemCategory.TOOLS,
+    canUnStack: false,
+    weight: 0,
+    canStack: false,
+    maxStack: 1,
+    canTrade: false,
+  },
+
   item_atm_hack_chip: {
     name: "item_atm_hack_chip",
     label: "Hacking Chip",

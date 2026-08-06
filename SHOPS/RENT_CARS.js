@@ -64,6 +64,17 @@ export const carRentalsConfig= [
         type: 'vehicle',
         class: 'COMPACT',
     },
+    // Back-ported from the deployed configs (2026-08-06): the Asbo was added by
+    // hand to both economyConfig.json copies and never to this file, so every
+    // regenerate silently deleted it. Source of truth is here.
+    {
+        vehicleModel: 'asbo',
+        name: 'Asbo',
+        rentalPrice:Math.floor( 1800 * RentalMultiplier),
+        fuelType: 'REGULAR',
+        type: 'vehicle',
+        class: 'COMPACT',
+    },
     {
         vehicleModel: 'zion',
         name: 'Zion',

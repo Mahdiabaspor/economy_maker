@@ -302,6 +302,11 @@
           "singlePrice": 1200
         },
         {
+          "itemName": "item_sim_card",
+          "label": "SIM CARD",
+          "singlePrice": 2500
+        },
+        {
           "itemName": "item_food_chocolate",
           "label": "CHOCOLATE BAR",
           "singlePrice": 150
@@ -8307,6 +8312,19 @@
       "canStack": true,
       "maxStack": 5,
       "canTrade": true
+    },
+    "item_sim_card": {
+      "name": "item_sim_card",
+      "label": "SIM Card",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "weight": 0,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": false
     },
     "item_atm_hack_chip": {
       "name": "item_atm_hack_chip",

@@ -26,6 +26,16 @@ export const superMarketConfig = {
       label: "SCREWDRIVER",
       singlePrice: Math.floor(1200 * superMarketMultiplier),
     },
+    // A phone line, not an object. Nothing is added to the inventory: the
+    // purchase is intercepted server-side (BuyService -> phoneNumber.service)
+    // and the character is handed a fresh 8-digit number on the spot, with the
+    // old line's SMS and call history wiped. A character starts with NO number
+    // at all, so this row is what makes their phone able to call or text.
+    {
+      itemName: "item_sim_card",
+      label: "SIM CARD",
+      singlePrice: Math.floor(2500 * superMarketMultiplier),
+    },
     // ═══════════════════════════════════════════════════════════════════════
     // JOB TOOLS — COMMENTED OUT WHILE THEIR JOBS ARE SWITCHED OFF
     //

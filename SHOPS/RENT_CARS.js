@@ -65,15 +65,6 @@ export const carRentalsConfig= [
         class: 'COMPACT',
     },
     {
-        vehicleModel: 'asbo',
-        name: 'Asbo',
-        rentalPrice:Math.floor( 1800 * RentalMultiplier),
-        fuelType: 'REGULAR',
-        type: 'vehicle',
-        class: 'COMPACT',
-    },
-
-    {
         vehicleModel: 'zion',
         name: 'Zion',
         rentalPrice:Math.floor( 1900 * RentalMultiplier),

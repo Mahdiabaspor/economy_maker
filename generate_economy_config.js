@@ -45,11 +45,13 @@ import { itemsProperties, medicalItems, MiningItems, weaponsItem } from "./items
 import { DrugDealer } from "./SHOPS/DrugLab.js";
 import { WeaponDealer } from "./SHOPS/WeaponDealer.js";
 import * as priceConstants from "./items/AllItemsBuyPrice.js";
-import { BurgerShotBenches } from "./JOBS/FoodJobs.js";
 import { junkItems } from "./JOBS/Junk.js";
 import { boozeShopConfig } from "./SHOPS/BooozeShop.js";
 import { vendingMachineConfig } from "./SHOPS/VENDINGMACHINE.js";
 import { checkEconomyCircles } from "./checkEconomyCircles.js";
+import { checkItemCoverage } from "./checkItemCoverage.js";
+// Frozen copy of a live section whose source module is gone — see JOBS/FOOD.js.
+import { foodJobsConfig } from "./JOBS/FOOD.js";
 
 
 // State equipment bench — one config key per department, mirroring the source
@@ -142,10 +144,6 @@ const economyConfig = {
     miningJobConfig,
     electricJobConfig,
     busJobConfig,
-    foodJobs:{
-      burgerShot:BurgerShotBenches
-    }
-    ,
     junk:junkItems,
     // JOB_SPECS pack. Key names follow each job's integration manifest
     // (JOB_SPECS/_integration/*.md `## economy`) — the two Economy.Types.ts
@@ -164,7 +162,9 @@ const economyConfig = {
     collectorJobConfig,
     aquanaut: aquanautJobConfig,
     fishing: fishingJobConfig,
-    mechanicJobConfig
+    mechanicJobConfig,
+    // Preserved so a regenerate cannot silently drop it — see JOBS/FOOD.js.
+    foodJobs: foodJobsConfig
   },
   factionConfigs: {
     EmsConfig,
@@ -183,6 +183,11 @@ const economyConfig = {
 // Guard: fail the build if any "buy from NPC -> craft -> sell to NPC" loop is
 // profitable (crafting is instant and uncapped, so such a loop = infinite money).
 checkEconomyCircles(economyConfig);
+
+// Guard: fail the build if anything is sold or crafted without an
+// itemsProperties entry. Silent when clean; see checkItemCoverage.js for why a
+// missing entry never crashes and is therefore worth failing the build over.
+checkItemCoverage(economyConfig);
 
 // Write to JSON file without pretty-formatting (no whitespace)
 fs.writeFileSync("economyConfig.json", JSON.stringify(economyConfig));

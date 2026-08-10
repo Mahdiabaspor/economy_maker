@@ -307,6 +307,21 @@
           "singlePrice": 2500
         },
         {
+          "itemName": "item_fishing_rod",
+          "label": "FISHING ROD",
+          "singlePrice": 5000
+        },
+        {
+          "itemName": "item_fishing_rod_good",
+          "label": "GOOD FISHING ROD",
+          "singlePrice": 10000
+        },
+        {
+          "itemName": "item_fishing_rod_excellent",
+          "label": "HIGH-QUALITY FISHING ROD",
+          "singlePrice": 20000
+        },
+        {
           "itemName": "item_food_chocolate",
           "label": "CHOCOLATE BAR",
           "singlePrice": 150
@@ -2968,6 +2983,7 @@
       ],
       "gang_weapon_crafting": [
         {
+          "recipeId": "atm_chip_junk",
           "label": "ATM HACKING CHIP",
           "itemName": "item_atm_hack_chip",
           "materials": [
@@ -2985,6 +3001,23 @@
               "itemName": "item_junk_rusty_usb",
               "count": 2,
               "label": "RUSTY USB DRIVE"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 0,
+          "output": 1,
+          "requiredGangLevel": 1,
+          "group": "OTHER"
+        },
+        {
+          "recipeId": "atm_chip_military",
+          "label": "ATM HACKING CHIP (MILITARY)",
+          "itemName": "item_atm_hack_chip",
+          "materials": [
+            {
+              "itemName": "item_military_component",
+              "count": 500,
+              "label": "MILITARY COMPONENT"
             }
           ],
           "itemType": "RARE",
@@ -4512,362 +4545,6 @@
       ],
       "singleBusStopSalary": 218
     },
-    "foodJobs": {
-      "burgerShot": {
-        "cookBench": [
-          {
-            "itemName": "item_cooked_food_burger_meat",
-            "label": "Cooked Meat",
-            "craftTime": 3.5,
-            "requiredItems": [
-              {
-                "itemName": "item_raw_food_burger_meat",
-                "label": "Raw Meat",
-                "count": 1
-              }
-            ]
-          },
-          {
-            "itemName": "item_cooked_food_chicken",
-            "label": "Cooked Chicken",
-            "craftTime": 3.5,
-            "requiredItems": [
-              {
-                "itemName": "item_raw_food_chicken",
-                "label": "Raw Chicken",
-                "count": 1
-              }
-            ]
-          },
-          {
-            "itemName": "item_cooked_food_burger_meat_vegan",
-            "label": "Cooked Vegan Meat",
-            "craftTime": 3.5,
-            "requiredItems": [
-              {
-                "itemName": "item_raw_food_burger_meat_vegan",
-                "label": "Raw Vegan Meat",
-                "count": 1
-              }
-            ]
-          }
-        ],
-        "finalBench": [
-          {
-            "itemName": "item_food_burger",
-            "label": "Classic Hamburger",
-            "craftTime": 4,
-            "requiredItems": [
-              {
-                "itemName": "item_food_burger_bun",
-                "label": "Burger Bun",
-                "count": 2
-              },
-              {
-                "itemName": "item_cooked_food_burger_meat",
-                "label": "Cooked Meat",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_pickle",
-                "label": "Sliced Pickle",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_tomato",
-                "label": "Sliced Tomato",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_lettuce",
-                "label": "Sliced Lettuce",
-                "count": 2
-              },
-              {
-                "itemName": "item_raw_food_sliced_onion",
-                "label": "Sliced Onion",
-                "count": 1
-              },
-              {
-                "itemName": "item_food_ketchup",
-                "label": "Ketchup",
-                "count": 2
-              }
-            ]
-          },
-          {
-            "itemName": "item_food_double_burger",
-            "label": "Double Hamburger",
-            "craftTime": 5,
-            "requiredItems": [
-              {
-                "itemName": "item_food_burger_bun",
-                "label": "Burger Bun",
-                "count": 2
-              },
-              {
-                "itemName": "item_cooked_food_burger_meat",
-                "label": "Cooked Meat",
-                "count": 2
-              },
-              {
-                "itemName": "item_raw_food_sliced_pickle",
-                "label": "Sliced Pickle",
-                "count": 3
-              },
-              {
-                "itemName": "item_raw_food_sliced_tomato",
-                "label": "Sliced Tomato",
-                "count": 2
-              },
-              {
-                "itemName": "item_raw_food_sliced_lettuce",
-                "label": "Sliced Lettuce",
-                "count": 3
-              },
-              {
-                "itemName": "item_raw_food_sliced_onion",
-                "label": "Sliced Onion",
-                "count": 2
-              },
-              {
-                "itemName": "item_food_ketchup",
-                "label": "Ketchup",
-                "count": 2
-              }
-            ]
-          },
-          {
-            "itemName": "item_food_cheese_burger",
-            "label": "Cheese Burger",
-            "craftTime": 4,
-            "requiredItems": [
-              {
-                "itemName": "item_food_burger_bun",
-                "label": "Burger Bun",
-                "count": 2
-              },
-              {
-                "itemName": "item_cooked_food_burger_meat",
-                "label": "Cooked Meat",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_pickle",
-                "label": "Sliced Pickle",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_tomato",
-                "label": "Sliced Tomato",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_lettuce",
-                "label": "Sliced Lettuce",
-                "count": 2
-              },
-              {
-                "itemName": "item_raw_food_sliced_onion",
-                "label": "Sliced Onion",
-                "count": 1
-              },
-              {
-                "itemName": "item_food_sliced_cheese",
-                "label": "Sliced Cheese",
-                "count": 1
-              },
-              {
-                "itemName": "item_food_ketchup",
-                "label": "Ketchup",
-                "count": 2
-              }
-            ]
-          },
-          {
-            "itemName": "item_food_double_cheese_burger",
-            "label": "Double Cheese Burger",
-            "craftTime": 5,
-            "requiredItems": [
-              {
-                "itemName": "item_food_burger_bun",
-                "label": "Burger Bun",
-                "count": 2
-              },
-              {
-                "itemName": "item_cooked_food_burger_meat",
-                "label": "Cooked Meat",
-                "count": 2
-              },
-              {
-                "itemName": "item_raw_food_sliced_pickle",
-                "label": "Sliced Pickle",
-                "count": 3
-              },
-              {
-                "itemName": "item_raw_food_sliced_tomato",
-                "label": "Sliced Tomato",
-                "count": 3
-              },
-              {
-                "itemName": "item_raw_food_sliced_lettuce",
-                "label": "Sliced Lettuce",
-                "count": 3
-              },
-              {
-                "itemName": "item_raw_food_sliced_onion",
-                "label": "Sliced Onion",
-                "count": 2
-              },
-              {
-                "itemName": "item_food_sliced_cheese",
-                "label": "Sliced Cheese",
-                "count": 2
-              },
-              {
-                "itemName": "item_food_ketchup",
-                "label": "Ketchup",
-                "count": 2
-              }
-            ]
-          },
-          {
-            "itemName": "item_food_chicken_burger",
-            "label": "Chicken Burger",
-            "craftTime": 4,
-            "requiredItems": [
-              {
-                "itemName": "item_food_burger_bun",
-                "label": "Burger Bun",
-                "count": 2
-              },
-              {
-                "itemName": "item_cooked_food_chicken",
-                "label": "Cooked Nugget",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_pickle",
-                "label": "Sliced Pickle",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_tomato",
-                "label": "Sliced Tomato",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_lettuce",
-                "label": "Sliced Lettuce",
-                "count": 2
-              },
-              {
-                "itemName": "item_raw_food_sliced_onion",
-                "label": "Sliced Onion",
-                "count": 1
-              },
-              {
-                "itemName": "item_food_ketchup",
-                "label": "Ketchup",
-                "count": 2
-              }
-            ]
-          },
-          {
-            "itemName": "item_food_vegan_burger",
-            "label": "Veggie Burger",
-            "craftTime": 4,
-            "requiredItems": [
-              {
-                "itemName": "item_food_burger_bun",
-                "label": "Burger Bun",
-                "count": 2
-              },
-              {
-                "itemName": "item_cooked_food_burger_meat_vegan",
-                "label": "Vegan Patty",
-                "count": 1
-              },
-              {
-                "itemName": "item_raw_food_sliced_pickle",
-                "label": "Sliced Pickle",
-                "count": 3
-              },
-              {
-                "itemName": "item_raw_food_sliced_tomato",
-                "label": "Sliced Tomato",
-                "count": 3
-              },
-              {
-                "itemName": "item_raw_food_sliced_lettuce",
-                "label": "Sliced Lettuce",
-                "count": 2
-              },
-              {
-                "itemName": "item_raw_food_sliced_onion",
-                "label": "Sliced Onion",
-                "count": 2
-              },
-              {
-                "itemName": "item_food_ketchup",
-                "label": "Ketchup",
-                "count": 1
-              }
-            ]
-          }
-        ],
-        "sliceBench": [
-          {
-            "itemName": "item_raw_food_sliced_tomato",
-            "label": "Sliced Tomato",
-            "craftTime": 1.5,
-            "requiredItems": [
-              {
-                "itemName": "item_raw_food_tomato",
-                "label": "Tomato",
-                "count": 1
-              }
-            ]
-          },
-          {
-            "itemName": "item_raw_food_sliced_pickle",
-            "label": "Sliced Pickle",
-            "craftTime": 1.5,
-            "requiredItems": [
-              {
-                "itemName": "item_raw_food_pickle",
-                "label": "Pickle",
-                "count": 1
-              }
-            ]
-          },
-          {
-            "itemName": "item_raw_food_sliced_lettuce",
-            "label": "Sliced Lettuce",
-            "craftTime": 1.5,
-            "requiredItems": [
-              {
-                "itemName": "item_raw_food_lettuce",
-                "label": "Lettuce",
-                "count": 1
-              }
-            ]
-          },
-          {
-            "itemName": "item_raw_food_sliced_onion",
-            "label": "Sliced Onion",
-            "craftTime": 1.5,
-            "requiredItems": [
-              {
-                "itemName": "item_raw_food_onion",
-                "label": "Onion",
-                "count": 1
-              }
-            ]
-          }
-        ]
-      }
-    },
     "junk": [
       {
         "itemName": "item_junk_circuit_board",
@@ -6139,6 +5816,362 @@
           "payBonusPct": 12
         }
       ]
+    },
+    "foodJobs": {
+      "burgerShot": {
+        "cookBench": [
+          {
+            "itemName": "item_cooked_food_burger_meat",
+            "label": "Cooked Meat",
+            "craftTime": 3.5,
+            "requiredItems": [
+              {
+                "itemName": "item_raw_food_burger_meat",
+                "label": "Raw Meat",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "itemName": "item_cooked_food_chicken",
+            "label": "Cooked Chicken",
+            "craftTime": 3.5,
+            "requiredItems": [
+              {
+                "itemName": "item_raw_food_chicken",
+                "label": "Raw Chicken",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "itemName": "item_cooked_food_burger_meat_vegan",
+            "label": "Cooked Vegan Meat",
+            "craftTime": 3.5,
+            "requiredItems": [
+              {
+                "itemName": "item_raw_food_burger_meat_vegan",
+                "label": "Raw Vegan Meat",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "finalBench": [
+          {
+            "itemName": "item_food_burger",
+            "label": "Classic Hamburger",
+            "craftTime": 4,
+            "requiredItems": [
+              {
+                "itemName": "item_food_burger_bun",
+                "label": "Burger Bun",
+                "count": 2
+              },
+              {
+                "itemName": "item_cooked_food_burger_meat",
+                "label": "Cooked Meat",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_pickle",
+                "label": "Sliced Pickle",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_tomato",
+                "label": "Sliced Tomato",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_lettuce",
+                "label": "Sliced Lettuce",
+                "count": 2
+              },
+              {
+                "itemName": "item_raw_food_sliced_onion",
+                "label": "Sliced Onion",
+                "count": 1
+              },
+              {
+                "itemName": "item_food_ketchup",
+                "label": "Ketchup",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "itemName": "item_food_double_burger",
+            "label": "Double Hamburger",
+            "craftTime": 5,
+            "requiredItems": [
+              {
+                "itemName": "item_food_burger_bun",
+                "label": "Burger Bun",
+                "count": 2
+              },
+              {
+                "itemName": "item_cooked_food_burger_meat",
+                "label": "Cooked Meat",
+                "count": 2
+              },
+              {
+                "itemName": "item_raw_food_sliced_pickle",
+                "label": "Sliced Pickle",
+                "count": 3
+              },
+              {
+                "itemName": "item_raw_food_sliced_tomato",
+                "label": "Sliced Tomato",
+                "count": 2
+              },
+              {
+                "itemName": "item_raw_food_sliced_lettuce",
+                "label": "Sliced Lettuce",
+                "count": 3
+              },
+              {
+                "itemName": "item_raw_food_sliced_onion",
+                "label": "Sliced Onion",
+                "count": 2
+              },
+              {
+                "itemName": "item_food_ketchup",
+                "label": "Ketchup",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "itemName": "item_food_cheese_burger",
+            "label": "Cheese Burger",
+            "craftTime": 4,
+            "requiredItems": [
+              {
+                "itemName": "item_food_burger_bun",
+                "label": "Burger Bun",
+                "count": 2
+              },
+              {
+                "itemName": "item_cooked_food_burger_meat",
+                "label": "Cooked Meat",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_pickle",
+                "label": "Sliced Pickle",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_tomato",
+                "label": "Sliced Tomato",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_lettuce",
+                "label": "Sliced Lettuce",
+                "count": 2
+              },
+              {
+                "itemName": "item_raw_food_sliced_onion",
+                "label": "Sliced Onion",
+                "count": 1
+              },
+              {
+                "itemName": "item_food_sliced_cheese",
+                "label": "Sliced Cheese",
+                "count": 1
+              },
+              {
+                "itemName": "item_food_ketchup",
+                "label": "Ketchup",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "itemName": "item_food_double_cheese_burger",
+            "label": "Double Cheese Burger",
+            "craftTime": 5,
+            "requiredItems": [
+              {
+                "itemName": "item_food_burger_bun",
+                "label": "Burger Bun",
+                "count": 2
+              },
+              {
+                "itemName": "item_cooked_food_burger_meat",
+                "label": "Cooked Meat",
+                "count": 2
+              },
+              {
+                "itemName": "item_raw_food_sliced_pickle",
+                "label": "Sliced Pickle",
+                "count": 3
+              },
+              {
+                "itemName": "item_raw_food_sliced_tomato",
+                "label": "Sliced Tomato",
+                "count": 3
+              },
+              {
+                "itemName": "item_raw_food_sliced_lettuce",
+                "label": "Sliced Lettuce",
+                "count": 3
+              },
+              {
+                "itemName": "item_raw_food_sliced_onion",
+                "label": "Sliced Onion",
+                "count": 2
+              },
+              {
+                "itemName": "item_food_sliced_cheese",
+                "label": "Sliced Cheese",
+                "count": 2
+              },
+              {
+                "itemName": "item_food_ketchup",
+                "label": "Ketchup",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "itemName": "item_food_chicken_burger",
+            "label": "Chicken Burger",
+            "craftTime": 4,
+            "requiredItems": [
+              {
+                "itemName": "item_food_burger_bun",
+                "label": "Burger Bun",
+                "count": 2
+              },
+              {
+                "itemName": "item_cooked_food_chicken",
+                "label": "Cooked Nugget",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_pickle",
+                "label": "Sliced Pickle",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_tomato",
+                "label": "Sliced Tomato",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_lettuce",
+                "label": "Sliced Lettuce",
+                "count": 2
+              },
+              {
+                "itemName": "item_raw_food_sliced_onion",
+                "label": "Sliced Onion",
+                "count": 1
+              },
+              {
+                "itemName": "item_food_ketchup",
+                "label": "Ketchup",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "itemName": "item_food_vegan_burger",
+            "label": "Veggie Burger",
+            "craftTime": 4,
+            "requiredItems": [
+              {
+                "itemName": "item_food_burger_bun",
+                "label": "Burger Bun",
+                "count": 2
+              },
+              {
+                "itemName": "item_cooked_food_burger_meat_vegan",
+                "label": "Vegan Patty",
+                "count": 1
+              },
+              {
+                "itemName": "item_raw_food_sliced_pickle",
+                "label": "Sliced Pickle",
+                "count": 3
+              },
+              {
+                "itemName": "item_raw_food_sliced_tomato",
+                "label": "Sliced Tomato",
+                "count": 3
+              },
+              {
+                "itemName": "item_raw_food_sliced_lettuce",
+                "label": "Sliced Lettuce",
+                "count": 2
+              },
+              {
+                "itemName": "item_raw_food_sliced_onion",
+                "label": "Sliced Onion",
+                "count": 2
+              },
+              {
+                "itemName": "item_food_ketchup",
+                "label": "Ketchup",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "sliceBench": [
+          {
+            "itemName": "item_raw_food_sliced_tomato",
+            "label": "Sliced Tomato",
+            "craftTime": 1.5,
+            "requiredItems": [
+              {
+                "itemName": "item_raw_food_tomato",
+                "label": "Tomato",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "itemName": "item_raw_food_sliced_pickle",
+            "label": "Sliced Pickle",
+            "craftTime": 1.5,
+            "requiredItems": [
+              {
+                "itemName": "item_raw_food_pickle",
+                "label": "Pickle",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "itemName": "item_raw_food_sliced_lettuce",
+            "label": "Sliced Lettuce",
+            "craftTime": 1.5,
+            "requiredItems": [
+              {
+                "itemName": "item_raw_food_lettuce",
+                "label": "Lettuce",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "itemName": "item_raw_food_sliced_onion",
+            "label": "Sliced Onion",
+            "craftTime": 1.5,
+            "requiredItems": [
+              {
+                "itemName": "item_raw_food_onion",
+                "label": "Onion",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "factionConfigs": {
@@ -7760,6 +7793,7 @@
     "item_vest_1": {
       "name": "item_vest_1",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7773,6 +7807,7 @@
     "item_vest_2": {
       "name": "item_vest_2",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7786,6 +7821,7 @@
     "item_vest_3": {
       "name": "item_vest_3",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7799,6 +7835,7 @@
     "item_vest_4": {
       "name": "item_vest_4",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7812,6 +7849,7 @@
     "item_vest_5": {
       "name": "item_vest_5",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7825,6 +7863,7 @@
     "item_vest_6": {
       "name": "item_vest_6",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7838,6 +7877,7 @@
     "item_vest_7": {
       "name": "item_vest_7",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7851,6 +7891,7 @@
     "item_vest_8": {
       "name": "item_vest_8",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7864,6 +7905,7 @@
     "item_vest_9": {
       "name": "item_vest_9",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7877,6 +7919,7 @@
     "item_vest_10": {
       "name": "item_vest_10",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7890,6 +7933,7 @@
     "item_vest_11": {
       "name": "item_vest_11",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7903,6 +7947,7 @@
     "item_vest_12": {
       "name": "item_vest_12",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7916,6 +7961,7 @@
     "item_vest_13": {
       "name": "item_vest_13",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7929,6 +7975,7 @@
     "item_vest_14": {
       "name": "item_vest_14",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7942,6 +7989,7 @@
     "item_vest_15": {
       "name": "item_vest_15",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7955,6 +8003,7 @@
     "item_vest_16": {
       "name": "item_vest_16",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -7968,6 +8017,7 @@
     "item_vest_17": {
       "name": "item_vest_17",
       "label": "vest",
+      "accessKey": "VEST",
       "canUSE": false,
       "canDrop": false,
       "category": "Vest",
@@ -9491,6 +9541,435 @@
       "weight": 0.001,
       "canStack": true,
       "maxStack": 50000,
+      "canTrade": true
+    },
+    "item_junk_bent_metal_pipe": {
+      "name": "item_junk_bent_metal_pipe",
+      "label": "Bent Metal Pipe",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_junk_broken_phone": {
+      "name": "item_junk_broken_phone",
+      "label": "Broken Phone",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.2,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_junk_car_battery": {
+      "name": "item_junk_car_battery",
+      "label": "DAMAGED CAR BATTERY",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 3,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
+    "item_junk_circuit_board": {
+      "name": "item_junk_circuit_board",
+      "label": "Old Circuit Board",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.5,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_junk_crashed_bottle": {
+      "name": "item_junk_crashed_bottle",
+      "label": "Crashed Bottle",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.2,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_junk_oil_can": {
+      "name": "item_junk_oil_can",
+      "label": "Oil Can",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.5,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_junk_rusty_usb": {
+      "name": "item_junk_rusty_usb",
+      "label": "Rusty USB Drive",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_junk_torn_shoe": {
+      "name": "item_junk_torn_shoe",
+      "label": "Torn Shoe",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.3,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_vest_0": {
+      "name": "item_vest_0",
+      "label": "vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_vest_18": {
+      "name": "item_vest_18",
+      "label": "vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "placeIn": "INVENTORY",
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_vest_19": {
+      "name": "item_vest_19",
+      "label": "vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "placeIn": "INVENTORY",
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_vest_20": {
+      "name": "item_vest_20",
+      "label": "vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "placeIn": "INVENTORY",
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_vest_21": {
+      "name": "item_vest_21",
+      "label": "vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "placeIn": "INVENTORY",
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_vest_22": {
+      "name": "item_vest_22",
+      "label": "vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "placeIn": "INVENTORY",
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_vest_23": {
+      "name": "item_vest_23",
+      "label": "vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "placeIn": "INVENTORY",
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_vest_24": {
+      "name": "item_vest_24",
+      "label": "fib vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "placeIn": "INVENTORY",
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_vest_25": {
+      "name": "item_vest_25",
+      "label": "sheriff vest",
+      "accessKey": "VEST",
+      "canUSE": false,
+      "canDrop": false,
+      "placeIn": "INVENTORY",
+      "category": "Vest",
+      "canUnStack": false,
+      "weight": 0.1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true,
+      "durability": 100
+    },
+    "item_body_cam": {
+      "name": "item_body_cam",
+      "label": "Body Camera",
+      "accessKey": "none",
+      "durability": 100,
+      "canUSE": true,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "weight": 1,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_drone": {
+      "name": "item_drone",
+      "label": "Drone",
+      "accessKey": "none",
+      "durability": 100,
+      "canUSE": true,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "weight": 3,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_fishing_rod_good": {
+      "name": "item_fishing_rod_good",
+      "label": "Good Fishing Rod",
+      "accessKey": "TOOL",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2.5,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_fishing_rod_excellent": {
+      "name": "item_fishing_rod_excellent",
+      "label": "High-Quality Fishing Rod",
+      "accessKey": "TOOL",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": false,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2.5,
+      "canStack": false,
+      "maxStack": 1,
+      "canTrade": true
+    },
+    "item_fish_roach": {
+      "name": "item_fish_roach",
+      "label": "Roach",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_fish_pike": {
+      "name": "item_fish_pike",
+      "label": "Pike",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_fish_zander": {
+      "name": "item_fish_zander",
+      "label": "Zander",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_fish_carp": {
+      "name": "item_fish_carp",
+      "label": "Carp",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_fish_coho_salmon": {
+      "name": "item_fish_coho_salmon",
+      "label": "Coho Salmon",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_fish_salmon": {
+      "name": "item_fish_salmon",
+      "label": "Salmon",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_fish_sturgeon": {
+      "name": "item_fish_sturgeon",
+      "label": "Sturgeon",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_fish_fugu": {
+      "name": "item_fish_fugu",
+      "label": "Fugu",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "canDelete": true,
+      "isIllegal": false,
+      "weight": 2,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_meat_hen": {
+      "name": "item_meat_hen",
+      "label": "Chicken meat",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": true,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.8,
+      "canStack": true,
+      "maxStack": 20,
       "canTrade": true
     }
   }

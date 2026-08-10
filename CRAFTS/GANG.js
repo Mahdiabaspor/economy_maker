@@ -175,13 +175,45 @@ export const CraftingGangConfig = {
     // the robbery clearly worth doing while giving the junk job a real sink.
     // Retune here and in PAYOUT_MIN/MAX (shared/robbery/atmRobbery.config.ts)
     // together — neither number means anything on its own.
+    //
+    // TWO RECIPES MAKE THIS ITEM. That is why both carry a `recipeId`:
+    // craftItem.ts resolves a recipe by id when one is sent, and falls back to
+    // `.find(itemName)` — FIRST MATCH WINS — when it is not. Without ids the
+    // second recipe below would render in the UI and silently craft this one.
+    // Any future duplicate-output recipe needs an id on BOTH entries too.
     {
+      recipeId: "atm_chip_junk",
       label: "ATM HACKING CHIP",
       itemName: "item_atm_hack_chip",
       materials: [
         { itemName: "item_junk_broken_phone", count: 1, label: "BROKEN PHONE" },
         { itemName: "item_junk_circuit_board", count: 2, label: "OLD CIRCUIT BOARD" },
         { itemName: "item_junk_rusty_usb", count: 2, label: "RUSTY USB DRIVE" },
+      ],
+      itemType: "RARE",
+      craftTimeMinutes: 0,
+      output: 1,
+      requiredGangLevel: 1,
+      group: "OTHER",
+    },
+    // ATM HACKING CHIP (MILITARY) — the second route to the same item, for a
+    // gang sitting on components instead of junk.
+    //
+    // ⚠ THE PRICE IS DELIBERATE AND IT IS NOT COMPETITIVE. 500 components at
+    // the bench's own ~300-400/component rate is 150,000-200,000 of value for a
+    // chip that unlocks a 30,000-40,000 payout, against 4,700 of junk for the
+    // recipe above. Nobody rational crafts this to go rob an ATM.
+    //
+    // It exists as a COMPONENT SINK: an emergency route when a gang has raided
+    // its way to a component pile and has no junk. If it should instead be a
+    // real alternative, the number to change is this `count` — 20 would put it
+    // level with the junk recipe; 500 keeps it a last resort.
+    {
+      recipeId: "atm_chip_military",
+      label: "ATM HACKING CHIP (MILITARY)",
+      itemName: "item_atm_hack_chip",
+      materials: [
+        { itemName: "item_military_component", count: 500, label: "MILITARY COMPONENT" },
       ],
       itemType: "RARE",
       craftTimeMinutes: 0,

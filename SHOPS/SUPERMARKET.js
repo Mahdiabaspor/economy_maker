@@ -102,11 +102,36 @@ export const superMarketConfig = {
     // NPC and no employment screen, so without them the job cannot be started at
     // all. Prices imported from JOBS/FISHING.js so the shop and the job's own
     // config cannot disagree.
-    // {
-    //   itemName: "item_fishing_rod",
-    //   label: "FISHING ROD",
-    //   singlePrice: Math.floor(FISHING_ROD_BUY_PRICE * superMarketMultiplier),
-    // },
+    // ⚠ RECOVERED FROM THE LIVE CONFIG — do not comment these out again.
+    //
+    // These three rows exist in the DEPLOYED economyConfig.json (both copies)
+    // but had been commented out here, so every `npm run generate` silently
+    // DELETED the whole rod range from the supermarket — and the rod is the
+    // fishing job's only "get hired" step, so regenerating broke the job.
+    // Found by diffing the generated output against the deployed file before
+    // copying; always run that diff, the generator is not the only author of
+    // what is live.
+    //
+    // Prices are LITERALS on purpose. `FISHING_ROD_BUY_PRICE` is 2500 here,
+    // but the live shop charges 5000 and carries two upper tiers this file
+    // never knew about. The live numbers win; importing the constant would
+    // quietly halve the base rod's price. Reconcile the two deliberately if
+    // you ever want them linked again.
+    {
+      itemName: "item_fishing_rod",
+      label: "FISHING ROD",
+      singlePrice: 5000,
+    },
+    {
+      itemName: "item_fishing_rod_good",
+      label: "GOOD FISHING ROD",
+      singlePrice: 10000,
+    },
+    {
+      itemName: "item_fishing_rod_excellent",
+      label: "HIGH-QUALITY FISHING ROD",
+      singlePrice: 20000,
+    },
     // {
     //   itemName: "item_fish_bait",
     //   label: "FISH BAIT",

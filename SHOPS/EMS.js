@@ -23,6 +23,23 @@ export const emsShopConfig = {
       label: "FIRST AID KIT",
       singlePrice: Math.floor(10000 * shopEmsMultiplier),
     },
+    // VITAMIN — full health, instant, on a 60-second lockout the bandage
+    // SHARES (MEDICAL_LOCK_GROUP in the gamemode's inventory/manager.sv.ts).
+    //
+    // $1,000 sits between the bandage ($1,500 for +30) and the first-aid kit
+    // ($10,000 for a full heal behind a 5-second cast and a 10-minute lockout),
+    // which reads odd until you price the lockout: the kit's heal is the same
+    // but it is the only one of the three you can spend twice in a firefight,
+    // because the pills take the bandage down with them. Cheap heal, expensive
+    // minute.
+    //
+    // NO SELL-BACK ROW, and there must never be one: nothing crafts these, so
+    // an NPC buyback would be a straight shop-to-shop money printer.
+    {
+      itemName: "item_medical_vitamin",
+      label: "VITAMIN",
+      singlePrice: Math.floor(1000 * shopEmsMultiplier),
+    },
     {
       itemName: "item_capsaicin_powder",
       label: "capsaicin POWDER",

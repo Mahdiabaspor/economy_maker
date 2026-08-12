@@ -14,9 +14,13 @@
 // `only("police", …)` stamps every row with the owning faction — high-ui hides
 // them from the other departments and craftItem.ts rejects them server-side.
 
-import { COMPONENT, only } from "./STATE_SHARED.js";
+import { COMPONENT, ENERGY_DRINK, only } from "./STATE_SHARED.js";
 
 export const POLICE_EQUIPMENT = only("police", [
+  // The LEO answer to the gang's weed joint — legal, 20 components a batch.
+  // Defined once in STATE_SHARED.js and spread into each department's own list
+  // rather than into the shared one, which would give it to the Government too.
+  { ...ENERGY_DRINK },
   {
     // Entry-level unmarked carrier. LSPD's — the sheriff's bench has exactly
     // one vest (SHERIFF VEST) and this is not it.

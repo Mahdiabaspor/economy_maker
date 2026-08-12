@@ -221,6 +221,11 @@
             "singlePrice": 10000
           },
           {
+            "itemName": "item_medical_vitamin",
+            "label": "VITAMIN",
+            "singlePrice": 1000
+          },
+          {
             "itemName": "item_capsaicin_powder",
             "label": "capsaicin POWDER",
             "singlePrice": 1000
@@ -2739,21 +2744,6 @@
           "craftTimeMinutes": 0,
           "output": 10,
           "requiredGangLevel": 1
-        },
-        {
-          "label": "SULFURIC ACID",
-          "itemName": "item_sulfuric_acid",
-          "materials": [
-            {
-              "itemName": "item_battery",
-              "count": 4,
-              "label": "BATTERY"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 2,
-          "requiredGangLevel": 1
         }
       ],
       "gang_weapon_crafting": [
@@ -3368,6 +3358,22 @@
     ],
     "CraftPoliceConfig": [
       {
+        "label": "ENERGY DRINK",
+        "itemName": "item_energy_drink",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 20,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 10,
+        "group": "OTHER",
+        "faction": "police"
+      },
+      {
         "label": "CADET VEST",
         "itemName": "item_vest_6",
         "materials": [
@@ -3520,6 +3526,22 @@
     ],
     "CraftSheriffConfig": [
       {
+        "label": "ENERGY DRINK",
+        "itemName": "item_energy_drink",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 20,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 10,
+        "group": "OTHER",
+        "faction": "sheriff"
+      },
+      {
         "label": "SHERIFF VEST",
         "itemName": "item_vest_25",
         "materials": [
@@ -3559,6 +3581,22 @@
       }
     ],
     "CraftFibConfig": [
+      {
+        "label": "ENERGY DRINK",
+        "itemName": "item_energy_drink",
+        "materials": [
+          {
+            "itemName": "item_military_component",
+            "count": 20,
+            "label": "MILITARY COMPONENT"
+          }
+        ],
+        "itemType": "RARE",
+        "craftTimeMinutes": 0,
+        "output": 10,
+        "group": "OTHER",
+        "faction": "fbi"
+      },
       {
         "label": "FIB VEST",
         "itemName": "item_vest_24",
@@ -6582,6 +6620,19 @@
       "maxStack": 10,
       "canTrade": true
     },
+    "item_medical_vitamin": {
+      "name": "item_medical_vitamin",
+      "label": "vitamin",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "medical",
+      "canUnStack": true,
+      "weight": 0.5,
+      "canStack": true,
+      "maxStack": 10,
+      "canTrade": true
+    },
     "item_medical_first_aid": {
       "name": "item_medical_first_aid",
       "label": "first aid kit",
@@ -7350,6 +7401,19 @@
       "weight": 0.5,
       "canStack": true,
       "maxStack": 20,
+      "canTrade": true
+    },
+    "item_energy_drink": {
+      "name": "item_energy_drink",
+      "label": "energy drink",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "drink",
+      "canUnStack": true,
+      "weight": 1,
+      "canStack": true,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_rolling_paper": {

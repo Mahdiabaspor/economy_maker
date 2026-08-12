@@ -47,6 +47,44 @@ export const COMPONENT = (count) => [
 export const only = (faction, recipes) => recipes.map((r) => ({ ...r, faction }));
 
 // ===========================================================================
+// ENERGY DRINK — the LEO counterpart to the gang's weed joint
+// ===========================================================================
+//
+// ⚠ THIS ROW IS NOT IN STATE_SHARED_EQUIPMENT, AND THAT IS THE POINT.
+//
+// The bench is owned by `isLeoFaction(faction) || faction === 'government'`
+// (craftItem.ts), so anything in the shared list below would hand the drink to
+// the GOVERNMENT as well — and this is police kit, not a clerk's. Spreading it
+// into POLICE.js / SHERIFF.js / FIB.js instead puts it in each department's own
+// list, which is exactly the set of LEO departments that has a bench.
+//
+// The National Guard ('army') is LEO but has no equipment file and no bench
+// screen at all, so it is out for the same reason it has no vest — give it an
+// ARMY.js with this row in it the day the Guard's bench goes live.
+//
+// PRICING — 20 components, output 10, and that is priced against the joint, not
+// picked. A joint batch costs 10 Ganja ($700) + 10 rolling paper ($200) = $9,000
+// for 10 units, i.e. 900 a joint. 20 components at the bench's own ~300-400 per
+// component is $6,000-8,000 for 10 cans, i.e. 600-800 each. Slightly under the
+// joint, which is right: the state's components are confiscated rather than
+// bought, but they are also the same components the department needs for ammo
+// and vests, so every batch of cans is rifle rounds not made.
+//
+// One recipe object, spread into three files — the numbers cannot drift between
+// departments, which is what would happen if this were copy-pasted (see the AP
+// PISTOL, which is duplicated in POLICE.js and SHERIFF.js and has to be kept in
+// step by hand).
+export const ENERGY_DRINK = {
+  label: "ENERGY DRINK",
+  itemName: "item_energy_drink",
+  materials: COMPONENT(20),
+  itemType: "RARE",
+  craftTimeMinutes: 0,
+  output: 10,
+  group: "OTHER",
+};
+
+// ===========================================================================
 // SHARED — every state faction crafts these
 // ===========================================================================
 export const STATE_SHARED_EQUIPMENT = [

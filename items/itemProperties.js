@@ -1853,6 +1853,27 @@ export const itemsProperties = {
     canTrade: true,
   },
 
+  /**
+   * Vitamin — the bandage's expensive big brother, EMS shop $1,000.
+   * Instant and animation-free like a bandage, but heals to FULL, and its
+   * 60-second lockout is SHARED with the bandage in both directions (see
+   * MEDICAL_LOCK_GROUP in the gamemode's inventory/manager.sv.ts) so the two
+   * cannot be chained.
+   */
+  item_medical_vitamin: {
+    name: "item_medical_vitamin",
+    label: "vitamin",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: true,
+    canDrop: false,
+    category: ItemCategory.MEDICAL,
+    canUnStack: true,
+    weight: 0.5,
+    canStack: true,
+    maxStack: 10,
+    canTrade: true,
+  },
+
   item_medical_first_aid: {
     name: "item_medical_first_aid",
     label: "first aid kit",
@@ -1964,6 +1985,29 @@ export const itemsProperties = {
     weight: 0.5,
     canStack: true,
     maxStack: 20,
+    canTrade: true,
+  },
+  /**
+   * Energy drink — the LEO counterpart to the weed joint. Same heal, same
+   * resist window, same cooldown, same addiction (the numbers live on its
+   * profile in the gamemode's @shared/drugs/addiction.shared); the difference
+   * is that this one is LEGAL and comes off the state equipment bench for 20
+   * military components instead of off a dealer.
+   *
+   * DRINK and no `isIllegal`, deliberately — a search on an officer carrying it
+   * must come up clean. See CRAFTS/STATE_SHARED.js `ENERGY_DRINK`.
+   */
+  item_energy_drink: {
+    name: "item_energy_drink",
+    label: "energy drink",
+    accessKey: ItemAccessKey.NONE,
+    canUSE: true,
+    canDrop: false,
+    category: ItemCategory.DRINK,
+    canUnStack: true,
+    weight: 1,
+    canStack: true,
+    maxStack: 50,
     canTrade: true,
   },
   /** Rolling paper — the weed line's packaging. Sold by Vadim at $200. */

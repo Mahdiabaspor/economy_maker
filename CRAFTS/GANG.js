@@ -13,10 +13,15 @@
 // LSD and DMT went with them. The gamemode now has exactly two usable drugs:
 // the WEED JOINT below, and amphetamine on the mafia lab table.
 //
-// ⚠ SULFURIC ACID HAS NO CONSUMER LEFT. LSD was the only recipe that used it.
-// It is kept because it still trades on the dark market and is a plausible
-// input for anything added later — but if nothing claims it, this recipe and
-// the item are the next thing to delete.
+// The gang drug bench is now ONE recipe: the weed joint.
+//
+// ⚠ THE SULFURIC ACID RECIPE IS GONE (removed here). LSD was the only thing
+// that ever consumed the acid, and once LSD went the recipe was a battery sink
+// feeding an item no recipe wanted. The ITEM is deliberately still alive: the
+// chemistry robbery pays out 8-12 of it (robbery.sv.ts `chemistry`) and it
+// trades on both the dark market and the marketplace, so it keeps a source and
+// a sink — the robbery is simply its ONLY source now. Do not delete
+// `item_sulfuric_acid` from either item catalogue while that robbery pays it.
 //
 // Do not resurrect a recipe here without also restoring its item to
 // items/itemProperties.js and to the gamemode's own
@@ -59,15 +64,6 @@ export const CraftingGangConfig = {
       itemType: "RARE",
       craftTimeMinutes: 0,
       output: 10,
-      requiredGangLevel: 1,
-    },
-    {
-      label: "SULFURIC ACID",
-      itemName: "item_sulfuric_acid",
-      materials: [{ itemName: "item_battery", count: 4, label: "BATTERY" }], // 4x500 -> 2 = 1000/unit (no NPC buyback)
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 2,
       requiredGangLevel: 1,
     },
   ],

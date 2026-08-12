@@ -246,9 +246,9 @@
             "singlePrice": 250
           },
           {
-            "itemName": "item_acetone",
-            "label": "acetone",
-            "singlePrice": 2000
+            "itemName": "item_detox_pills",
+            "label": "DETOX PILLS",
+            "singlePrice": 500
           }
         ]
       },
@@ -372,21 +372,6 @@
           "singlePrice": 900
         },
         {
-          "itemName": "item_methanol",
-          "label": "METHHANOL",
-          "singlePrice": 800
-        },
-        {
-          "itemName": "item_house_cleaner",
-          "label": "HOUSE CLEANER",
-          "singlePrice": 600
-        },
-        {
-          "itemName": "item_sodium_bicarbonate",
-          "label": "SODIUM BICARBONATE",
-          "singlePrice": 550
-        },
-        {
           "itemName": "item_battery",
           "label": "BATTERY",
           "singlePrice": 500
@@ -400,11 +385,6 @@
           "itemName": "item_car_battery",
           "label": "CAR BATTERY",
           "singlePrice": 12000
-        },
-        {
-          "itemName": "item_paint_color",
-          "label": "PAINT COLOR",
-          "singlePrice": 600
         },
         {
           "itemName": "item_empty_plastic_pack",
@@ -2562,51 +2542,6 @@
           "itemName": "item_weed",
           "label": "WEED",
           "singlePrice": 299
-        },
-        {
-          "itemName": "item_coca_leaves",
-          "label": "COCA LEAVES",
-          "singlePrice": 320
-        },
-        {
-          "itemName": "item_saffarole_leave",
-          "label": "SAFFAROLE LEAVE",
-          "singlePrice": 402
-        },
-        {
-          "itemName": "item_saffarole_oil",
-          "label": "SAFFAROLE OIL",
-          "singlePrice": 862
-        },
-        {
-          "itemName": "item_methylamine_crystal",
-          "label": "METHYLAMINE CRYSTAL",
-          "singlePrice": 3999
-        },
-        {
-          "itemName": "item_cocain_powder",
-          "label": "COCAINE POWDER",
-          "singlePrice": 3419
-        },
-        {
-          "itemName": "item_mdp2p",
-          "label": "MDP2P",
-          "singlePrice": 3499
-        },
-        {
-          "itemName": "item_cocain_pack",
-          "label": "COCAINE PACK",
-          "singlePrice": 4140
-        },
-        {
-          "itemName": "item_mdma_powder",
-          "label": "MDMA POWDER",
-          "singlePrice": 5499
-        },
-        {
-          "itemName": "item_mdma_pill",
-          "label": "MDMA PILL",
-          "singlePrice": 6199
         }
       ]
     },
@@ -2786,6 +2721,26 @@
     "CraftingGangConfig": {
       "gang_drug_crafting": [
         {
+          "label": "WEED JOINT",
+          "itemName": "item_weed_joint",
+          "materials": [
+            {
+              "itemName": "item_weed",
+              "count": 10,
+              "label": "WEED"
+            },
+            {
+              "itemName": "item_rolling_paper",
+              "count": 10,
+              "label": "ROLLING PAPER"
+            }
+          ],
+          "itemType": "RARE",
+          "craftTimeMinutes": 0,
+          "output": 10,
+          "requiredGangLevel": 1
+        },
+        {
           "label": "SULFURIC ACID",
           "itemName": "item_sulfuric_acid",
           "materials": [
@@ -2799,186 +2754,6 @@
           "craftTimeMinutes": 0,
           "output": 2,
           "requiredGangLevel": 1
-        },
-        {
-          "label": "COCAIN PACK",
-          "itemName": "item_cocain_pack",
-          "materials": [
-            {
-              "itemName": "item_cocain_powder",
-              "count": 3,
-              "label": "COCAIN POWDER"
-            },
-            {
-              "itemName": "item_empty_plastic_pack",
-              "count": 3,
-              "label": "PLASTIC PACK"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 3,
-          "requiredGangLevel": 1
-        },
-        {
-          "label": "SAFFAROLE OIL",
-          "itemName": "item_saffarole_oil",
-          "materials": [
-            {
-              "itemName": "item_saffarole_leave",
-              "count": 2,
-              "label": "SAFFAROLE LEAVES"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 2,
-          "requiredGangLevel": 1
-        },
-        {
-          "label": "MDMA PILL",
-          "itemName": "item_mdma_pill",
-          "materials": [
-            {
-              "itemName": "item_mdma_powder",
-              "count": 1,
-              "label": "MDMA POWDER"
-            },
-            {
-              "itemName": "item_empty_pill_capsule",
-              "count": 1,
-              "label": "EMPTY PILL CAPSULE"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 1,
-          "requiredGangLevel": 1
-        },
-        {
-          "label": "ACETONE",
-          "itemName": "item_acetone",
-          "materials": [
-            {
-              "itemName": "item_paint_color",
-              "count": 2,
-              "label": "PAINT COLOR"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 2,
-          "requiredGangLevel": 1
-        },
-        {
-          "label": "METHYLAMINE",
-          "itemName": "item_methylamine_crystal",
-          "materials": [
-            {
-              "itemName": "item_methanol",
-              "count": 3,
-              "label": "METHANOL"
-            },
-            {
-              "itemName": "item_ammonia",
-              "count": 2,
-              "label": "AMMONIA"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 1,
-          "requiredGangLevel": 3
-        },
-        {
-          "label": "AMMONIA",
-          "itemName": "item_ammonia",
-          "materials": [
-            {
-              "itemName": "item_house_cleaner",
-              "count": 4,
-              "label": "HOUSE CLEANER"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 2,
-          "requiredGangLevel": 1
-        },
-        {
-          "label": "COCAIN POWDER",
-          "itemName": "item_cocain_powder",
-          "materials": [
-            {
-              "itemName": "item_acetone",
-              "count": 3,
-              "label": "ACETONE"
-            },
-            {
-              "itemName": "item_coca_leaves",
-              "count": 3,
-              "label": "COCA LEAVES"
-            },
-            {
-              "itemName": "item_sulfuric_acid",
-              "count": 2,
-              "label": "SULFURIC ACID"
-            },
-            {
-              "itemName": "item_sodium_bicarbonate",
-              "count": 2,
-              "label": "SODIUM BICARBONATE"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 3,
-          "requiredGangLevel": 3
-        },
-        {
-          "label": "MDP2P POWDER",
-          "itemName": "item_mdp2p",
-          "materials": [
-            {
-              "itemName": "item_acetone",
-              "count": 1,
-              "label": "ACETONE"
-            },
-            {
-              "itemName": "item_saffarole_oil",
-              "count": 1,
-              "label": "SAFFAROLE OIL"
-            },
-            {
-              "itemName": "item_ammonia",
-              "count": 1,
-              "label": "AMMONIA"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 1,
-          "requiredGangLevel": 4
-        },
-        {
-          "label": "MDMA POWDER",
-          "itemName": "item_mdma_powder",
-          "materials": [
-            {
-              "itemName": "item_mdp2p",
-              "count": 2,
-              "label": "MDP2P POWDER"
-            },
-            {
-              "itemName": "item_methylamine_crystal",
-              "count": 2,
-              "label": "METHYLAMINE"
-            }
-          ],
-          "itemType": "RARE",
-          "craftTimeMinutes": 0,
-          "output": 3,
-          "requiredGangLevel": 4
         }
       ],
       "gang_weapon_crafting": [
@@ -5075,294 +4850,6 @@
         "priceCycleMs": 10800000
       }
     },
-    "hunter": {
-      "pelts": [
-        {
-          "itemName": "item_pelt_rabbit_torn",
-          "label": "Torn rabbit hide",
-          "price": 83,
-          "speciesId": "rabbit",
-          "quality": "torn"
-        },
-        {
-          "itemName": "item_pelt_rabbit_rough",
-          "label": "Rough rabbit hide",
-          "price": 128,
-          "speciesId": "rabbit",
-          "quality": "rough"
-        },
-        {
-          "itemName": "item_pelt_rabbit_whole",
-          "label": "Whole rabbit hide",
-          "price": 180,
-          "speciesId": "rabbit",
-          "quality": "whole"
-        },
-        {
-          "itemName": "item_pelt_rabbit_flawless",
-          "label": "Flawless rabbit hide",
-          "price": 315,
-          "speciesId": "rabbit",
-          "quality": "flawless"
-        },
-        {
-          "itemName": "item_pelt_deer_torn",
-          "label": "Torn deer hide",
-          "price": 129,
-          "speciesId": "deer",
-          "quality": "torn"
-        },
-        {
-          "itemName": "item_pelt_deer_rough",
-          "label": "Rough deer hide",
-          "price": 200,
-          "speciesId": "deer",
-          "quality": "rough"
-        },
-        {
-          "itemName": "item_pelt_deer_whole",
-          "label": "Whole deer hide",
-          "price": 282,
-          "speciesId": "deer",
-          "quality": "whole"
-        },
-        {
-          "itemName": "item_pelt_deer_flawless",
-          "label": "Flawless deer hide",
-          "price": 494,
-          "speciesId": "deer",
-          "quality": "flawless"
-        },
-        {
-          "itemName": "item_pelt_boar_torn",
-          "label": "Torn boar hide",
-          "price": 118,
-          "speciesId": "boar",
-          "quality": "torn"
-        },
-        {
-          "itemName": "item_pelt_boar_rough",
-          "label": "Rough boar hide",
-          "price": 183,
-          "speciesId": "boar",
-          "quality": "rough"
-        },
-        {
-          "itemName": "item_pelt_boar_whole",
-          "label": "Whole boar hide",
-          "price": 258,
-          "speciesId": "boar",
-          "quality": "whole"
-        },
-        {
-          "itemName": "item_pelt_boar_flawless",
-          "label": "Flawless boar hide",
-          "price": 452,
-          "speciesId": "boar",
-          "quality": "flawless"
-        },
-        {
-          "itemName": "item_pelt_coyote_torn",
-          "label": "Torn coyote hide",
-          "price": 127,
-          "speciesId": "coyote",
-          "quality": "torn"
-        },
-        {
-          "itemName": "item_pelt_coyote_rough",
-          "label": "Rough coyote hide",
-          "price": 196,
-          "speciesId": "coyote",
-          "quality": "rough"
-        },
-        {
-          "itemName": "item_pelt_coyote_whole",
-          "label": "Whole coyote hide",
-          "price": 276,
-          "speciesId": "coyote",
-          "quality": "whole"
-        },
-        {
-          "itemName": "item_pelt_coyote_flawless",
-          "label": "Flawless coyote hide",
-          "price": 483,
-          "speciesId": "coyote",
-          "quality": "flawless"
-        },
-        {
-          "itemName": "item_pelt_puma_torn",
-          "label": "Torn puma hide",
-          "price": 154,
-          "speciesId": "puma",
-          "quality": "torn"
-        },
-        {
-          "itemName": "item_pelt_puma_rough",
-          "label": "Rough puma hide",
-          "price": 238,
-          "speciesId": "puma",
-          "quality": "rough"
-        },
-        {
-          "itemName": "item_pelt_puma_whole",
-          "label": "Whole puma hide",
-          "price": 336,
-          "speciesId": "puma",
-          "quality": "whole"
-        },
-        {
-          "itemName": "item_pelt_puma_flawless",
-          "label": "Flawless puma hide",
-          "price": 588,
-          "speciesId": "puma",
-          "quality": "flawless"
-        },
-        {
-          "itemName": "item_pelt_panther_torn",
-          "label": "Torn panther hide",
-          "price": 176,
-          "speciesId": "panther",
-          "quality": "torn"
-        },
-        {
-          "itemName": "item_pelt_panther_rough",
-          "label": "Rough panther hide",
-          "price": 272,
-          "speciesId": "panther",
-          "quality": "rough"
-        },
-        {
-          "itemName": "item_pelt_panther_whole",
-          "label": "Whole panther hide",
-          "price": 384,
-          "speciesId": "panther",
-          "quality": "whole"
-        },
-        {
-          "itemName": "item_pelt_panther_flawless",
-          "label": "Flawless panther hide",
-          "price": 672,
-          "speciesId": "panther",
-          "quality": "flawless"
-        },
-        {
-          "itemName": "item_pelt_pig_torn",
-          "label": "Torn pig hide",
-          "price": 96,
-          "speciesId": "pig",
-          "quality": "torn"
-        },
-        {
-          "itemName": "item_pelt_pig_rough",
-          "label": "Rough pig hide",
-          "price": 149,
-          "speciesId": "pig",
-          "quality": "rough"
-        },
-        {
-          "itemName": "item_pelt_pig_whole",
-          "label": "Whole pig hide",
-          "price": 210,
-          "speciesId": "pig",
-          "quality": "whole"
-        },
-        {
-          "itemName": "item_pelt_pig_flawless",
-          "label": "Flawless pig hide",
-          "price": 368,
-          "speciesId": "pig",
-          "quality": "flawless"
-        },
-        {
-          "itemName": "item_pelt_cow_torn",
-          "label": "Torn cow hide",
-          "price": 107,
-          "speciesId": "cow",
-          "quality": "torn"
-        },
-        {
-          "itemName": "item_pelt_cow_rough",
-          "label": "Rough cow hide",
-          "price": 166,
-          "speciesId": "cow",
-          "quality": "rough"
-        },
-        {
-          "itemName": "item_pelt_cow_whole",
-          "label": "Whole cow hide",
-          "price": 234,
-          "speciesId": "cow",
-          "quality": "whole"
-        },
-        {
-          "itemName": "item_pelt_cow_flawless",
-          "label": "Flawless cow hide",
-          "price": 410,
-          "speciesId": "cow",
-          "quality": "flawless"
-        }
-      ],
-      "meats": [
-        {
-          "itemName": "item_meat_rabbit",
-          "label": "Rabbit meat",
-          "price": 22,
-          "speciesId": "rabbit"
-        },
-        {
-          "itemName": "item_meat_deer",
-          "label": "Deer meat",
-          "price": 40,
-          "speciesId": "deer"
-        },
-        {
-          "itemName": "item_meat_boar",
-          "label": "Boar meat",
-          "price": 36,
-          "speciesId": "boar"
-        },
-        {
-          "itemName": "item_meat_coyote",
-          "label": "Coyote meat",
-          "price": 24,
-          "speciesId": "coyote"
-        },
-        {
-          "itemName": "item_meat_puma",
-          "label": "Puma meat",
-          "price": 28,
-          "speciesId": "puma"
-        },
-        {
-          "itemName": "item_meat_panther",
-          "label": "Panther meat",
-          "price": 28,
-          "speciesId": "panther"
-        },
-        {
-          "itemName": "item_meat_pig",
-          "label": "Pork",
-          "price": 34,
-          "speciesId": "pig"
-        },
-        {
-          "itemName": "item_meat_cow",
-          "label": "Beef",
-          "price": 40,
-          "speciesId": "cow"
-        }
-      ],
-      "musket": {
-        "itemName": "item_weapon_musket",
-        "label": "Musket",
-        "buyPrice": 16000,
-        "repairPrice": 1200
-      },
-      "ball": {
-        "itemName": "item_bullet_shotgun",
-        "label": "Shotgun Shell"
-      }
-    },
     "garbageJobConfig": {
       "baseBagPay": 190,
       "payPerMeter": 0.022,
@@ -5494,225 +4981,6 @@
       "pointsPerDeposit": 2,
       "crewBonusPctPerMember": 10,
       "crewBonusPctCap": 30
-    },
-    "aquanaut": {
-      "baseFee": 900,
-      "payPerCrate": 280,
-      "payPerMeter": 0.7,
-      "maxPayDistanceM": 5000,
-      "jitterPct": 6,
-      "minPay": 2200,
-      "maxPay": 8400,
-      "payRoundTo": 10,
-      "minCrates": 6,
-      "maxCrates": 9,
-      "orderSeconds": 1800,
-      "refillSeconds": 20,
-      "leashSeconds": 300,
-      "minCharacterLevel": 7,
-      "rentals": [
-        {
-          "id": "submersible",
-          "pricePerHour": 1000,
-          "payMultiplier": 1,
-          "minSkillLevel": 1
-        },
-        {
-          "id": "kraken",
-          "pricePerHour": 2000,
-          "payMultiplier": 1.12,
-          "minSkillLevel": 4
-        }
-      ],
-      "levelRewards": [
-        {
-          "id": 1,
-          "points": 0,
-          "airSeconds": 1800,
-          "payBonusPct": 0,
-          "sonarRadius": 45
-        },
-        {
-          "id": 2,
-          "points": 25,
-          "airSeconds": 2400,
-          "payBonusPct": 3,
-          "sonarRadius": 40
-        },
-        {
-          "id": 3,
-          "points": 80,
-          "airSeconds": 3000,
-          "payBonusPct": 6,
-          "sonarRadius": 36
-        },
-        {
-          "id": 4,
-          "points": 200,
-          "airSeconds": 3600,
-          "payBonusPct": 8,
-          "sonarRadius": 30
-        },
-        {
-          "id": 5,
-          "points": 420,
-          "airSeconds": 4200,
-          "payBonusPct": 12,
-          "sonarRadius": 24
-        }
-      ],
-      "finds": [
-        {
-          "itemName": "item_sea_rapan",
-          "label": "Rapan Shell",
-          "price": 180,
-          "chance": 0.08
-        },
-        {
-          "itemName": "item_sea_starfish",
-          "label": "Starfish",
-          "price": 260,
-          "chance": 0.04
-        },
-        {
-          "itemName": "item_sea_pearl",
-          "label": "Pearl",
-          "price": 1200,
-          "chance": 0.01
-        }
-      ]
-    },
-    "fishing": {
-      "fish": [
-        {
-          "itemName": "item_fish_herring",
-          "label": "Herring",
-          "price": 34,
-          "tier": 1,
-          "level": 1
-        },
-        {
-          "itemName": "item_fish_mullet",
-          "label": "Mullet",
-          "price": 48,
-          "tier": 1,
-          "level": 1
-        },
-        {
-          "itemName": "item_fish_mackerel",
-          "label": "Mackerel",
-          "price": 62,
-          "tier": 1,
-          "level": 1
-        },
-        {
-          "itemName": "item_fish_perch",
-          "label": "Perch",
-          "price": 76,
-          "tier": 1,
-          "level": 1
-        },
-        {
-          "itemName": "item_fish_cod",
-          "label": "Cod",
-          "price": 95,
-          "tier": 2,
-          "level": 2
-        },
-        {
-          "itemName": "item_fish_pink_salmon",
-          "label": "Pink Salmon",
-          "price": 108,
-          "tier": 2,
-          "level": 2
-        },
-        {
-          "itemName": "item_fish_sea_bass",
-          "label": "Sea Bass",
-          "price": 135,
-          "tier": 3,
-          "level": 3
-        },
-        {
-          "itemName": "item_fish_tuna",
-          "label": "Tuna",
-          "price": 148,
-          "tier": 3,
-          "level": 3
-        },
-        {
-          "itemName": "item_fish_dorado",
-          "label": "Dorado",
-          "price": 162,
-          "tier": 3,
-          "level": 3
-        },
-        {
-          "itemName": "item_fish_flounder",
-          "label": "Flounder",
-          "price": 200,
-          "tier": 4,
-          "level": 4
-        },
-        {
-          "itemName": "item_fish_trout",
-          "label": "Trout",
-          "price": 222,
-          "tier": 4,
-          "level": 4
-        },
-        {
-          "itemName": "item_fish_pufferfish",
-          "label": "Pufferfish",
-          "price": 275,
-          "tier": 5,
-          "level": 5
-        },
-        {
-          "itemName": "item_fish_shark",
-          "label": "Shark",
-          "price": 305,
-          "tier": 5,
-          "level": 5
-        },
-        {
-          "itemName": "item_fish_stingray",
-          "label": "Stingray",
-          "price": 340,
-          "tier": 5,
-          "level": 5
-        }
-      ],
-      "rod": {
-        "itemName": "item_fishing_rod",
-        "label": "Fishing Rod",
-        "buyPrice": 2500,
-        "repairPrice": 500,
-        "durability": 200
-      },
-      "bait": [
-        {
-          "itemName": "item_fish_bait",
-          "label": "Fish Bait",
-          "buyPrice": 3,
-          "weightBonusPct": 0,
-          "unlockLevel": 1
-        },
-        {
-          "itemName": "item_fish_bait_improved",
-          "label": "Improved Fish Bait",
-          "buyPrice": 9,
-          "weightBonusPct": 10,
-          "unlockLevel": 2
-        },
-        {
-          "itemName": "item_fish_bait_extra",
-          "label": "Extra Fish Bait",
-          "buyPrice": 18,
-          "weightBonusPct": 15,
-          "unlockLevel": 3
-        }
-      ]
     },
     "mechanicJobConfig": {
       "mechanicSharePct": 50,
@@ -8056,110 +7324,6 @@
       "maxStack": 30,
       "canTrade": true
     },
-    "item_coca_leaves": {
-      "name": "item_coca_leaves",
-      "label": "coca leaves",
-      "accessKey": "none",
-      "canDelete": false,
-      "isIllegal": true,
-      "canUSE": false,
-      "canDrop": false,
-      "category": "drug",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 50,
-      "canTrade": true
-    },
-    "item_cocain_pack": {
-      "name": "item_cocain_pack",
-      "label": "cocain pack",
-      "accessKey": "none",
-      "canDelete": false,
-      "isIllegal": true,
-      "canUSE": true,
-      "canDrop": false,
-      "category": "drug",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
-    "item_cocain_powder": {
-      "name": "item_cocain_powder",
-      "label": "cocain powder",
-      "accessKey": "none",
-      "canDelete": false,
-      "isIllegal": true,
-      "canUSE": false,
-      "canDrop": false,
-      "category": "drug",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
-    "item_mdma_pill": {
-      "name": "item_mdma_pill",
-      "label": "mdma pill",
-      "accessKey": "none",
-      "canDelete": false,
-      "isIllegal": true,
-      "canUSE": true,
-      "canDrop": false,
-      "category": "drug",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
-    "item_mdma_powder": {
-      "name": "item_mdma_powder",
-      "label": "mdma powder",
-      "accessKey": "none",
-      "canDelete": false,
-      "isIllegal": true,
-      "canUSE": false,
-      "canDrop": false,
-      "category": "drug",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
-    "item_mdp2p": {
-      "name": "item_mdp2p",
-      "label": "mdp2p",
-      "accessKey": "none",
-      "canDelete": false,
-      "isIllegal": true,
-      "canUSE": false,
-      "canDrop": false,
-      "category": "drug",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
-    "item_saffarole_oil": {
-      "name": "item_saffarole_oil",
-      "label": "saffarole oil",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "drug",
-      "isIllegal": true,
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
     "item_weed": {
       "name": "item_weed",
       "label": "weed",
@@ -8175,45 +7339,45 @@
       "maxStack": 40,
       "canTrade": true
     },
-    "item_saffarole_leave": {
-      "name": "item_saffarole_leave",
-      "label": "saffarole leave",
+    "item_detox_pills": {
+      "name": "item_detox_pills",
+      "label": "detox pills",
+      "accessKey": "none",
+      "canUSE": true,
+      "canDrop": false,
+      "category": "medical",
+      "canUnStack": true,
+      "weight": 0.5,
+      "canStack": true,
+      "maxStack": 20,
+      "canTrade": true
+    },
+    "item_rolling_paper": {
+      "name": "item_rolling_paper",
+      "label": "rolling paper",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "materials",
+      "canUnStack": true,
+      "weight": 0.1,
+      "canStack": true,
+      "maxStack": 50,
+      "canTrade": true
+    },
+    "item_weed_joint": {
+      "name": "item_weed_joint",
+      "label": "weed joint",
       "accessKey": "none",
       "canDelete": false,
       "isIllegal": true,
-      "canUSE": false,
+      "canUSE": true,
       "canDrop": false,
       "category": "drug",
       "canUnStack": true,
       "weight": 1,
       "canStack": true,
-      "maxStack": 40,
-      "canTrade": true
-    },
-    "item_acetone": {
-      "name": "item_acetone",
-      "label": "acetone",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "materials",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
-    "item_ammonia": {
-      "name": "item_ammonia",
-      "label": "ammonia",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "materials",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
+      "maxStack": 50,
       "canTrade": true
     },
     "item_battery": {
@@ -8282,60 +7446,6 @@
       "maxStack": 30,
       "canTrade": true
     },
-    "item_house_cleaner": {
-      "name": "item_house_cleaner",
-      "label": "house cleaner",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "materials",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
-    "item_methanol": {
-      "name": "item_methanol",
-      "label": "methanol",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "materials",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 35,
-      "canTrade": true
-    },
-    "item_methylamine_crystal": {
-      "name": "item_methylamine_crystal",
-      "label": "methylamine crystal",
-      "accessKey": "none",
-      "canDelete": false,
-      "isIllegal": true,
-      "canUSE": false,
-      "canDrop": false,
-      "category": "drug",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
-    "item_paint_color": {
-      "name": "item_paint_color",
-      "label": "paint color",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "materials",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 30,
-      "canTrade": true
-    },
     "item_lock_pick": {
       "name": "item_lock_pick",
       "label": "Lock Pick",
@@ -8376,6 +7486,34 @@
       "maxStack": 1,
       "canTrade": false
     },
+    "item_train_bomb": {
+      "name": "item_train_bomb",
+      "label": "Breaching Charge",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": true,
+      "isIllegal": true,
+      "weight": 4,
+      "canStack": true,
+      "maxStack": 3,
+      "canTrade": true
+    },
+    "item_c4": {
+      "name": "item_c4",
+      "label": "C4 Explosive",
+      "accessKey": "none",
+      "canUSE": false,
+      "canDrop": false,
+      "category": "tools",
+      "canUnStack": true,
+      "isIllegal": true,
+      "weight": 6,
+      "canStack": true,
+      "maxStack": 2,
+      "canTrade": true
+    },
     "item_atm_hack_chip": {
       "name": "item_atm_hack_chip",
       "label": "Hacking Chip",
@@ -8388,19 +7526,6 @@
       "weight": 1,
       "canStack": true,
       "maxStack": 10,
-      "canTrade": true
-    },
-    "item_sodium_bicarbonate": {
-      "name": "item_sodium_bicarbonate",
-      "label": "sodium bicarbonate",
-      "accessKey": "none",
-      "canUSE": false,
-      "canDrop": false,
-      "category": "materials",
-      "canUnStack": true,
-      "weight": 2,
-      "canStack": true,
-      "maxStack": 90,
       "canTrade": true
     },
     "item_sulfuric_acid": {
@@ -9310,14 +8435,14 @@
     },
     "item_fishing_rod": {
       "name": "item_fishing_rod",
-      "label": "Fishing Rod",
+      "label": "Regular Fishing Rod",
       "accessKey": "TOOL",
-      "canUSE": false,
+      "canUSE": true,
       "canDrop": false,
       "category": "tools",
       "canUnStack": false,
       "durability": 200,
-      "weight": 2,
+      "weight": 2.5,
       "canStack": false,
       "maxStack": 1,
       "canTrade": true
@@ -9408,9 +8533,9 @@
       "canDrop": true,
       "category": "materials",
       "canUnStack": true,
-      "weight": 0.001,
+      "weight": 2,
       "canStack": true,
-      "maxStack": 50000,
+      "maxStack": 20,
       "canTrade": true
     },
     "item_fish_cod": {
@@ -9486,9 +8611,9 @@
       "canDrop": true,
       "category": "materials",
       "canUnStack": true,
-      "weight": 0.001,
+      "weight": 2,
       "canStack": true,
-      "maxStack": 50000,
+      "maxStack": 20,
       "canTrade": true
     },
     "item_fish_trout": {

@@ -48,10 +48,17 @@ export const emsShopConfig = {
       label: "empty pill capsule",
       singlePrice: Math.floor(250 * shopEmsMultiplier),
     },
+    // DETOX PILLS — the only cure for the narcotic addiction meter that is not
+    // a medic. Priced at the source gamemode's own 500 (its item 903, "Набор
+    // таблеток"), which sets a deliberate trade against the medic: a medic
+    // clears the whole meter instantly at 20/point (20,000 from full), a pill
+    // removes 100 points on a 5-minute cooldown, so clearing a full meter with
+    // pills costs 5,000 but takes ~50 minutes. Cheap and slow versus expensive
+    // and instant. See high-roleplay-v1/DRUG_CHAIN.md §5.
     {
-      itemName: "item_acetone",
-      label: "acetone",
-      singlePrice: Math.floor(2000 * shopEmsMultiplier),
+      itemName: "item_detox_pills",
+      label: "DETOX PILLS",
+      singlePrice: Math.floor(500 * shopEmsMultiplier),
     },
   ],
 };

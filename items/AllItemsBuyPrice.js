@@ -182,28 +182,13 @@ export const ITEM_PRICES = {
   
   // Drug Raw Materials
   'item_weed': WEED_RAW_PRICE,
-  'item_coca_leaves': COCA_LEAVES_PRICE,
-  'item_saffarole_leave': SAFFAROLE_LEAVE_PRICE,
   'item_battery': BATTERY_PRICE,
-  'item_paint_color': PAINT_COLOR_PRICE,
-  'item_house_cleaner': HOUSE_CLEANER_PRICE,
-  'item_methanol': METHANOL_PRICE,
   'item_empty_plastic_pack': EMPTY_PLASTIC_PACK_PRICE,
   
   // Drug Intermediate Products
   'item_sulfuric_acid': SULFURIC_ACID_PRICE,
-  'item_acetone': ACETONE_PRICE,
-  'item_ammonia': AMMONIA_PRICE,
-  'item_saffarole_oil': SAFFAROLE_OIL_PRICE,
-  'item_methylamine_crystal': METHYLAMINE_CRYSTAL_PRICE,
-  'item_sodium_bicarbonate': SODIUM_BICARBONATE_PRICE,
-  'item_mdp2p': MDP2P_PRICE,
-  'item_cocain_powder': COCAIN_POWDER_PRICE,
-  'item_mdma_powder': MDMA_POWDER_PRICE,
   
   // Drug Final Products
-  'item_cocain_pack': COCAIN_PACK_PRICE,
-  'item_mdma_pill': MDMA_PILL_PRICE,
   
   // Electric job items
   'item_multi_metter': MULTI_METER_PRICE,

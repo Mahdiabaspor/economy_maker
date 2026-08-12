@@ -222,21 +222,6 @@ export const superMarketConfig = {
       singlePrice: Math.floor(900 * superMarketMultiplier),
     },
     {
-      itemName: "item_methanol",
-      label: "METHHANOL",
-      singlePrice: Math.floor(800 * superMarketMultiplier),
-    },
-    {
-      itemName: "item_house_cleaner",
-      label: "HOUSE CLEANER",
-      singlePrice: Math.floor(600 * superMarketMultiplier),
-    },
-    {
-      itemName: "item_sodium_bicarbonate",
-      label: "SODIUM BICARBONATE",
-      singlePrice: Math.floor(550 * superMarketMultiplier),
-    },
-    {
       itemName: "item_battery",
       label: "BATTERY",
       singlePrice: Math.floor(500 * superMarketMultiplier),
@@ -250,11 +235,6 @@ export const superMarketConfig = {
       itemName: "item_car_battery",
       label: "CAR BATTERY",
       singlePrice: Math.floor(12000 * superMarketMultiplier),
-    },
-    {
-      itemName: "item_paint_color",
-      label: "PAINT COLOR",
-      singlePrice: Math.floor(600 * superMarketMultiplier),
     },
     {
       itemName: "item_empty_plastic_pack",

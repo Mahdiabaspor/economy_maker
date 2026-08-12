@@ -26,14 +26,11 @@ import { lawnmowerJobConfig } from "./JOBS/LAWNMOWER.js";
 import { lumberJobConfig } from "./JOBS/LUMBER.js";
 import { mushroomItems, mushroomToolConfig } from "./JOBS/MUSHROOM.js";
 import { stonemasonJobConfig } from "./JOBS/STONEMASON.js";
-import { hunterJobConfig } from "./JOBS/HUNTER.js";
 // JOB_SPECS pack 2 — six more earning jobs (JOB_SPECS/_integration/*.md
 // `## economy`). Electrician reuses the existing JOBS/ELECTRIC.js row, EXTENDED
 // rather than renamed: rewards.ts reads its `levelRewards` for eight jobs.
 import { garbageJobConfig } from "./JOBS/GARBAGE.js";
 import { collectorJobConfig } from "./JOBS/COLLECTOR.js";
-import { aquanautJobConfig } from "./JOBS/AQUANAUT.js";
-import { fishingJobConfig } from "./JOBS/FISHING.js";
 import { mechanicJobConfig } from "./JOBS/MECHANIC.js";
 import { licenseDmvConfig } from "./SHOPS/LICENSEDMV.js";
 import { tunningConfig } from "./SHOPS/TUNNING.js";
@@ -155,13 +152,19 @@ const economyConfig = {
     stonemasonJobConfig,
     lumberjack: lumberJobConfig,
     mushroom: { items: mushroomItems, config: mushroomToolConfig },
-    hunter: hunterJobConfig,
+    // hunter / aquanaut / fishing REMOVED on 2026-08-12. All three jobs now own
+    // their own prices in the gamemode and no longer read economyConfig at all:
+    //   high-roleplay-v1/src/src/shared/jobs/hunter.shared.ts
+    //   high-roleplay-v1/src/src/shared/jobs/diving.shared.ts   (was `aquanaut`)
+    //   high-roleplay-v1/src/src/shared/jobs/fishing.shared.ts
+    // They had already been stripped out of the live economyConfig.json by hand,
+    // so every regenerate re-added ~24 KB of dead config. Edit the shared/ files.
+    // Do not re-add them here. JOBS/HUNTER.js, AQUANAUT.js and FISHING.js are
+    // kept on disk as the historical reference for those numbers.
     // JOB_SPECS pack 2. Key names follow each job's integration manifest.
     // Electrician has no key of its own here — it EXTENDS electricJobConfig above.
     garbageJobConfig,
     collectorJobConfig,
-    aquanaut: aquanautJobConfig,
-    fishing: fishingJobConfig,
     mechanicJobConfig,
     // Preserved so a regenerate cannot silently drop it — see JOBS/FOOD.js.
     foodJobs: foodJobsConfig

@@ -3,10 +3,25 @@
 // Design (July 2026 economy rebalance): crafting is INSTANT by design — there is no
 // craft timer and no sell cooldown anywhere. The only protection against money
 // printing is price math: any chain whose materials are all NPC-bought must sell
-// to NPCs at a LOSS. Profit comes from gathered inputs (grown leaves) or risk
-// inputs (military components from the weapon-shop robbery), or from selling to
-// players. `craftTimeMinutes` is kept only because the UI types require it; it is
-// always 0 and no server code reads it.
+// to NPCs at a LOSS. Profit comes from risk inputs (military components from the
+// weapon-shop robbery) or from selling to players. `craftTimeMinutes` is kept only
+// because the UI types require it; it is always 0 and no server code reads it.
+//
+// ── THE DRUG HALF WAS CUT DOWN TO ONE RECIPE (August 2026) ──────────────────
+// First the cocaine and MDMA chains went (nine recipes: cocaine pack/powder,
+// MDMA pill/powder, MDP2P, saffarole oil, methylamine, ammonia, acetone), then
+// LSD and DMT went with them. The gamemode now has exactly two usable drugs:
+// the WEED JOINT below, and amphetamine on the mafia lab table.
+//
+// ⚠ SULFURIC ACID HAS NO CONSUMER LEFT. LSD was the only recipe that used it.
+// It is kept because it still trades on the dark market and is a plausible
+// input for anything added later — but if nothing claims it, this recipe and
+// the item are the next thing to delete.
+//
+// Do not resurrect a recipe here without also restoring its item to
+// items/itemProperties.js and to the gamemode's own
+// server/high-roleplay/inventory/itemProperties.ts — the two catalogues were
+// pruned in the same pass and `checkItemCoverage` will fail the build otherwise.
 //
 // gang_weapon_crafting uses item_military_component (weapon-shop robbery loot).
 // These recipes were ported verbatim from the live server config — do NOT replace
@@ -14,6 +29,38 @@
 
 export const CraftingGangConfig = {
   gang_drug_crafting: [
+    // ===== PORTED DRUG CHAIN — THE GANG HALF =====
+    //
+    // The joint used to be a standalone world table (the onyx port's
+    // `DRUG_TABLES`). It lives on THIS bench now, because the bench already
+    // stands in every gang base, is already gated on `isGangFaction` +
+    // `canCraftDrugs`, and already pays out of the crafter's own inventory —
+    // which is exactly what that table did, only with a second implementation.
+    //
+    // ⚠ AMPHETAMINE IS DELIBERATELY NOT HERE. It stays on the standalone MAFIA
+    // lab table, gated to its own factions, and must never be added to a gang
+    // recipe list — that split is the whole reason the two sides have to trade.
+    // See high-roleplay-v1/DRUG_CHAIN.md.
+    //
+    // Ratios are the source's, unchanged: 10 materials -> 10 units per craft.
+    // The output has no NPC buyback (SHOPS/DrugLab.js does not list it and must
+    // not), so there is no buy-craft-sell loop here — all value is player
+    // market, own use, or the gang delivery run.
+    {
+      // A JOINT, not a bag. The source bags weed into a zip-lock; here it is
+      // rolled, so the recipe takes rolling paper (Vadim, $5) instead of the
+      // plastic pack and the output item is `item_weed_joint`.
+      label: "WEED JOINT",
+      itemName: "item_weed_joint",
+      materials: [
+        { itemName: "item_weed", count: 10, label: "WEED" },
+        { itemName: "item_rolling_paper", count: 10, label: "ROLLING PAPER" },
+      ],
+      itemType: "RARE",
+      craftTimeMinutes: 0,
+      output: 10,
+      requiredGangLevel: 1,
+    },
     {
       label: "SULFURIC ACID",
       itemName: "item_sulfuric_acid",
@@ -22,134 +69,6 @@ export const CraftingGangConfig = {
       craftTimeMinutes: 0,
       output: 2,
       requiredGangLevel: 1,
-    },
-    {
-      label: "COCAIN PACK", // dealer pays 4600; parts: powder 3800 + plastic 433 = 4233 (+8.7%)
-      itemName: "item_cocain_pack",
-      materials: [
-        { itemName: "item_cocain_powder", count: 3, label: "COCAIN POWDER" },
-        {
-          itemName: "item_empty_plastic_pack",
-          count: 3,
-          label: "PLASTIC PACK",
-        },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 3,
-      requiredGangLevel: 1,
-    },
-    {
-      label: "SAFFAROLE OIL", // dealer pays 862; input is grown leaves — gathering income
-      itemName: "item_saffarole_oil",
-      materials: [
-        {
-          itemName: "item_saffarole_leave",
-          count: 2,
-          label: "SAFFAROLE LEAVES",
-        },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 2,
-      requiredGangLevel: 1,
-    },
-    {
-      label: "MDMA PILL", // dealer pays 6200; parts: powder 5500 + capsule 250 = 5750 (+7.8%)
-      itemName: "item_mdma_pill",
-      materials: [
-        { itemName: "item_mdma_powder", count: 1, label: "MDMA POWDER" },
-        {
-          itemName: "item_empty_pill_capsule",
-          count: 1,
-          label: "EMPTY PILL CAPSULE",
-        },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 1,
-      requiredGangLevel: 1,
-    },
-    {
-      label: "ACETONE",
-      itemName: "item_acetone",
-      materials: [
-        { itemName: "item_paint_color", count: 2, label: "PAINT COLOR" }, // 2x600 -> 2 = 600/unit (no NPC buyback)
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 2,
-      requiredGangLevel: 1,
-    },
-    {
-      label: "METHYLAMINE", // dealer pays 4000; all-NPC materials cost 4800 -> guaranteed loss vs NPC (Rule 1)
-      itemName: "item_methylamine_crystal",
-      materials: [
-        { itemName: "item_methanol", count: 3, label: "METHANOL" }, // 3x800
-        { itemName: "item_ammonia", count: 2, label: "AMMONIA" }, // 2x1200
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 1,
-      requiredGangLevel: 3,
-    },
-    {
-      label: "AMMONIA",
-      itemName: "item_ammonia",
-      materials: [
-        { itemName: "item_house_cleaner", count: 4, label: "HOUSE CLEANER" }, // 4x600 -> 2 = 1200/unit (no NPC buyback)
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 2,
-      requiredGangLevel: 1,
-    },
-    {
-      label: "COCAIN POWDER", // dealer pays 3800; needs grown coca leaves — profit rewards the grower
-      itemName: "item_cocain_powder",
-      materials: [
-        { itemName: "item_acetone", count: 3, label: "ACETONE" },
-        { itemName: "item_coca_leaves", count: 3, label: "COCA LEAVES" },
-        { itemName: "item_sulfuric_acid", count: 2, label: "SULFURIC ACID" },
-        {
-          itemName: "item_sodium_bicarbonate",
-          count: 2,
-          label: "SODIUM BICARBONATE",
-        },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 3,
-      requiredGangLevel: 3,
-    },
-    {
-      label: "MDP2P POWDER", // dealer pays 3500; needs saffarole oil (grown) — profit rewards the grower
-      itemName: "item_mdp2p",
-      materials: [
-        { itemName: "item_acetone", count: 1, label: "ACETONE" },
-        { itemName: "item_saffarole_oil", count: 1, label: "SAFFAROLE OIL" },
-        { itemName: "item_ammonia", count: 1, label: "AMMONIA" },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 1,
-      requiredGangLevel: 4,
-    },
-    {
-      label: "MDMA POWDER", // dealer pays 5500; parts (mdp2p 3500 + methylamine 4000) x2 -> 3 = 5000/unit (+10%)
-      itemName: "item_mdma_powder",
-      materials: [
-        { itemName: "item_mdp2p", count: 2, label: "MDP2P POWDER" },
-        {
-          itemName: "item_methylamine_crystal",
-          count: 2,
-          label: "METHYLAMINE",
-        },
-      ],
-      itemType: "RARE",
-      craftTimeMinutes: 0,
-      output: 3,
-      requiredGangLevel: 4,
     },
   ],
 
@@ -233,6 +152,11 @@ export const CraftingGangConfig = {
       requiredGangLevel: 1,
       group: "OTHER",
     },
+    // BREACHING CHARGE (item_train_bomb, recipeId 'breaching_charge_military')
+    // and C4 EXPLOSIVE (item_c4, recipeId 'c4_military') used to sit here as
+    // pure military-component sinks (120 / 200 comps). Removed 2026-08-12 by
+    // request — the items themselves still exist in itemProperties, they just
+    // are not craftable on the gang weapon bench any more.
     {
       label: "KNIFE", // dealer pays 4500 (300/comp)
       itemName: "item_melee_knife",

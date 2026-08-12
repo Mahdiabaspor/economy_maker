@@ -1966,7 +1966,7 @@ export const itemsProperties = {
     maxStack: 20,
     canTrade: true,
   },
-  /** Rolling paper — the weed line's packaging. Sold by Vadim at $5. */
+  /** Rolling paper — the weed line's packaging. Sold by Vadim at $200. */
   item_rolling_paper: {
     name: "item_rolling_paper",
     label: "rolling paper",

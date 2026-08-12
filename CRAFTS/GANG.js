@@ -48,7 +48,7 @@ export const CraftingGangConfig = {
     // market, own use, or the gang delivery run.
     {
       // A JOINT, not a bag. The source bags weed into a zip-lock; here it is
-      // rolled, so the recipe takes rolling paper (Vadim, $5) instead of the
+      // rolled, so the recipe takes rolling paper (Vadim, $200) instead of the
       // plastic pack and the output item is `item_weed_joint`.
       label: "WEED JOINT",
       itemName: "item_weed_joint",

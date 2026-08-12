@@ -52,9 +52,9 @@ export const emsShopConfig = {
     // a medic. Priced at the source gamemode's own 500 (its item 903, "Набор
     // таблеток"), which sets a deliberate trade against the medic: a medic
     // clears the whole meter instantly at 20/point (20,000 from full), a pill
-    // removes 100 points on a 5-minute cooldown, so clearing a full meter with
-    // pills costs 5,000 but takes ~50 minutes. Cheap and slow versus expensive
-    // and instant. See high-roleplay-v1/DRUG_CHAIN.md §5.
+    // removes 300 points on a 5-minute cooldown, so clearing a full meter with
+    // pills costs 2,000 (four doses) but takes ~20 minutes. Cheap and slow
+    // versus expensive and instant. See high-roleplay-v1/DRUG_CHAIN.md §6.
     {
       itemName: "item_detox_pills",
       label: "DETOX PILLS",
